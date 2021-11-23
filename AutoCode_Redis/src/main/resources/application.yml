@@ -21,4 +21,4 @@ redis:
     prefix:
       autoCode: "auto code:"
     expire:
-      autoCode: "66"
+      autoCode: 66

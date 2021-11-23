@@ -1,10 +1,12 @@
 package com.codeman.service.impl;
 
-import com.codeman.service.RedisSerivice;
+import com.codeman.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.stereotype.Service;
 
-public class RedisSeriviceImpl implements RedisSerivice {
+@Service
+public class RedisServiceImpl implements RedisService {
 
     @Autowired
     private StringRedisTemplate sr;
@@ -17,7 +19,7 @@ public class RedisSeriviceImpl implements RedisSerivice {
 
     @Override
     public void setKey(String key, String val) {
-        sr.opsForValue().set(key,val);
+        sr.opsForValue().set(key, val);
     }
 
     @Override
