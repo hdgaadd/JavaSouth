@@ -7,6 +7,8 @@
         <module>relax</module>
         <module>mall-01</module>
         <module>AutoCode_Redis</module>
+        <module>util</module>
+        <module>order_task</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -74,6 +76,19 @@
             <artifactId>spring-boot-starter-data-redis</artifactId>
             <version>2.6.0</version>
         </dependency>
+
+        <!--mybatis-plus代码生成器-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-engine-core</artifactId>
+            <version>2.3</version>
+        </dependency>
+
     </dependencies>
 
     <!--<build>

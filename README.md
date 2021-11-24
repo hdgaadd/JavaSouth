@@ -8,6 +8,22 @@
 
 
 
+# AutoCode_Redis
+
+**funcion**：发送验证码
+
+**HOW**：for循环联合Random生成验证码，保存在Redis里
+
+**words**：
+
+- auto code
+- expire
+- prefix
+
+
+
+
+
 
 
 
