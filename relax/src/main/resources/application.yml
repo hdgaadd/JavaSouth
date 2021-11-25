@@ -4,4 +4,7 @@ spring:
     username: root
     password: root
 mybatis-plus:
-  mapper-locations: com/codeman/mapper/xml/*.xml
+  mapper-locations: classpath*:com/condemn/**/xml/*Mapper.xml
+  #自动驼峰映射
+  configuration:
+    map-underscore-to-camel-case: true
