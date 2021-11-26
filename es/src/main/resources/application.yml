@@ -3,10 +3,6 @@ spring:
     url: jdbc:mysql://localhost:3306/project_learning?characterEncoding=utf-8&serverTimezone=GMT%2B8
     username: root
     password: root
-  data:
-    # Jest 配置项
-    jest:
-      uri: http://127.0.0.1:9200
 
 mybatis-plus:
-  mapper-locations: classpath*:com/codem/**/xml/*Mapper.xml
+  mapper-locations: classpath*:com/codeman/**/xml/*Mapper.xml

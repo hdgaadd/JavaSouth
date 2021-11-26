@@ -14,10 +14,12 @@
         <module name="test" />
         <module name="util" />
         <module name="relax" />
+        <module name="es" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AutoCode_Redis" target="8" />
+      <module name="es" target="8" />
       <module name="es_recommend" target="8" />
       <module name="order_task" target="8" />
       <module name="project_learning" target="1.8" />
@@ -30,6 +32,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AutoCode_Redis" options="-parameters" />
+      <module name="es" options="-parameters" />
       <module name="es_recommend" options="-parameters" />
       <module name="order_task" options="-parameters" />
       <module name="relax" options="-parameters" />
