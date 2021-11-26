@@ -10,6 +10,7 @@
         <module>order_task</module>
         <module>test</module>
         <module>es_recommend</module>
+        <module>test2</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
