@@ -3,7 +3,6 @@ package com.codem.controller;
 
 import com.codem.domain.EsProduct;
 import com.codem.mapper.EsProductMapper;
-import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -24,7 +23,7 @@ import java.util.List;
 @RequestMapping("/codeman/es-product")
 public class EsProductController {
 
-    @Resource
+    /*@Resource
     private ElasticsearchRepository elasticsearchRepository;
     @Resource
     private EsProductMapper esProductMapper;
@@ -39,6 +38,6 @@ public class EsProductController {
     public List<EsProduct> search() {
         List<EsProduct> esProducts = (List<EsProduct>) elasticsearchRepository.findAll();
         return esProducts;
-    }
+    }*/
 }
 

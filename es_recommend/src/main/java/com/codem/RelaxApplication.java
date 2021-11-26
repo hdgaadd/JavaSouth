@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchDataAutoConfiguration;
 import springfox.documentation.oas.annotations.EnableOpenApi;
 
-@SpringBootApplication(exclude = {ElasticsearchDataAutoConfiguration.class})
+@SpringBootApplication()
 @EnableOpenApi
 @MapperScan("com.codem.mapper")
 public class RelaxApplication {

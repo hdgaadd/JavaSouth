@@ -1,10 +1,5 @@
 package com.codem.domain;
 
-import com.codem.constant.FieldAnalyzer;
-import nonapi.io.github.classgraph.json.Id;
-import org.springframework.data.elasticsearch.annotations.Document;
-import org.springframework.data.elasticsearch.annotations.Field;
-import org.springframework.data.elasticsearch.annotations.FieldType;
 
 import java.io.Serializable;
 
@@ -16,18 +11,16 @@ import java.io.Serializable;
  * @author hdgaadd
  * @since 2021-11-26
  */
-@Document(indexName = "product", shards = 1, replicas = 0, refreshInterval = "-1")
+
 public class EsProduct implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    @Id
+
     private Integer id;
 
-    @Field(analyzer = FieldAnalyzer.IK_MAX_WORD, type = FieldType.Text)
     private String name;
 
-    @Field(analyzer = FieldAnalyzer.IK_MAX_WORD, type = FieldType.Text)
     private Integer saleNum;
 
     private Integer promotion;

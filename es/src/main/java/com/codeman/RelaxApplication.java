@@ -3,9 +3,10 @@ package com.codeman;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchDataAutoConfiguration;
 import springfox.documentation.oas.annotations.EnableOpenApi;
 
-@SpringBootApplication
+@SpringBootApplication(exclude = {ElasticsearchDataAutoConfiguration.class})
 @EnableOpenApi
 @MapperScan("com.codeman.mapper")
 public class RelaxApplication {

@@ -8,9 +8,7 @@
         <module>AutoCode_Redis</module>
         <module>util</module>
         <module>order_task</module>
-        <module>test</module>
         <module>es_recommend</module>
-        <module>test2</module>
         <module>es</module>
     </modules>
     <parent>
@@ -30,6 +28,10 @@
 
     <dependencies>
         <!-- springframework.boot -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
