@@ -126,7 +126,12 @@ public class CodeGenerator {
         //strategy.setSuperEntityColumns("person_id","person_name");
 
         //要设置生成哪些表 如果不设置就是生成所有的表
-        strategy.setInclude(scanner("表名，多个英文逗号分割").split(","));
+        System.out.println("if you create all tables, 1 is true, 0 is false");
+        boolean flag = true;
+        Scanner sc = new Scanner(System.in);
+        if (sc.nextInt() == 0) strategy.setInclude(scanner("表名，多个英文逗号分割").split(","));
+
+
 
         strategy.setControllerMappingHyphenStyle(true);
 
