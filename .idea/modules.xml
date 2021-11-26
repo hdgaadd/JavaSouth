@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoCode_Redis/AutoCode_Redis.iml" filepath="$PROJECT_DIR$/AutoCode_Redis/AutoCode_Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es_recommend/es_recommend.iml" filepath="$PROJECT_DIR$/es_recommend/es_recommend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order_task/order_task.iml" filepath="$PROJECT_DIR$/order_task/order_task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_learning.iml" filepath="$PROJECT_DIR$/project_learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/relax/relax.iml" filepath="$PROJECT_DIR$/relax/relax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test2/test2.iml" filepath="$PROJECT_DIR$/test2/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
+    </modules>
+  </component>
+</project>
