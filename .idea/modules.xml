@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AutoCode_Redis/AutoCode_Redis.iml" filepath="$PROJECT_DIR$/AutoCode_Redis/AutoCode_Redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/es/es.iml" filepath="$PROJECT_DIR$/es/es.iml" />
-      <module fileurl="file://$PROJECT_DIR$/es_recommend/es_recommend.iml" filepath="$PROJECT_DIR$/es_recommend/es_recommend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoCode_Redis/autoCode_redis.iml" filepath="$PROJECT_DIR$/AutoCode_Redis/autoCode_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login_authorization/login_authorization.iml" filepath="$PROJECT_DIR$/login_authorization/login_authorization.iml" />
       <module fileurl="file://$PROJECT_DIR$/order_task/order_task.iml" filepath="$PROJECT_DIR$/order_task/order_task.iml" />
       <module fileurl="file://$PROJECT_DIR$/project_learning.iml" filepath="$PROJECT_DIR$/project_learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/relax/relax.iml" filepath="$PROJECT_DIR$/relax/relax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
     </modules>
   </component>

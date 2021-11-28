@@ -66,7 +66,7 @@ public class CodeGenerator {
         // 数据源配置
         DataSourceConfig dataSourceConfiguration = new DataSourceConfig();
 
-        dataSourceConfiguration.setUrl("jdbc:mysql://localhost:3306/project_learning#63;useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC");
+        dataSourceConfiguration.setUrl("jdbc:mysql://localhost:3306/login_authorization#63;useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC");
 
         // dataSourceConfiguration.setSchemaName("public");
         dataSourceConfiguration.setDriverName("com.mysql.cj.jdbc.Driver");
@@ -81,7 +81,7 @@ public class CodeGenerator {
         // 设置父级包名
         pc.setParent("com");//controller entity service service.impl
 
-        pc.setModuleName(scanner("模块名"));
+        pc.setModuleName(scanner("'com.'后面的模块名"));
         //pc.setModuleName("sys");
 
         // 实体类名称

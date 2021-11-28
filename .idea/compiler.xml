@@ -7,36 +7,42 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AutoCode_Redis" />
-        <module name="es_recommend" />
+        <module name="template" />
         <module name="order_task" />
         <module name="util" />
         <module name="relax" />
-        <module name="es" />
+        <module name="autoCode_redis" />
+        <module name="login_authorization" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AutoCode_Redis" target="8" />
+      <module name="autoCode_redis" target="8" />
       <module name="es" target="1.8" />
       <module name="es_recommend" target="8" />
+      <module name="login_authorization" target="8" />
       <module name="order_task" target="8" />
       <module name="project_learning" target="1.8" />
       <module name="relax" target="8" />
+      <module name="template" target="8" />
       <module name="test" target="8" />
       <module name="test2" target="8" />
       <module name="util" target="8" />
+      <module name="util2" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="AutoCode_Redis" options="-parameters" />
+      <module name="autoCode_redis" options="-parameters" />
       <module name="es" options="-parameters" />
       <module name="es_recommend" options="-parameters" />
+      <module name="login_authorization" options="-parameters" />
       <module name="order_task" options="-parameters" />
       <module name="relax" options="-parameters" />
+      <module name="template" options="-parameters" />
       <module name="test" options="-parameters" />
       <module name="test2" options="-parameters" />
       <module name="util" options="-parameters" />
+      <module name="util2" options="-parameters" />
     </option>
   </component>
 </project>

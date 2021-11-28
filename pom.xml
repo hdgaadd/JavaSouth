@@ -5,11 +5,11 @@
     <packaging>pom</packaging>
     <modules>
         <module>relax</module>
-        <module>AutoCode_Redis</module>
+        <module>autoCode_redis</module>
         <module>util</module>
         <module>order_task</module>
-        <module>es_recommend</module>
-        <module>es</module>
+        <module>template</module>
+        <module>login_authorization</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

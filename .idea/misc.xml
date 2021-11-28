@@ -8,8 +8,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/test/pom.xml" />
-        <option value="$PROJECT_DIR$/test2/pom.xml" />
+        <option value="$PROJECT_DIR$/es/pom.xml" />
+        <option value="$PROJECT_DIR$/es_recommend/pom.xml" />
       </set>
     </option>
   </component>
