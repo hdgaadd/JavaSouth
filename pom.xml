@@ -10,6 +10,7 @@
         <module>order_task</module>
         <module>template</module>
         <module>login_authorization</module>
+        <module>custom_exception</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

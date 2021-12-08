@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AutoCode_Redis/autoCode_redis.iml" filepath="$PROJECT_DIR$/AutoCode_Redis/autoCode_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom_exception/custom_exception.iml" filepath="$PROJECT_DIR$/custom_exception/custom_exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/login_authorization/login_authorization.iml" filepath="$PROJECT_DIR$/login_authorization/login_authorization.iml" />
       <module fileurl="file://$PROJECT_DIR$/order_task/order_task.iml" filepath="$PROJECT_DIR$/order_task/order_task.iml" />
       <module fileurl="file://$PROJECT_DIR$/project_learning.iml" filepath="$PROJECT_DIR$/project_learning.iml" />

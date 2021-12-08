@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/autoCode_redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/custom_exception/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/login_authorization/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order_task/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/relax/src/main/java" charset="UTF-8" />

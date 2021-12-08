@@ -11,12 +11,14 @@
         <module name="order_task" />
         <module name="util" />
         <module name="relax" />
+        <module name="custom_exception" />
         <module name="autoCode_redis" />
         <module name="login_authorization" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="autoCode_redis" target="8" />
+      <module name="custom_exception" target="8" />
       <module name="es" target="1.8" />
       <module name="es_recommend" target="8" />
       <module name="login_authorization" target="8" />
@@ -33,6 +35,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="autoCode_redis" options="-parameters" />
+      <module name="custom_exception" options="-parameters" />
       <module name="es" options="-parameters" />
       <module name="es_recommend" options="-parameters" />
       <module name="login_authorization" options="-parameters" />
