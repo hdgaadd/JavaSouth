@@ -9,9 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="template" />
         <module name="order_task" />
+        <module name="trigger_log" />
         <module name="util" />
-        <module name="relax" />
+        <module name="rocketMQ" />
         <module name="custom_exception" />
+        <module name="returnR" />
         <module name="autoCode_redis" />
         <module name="login_authorization" />
       </profile>
@@ -23,11 +25,15 @@
       <module name="es_recommend" target="8" />
       <module name="login_authorization" target="8" />
       <module name="order_task" target="8" />
+      <module name="practice_log" target="8" />
       <module name="project_learning" target="1.8" />
       <module name="relax" target="8" />
+      <module name="returnR" target="8" />
+      <module name="rocketMQ" target="8" />
       <module name="template" target="8" />
       <module name="test" target="8" />
       <module name="test2" target="8" />
+      <module name="trigger_log" target="8" />
       <module name="util" target="8" />
       <module name="util2" target="8" />
     </bytecodeTargetLevel>
@@ -40,10 +46,14 @@
       <module name="es_recommend" options="-parameters" />
       <module name="login_authorization" options="-parameters" />
       <module name="order_task" options="-parameters" />
+      <module name="practice_log" options="-parameters" />
       <module name="relax" options="-parameters" />
+      <module name="returnR" options="-parameters" />
+      <module name="rocketMQ" options="-parameters" />
       <module name="template" options="-parameters" />
       <module name="test" options="-parameters" />
       <module name="test2" options="-parameters" />
+      <module name="trigger_log" options="-parameters" />
       <module name="util" options="-parameters" />
       <module name="util2" options="-parameters" />
     </option>

@@ -10,6 +10,8 @@
       <set>
         <option value="$PROJECT_DIR$/es/pom.xml" />
         <option value="$PROJECT_DIR$/es_recommend/pom.xml" />
+        <option value="$PROJECT_DIR$/practice_log/pom.xml" />
+        <option value="$PROJECT_DIR$/relax/pom.xml" />
       </set>
     </option>
   </component>

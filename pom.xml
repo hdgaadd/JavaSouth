@@ -11,6 +11,10 @@
         <module>template</module>
         <module>login_authorization</module>
         <module>custom_exception</module>
+        <module>practice_log</module>
+        <module>trigger_log</module>
+        <module>returnR</module>
+        <module>rocketMQ</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

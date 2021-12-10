@@ -7,10 +7,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class RedisServiceImpl implements RedisService {
-
     @Autowired
     private StringRedisTemplate sr;
-
 
     @Override
     public String getKey(String key) {
@@ -23,7 +21,5 @@ public class RedisServiceImpl implements RedisService {
     }
 
     @Override
-    public void expire(String key, int sounds) {
-
-    }
+    public void expire(String key, int sounds) { }
 }
