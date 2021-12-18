@@ -5,7 +5,6 @@ import com.codeman.domain.OrderTable;
 import com.codeman.mapper.OrderSettingMapper;
 import com.codeman.service.IOrderTableService;
 import com.codeman.service.ISkuStockService;
-import io.lettuce.core.output.ScanOutput;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 

@@ -4,17 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>relax</module>
         <module>autoCode_redis</module>
         <module>util</module>
         <module>order_task</module>
         <module>template</module>
         <module>login_authorization</module>
         <module>custom_exception</module>
-        <module>practice_log</module>
         <module>trigger_log</module>
         <module>returnR</module>
         <module>rocketMQ</module>
+        <module>jwt</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -80,12 +79,6 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-boot-starter</artifactId>
             <version>3.0.0</version>
-        </dependency>
-        <!--redis-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-            <version>2.6.0</version>
         </dependency>
         <!--mybatis-plus代码生成器-->
         <dependency>

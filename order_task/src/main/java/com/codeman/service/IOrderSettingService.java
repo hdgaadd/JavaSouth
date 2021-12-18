@@ -12,5 +12,4 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2021-11-24
  */
 public interface IOrderSettingService extends IService<OrderSetting> {
-
 }
