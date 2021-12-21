@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AutoCode_Redis/autoCode_redis.iml" filepath="$PROJECT_DIR$/AutoCode_Redis/autoCode_redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/custom_exception/custom_exception.iml" filepath="$PROJECT_DIR$/custom_exception/custom_exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoCode-redis/autoCode-redis.iml" filepath="$PROJECT_DIR$/autoCode-redis/autoCode-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-exception/custom-exception.iml" filepath="$PROJECT_DIR$/custom-exception/custom-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/login_authorization/login_authorization.iml" filepath="$PROJECT_DIR$/login_authorization/login_authorization.iml" />
-      <module fileurl="file://$PROJECT_DIR$/order_task/order_task.iml" filepath="$PROJECT_DIR$/order_task/order_task.iml" />
-      <module fileurl="file://$PROJECT_DIR$/project_learning.iml" filepath="$PROJECT_DIR$/project_learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login-authorization/login-authorization.iml" filepath="$PROJECT_DIR$/login-authorization/login-authorization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-task/order-task.iml" filepath="$PROJECT_DIR$/order-task/order-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-learning.iml" filepath="$PROJECT_DIR$/project-learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/returnR/returnR.iml" filepath="$PROJECT_DIR$/returnR/returnR.iml" />
       <module fileurl="file://$PROJECT_DIR$/rocketMQ/rocketMQ.iml" filepath="$PROJECT_DIR$/rocketMQ/rocketMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
-      <module fileurl="file://$PROJECT_DIR$/trigger_log/trigger_log.iml" filepath="$PROJECT_DIR$/trigger_log/trigger_log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trigger-log/trigger-log.iml" filepath="$PROJECT_DIR$/trigger-log/trigger-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
     </modules>
   </component>

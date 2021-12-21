@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>autoCode_redis</module>
+        <module>autoCode-redis</module>
         <module>util</module>
-        <module>order_task</module>
+        <module>order-task</module>
         <module>template</module>
-        <module>login_authorization</module>
-        <module>custom_exception</module>
-        <module>trigger_log</module>
+        <module>login-authorization</module>
+        <module>custom-exception</module>
+        <module>trigger-log</module>
         <module>returnR</module>
         <module>rocketMQ</module>
         <module>jwt</module>
