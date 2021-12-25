@@ -14,6 +14,7 @@
         <module>returnR</module>
         <module>rocketMQ</module>
         <module>jwt</module>
+        <module>Redisson</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -22,9 +23,9 @@
         <relativePath/>
     </parent>
     <groupId>org.codeman</groupId>
-    <artifactId>project_learning</artifactId>
+    <artifactId>project-learning</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>project_learning</name>
+    <name>project-learning</name>
     <description>project_learning for you</description>
     <properties>
         <java.version>1.8</java.version>

@@ -6,3 +6,5 @@ spring:
 
 mybatis-plus:
   mapper-locations: classpath*:com/codeman/**/xml/*Mapper.xml
+
+
