@@ -12,9 +12,11 @@
         <module>custom-exception</module>
         <module>trigger-log</module>
         <module>returnR</module>
-        <module>rocketMQ</module>
-        <module>jwt</module>
+        <module>RocketMQ</module>
+        <module>JWT</module>
         <module>Redisson</module>
+        <module>bean-mapping</module>
+        <module>knowledge</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -32,11 +34,7 @@
     </properties>
 
     <dependencies>
-        <!-- springframework.boot -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+        <!-- spring-boot -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -51,22 +49,29 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
-        <!-- Others -->
+        <!-- mybatis-plus -->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.4.1</version>
         </dependency>
-
+        <!-- lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.6</version>
+            <version>1.18.20</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- mapstruct -->
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId>
+            <version>1.4.2.Final</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.25</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
@@ -75,13 +80,13 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
-        <!--swagger-ui-->
+        <!-- swagger-ui -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-boot-starter</artifactId>
             <version>3.0.0</version>
         </dependency>
-        <!--mybatis-plus代码生成器-->
+        <!-- mybatis-plus代码生成器 -->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
@@ -92,18 +97,16 @@
             <artifactId>velocity-engine-core</artifactId>
             <version>2.3</version>
         </dependency>
-        <!--mybatis-plus代码生成器-->
-
+        <!-- mybatis-plus代码生成器 -->
     </dependencies>
+
     <build>
         <plugins>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+            </plugin>-->
         </plugins>
-
-        <!--生产xml-->
         <!-- 如果不添加此节点mybatis的mapper.xml文件都会被漏掉。 -->
         <resources>
             <resource>
@@ -130,5 +133,4 @@
             </resource>
         </resources>
     </build>
-
 </project>

@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- [ˈkʌstəm]自定义 -->
     <artifactId>custom-exception</artifactId>
 
     <properties>

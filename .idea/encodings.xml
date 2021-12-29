@@ -2,21 +2,23 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JWT" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JWT/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Redisson" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Redisson/server-one" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Redisson/server-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RocketMQ" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RocketMQ/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/autoCode-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bean-mapping" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/custom-exception" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/custom-exception/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jwt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jwt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/knowledge" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/login-authorization" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-task" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-task/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/returnR" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/returnR/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rocketMQ" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rocketMQ/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/template" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/template/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trigger-log" charset="UTF-8" />

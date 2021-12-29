@@ -7,26 +7,40 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jwt" />
+        <module name="RocketMQ" />
         <module name="trigger-log" />
+        <module name="server-two" />
         <module name="login-authorization" />
-        <module name="server-one" />
+        <module name="knowledge" />
         <module name="template" />
         <module name="util" />
         <module name="order-task" />
+        <module name="JWT" />
         <module name="custom-exception" />
-        <module name="rocketMQ" />
         <module name="returnR" />
-        <module name="server-two" />
+        <module name="server-one" />
         <module name="autoCode-redis" />
+      </profile>
+      <profile name="Annotation profile for project-learning" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/server/maven/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+          <entry name="D:/server/maven/repository/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="D:/server/maven/repository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+        </processorPath>
+        <module name="bean-mapping" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="autoCode-redis" target="8" />
+      <module name="bean-mapping" target="1.8" />
       <module name="custom-exception" target="8" />
       <module name="es" target="1.8" />
       <module name="es_recommend" target="8" />
-      <module name="jwt" target="8" />
+      <module name="JWT" target="8" />
+      <module name="knowledge" target="1.8" />
       <module name="login-authorization" target="8" />
       <module name="order-task" target="8" />
       <module name="practice_log" target="8" />
@@ -34,7 +48,7 @@
       <module name="Redisson" target="1.8" />
       <module name="relax" target="8" />
       <module name="returnR" target="8" />
-      <module name="rocketMQ" target="8" />
+      <module name="RocketMQ" target="8" />
       <module name="server-one" target="1.8" />
       <module name="server-two" target="1.8" />
       <module name="template" target="8" />
@@ -47,18 +61,20 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="JWT" options="-parameters" />
       <module name="Redisson" options="-parameters" />
+      <module name="RocketMQ" options="-parameters" />
       <module name="autoCode-redis" options="-parameters" />
+      <module name="bean-mapping" options="-parameters" />
       <module name="custom-exception" options="-parameters" />
       <module name="es" options="-parameters" />
       <module name="es_recommend" options="-parameters" />
-      <module name="jwt" options="-parameters" />
+      <module name="knowledge" options="-parameters" />
       <module name="login-authorization" options="-parameters" />
       <module name="order-task" options="-parameters" />
       <module name="practice_log" options="-parameters" />
       <module name="relax" options="-parameters" />
       <module name="returnR" options="-parameters" />
-      <module name="rocketMQ" options="-parameters" />
       <module name="server-one" options="-parameters" />
       <module name="server-two" options="-parameters" />
       <module name="template" options="-parameters" />

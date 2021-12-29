@@ -1,3 +1,5 @@
+package com.codeman;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -21,7 +23,7 @@ public class MapperMultiQueryGenerator {
 
     static String template;
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         String TimeNow = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss:SS").format(Calendar.getInstance().getTime());
         String[] str = TimeNow.split(" ");
         day = str[0];

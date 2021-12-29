@@ -1,3 +1,5 @@
+package com.codeman;
+
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
 import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.config.DataSourceConfig;
@@ -10,9 +12,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.Scanner;
 
 /**
- * @author DaiZhiZhou
- * @file MP-Spring
- * @create 2020-08-06 9:11
+ * Created by hdgaadd on 2021/12/06/18:25
  */
 public class MybatisPlusCodeGenerator {
 
