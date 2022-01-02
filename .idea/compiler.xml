@@ -7,21 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RocketMQ" />
+        <module name="order-task" />
         <module name="trigger-log" />
-        <module name="server-two" />
+        <module name="JWT" />
         <module name="login-authorization" />
         <module name="knowledge" />
+        <module name="server-one" />
+        <module name="autoCode-Redis" />
         <module name="template" />
         <module name="util" />
-        <module name="order-task" />
-        <module name="JWT" />
         <module name="custom-exception" />
         <module name="returnR" />
-        <module name="server-one" />
-        <module name="autoCode-redis" />
+        <module name="server-two" />
+        <module name="RocketMQ" />
       </profile>
-      <profile name="Annotation profile for project-learning" enabled="true">
+      <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -34,7 +34,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="autoCode-redis" target="8" />
+      <module name="autoCode-Redis" target="8" />
       <module name="bean-mapping" target="1.8" />
       <module name="custom-exception" target="8" />
       <module name="es" target="1.8" />
@@ -44,7 +44,6 @@
       <module name="login-authorization" target="8" />
       <module name="order-task" target="8" />
       <module name="practice_log" target="8" />
-      <module name="project-learning" target="1.8" />
       <module name="Redisson" target="1.8" />
       <module name="relax" target="8" />
       <module name="returnR" target="8" />
@@ -55,6 +54,7 @@
       <module name="test" target="8" />
       <module name="test2" target="8" />
       <module name="trigger-log" target="8" />
+      <module name="universe" target="1.8" />
       <module name="util" target="8" />
       <module name="util2" target="8" />
     </bytecodeTargetLevel>
@@ -64,7 +64,7 @@
       <module name="JWT" options="-parameters" />
       <module name="Redisson" options="-parameters" />
       <module name="RocketMQ" options="-parameters" />
-      <module name="autoCode-redis" options="-parameters" />
+      <module name="autoCode-Redis" options="-parameters" />
       <module name="bean-mapping" options="-parameters" />
       <module name="custom-exception" options="-parameters" />
       <module name="es" options="-parameters" />

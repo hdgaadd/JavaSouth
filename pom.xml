@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>autoCode-redis</module>
+        <module>autoCode-Redis</module>
         <module>util</module>
         <module>order-task</module>
         <module>template</module>
@@ -25,9 +25,9 @@
         <relativePath/>
     </parent>
     <groupId>org.codeman</groupId>
-    <artifactId>project-learning</artifactId>
+    <artifactId>universe</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>project-learning</name>
+    <name>universe</name>
     <description>project_learning for you</description>
     <properties>
         <java.version>1.8</java.version>
