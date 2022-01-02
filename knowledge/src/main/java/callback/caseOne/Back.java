@@ -1,15 +1,13 @@
-package callback;
-
-import java.util.List;
+package callback.caseOne;
 
 /**
  * @author hdgaadd
  * Created on 2022/01/02
  */
-public class Back {
+public class Back { // 类的访问修饰符必须是public，否则出现java.lang.NoSuchMethodException
     public void sout0() {
         System.out.println("0");
-    }
+    } // 方法访问修饰符必须是public，否则出现java.lang.NoSuchMethodException
     public void sout1() {
         System.out.println("1");
     }
