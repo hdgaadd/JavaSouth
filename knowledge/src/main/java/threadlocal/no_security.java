@@ -17,7 +17,7 @@ public class no_security {
 
         public static int addTen(int number) {
             num = number;
-            try {//休息1秒
+            try { // 休息1秒
                 TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException e) {
                 e.printStackTrace();

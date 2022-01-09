@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/knowledge/knowledge.iml" filepath="$PROJECT_DIR$/knowledge/knowledge.iml" />
       <module fileurl="file://$PROJECT_DIR$/login-authorization/login-authorization.iml" filepath="$PROJECT_DIR$/login-authorization/login-authorization.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-task/order-task.iml" filepath="$PROJECT_DIR$/order-task/order-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JWT/part-one/part-one.iml" filepath="$PROJECT_DIR$/JWT/part-one/part-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JWT/part-two/part-two.iml" filepath="$PROJECT_DIR$/JWT/part-two/part-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/returnR/returnR.iml" filepath="$PROJECT_DIR$/returnR/returnR.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redisson/server-one/server-one.iml" filepath="$PROJECT_DIR$/Redisson/server-one/server-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redisson/server-two/server-two.iml" filepath="$PROJECT_DIR$/Redisson/server-two/server-two.iml" />

@@ -7,19 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="order-task" />
-        <module name="trigger-log" />
-        <module name="JWT" />
-        <module name="login-authorization" />
-        <module name="knowledge" />
+        <module name="part-two" />
+        <module name="RocketMQ" />
+        <module name="part-one" />
         <module name="server-one" />
         <module name="autoCode-Redis" />
-        <module name="template" />
         <module name="util" />
+        <module name="order-task" />
         <module name="custom-exception" />
-        <module name="returnR" />
         <module name="server-two" />
-        <module name="RocketMQ" />
+        <module name="trigger-log" />
+        <module name="knowledge" />
+        <module name="login-authorization" />
+        <module name="returnR" />
+        <module name="template" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -43,6 +44,8 @@
       <module name="knowledge" target="1.8" />
       <module name="login-authorization" target="8" />
       <module name="order-task" target="8" />
+      <module name="part-one" target="8" />
+      <module name="part-two" target="8" />
       <module name="practice_log" target="8" />
       <module name="Redisson" target="1.8" />
       <module name="relax" target="8" />
@@ -72,6 +75,8 @@
       <module name="knowledge" options="-parameters" />
       <module name="login-authorization" options="-parameters" />
       <module name="order-task" options="-parameters" />
+      <module name="part-one" options="-parameters" />
+      <module name="part-two" options="-parameters" />
       <module name="practice_log" options="-parameters" />
       <module name="relax" options="-parameters" />
       <module name="returnR" options="-parameters" />

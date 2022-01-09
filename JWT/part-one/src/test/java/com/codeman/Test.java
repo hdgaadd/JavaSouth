@@ -33,6 +33,7 @@ public class Test {
         String token = createToken(666L);
         System.out.println(verifyToken(token));
     }
+
     public static String createToken(Long user_id) throws Exception {
         Date iatDate = new Date();
         // expire time

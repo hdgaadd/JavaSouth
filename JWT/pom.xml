@@ -10,6 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>jwt</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>part-two</module>
+        <module>part-one</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

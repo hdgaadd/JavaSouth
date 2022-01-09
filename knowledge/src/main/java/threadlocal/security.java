@@ -13,11 +13,11 @@ public class security {
         }
     }
     static class intUtil {
-        public static ThreadLocal<Integer> threadLocal = new ThreadLocal<>();//使用threadLocal保存线程变量
+        public static ThreadLocal<Integer> threadLocal = new ThreadLocal<>(); // 使用threadLocal保存线程变量
 
         public static int addTen(int number) {
             threadLocal.set(number);
-            try {//休息1秒
+            try { // 休息1秒
                 TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException e) {
                 e.printStackTrace();
