@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/JWT/JWT.iml" filepath="$PROJECT_DIR$/JWT/JWT.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redisson/Redisson.iml" filepath="$PROJECT_DIR$/Redisson/Redisson.iml" />
       <module fileurl="file://$PROJECT_DIR$/RocketMQ/RocketMQ.iml" filepath="$PROJECT_DIR$/RocketMQ/RocketMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" filepath="$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/autoCode-Redis/autoCode-Redis.iml" filepath="$PROJECT_DIR$/autoCode-Redis/autoCode-Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/bean-mapping/bean-mapping.iml" filepath="$PROJECT_DIR$/bean-mapping/bean-mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom-exception/custom-exception.iml" filepath="$PROJECT_DIR$/custom-exception/custom-exception.iml" />

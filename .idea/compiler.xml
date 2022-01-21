@@ -9,9 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="part-two" />
         <module name="RocketMQ" />
-        <module name="part-one" />
         <module name="server-one" />
-        <module name="autoCode-Redis" />
+        <module name="part-one" />
         <module name="util" />
         <module name="order-task" />
         <module name="custom-exception" />
@@ -20,7 +19,9 @@
         <module name="knowledge" />
         <module name="login-authorization" />
         <module name="returnR" />
+        <module name="autoCode-Redis" />
         <module name="template" />
+        <module name="SpringSecurity" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -53,6 +54,7 @@
       <module name="RocketMQ" target="8" />
       <module name="server-one" target="1.8" />
       <module name="server-two" target="1.8" />
+      <module name="SpringSecurity" target="1.8" />
       <module name="template" target="8" />
       <module name="test" target="8" />
       <module name="test2" target="8" />
@@ -67,6 +69,7 @@
       <module name="JWT" options="-parameters" />
       <module name="Redisson" options="-parameters" />
       <module name="RocketMQ" options="-parameters" />
+      <module name="SpringSecurity" options="-parameters" />
       <module name="autoCode-Redis" options="-parameters" />
       <module name="bean-mapping" options="-parameters" />
       <module name="custom-exception" options="-parameters" />
