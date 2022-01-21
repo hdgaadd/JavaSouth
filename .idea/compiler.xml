@@ -17,11 +17,9 @@
         <module name="server-two" />
         <module name="trigger-log" />
         <module name="knowledge" />
-        <module name="login-authorization" />
         <module name="returnR" />
         <module name="autoCode-Redis" />
         <module name="template" />
-        <module name="SpringSecurity" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />

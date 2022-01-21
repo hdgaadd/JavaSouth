@@ -8,7 +8,6 @@
         <module>util</module>
         <module>order-task</module>
         <module>template</module>
-        <module>login-authorization</module>
         <module>custom-exception</module>
         <module>trigger-log</module>
         <module>returnR</module>
@@ -17,7 +16,6 @@
         <module>Redisson</module>
         <module>bean-mapping</module>
         <module>knowledge</module>
-        <module>SpringSecurity</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
