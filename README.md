@@ -1,6 +1,6 @@
 # structure
 
-```
+```lua
 universe
 ├── autoCode-Redis -- 验证码
 ├── bean-mapping -- bean映射
