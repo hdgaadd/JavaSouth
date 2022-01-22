@@ -16,6 +16,7 @@
         <module>Redisson</module>
         <module>bean-mapping</module>
         <module>knowledge</module>
+        <module>log4j</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

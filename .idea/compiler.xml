@@ -18,6 +18,7 @@
         <module name="trigger-log" />
         <module name="knowledge" />
         <module name="returnR" />
+        <module name="log4j" />
         <module name="autoCode-Redis" />
         <module name="template" />
       </profile>
@@ -41,6 +42,7 @@
       <module name="es_recommend" target="8" />
       <module name="JWT" target="8" />
       <module name="knowledge" target="1.8" />
+      <module name="log4j" target="1.8" />
       <module name="login-authorization" target="8" />
       <module name="order-task" target="8" />
       <module name="part-one" target="8" />
@@ -74,6 +76,7 @@
       <module name="es" options="-parameters" />
       <module name="es_recommend" options="-parameters" />
       <module name="knowledge" options="-parameters" />
+      <module name="log4j" options="-parameters" />
       <module name="login-authorization" options="-parameters" />
       <module name="order-task" options="-parameters" />
       <module name="part-one" options="-parameters" />
