@@ -1,0 +1,12 @@
+server:
+  port: 9092
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:9091
+  datasource:
+    url: jdbc:mysql://localhost:3306/project_learning?characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+

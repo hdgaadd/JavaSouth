@@ -7,20 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="part-two" />
-        <module name="RocketMQ" />
-        <module name="server-one" />
-        <module name="part-one" />
-        <module name="util" />
-        <module name="order-task" />
-        <module name="custom-exception" />
-        <module name="server-two" />
-        <module name="trigger-log" />
-        <module name="knowledge" />
-        <module name="returnR" />
-        <module name="log4j" />
-        <module name="autoCode-Redis" />
-        <module name="template" />
+        <module name="gateway-server" />
+        <module name="gateway-client" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -31,50 +19,80 @@
           <entry name="D:/server/maven/repository/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
           <entry name="D:/server/maven/repository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
         </processorPath>
+        <module name="order-task" />
+        <module name="part-one" />
+        <module name="spring-boot-admin-client" />
+        <module name="custom-exception" />
+        <module name="autoCode-Redis" />
+        <module name="spring-boot-admin-server" />
+        <module name="server-one" />
+        <module name="log4j" />
+        <module name="util" />
+        <module name="RocketMQ" />
         <module name="bean-mapping" />
+        <module name="part-two" />
+        <module name="test" />
+        <module name="returnR" />
+        <module name="template" />
+        <module name="server-two" />
+        <module name="trigger-log" />
+        <module name="knowledge" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="autoCode-Redis" target="8" />
+      <module name="autoCode-Redis" target="1.8" />
       <module name="bean-mapping" target="1.8" />
-      <module name="custom-exception" target="8" />
+      <module name="client" target="1.5" />
+      <module name="custom-exception" target="1.8" />
       <module name="es" target="1.8" />
       <module name="es_recommend" target="8" />
-      <module name="JWT" target="8" />
+      <module name="Gateway" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="gateway-client" target="1.8" />
+      <module name="gateway-server" target="1.8" />
+      <module name="JWT" target="1.8" />
       <module name="knowledge" target="1.8" />
       <module name="log4j" target="1.8" />
       <module name="login-authorization" target="8" />
-      <module name="order-task" target="8" />
-      <module name="part-one" target="8" />
-      <module name="part-two" target="8" />
+      <module name="monitor" target="1.8" />
+      <module name="order-task" target="1.8" />
+      <module name="part-one" target="1.8" />
+      <module name="part-two" target="1.8" />
       <module name="practice_log" target="8" />
       <module name="Redisson" target="1.8" />
       <module name="relax" target="8" />
-      <module name="returnR" target="8" />
-      <module name="RocketMQ" target="8" />
+      <module name="returnR" target="1.8" />
+      <module name="RocketMQ" target="1.8" />
       <module name="server-one" target="1.8" />
       <module name="server-two" target="1.8" />
+      <module name="spring-boot-admin-client" target="1.8" />
+      <module name="spring-boot-admin-server" target="1.8" />
       <module name="SpringSecurity" target="1.8" />
-      <module name="template" target="8" />
-      <module name="test" target="8" />
+      <module name="template" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="test (1)" target="1.8" />
       <module name="test2" target="8" />
-      <module name="trigger-log" target="8" />
+      <module name="trigger-log" target="1.8" />
       <module name="universe" target="1.8" />
-      <module name="util" target="8" />
+      <module name="util" target="1.8" />
       <module name="util2" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="JWT" options="-parameters" />
-      <module name="Redisson" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="JWT" options="" />
+      <module name="Redisson" options="" />
       <module name="RocketMQ" options="-parameters" />
       <module name="SpringSecurity" options="-parameters" />
       <module name="autoCode-Redis" options="-parameters" />
       <module name="bean-mapping" options="-parameters" />
+      <module name="client" options="-parameters" />
       <module name="custom-exception" options="-parameters" />
       <module name="es" options="-parameters" />
       <module name="es_recommend" options="-parameters" />
+      <module name="gateway-client" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
       <module name="knowledge" options="-parameters" />
       <module name="log4j" options="-parameters" />
       <module name="login-authorization" options="-parameters" />
@@ -86,8 +104,11 @@
       <module name="returnR" options="-parameters" />
       <module name="server-one" options="-parameters" />
       <module name="server-two" options="-parameters" />
+      <module name="spring-boot-admin-client" options="-parameters" />
+      <module name="spring-boot-admin-server" options="-parameters" />
       <module name="template" options="-parameters" />
       <module name="test" options="-parameters" />
+      <module name="test (1)" options="-parameters" />
       <module name="test2" options="-parameters" />
       <module name="trigger-log" options="-parameters" />
       <module name="util" options="-parameters" />
