@@ -7,33 +7,12 @@ spring:
         server-addr: 127.0.0.1:8848
     gateway:
       routes:
-        - id: lee
-          uri: lb://leem  #这里的名字必须和项目配置文件 的项目名一致
+        - id: hdgaadd
+          uri: lb://client  # 配置服务，该服务name为注册在Nacos的
           predicates:
-            - Path=/api/lee1/**  #访问 /api/thirdparty 这个路径就路由到
+            - Path=/api/**  #访问 /api/thirdparty 这个路径就路由到
           filters:                    #路径重写 成一下 这里中间逗号， 前面是截取的路径，后面是替换的路径
             #也就是你看以为你实际访问是 /api/thirdparty/oss/policy，实际上它是吧 /api//api/thirdparty这一段给丢了，只要只要oss/policy
             #
             - RewritePath=/api/(?<segment>.*),/$\{segment}
-        - id: lee2
-          uri: lb://leem2  #这里的名字必须和项目配置文件 的项目名一致
-          predicates:
-            - Path=/api/lee2/**  #访问 /api/thirdparty 这个路径就路由到
-          filters:                    #路径重写 成一下 这里中间逗号， 前面是截取的路径，后面是替换的路径
-            #也就是你看以为你实际访问是 /api/thirdparty/oss/policy，实际上它是吧 /api//api/thirdparty这一段给丢了，只要只要oss/policy
-            #
-            - RewritePath=/api/(?<segment>.*),/$\{segment}
-        - id: category
-          uri: lb://leem  #这里的名字必须和项目配置文件 的项目名一致
-          predicates:
-            - Path=/api/generator/**  #访问 /api/thirdparty 这个路径就路由到
-          filters:                    #路径重写 成一下 这里中间逗号， 前面是截取的路径，后面是替换的路径
-            #也就是你看以为你实际访问是 /api/thirdparty/oss/policy，实际上它是吧 /api//api/thirdparty这一段给丢了，只要只要oss/policy
-            #
-            - RewritePath=/api/(?<segment>.*),/$\{segment}
-        - id: admin_route
-          uri: lb://renren-fast
-          predicates:
-            - Path=/api/**
-          filters:
-            - RewritePath=/api/(?<segment>.*),/renren-fast/$\{segment}
+

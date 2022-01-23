@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
  * Created on 2022/01/23
  */
 @RestController
-@RequestMapping("lee2")
-public class GatewayController { // http://localhost:88/api/lee2/gateway
-    @RequestMapping("/gateway")
+@RequestMapping("gateway")
+public class GatewayController { // http://localhost:88/api/gateway/test
+    @RequestMapping("/test")
     public String gateway() {
         return "welcome to learning gateway";
     }
