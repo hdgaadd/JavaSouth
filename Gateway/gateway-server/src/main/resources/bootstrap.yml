@@ -1,0 +1,24 @@
+server:
+  port: 88
+spring:
+  application:
+    name: gataway # SpringBoot服务name
+  cloud:
+
+    # Nacos配置
+    nacos:
+      discovery: # 服务注册中心地址
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848 # 配置中心地址
+        namespace: 76f6dcfa-338c-40a4-91d2-e70d1ecdf87e
+
+    # Gateway配置
+    gateway:
+      routes:
+        - id: hdgaadd
+          uri: lb://client  # 配置服务，该服务name为注册在Nacos的
+          predicates:
+            - Path=/api/**  # 配置访问网关，需添加的前缀
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}

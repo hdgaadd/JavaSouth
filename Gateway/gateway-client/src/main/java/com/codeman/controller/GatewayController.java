@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GatewayController { // http://localhost:88/api/gateway/test
     @RequestMapping("/test")
     public String gateway() {
-        return "welcome to learning gateway";
+        return "welcome to learning Gateway";
     }
 }
 
