@@ -20,10 +20,9 @@
       <module fileurl="file://$PROJECT_DIR$/returnR/returnR.iml" filepath="$PROJECT_DIR$/returnR/returnR.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redisson/server-one/server-one.iml" filepath="$PROJECT_DIR$/Redisson/server-one/server-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redisson/server-two/server-two.iml" filepath="$PROJECT_DIR$/Redisson/server-two/server-two.iml" />
-      <module fileurl="file://$PROJECT_DIR$/monitor/spring-boot-admin-client/spring-boot-admin-client.iml" filepath="$PROJECT_DIR$/monitor/spring-boot-admin-client/spring-boot-admin-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/monitor/spring-boot-admin-server/spring-boot-admin-server.iml" filepath="$PROJECT_DIR$/monitor/spring-boot-admin-server/spring-boot-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor/springboot-client/springboot-client.iml" filepath="$PROJECT_DIR$/monitor/springboot-client/springboot-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor/springboot-server/springboot-server.iml" filepath="$PROJECT_DIR$/monitor/springboot-server/springboot-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
-      <module fileurl="file://$PROJECT_DIR$/monitor/test/test.iml" filepath="$PROJECT_DIR$/monitor/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/trigger-log/trigger-log.iml" filepath="$PROJECT_DIR$/trigger-log/trigger-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/universe.iml" filepath="$PROJECT_DIR$/universe.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />

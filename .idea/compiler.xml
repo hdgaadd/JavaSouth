@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-server" />
+        <module name="springboot-server" />
+        <module name="springboot-client" />
         <module name="gateway-client" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
@@ -20,23 +22,20 @@
           <entry name="D:/server/maven/repository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
         </processorPath>
         <module name="order-task" />
-        <module name="part-one" />
-        <module name="spring-boot-admin-client" />
-        <module name="custom-exception" />
-        <module name="autoCode-Redis" />
-        <module name="spring-boot-admin-server" />
-        <module name="server-one" />
-        <module name="log4j" />
-        <module name="util" />
         <module name="RocketMQ" />
+        <module name="server-one" />
         <module name="bean-mapping" />
-        <module name="part-two" />
-        <module name="test" />
-        <module name="returnR" />
-        <module name="template" />
+        <module name="part-one" />
+        <module name="util" />
+        <module name="log4j" />
+        <module name="custom-exception" />
         <module name="server-two" />
         <module name="trigger-log" />
+        <module name="part-two" />
+        <module name="returnR" />
+        <module name="autoCode-Redis" />
         <module name="knowledge" />
+        <module name="template" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -67,6 +66,8 @@
       <module name="server-two" target="1.8" />
       <module name="spring-boot-admin-client" target="1.8" />
       <module name="spring-boot-admin-server" target="1.8" />
+      <module name="springboot-client" target="1.8" />
+      <module name="springboot-server" target="1.8" />
       <module name="SpringSecurity" target="1.8" />
       <module name="template" target="1.8" />
       <module name="test" target="1.8" />
@@ -106,6 +107,8 @@
       <module name="server-two" options="-parameters" />
       <module name="spring-boot-admin-client" options="-parameters" />
       <module name="spring-boot-admin-server" options="-parameters" />
+      <module name="springboot-client" options="-parameters" />
+      <module name="springboot-server" options="-parameters" />
       <module name="template" options="-parameters" />
       <module name="test" options="-parameters" />
       <module name="test (1)" options="-parameters" />

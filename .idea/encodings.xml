@@ -17,15 +17,14 @@
     <file url="file://$PROJECT_DIR$/bean-mapping" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/custom-exception" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/custom-exception/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gateway1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gateway1/client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gateway1/gateway-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gateway1/gateway-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/knowledge" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/log4j" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitor/spring-boot-admin-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitor/spring-boot-admin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor/springboot-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor/springboot-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitor/test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-task" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-task/src/main/java" charset="UTF-8" />
