@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dubbo/Dubbo.iml" filepath="$PROJECT_DIR$/Dubbo/Dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/JWT/JWT.iml" filepath="$PROJECT_DIR$/JWT/JWT.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redisson/Redisson.iml" filepath="$PROJECT_DIR$/Redisson/Redisson.iml" />
@@ -9,6 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/autoCode-Redis/autoCode-Redis.iml" filepath="$PROJECT_DIR$/autoCode-Redis/autoCode-Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/bean-mapping/bean-mapping.iml" filepath="$PROJECT_DIR$/bean-mapping/bean-mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom-exception/custom-exception.iml" filepath="$PROJECT_DIR$/custom-exception/custom-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dubbo/dubbo-interface/dubbo-interface.iml" filepath="$PROJECT_DIR$/Dubbo/dubbo-interface/dubbo-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dubbo/dubbo-producer/dubbo-producer.iml" filepath="$PROJECT_DIR$/Dubbo/dubbo-producer/dubbo-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dubbo/dubbo-web/dubbo-web.iml" filepath="$PROJECT_DIR$/Dubbo/dubbo-web/dubbo-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/gateway-client/gateway-client.iml" filepath="$PROJECT_DIR$/Gateway/gateway-client/gateway-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/Gateway/gateway-server/gateway-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/knowledge/knowledge.iml" filepath="$PROJECT_DIR$/knowledge/knowledge.iml" />

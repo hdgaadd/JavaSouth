@@ -1,0 +1,34 @@
+server:
+  port: 8081
+  tomcat: # 必须添加tomcat格式
+    uri-encoding: UTF-8
+spring:
+  application:
+    name: dubbo-web
+  main:
+    allow-bean-definition-overriding: true
+  # Nacos配置
+  cloud:
+    nacos:
+      discovery: # 服务注册中心地址
+        server-addr: 106.14.219.67:8848    # 自定义注册中心地址，而不是127.0.0.1:8848
+
+dubbo:
+  application:
+    version: 1.0.0
+    logger: slf4j
+  cloud:
+    # 配置要订阅的Dubbo服务
+    subscribed-services: dubbo-producer
+  # 扫描路径
+  scan:
+    base-packages: com.codeman
+  # Nacos的服务注册中心地址
+  registry:
+    address: spring-cloud://106.14.219.67
+  # [ˈprəʊtəkɒl]协议
+  protocol:
+    name: dubbo
+    port: 28081
+    threads: 200
+    accesslog: D:/logs/hdgaadd/dubbo-web.log

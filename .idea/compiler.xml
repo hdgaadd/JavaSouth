@@ -7,10 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gateway-server" />
-        <module name="springboot-server" />
-        <module name="springboot-client" />
         <module name="gateway-client" />
+        <module name="springboot-server" />
+        <module name="dubbo-interface" />
+        <module name="dubbo-producer" />
+        <module name="dubbo-web" />
+        <module name="gateway-server" />
+        <module name="springboot-client" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -21,20 +24,20 @@
           <entry name="D:/server/maven/repository/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
           <entry name="D:/server/maven/repository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
         </processorPath>
-        <module name="order-task" />
+        <module name="part-two" />
         <module name="RocketMQ" />
         <module name="server-one" />
         <module name="bean-mapping" />
         <module name="part-one" />
         <module name="util" />
-        <module name="log4j" />
+        <module name="order-task" />
         <module name="custom-exception" />
         <module name="server-two" />
         <module name="trigger-log" />
-        <module name="part-two" />
+        <module name="knowledge" />
+        <module name="log4j" />
         <module name="returnR" />
         <module name="autoCode-Redis" />
-        <module name="knowledge" />
         <module name="template" />
       </profile>
     </annotationProcessing>
@@ -43,6 +46,10 @@
       <module name="bean-mapping" target="1.8" />
       <module name="client" target="1.5" />
       <module name="custom-exception" target="1.8" />
+      <module name="Dubbo" target="1.5" />
+      <module name="dubbo-interface" target="1.5" />
+      <module name="dubbo-producer" target="6" />
+      <module name="dubbo-web" target="1.5" />
       <module name="es" target="1.8" />
       <module name="es_recommend" target="8" />
       <module name="Gateway" target="1.8" />

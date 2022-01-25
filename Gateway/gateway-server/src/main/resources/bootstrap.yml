@@ -2,7 +2,7 @@ server:
   port: 88
 spring:
   application:
-    name: gataway # SpringBoot服务name
+    name: gataway
   cloud:
 
     # Nacos配置
