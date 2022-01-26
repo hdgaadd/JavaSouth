@@ -25,6 +25,7 @@
         <module>log4j</module>
         <module>monitor</module>
         <module>gateway</module>
+        <module>gitignore</module>
     </modules>
 
     <parent>
