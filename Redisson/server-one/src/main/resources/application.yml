@@ -8,7 +8,7 @@ spring:
   redis:
     host: localhost # Redis服务器地址
     port: 6379 # Redis服务器连接端口
-    password: redisson
+    # password: redisson
 
 
 mybatis-plus:

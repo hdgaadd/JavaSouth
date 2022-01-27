@@ -22,10 +22,9 @@
         <module>Redisson</module>
         <module>bean-mapping</module>
         <module>knowledge</module>
-        <module>log4j</module>
+        <module>log</module>
         <module>monitor</module>
         <module>gateway</module>
-        <module>gitignore</module>
     </modules>
 
     <parent>

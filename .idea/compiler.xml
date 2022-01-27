@@ -11,9 +11,9 @@
         <module name="springboot-server" />
         <module name="dubbo-interface" />
         <module name="dubbo-producer" />
-        <module name="dubbo-web" />
-        <module name="gateway-server" />
         <module name="springboot-client" />
+        <module name="gateway-server" />
+        <module name="dubbo-web" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -35,8 +35,9 @@
         <module name="server-two" />
         <module name="trigger-log" />
         <module name="knowledge" />
-        <module name="log4j" />
         <module name="returnR" />
+        <module name="slf4j" />
+        <module name="log4j" />
         <module name="autoCode-Redis" />
         <module name="template" />
       </profile>
@@ -58,6 +59,7 @@
       <module name="gateway-server" target="1.8" />
       <module name="JWT" target="1.8" />
       <module name="knowledge" target="1.8" />
+      <module name="log" target="1.8" />
       <module name="log4j" target="1.8" />
       <module name="login-authorization" target="8" />
       <module name="monitor" target="1.8" />
@@ -71,6 +73,7 @@
       <module name="RocketMQ" target="1.8" />
       <module name="server-one" target="1.8" />
       <module name="server-two" target="1.8" />
+      <module name="slf4j" target="1.8" />
       <module name="spring-boot-admin-client" target="1.8" />
       <module name="spring-boot-admin-server" target="1.8" />
       <module name="springboot-client" target="1.8" />
@@ -102,6 +105,7 @@
       <module name="gateway-client" options="-parameters" />
       <module name="gateway-server" options="-parameters" />
       <module name="knowledge" options="-parameters" />
+      <module name="log" options="" />
       <module name="log4j" options="-parameters" />
       <module name="login-authorization" options="-parameters" />
       <module name="order-task" options="-parameters" />
@@ -112,6 +116,7 @@
       <module name="returnR" options="-parameters" />
       <module name="server-one" options="-parameters" />
       <module name="server-two" options="-parameters" />
+      <module name="slf4j" options="-parameters" />
       <module name="spring-boot-admin-client" options="-parameters" />
       <module name="spring-boot-admin-server" options="-parameters" />
       <module name="springboot-client" options="-parameters" />

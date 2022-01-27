@@ -19,7 +19,9 @@
     <file url="file://$PROJECT_DIR$/custom-exception" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/custom-exception/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/knowledge" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/log4j" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log/log4j" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log/slf4j" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitor/springboot-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitor/springboot-server" charset="UTF-8" />

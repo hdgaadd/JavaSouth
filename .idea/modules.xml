@@ -15,9 +15,9 @@
       <module fileurl="file://$PROJECT_DIR$/Dubbo/dubbo-web/dubbo-web.iml" filepath="$PROJECT_DIR$/Dubbo/dubbo-web/dubbo-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/gateway-client/gateway-client.iml" filepath="$PROJECT_DIR$/Gateway/gateway-client/gateway-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/Gateway/gateway-server/gateway-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gitignore/gitignore.iml" filepath="$PROJECT_DIR$/gitignore/gitignore.iml" />
       <module fileurl="file://$PROJECT_DIR$/knowledge/knowledge.iml" filepath="$PROJECT_DIR$/knowledge/knowledge.iml" />
-      <module fileurl="file://$PROJECT_DIR$/log4j/log4j.iml" filepath="$PROJECT_DIR$/log4j/log4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/log/log.iml" filepath="$PROJECT_DIR$/log/log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/log/log4j/log4j.iml" filepath="$PROJECT_DIR$/log/log4j/log4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitor/monitor.iml" filepath="$PROJECT_DIR$/monitor/monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-task/order-task.iml" filepath="$PROJECT_DIR$/order-task/order-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/JWT/part-one/part-one.iml" filepath="$PROJECT_DIR$/JWT/part-one/part-one.iml" />
@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/returnR/returnR.iml" filepath="$PROJECT_DIR$/returnR/returnR.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redisson/server-one/server-one.iml" filepath="$PROJECT_DIR$/Redisson/server-one/server-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redisson/server-two/server-two.iml" filepath="$PROJECT_DIR$/Redisson/server-two/server-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/log/slf4j/slf4j.iml" filepath="$PROJECT_DIR$/log/slf4j/slf4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitor/springboot-client/springboot-client.iml" filepath="$PROJECT_DIR$/monitor/springboot-client/springboot-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitor/springboot-server/springboot-server.iml" filepath="$PROJECT_DIR$/monitor/springboot-server/springboot-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
