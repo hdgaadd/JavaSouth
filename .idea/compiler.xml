@@ -11,9 +11,9 @@
         <module name="springboot-server" />
         <module name="dubbo-interface" />
         <module name="dubbo-producer" />
-        <module name="springboot-client" />
-        <module name="gateway-server" />
         <module name="dubbo-web" />
+        <module name="gateway-server" />
+        <module name="springboot-client" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -30,14 +30,15 @@
         <module name="bean-mapping" />
         <module name="part-one" />
         <module name="util" />
+        <module name="Jpa" />
         <module name="order-task" />
         <module name="custom-exception" />
         <module name="server-two" />
         <module name="trigger-log" />
         <module name="knowledge" />
-        <module name="returnR" />
-        <module name="slf4j" />
         <module name="log4j" />
+        <module name="slf4j" />
+        <module name="returnR" />
         <module name="autoCode-Redis" />
         <module name="template" />
       </profile>
@@ -57,6 +58,7 @@
       <module name="gateway" target="1.8" />
       <module name="gateway-client" target="1.8" />
       <module name="gateway-server" target="1.8" />
+      <module name="Jpa" target="1.8" />
       <module name="JWT" target="1.8" />
       <module name="knowledge" target="1.8" />
       <module name="log" target="1.8" />
@@ -93,6 +95,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Gateway" options="-parameters" />
       <module name="JWT" options="" />
+      <module name="Jpa" options="-parameters" />
       <module name="Redisson" options="" />
       <module name="RocketMQ" options="-parameters" />
       <module name="SpringSecurity" options="-parameters" />

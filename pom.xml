@@ -25,6 +25,7 @@
         <module>log</module>
         <module>monitor</module>
         <module>gateway</module>
+        <module>Jpa</module>
     </modules>
 
     <parent>
