@@ -15,8 +15,10 @@
     <file url="file://$PROJECT_DIR$/Redisson/server-two" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RocketMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RocketMQ/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/async" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/autoCode-Redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bean-mapping" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cache" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/custom-exception" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/custom-exception/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/knowledge" charset="UTF-8" />

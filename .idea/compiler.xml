@@ -11,9 +11,9 @@
         <module name="springboot-server" />
         <module name="dubbo-interface" />
         <module name="dubbo-producer" />
-        <module name="dubbo-web" />
-        <module name="gateway-server" />
         <module name="springboot-client" />
+        <module name="gateway-server" />
+        <module name="dubbo-web" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -26,11 +26,13 @@
         </processorPath>
         <module name="part-two" />
         <module name="RocketMQ" />
+        <module name="async" />
         <module name="server-one" />
         <module name="bean-mapping" />
         <module name="part-one" />
         <module name="util" />
         <module name="Jpa" />
+        <module name="cache" />
         <module name="order-task" />
         <module name="custom-exception" />
         <module name="server-two" />
@@ -44,8 +46,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="async" target="1.8" />
       <module name="autoCode-Redis" target="1.8" />
       <module name="bean-mapping" target="1.8" />
+      <module name="cache" target="1.8" />
       <module name="client" target="1.5" />
       <module name="custom-exception" target="1.8" />
       <module name="Dubbo" target="1.5" />
@@ -99,8 +103,10 @@
       <module name="Redisson" options="" />
       <module name="RocketMQ" options="-parameters" />
       <module name="SpringSecurity" options="-parameters" />
+      <module name="async" options="-parameters" />
       <module name="autoCode-Redis" options="-parameters" />
       <module name="bean-mapping" options="-parameters" />
+      <module name="cache" options="-parameters" />
       <module name="client" options="-parameters" />
       <module name="custom-exception" options="-parameters" />
       <module name="es" options="-parameters" />
