@@ -25,7 +25,6 @@
         <module>log</module>
         <module>monitor</module>
         <module>gateway</module>
-        <module>Jpa</module>
         <module>cache</module>
         <module>async</module>
     </modules>

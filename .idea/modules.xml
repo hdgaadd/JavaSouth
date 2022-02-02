@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/Dubbo/Dubbo.iml" filepath="$PROJECT_DIR$/Dubbo/Dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/JWT/JWT.iml" filepath="$PROJECT_DIR$/JWT/JWT.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Jpa/Jpa.iml" filepath="$PROJECT_DIR$/Jpa/Jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redisson/Redisson.iml" filepath="$PROJECT_DIR$/Redisson/Redisson.iml" />
       <module fileurl="file://$PROJECT_DIR$/RocketMQ/RocketMQ.iml" filepath="$PROJECT_DIR$/RocketMQ/RocketMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/async/async.iml" filepath="$PROJECT_DIR$/async/async.iml" />

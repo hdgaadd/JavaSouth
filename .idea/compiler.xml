@@ -11,9 +11,9 @@
         <module name="springboot-server" />
         <module name="dubbo-interface" />
         <module name="dubbo-producer" />
-        <module name="springboot-client" />
-        <module name="gateway-server" />
         <module name="dubbo-web" />
+        <module name="gateway-server" />
+        <module name="springboot-client" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -25,13 +25,11 @@
           <entry name="D:/server/maven/repository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
         </processorPath>
         <module name="part-two" />
-        <module name="RocketMQ" />
         <module name="async" />
-        <module name="server-one" />
+        <module name="RocketMQ" />
         <module name="bean-mapping" />
         <module name="part-one" />
         <module name="util" />
-        <module name="Jpa" />
         <module name="cache" />
         <module name="order-task" />
         <module name="custom-exception" />
@@ -43,6 +41,7 @@
         <module name="returnR" />
         <module name="autoCode-Redis" />
         <module name="template" />
+        <module name="server-one" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
