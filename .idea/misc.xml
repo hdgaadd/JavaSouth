@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/Gateway/pom.xml" />
         <option value="$PROJECT_DIR$/monitor/pom.xml" />
         <option value="$PROJECT_DIR$/Dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/xxljob/pom.xml" />
+        <option value="$PROJECT_DIR$/xxl-job/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

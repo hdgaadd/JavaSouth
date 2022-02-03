@@ -34,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/trigger-log/trigger-log.iml" filepath="$PROJECT_DIR$/trigger-log/trigger-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/universe.iml" filepath="$PROJECT_DIR$/universe.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job/xxl-job.iml" filepath="$PROJECT_DIR$/xxl-job/xxl-job.iml" />
     </modules>
   </component>
 </project>

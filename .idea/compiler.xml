@@ -8,12 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-client" />
+        <module name="xxl-job" />
         <module name="springboot-server" />
         <module name="dubbo-interface" />
         <module name="dubbo-producer" />
-        <module name="dubbo-web" />
-        <module name="gateway-server" />
         <module name="springboot-client" />
+        <module name="gateway-server" />
+        <module name="dubbo-web" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -92,6 +93,7 @@
       <module name="universe" target="1.8" />
       <module name="util" target="1.8" />
       <module name="util2" target="8" />
+      <module name="xxl-job" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -136,6 +138,7 @@
       <module name="trigger-log" options="-parameters" />
       <module name="util" options="-parameters" />
       <module name="util2" options="-parameters" />
+      <module name="xxl-job" options="-parameters" />
     </option>
   </component>
 </project>
