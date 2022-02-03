@@ -37,5 +37,6 @@
     <file url="file://$PROJECT_DIR$/util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xxl-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-job/core" charset="UTF-8" />
   </component>
 </project>

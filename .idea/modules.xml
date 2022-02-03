@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/autoCode-Redis/autoCode-Redis.iml" filepath="$PROJECT_DIR$/autoCode-Redis/autoCode-Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/bean-mapping/bean-mapping.iml" filepath="$PROJECT_DIR$/bean-mapping/bean-mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job/core/core.iml" filepath="$PROJECT_DIR$/xxl-job/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom-exception/custom-exception.iml" filepath="$PROJECT_DIR$/custom-exception/custom-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dubbo/dubbo-interface/dubbo-interface.iml" filepath="$PROJECT_DIR$/Dubbo/dubbo-interface/dubbo-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dubbo/dubbo-producer/dubbo-producer.iml" filepath="$PROJECT_DIR$/Dubbo/dubbo-producer/dubbo-producer.iml" />

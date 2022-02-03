@@ -8,13 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-client" />
-        <module name="xxl-job" />
         <module name="springboot-server" />
         <module name="dubbo-interface" />
         <module name="dubbo-producer" />
         <module name="springboot-client" />
-        <module name="gateway-server" />
         <module name="dubbo-web" />
+        <module name="gateway-server" />
+        <module name="core" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -51,6 +51,7 @@
       <module name="bean-mapping" target="1.8" />
       <module name="cache" target="1.8" />
       <module name="client" target="1.5" />
+      <module name="core" target="1.8" />
       <module name="custom-exception" target="1.8" />
       <module name="Dubbo" target="1.5" />
       <module name="dubbo-interface" target="1.5" />
@@ -109,6 +110,7 @@
       <module name="bean-mapping" options="-parameters" />
       <module name="cache" options="-parameters" />
       <module name="client" options="-parameters" />
+      <module name="core" options="-parameters" />
       <module name="custom-exception" options="-parameters" />
       <module name="es" options="-parameters" />
       <module name="es_recommend" options="-parameters" />
