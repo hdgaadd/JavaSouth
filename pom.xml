@@ -27,6 +27,7 @@
         <module>gateway</module>
         <module>cache</module>
         <module>async</module>
+        <module>M-S</module>
     </modules>
 
     <parent>

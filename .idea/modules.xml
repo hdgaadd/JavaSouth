@@ -5,12 +5,14 @@
       <module fileurl="file://$PROJECT_DIR$/Dubbo/Dubbo.iml" filepath="$PROJECT_DIR$/Dubbo/Dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/JWT/JWT.iml" filepath="$PROJECT_DIR$/JWT/JWT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M-S/M-S.iml" filepath="$PROJECT_DIR$/M-S/M-S.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redisson/Redisson.iml" filepath="$PROJECT_DIR$/Redisson/Redisson.iml" />
       <module fileurl="file://$PROJECT_DIR$/RocketMQ/RocketMQ.iml" filepath="$PROJECT_DIR$/RocketMQ/RocketMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/async/async.iml" filepath="$PROJECT_DIR$/async/async.iml" />
       <module fileurl="file://$PROJECT_DIR$/autoCode-Redis/autoCode-Redis.iml" filepath="$PROJECT_DIR$/autoCode-Redis/autoCode-Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/bean-mapping/bean-mapping.iml" filepath="$PROJECT_DIR$/bean-mapping/bean-mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M-S/call-back/call-back.iml" filepath="$PROJECT_DIR$/M-S/call-back/call-back.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-job/core/core.iml" filepath="$PROJECT_DIR$/xxl-job/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom-exception/custom-exception.iml" filepath="$PROJECT_DIR$/custom-exception/custom-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dubbo/dubbo-interface/dubbo-interface.iml" filepath="$PROJECT_DIR$/Dubbo/dubbo-interface/dubbo-interface.iml" />
@@ -18,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/Dubbo/dubbo-web/dubbo-web.iml" filepath="$PROJECT_DIR$/Dubbo/dubbo-web/dubbo-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/gateway-client/gateway-client.iml" filepath="$PROJECT_DIR$/Gateway/gateway-client/gateway-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/Gateway/gateway-server/gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M-S/interface/interface.iml" filepath="$PROJECT_DIR$/M-S/interface/interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/knowledge/knowledge.iml" filepath="$PROJECT_DIR$/knowledge/knowledge.iml" />
       <module fileurl="file://$PROJECT_DIR$/log/log.iml" filepath="$PROJECT_DIR$/log/log.iml" />
       <module fileurl="file://$PROJECT_DIR$/log/log4j/log4j.iml" filepath="$PROJECT_DIR$/log/log4j/log4j.iml" />

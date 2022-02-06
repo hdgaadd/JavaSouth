@@ -9,6 +9,10 @@
     <file url="file://$PROJECT_DIR$/JWT" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JWT/part-one" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JWT/part-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/M-S" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/M-S/call-back" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/M-S/interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/M-S/one" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Redisson" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Redisson/server-one" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Redisson/server-two" charset="UTF-8" />
@@ -32,7 +36,7 @@
     <file url="file://$PROJECT_DIR$/returnR" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/returnR/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/template" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/template/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/template/springboot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trigger-log" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util/src/main/java" charset="UTF-8" />

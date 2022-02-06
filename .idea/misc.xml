@@ -14,6 +14,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/M-S/one/pom.xml" />
         <option value="$PROJECT_DIR$/gateway1/client/pom.xml" />
         <option value="$PROJECT_DIR$/gateway1/gateway-client/pom.xml" />
         <option value="$PROJECT_DIR$/gateway1/gateway-server/pom.xml" />

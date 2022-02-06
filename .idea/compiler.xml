@@ -8,13 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-client" />
+        <module name="core" />
         <module name="springboot-server" />
         <module name="dubbo-interface" />
         <module name="dubbo-producer" />
         <module name="springboot-client" />
-        <module name="dubbo-web" />
         <module name="gateway-server" />
-        <module name="core" />
+        <module name="dubbo-web" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -31,6 +31,7 @@
         <module name="bean-mapping" />
         <module name="part-one" />
         <module name="util" />
+        <module name="call-back" />
         <module name="cache" />
         <module name="order-task" />
         <module name="custom-exception" />
@@ -41,6 +42,7 @@
         <module name="slf4j" />
         <module name="returnR" />
         <module name="autoCode-Redis" />
+        <module name="interface" />
         <module name="template" />
         <module name="server-one" />
       </profile>
@@ -50,6 +52,7 @@
       <module name="autoCode-Redis" target="1.8" />
       <module name="bean-mapping" target="1.8" />
       <module name="cache" target="1.8" />
+      <module name="call-back" target="1.8" />
       <module name="client" target="1.5" />
       <module name="core" target="1.8" />
       <module name="custom-exception" target="1.8" />
@@ -63,12 +66,14 @@
       <module name="gateway" target="1.8" />
       <module name="gateway-client" target="1.8" />
       <module name="gateway-server" target="1.8" />
+      <module name="interface" target="1.8" />
       <module name="Jpa" target="1.8" />
       <module name="JWT" target="1.8" />
       <module name="knowledge" target="1.8" />
       <module name="log" target="1.8" />
       <module name="log4j" target="1.8" />
       <module name="login-authorization" target="8" />
+      <module name="M-S" target="1.8" />
       <module name="monitor" target="1.8" />
       <module name="order-task" target="1.8" />
       <module name="part-one" target="1.8" />
@@ -109,6 +114,7 @@
       <module name="autoCode-Redis" options="-parameters" />
       <module name="bean-mapping" options="-parameters" />
       <module name="cache" options="-parameters" />
+      <module name="call-back" options="-parameters" />
       <module name="client" options="-parameters" />
       <module name="core" options="-parameters" />
       <module name="custom-exception" options="-parameters" />
@@ -116,6 +122,7 @@
       <module name="es_recommend" options="-parameters" />
       <module name="gateway-client" options="-parameters" />
       <module name="gateway-server" options="-parameters" />
+      <module name="interface" options="-parameters" />
       <module name="knowledge" options="-parameters" />
       <module name="log" options="" />
       <module name="log4j" options="-parameters" />
