@@ -8,11 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-client" />
-        <module name="core" />
         <module name="springboot-server" />
-        <module name="dubbo-interface" />
-        <module name="dubbo-producer" />
         <module name="springboot-client" />
+        <module name="dubbo-interface" />
+        <module name="core" />
+        <module name="dubbo-producer" />
         <module name="gateway-server" />
         <module name="dubbo-web" />
       </profile>
@@ -39,6 +39,8 @@
         <module name="trigger-log" />
         <module name="knowledge" />
         <module name="log4j" />
+        <module name="entity" />
+        <module name="test" />
         <module name="slf4j" />
         <module name="returnR" />
         <module name="autoCode-Redis" />
@@ -60,6 +62,7 @@
       <module name="dubbo-interface" target="1.5" />
       <module name="dubbo-producer" target="6" />
       <module name="dubbo-web" target="1.5" />
+      <module name="entity" target="1.8" />
       <module name="es" target="1.8" />
       <module name="es_recommend" target="8" />
       <module name="Gateway" target="1.8" />
@@ -118,6 +121,7 @@
       <module name="client" options="-parameters" />
       <module name="core" options="-parameters" />
       <module name="custom-exception" options="-parameters" />
+      <module name="entity" options="-parameters" />
       <module name="es" options="-parameters" />
       <module name="es_recommend" options="-parameters" />
       <module name="gateway-client" options="-parameters" />

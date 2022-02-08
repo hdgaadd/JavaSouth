@@ -7,7 +7,7 @@
     <artifactId>universe</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>universe</name>
-    <description>project_learning for you</description>
+    <description>project-learning for you</description>
 
     <modules>
         <module>autoCode-Redis</module>
@@ -28,6 +28,7 @@
         <module>cache</module>
         <module>async</module>
         <module>M-S</module>
+        <module>test</module>
     </modules>
 
     <parent>

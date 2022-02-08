@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/Dubbo/dubbo-interface/dubbo-interface.iml" filepath="$PROJECT_DIR$/Dubbo/dubbo-interface/dubbo-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dubbo/dubbo-producer/dubbo-producer.iml" filepath="$PROJECT_DIR$/Dubbo/dubbo-producer/dubbo-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dubbo/dubbo-web/dubbo-web.iml" filepath="$PROJECT_DIR$/Dubbo/dubbo-web/dubbo-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M-S/entity/entity.iml" filepath="$PROJECT_DIR$/M-S/entity/entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/gateway-client/gateway-client.iml" filepath="$PROJECT_DIR$/Gateway/gateway-client/gateway-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/Gateway/gateway-server/gateway-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/M-S/interface/interface.iml" filepath="$PROJECT_DIR$/M-S/interface/interface.iml" />
@@ -35,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/monitor/springboot-client/springboot-client.iml" filepath="$PROJECT_DIR$/monitor/springboot-client/springboot-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitor/springboot-server/springboot-server.iml" filepath="$PROJECT_DIR$/monitor/springboot-server/springboot-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/trigger-log/trigger-log.iml" filepath="$PROJECT_DIR$/trigger-log/trigger-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/universe.iml" filepath="$PROJECT_DIR$/universe.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
