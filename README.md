@@ -2,8 +2,10 @@
 
 ```lua
 universe
+├── async -- 异步执行
 ├── autoCode-Redis -- 验证码
 ├── bean-mapping -- bean映射
+├── cache -- 方法结果缓存
 ├── custom-exception -- 自定义异常
 ├── Dubbo
      ├── dubbo-interface -- 远程接口
@@ -16,10 +18,15 @@ universe
      ├── part-one -- 旧版本
      └── part-two
 ├── knowledge
-├── log4j
+├── log
+     ├── log4j
+     └── slf4j
+├── M-S -- 可扩展性、可维护性
+     ├── call-back -- 回调函数
+     └── interface -- 接口运用
 ├── monitor -- 监视器
      ├── springboot-client -- 被监视者
-     └── springboot-server -- Spring Boot Admin服务端
+     └── springboot-server -- SpringBoot Admin服务端
 ├── order-task -- 定时任务
 ├── Redisson -- 分布式锁
      ├── server-one -- 旧版本
@@ -29,12 +36,62 @@ universe
 ├── template -- 项目模板
 ├── trigger-log -- 日志触发
 ├── util -- 生成器
+├── xxl-job -- 分布式任务
+     └── core
 └── z-dp
 ```
 
 
 
+# async
 
+> asynchronous异步的[eɪˈsɪŋkrənəs]
+
+**process**
+
+- 使用@Async可以使用方法线程与程序主线程，**异步执行**
+
+  主线程不用**等**该方法执行完再执行方法下的逻辑
+
+# autoCode-Redis
+
+**HOW**
+
+- for循环联合Random生成验证码，保存在Redis里
+
+**bugs**
+
+- ```
+  java.lang.NullPointerException: null空指针异常
+  ```
+
+  sloved：private RedisService redisSerivice没有添加@Resource
+
+  定位应该是对象，却测试变量，变量不可能空指针异常
+
+
+
+
+
+# bean-mapping
+
+# cache
+
+**process**
+
+- @Cacheable可**缓存某方法**的执行结果，只要第二次访问方法所带的参数与第一次**一致**，则直接返回第一次执行的结果
+
+  可应用于性能提高
+
+
+
+# custom-exception
+
+**HOW**
+
+- 创建Assert类抛出异常，需要传递String参数给Assert
+- 自定义异常类继承RuntimeException，super()传递异常给RuntimeException
+- 或者传递IErrorCode对象给Assert
 
 # Dubbo
 
@@ -50,11 +107,13 @@ universe
 - 远程接口类和远程实现类的所在的包名**必须相同**
 
   ```yaml
-    scan:
-      base-packages: com.codeman.dubbo
+  scan:
+    base-packages: com.codeman.dubbo
   ```
 
   
+
+
 
 
 
@@ -74,7 +133,37 @@ universe
 
 
 
+# JWT
 
+
+
+# knowledge
+
+
+
+# log
+
+
+
+# M-S
+
+> scalability可扩展性[ˌskeɪləˈbɪləti]、maintainability可维护性[meɪnˌteɪnəˈbɪləti]
+
+## call-back
+
+- 通过回调函数，使用一个方法就可
+  - 调用n个类的相同方法，且顺便处理每一个属于不同实例的List资源
+- 不通过回调函数，需使用两个方法
+  - 1.大量重复书写相同方法名
+  - 2.创建另一个方法来单独处理每一个List资源
+
+
+
+## interface
+
+- 要执行**某一分类的所有方法**
+
+  可使用接口，统一执行该接口的**所有实例**即可
 
 # monitor
 
@@ -85,6 +174,28 @@ universe
 - localhoct -> localhost
 
 
+
+# order-task
+
+**HOW**
+
+- 创建定时任务，每隔一段时间执行如下步骤
+- 查询出订单超时时间
+- 根据订单超时时间，查询出所有超时订单
+- 根据超时订单，修改订单状态为关闭，而不是删除订单数据
+- 根据超时订单，修改订单对应商品的锁定库存
+
+
+
+
+
+# Redisson
+
+**process**
+
+- server-two没有休眠则输出、server-one休眠16s才输出
+
+  而server-one率先获得锁，故server-two要等16s，在server-one输出后才输出
 
 
 
@@ -144,22 +255,11 @@ public static <T> R<T> ok(T data) { // R的两个位置泛型，确保了返回�
   }
   ```
 
-
-
-# custom-exception
-
-**HOW**
-
-- 创建Assert类抛出异常，需要传递String参数给Assert
-- 自定义异常类继承RuntimeException，super()传递异常给RuntimeException
-- 或者传递IErrorCode对象给Assert
+# RocketMQ
 
 
 
-
-
-
-
+# template
 
 
 
@@ -173,21 +273,11 @@ public static <T> R<T> ok(T data) { // R的两个位置泛型，确保了返回�
 
 
 
-# autoCode-Redis
 
-**HOW**
 
-- for循环联合Random生成验证码，保存在Redis里
 
-**bugs**
 
-- ```
-  java.lang.NullPointerException: null空指针异常
-  ```
-
-  sloved：private RedisService redisSerivice没有添加@Resource
-
-  定位应该是对象，却测试变量，变量不可能空指针异常
+# util
 
 
 
@@ -195,27 +285,16 @@ public static <T> R<T> ok(T data) { // R的两个位置泛型，确保了返回�
 
 
 
+# xxl-job
 
+**process**
 
+- 在xxl-job任务调度中心界面，添加某任务，该任务的**标识符**与Controll层的@JobHandler("")**对应**
 
+  界面上的点击执行，则调用后台的代码运行
 
-# order-task
+**knowledge**
 
-**HOW**
-
-- 创建定时任务，每隔一段时间执行如下步骤
-- 查询出订单超时时间
-- 根据订单超时时间，查询出所有超时订单
-- 根据超时订单，修改订单状态为关闭，而不是删除订单数据
-- 根据超时订单，修改订单对应商品的锁定库存
-
-
-
-
-
-
-
-
-
+- 系统启动需要**搭建**xxl-job任务调度中心
 
 
