@@ -25,7 +25,9 @@
           <entry name="D:/server/maven/repository/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
           <entry name="D:/server/maven/repository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
         </processorPath>
+        <module name="arguments" />
         <module name="part-two" />
+        <module name="one" />
         <module name="async" />
         <module name="RocketMQ" />
         <module name="bean-mapping" />
@@ -40,9 +42,9 @@
         <module name="knowledge" />
         <module name="log4j" />
         <module name="entity" />
-        <module name="test" />
         <module name="slf4j" />
         <module name="returnR" />
+        <module name="test-two" />
         <module name="autoCode-Redis" />
         <module name="interface" />
         <module name="template" />
@@ -50,6 +52,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="arguments" target="1.8" />
       <module name="async" target="1.8" />
       <module name="autoCode-Redis" target="1.8" />
       <module name="bean-mapping" target="1.8" />
@@ -78,6 +81,7 @@
       <module name="login-authorization" target="8" />
       <module name="M-S" target="1.8" />
       <module name="monitor" target="1.8" />
+      <module name="one" target="1.8" />
       <module name="order-task" target="1.8" />
       <module name="part-one" target="1.8" />
       <module name="part-two" target="1.8" />
@@ -97,6 +101,7 @@
       <module name="template" target="1.8" />
       <module name="test" target="1.8" />
       <module name="test (1)" target="1.8" />
+      <module name="test-two" target="1.8" />
       <module name="test2" target="8" />
       <module name="trigger-log" target="1.8" />
       <module name="universe" target="1.8" />
@@ -113,6 +118,7 @@
       <module name="Redisson" options="" />
       <module name="RocketMQ" options="-parameters" />
       <module name="SpringSecurity" options="-parameters" />
+      <module name="arguments" options="-parameters" />
       <module name="async" options="-parameters" />
       <module name="autoCode-Redis" options="-parameters" />
       <module name="bean-mapping" options="-parameters" />
@@ -131,6 +137,7 @@
       <module name="log" options="" />
       <module name="log4j" options="-parameters" />
       <module name="login-authorization" options="-parameters" />
+      <module name="one" options="-parameters" />
       <module name="order-task" options="-parameters" />
       <module name="part-one" options="-parameters" />
       <module name="part-two" options="-parameters" />
@@ -145,8 +152,9 @@
       <module name="springboot-client" options="-parameters" />
       <module name="springboot-server" options="-parameters" />
       <module name="template" options="-parameters" />
-      <module name="test" options="-parameters" />
+      <module name="test" options="" />
       <module name="test (1)" options="-parameters" />
+      <module name="test-two" options="-parameters" />
       <module name="test2" options="-parameters" />
       <module name="trigger-log" options="-parameters" />
       <module name="util" options="-parameters" />

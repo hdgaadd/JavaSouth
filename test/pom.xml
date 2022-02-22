@@ -10,6 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>test</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>one</module>
+        <module>test-two</module>
+    </modules>
 
     <dependencies>
         <dependency>

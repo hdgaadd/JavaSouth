@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/M-S/M-S.iml" filepath="$PROJECT_DIR$/M-S/M-S.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redisson/Redisson.iml" filepath="$PROJECT_DIR$/Redisson/Redisson.iml" />
       <module fileurl="file://$PROJECT_DIR$/RocketMQ/RocketMQ.iml" filepath="$PROJECT_DIR$/RocketMQ/RocketMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M-S/arguments/arguments.iml" filepath="$PROJECT_DIR$/M-S/arguments/arguments.iml" />
       <module fileurl="file://$PROJECT_DIR$/async/async.iml" filepath="$PROJECT_DIR$/async/async.iml" />
       <module fileurl="file://$PROJECT_DIR$/autoCode-Redis/autoCode-Redis.iml" filepath="$PROJECT_DIR$/autoCode-Redis/autoCode-Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/bean-mapping/bean-mapping.iml" filepath="$PROJECT_DIR$/bean-mapping/bean-mapping.iml" />
@@ -26,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/log/log.iml" filepath="$PROJECT_DIR$/log/log.iml" />
       <module fileurl="file://$PROJECT_DIR$/log/log4j/log4j.iml" filepath="$PROJECT_DIR$/log/log4j/log4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitor/monitor.iml" filepath="$PROJECT_DIR$/monitor/monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/one/one.iml" filepath="$PROJECT_DIR$/test/one/one.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-task/order-task.iml" filepath="$PROJECT_DIR$/order-task/order-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/JWT/part-one/part-one.iml" filepath="$PROJECT_DIR$/JWT/part-one/part-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/JWT/part-two/part-two.iml" filepath="$PROJECT_DIR$/JWT/part-two/part-two.iml" />
@@ -37,6 +39,7 @@
       <module fileurl="file://$PROJECT_DIR$/monitor/springboot-server/springboot-server.iml" filepath="$PROJECT_DIR$/monitor/springboot-server/springboot-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test-two/test-two.iml" filepath="$PROJECT_DIR$/test/test-two/test-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/trigger-log/trigger-log.iml" filepath="$PROJECT_DIR$/trigger-log/trigger-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/universe.iml" filepath="$PROJECT_DIR$/universe.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />

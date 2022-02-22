@@ -1,8 +1,8 @@
 package callback.caseTwo;
 
-import com.codeman.component.A;
-import com.codeman.component.B;
-import com.codeman.component.Resource;
+import callback.caseTwo.component.A;
+import callback.caseTwo.component.B;
+import callback.caseTwo.component.Resource;
 
 import java.util.List;
 

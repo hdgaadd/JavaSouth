@@ -10,7 +10,7 @@ import java.util.List;
  * @author hdgaadd
  * Created on 2022/02/06
  */
-public class No {
+public class WithoutCallBack {
     public static void main(String[] args){
         Resource resource = new Resource();
 
