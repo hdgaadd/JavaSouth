@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/M-S/M-S.iml" filepath="$PROJECT_DIR$/M-S/M-S.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redisson/Redisson.iml" filepath="$PROJECT_DIR$/Redisson/Redisson.iml" />
       <module fileurl="file://$PROJECT_DIR$/RocketMQ/RocketMQ.iml" filepath="$PROJECT_DIR$/RocketMQ/RocketMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShardingSphere/ShardingSphere.iml" filepath="$PROJECT_DIR$/ShardingSphere/ShardingSphere.iml" />
       <module fileurl="file://$PROJECT_DIR$/M-S/arguments/arguments.iml" filepath="$PROJECT_DIR$/M-S/arguments/arguments.iml" />
       <module fileurl="file://$PROJECT_DIR$/async/async.iml" filepath="$PROJECT_DIR$/async/async.iml" />
       <module fileurl="file://$PROJECT_DIR$/autoCode-Redis/autoCode-Redis.iml" filepath="$PROJECT_DIR$/autoCode-Redis/autoCode-Redis.iml" />

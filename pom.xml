@@ -24,7 +24,6 @@
         <module>knowledge</module>
         <module>log</module>
         <module>monitor</module>
-        <module>gateway</module>
         <module>cache</module>
         <module>async</module>
         <module>M-S</module>

@@ -8,13 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-client" />
+        <module name="ShardingSphere" />
         <module name="springboot-server" />
-        <module name="springboot-client" />
         <module name="dubbo-interface" />
         <module name="core" />
         <module name="dubbo-producer" />
-        <module name="gateway-server" />
         <module name="dubbo-web" />
+        <module name="gateway-server" />
+        <module name="springboot-client" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -26,7 +27,6 @@
           <entry name="D:/server/maven/repository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
         </processorPath>
         <module name="arguments" />
-        <module name="part-two" />
         <module name="one" />
         <module name="async" />
         <module name="RocketMQ" />
@@ -39,13 +39,14 @@
         <module name="custom-exception" />
         <module name="server-two" />
         <module name="trigger-log" />
-        <module name="knowledge" />
+        <module name="part-two" />
         <module name="log4j" />
         <module name="entity" />
         <module name="slf4j" />
         <module name="returnR" />
         <module name="test-two" />
         <module name="autoCode-Redis" />
+        <module name="knowledge" />
         <module name="interface" />
         <module name="template" />
         <module name="server-one" />
@@ -92,6 +93,7 @@
       <module name="RocketMQ" target="1.8" />
       <module name="server-one" target="1.8" />
       <module name="server-two" target="1.8" />
+      <module name="ShardingSphere" target="1.8" />
       <module name="slf4j" target="1.8" />
       <module name="spring-boot-admin-client" target="1.8" />
       <module name="spring-boot-admin-server" target="1.8" />
@@ -117,6 +119,7 @@
       <module name="Jpa" options="-parameters" />
       <module name="Redisson" options="" />
       <module name="RocketMQ" options="-parameters" />
+      <module name="ShardingSphere" options="-parameters" />
       <module name="SpringSecurity" options="-parameters" />
       <module name="arguments" options="-parameters" />
       <module name="async" options="-parameters" />
