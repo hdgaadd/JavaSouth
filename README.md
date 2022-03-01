@@ -22,7 +22,9 @@ universe
      ├── log4j
      └── slf4j
 ├── M-S -- 可扩展性、可维护性
+     ├── arguments -- 方法参数个数
      ├── call-back -- 回调函数
+     ├── entity -- 实体类公有财产
      └── interface -- 接口运用
 ├── monitor -- 监视器
      ├── springboot-client -- 被监视者
@@ -33,6 +35,7 @@ universe
      └── server-two
 ├── returnR -- 统一结果集
 ├── RocketMQ
+├── ShardingSphere -- 读写分离，单库分表
 ├── template -- 项目模板
 ├── trigger-log -- 日志触发
 ├── util -- 生成器
