@@ -9,15 +9,16 @@ public class no_security {
         ExecutorService es = Executors.newFixedThreadPool(20);
         for (int i = 0; i < 20; i++) {
             int number = i;
-            es.execute(() -> System.out.println(number + ":" + intUtil.addTen(number)));
+            es.execute(() -> System.out.println(number + ":" + new intUtil().addTen(number)));
         }
     }
     static class intUtil {
-        public static int num = 0;
+        public static int num = 0; // 关键点在于num是共享变量，下一个线程修改该值，上一个线程的获取该值也会改变
 
-        public static int addTen(int number) {
+        public int addTen(int number) { // num起到保存number的作用
             num = number;
-            try { // 休息1秒
+
+            try { // 休息1秒，让下一个线程可以提前运行
                 TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException e) {
                 e.printStackTrace();

@@ -9,14 +9,18 @@ public class security {
         ExecutorService es = Executors.newFixedThreadPool(20);
         for (int i = 0; i < 20; i++) {
             int number = i;
-            es.execute(() -> System.out.println(number + ":" + intUtil.addTen(number)));
+            es.execute(() -> System.out.println(number + ":" + new intUtil().addTen(number)));
         }
     }
     static class intUtil {
-        public static ThreadLocal<Integer> threadLocal = new ThreadLocal<>(); // 使用threadLocal保存线程变量
+        public static int num = 0;
+
+        public static ThreadLocal<Integer> threadLocal = new ThreadLocal<>(); // 使用threadLocal保存线程保存的当前共享变量num
 
         public static int addTen(int number) {
-            threadLocal.set(number);
+            num = number;
+            threadLocal.set(num);
+
             try { // 休息1秒
                 TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException e) {
