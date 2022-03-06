@@ -10,6 +10,7 @@
         <module name="gateway-client" />
         <module name="ShardingSphere" />
         <module name="springboot-server" />
+        <module name="repeat-submit-intercept" />
         <module name="dubbo-interface" />
         <module name="core" />
         <module name="dubbo-producer" />
@@ -89,6 +90,7 @@
       <module name="practice_log" target="8" />
       <module name="Redisson" target="1.8" />
       <module name="relax" target="8" />
+      <module name="repeat-submit-intercept" target="1.5" />
       <module name="returnR" target="1.8" />
       <module name="RocketMQ" target="1.8" />
       <module name="server-one" target="1.8" />

@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/xxljob/pom.xml" />
         <option value="$PROJECT_DIR$/xxl-job/pom.xml" />
         <option value="$PROJECT_DIR$/ShardingSphere/pom.xml" />
+        <option value="$PROJECT_DIR$/repeat-submit-interpet/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
