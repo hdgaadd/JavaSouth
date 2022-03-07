@@ -8,15 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-client" />
-        <module name="ShardingSphere" />
         <module name="springboot-server" />
-        <module name="repeat-submit-intercept" />
+        <module name="springboot-client" />
+        <module name="ShardingSphere" />
         <module name="dubbo-interface" />
         <module name="core" />
         <module name="dubbo-producer" />
-        <module name="dubbo-web" />
         <module name="gateway-server" />
-        <module name="springboot-client" />
+        <module name="dubbo-web" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -43,6 +42,7 @@
         <module name="part-two" />
         <module name="log4j" />
         <module name="entity" />
+        <module name="repeat-submit-intercept" />
         <module name="slf4j" />
         <module name="returnR" />
         <module name="test-two" />
@@ -90,7 +90,8 @@
       <module name="practice_log" target="8" />
       <module name="Redisson" target="1.8" />
       <module name="relax" target="8" />
-      <module name="repeat-submit-intercept" target="1.5" />
+      <module name="repeat-submit-intercept" target="1.8" />
+      <module name="repeat-submit-intercept1" target="1.5" />
       <module name="returnR" target="1.8" />
       <module name="RocketMQ" target="1.8" />
       <module name="server-one" target="1.8" />
@@ -148,6 +149,7 @@
       <module name="part-two" options="-parameters" />
       <module name="practice_log" options="-parameters" />
       <module name="relax" options="-parameters" />
+      <module name="repeat-submit-intercept" options="-parameters" />
       <module name="returnR" options="-parameters" />
       <module name="server-one" options="-parameters" />
       <module name="server-two" options="-parameters" />
