@@ -8,14 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-client" />
-        <module name="springboot-server" />
-        <module name="springboot-client" />
         <module name="ShardingSphere" />
+        <module name="springboot-server" />
+        <module name="repeat-submit-intercept" />
         <module name="dubbo-interface" />
         <module name="core" />
         <module name="dubbo-producer" />
-        <module name="gateway-server" />
         <module name="dubbo-web" />
+        <module name="gateway-server" />
+        <module name="springboot-client" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -42,7 +43,6 @@
         <module name="part-two" />
         <module name="log4j" />
         <module name="entity" />
-        <module name="repeat-submit-intercept" />
         <module name="slf4j" />
         <module name="returnR" />
         <module name="test-two" />

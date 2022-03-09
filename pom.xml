@@ -28,7 +28,6 @@
         <module>async</module>
         <module>M-S</module>
         <module>test</module>
-        <module>repeat-submit-intercept</module>
     </modules>
 
     <parent>

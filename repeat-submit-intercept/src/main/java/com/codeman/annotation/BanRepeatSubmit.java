@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface BanRepeatSubmit {
     /**
-     * Redis锁的锁定时间
+     * Redis锁的存活时间
      * @return
      */
     int lockTime() default 6;

@@ -32,7 +32,8 @@ universe
 ├── order-task -- 定时任务
 ├── Redisson -- 分布式锁
      ├── server-one -- 旧版本
-     └── server-two
+     └── server-two 
+├── repeat-submit-intercept -- 防重复提交解决方案
 ├── returnR -- 统一结果集
 ├── RocketMQ
 ├── ShardingSphere -- 读写分离，单库分表
@@ -188,6 +189,27 @@ universe
 - 根据超时订单，修改订单状态为关闭，而不是删除订单数据
 - 根据超时订单，修改订单对应商品的锁定库存
 
+**bugs**
+
+1. ```
+   You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order LIMIT 0, 1000' at line 1
+   ```
+
+   - 表名不能为order，否则SQL语句失败
+
+2. `Invalid bound statement (not found)com.condemn.mapper.UserMapper.test` `[ɪnˈvælɪd]`无效的绑定语句(未找到)
+
+   - mapper层的xml没有书写属性ResultType
+
+     SQL返回List对象resultType应该书写什么
+
+   - 或许是.xml的namespace写错，.xml的id与mapper方法名不一致、启动类注解设置mapper路径错、application.yml设置mapper路径错
+
+   - **找书写了xml且能运行的mybatis-plusDemo**
+
+     **sloved**：上面的解决思路是正确方向，参考Demo后发现必须在pom.xml的`<build>`添加mybatis的一些关于xml的配置，且application.yml也必须指定mapper路径
+
+
 
 
 
@@ -202,15 +224,31 @@ universe
 
 
 
+
+
 # repeat-submit-intercept
 
 **process**
 
 - 每次提交，获取**Redis分布式锁**
-  - 若获取锁成功，则执行提交，**解除**该锁，该锁**失效**
-  - 若获取锁失败，则表示提交**正在进行中**，或**已经提交**过一次，则防止了重复提交
 
+  - 若获取锁成功，则执行提交
 
+    后**解除**该锁，可进行**下次提交**
+
+  - 若获取锁失败，则表示提交**正在进行中**，防止了重复提交
+
+    **本次**提交后，才可以进行**下一次**提交
+
+**knowledge**
+
+- 重复提交，指的是本次url方法**未执行完成**，对口该url方法提交重复的数据
+
+- getServletPath()获取的是**访问**的url路径
+
+- 若多个浏览器**窗口**执行**相同**url，浏览器会自动等待第一个窗口url请求后，再执行下一个窗口的相同url
+
+  故出现，多个窗口测试本module，不会出现重复提交报警
 
 # returnR
 
@@ -272,6 +310,30 @@ public static <T> R<T> ok(T data) { // R的两个位置泛型，确保了返回�
 
 
 
+
+
+
+
+
+
+# ShardingSphere
+
+**process**
+
+- 采用**单库分表** + 主从复制
+
+  单库分表进行**写**操作，其他库进行读操作
+
+  之所以单库写，是因为分库写的场景**不多见**
+
+- 主从复制交给**MySQL自己进行**
+
+  在MySQL创建多个不同端口的服务器
+
+**knowledge**
+
+- 配置**分片策略**，是把数据分配到多个表中
+
 # template
 
 
@@ -309,5 +371,10 @@ public static <T> R<T> ok(T data) { // R的两个位置泛型，确保了返回�
 **knowledge**
 
 - 系统启动需要**搭建**xxl-job任务调度中心
+
+
+
+
+
 
 
