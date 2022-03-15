@@ -8,15 +8,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-client" />
-        <module name="ShardingSphere" />
-        <module name="springboot-server" />
         <module name="repeat-submit-intercept" />
+        <module name="Knife4j" />
+        <module name="springboot-server" />
+        <module name="springboot-client" />
+        <module name="ShardingSphere" />
         <module name="dubbo-interface" />
         <module name="core" />
         <module name="dubbo-producer" />
-        <module name="dubbo-web" />
         <module name="gateway-server" />
-        <module name="springboot-client" />
+        <module name="dubbo-web" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -77,6 +78,7 @@
       <module name="interface" target="1.8" />
       <module name="Jpa" target="1.8" />
       <module name="JWT" target="1.8" />
+      <module name="Knife4j" target="1.8" />
       <module name="knowledge" target="1.8" />
       <module name="log" target="1.8" />
       <module name="log4j" target="1.8" />
@@ -120,6 +122,7 @@
       <module name="Gateway" options="-parameters" />
       <module name="JWT" options="" />
       <module name="Jpa" options="-parameters" />
+      <module name="Knife4j" options="-parameters" />
       <module name="Redisson" options="" />
       <module name="RocketMQ" options="-parameters" />
       <module name="ShardingSphere" options="-parameters" />

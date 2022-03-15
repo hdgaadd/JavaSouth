@@ -28,6 +28,7 @@
         <module>async</module>
         <module>M-S</module>
         <module>test</module>
+        <module>Knife4j</module>
     </modules>
 
     <parent>

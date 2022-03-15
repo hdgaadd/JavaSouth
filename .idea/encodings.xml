@@ -5,48 +5,77 @@
     <file url="file://$PROJECT_DIR$/Dubbo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Gateway/gateway-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway/gateway-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Gateway/gateway-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway/gateway-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JWT" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JWT/part-one" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JWT/part-one/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JWT/part-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JWT/part-two/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Knife4j/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/M-S" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/M-S/arguments" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/M-S/arguments/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/M-S/call-back" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/M-S/call-back/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/M-S/entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/M-S/entity/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/M-S/interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/M-S/interface/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Redisson" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Redisson/server-one" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Redisson/server-one/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Redisson/server-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Redisson/server-two/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RocketMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RocketMQ/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ShardingSphere" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShardingSphere/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/async" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/async/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/autoCode-Redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/autoCode-Redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bean-mapping" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bean-mapping/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cache/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/custom-exception" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/custom-exception/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/knowledge" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/knowledge/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/log" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/log/log4j" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log/log4j/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/log/slf4j" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log/slf4j/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitor/springboot-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor/springboot-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitor/springboot-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor/springboot-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-task" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-task/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/repeat-submit-intercept" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/repeat-submit-intercept/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/returnR" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/returnR/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/template" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/template/springboot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test/one" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/one/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test/test-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/test-two/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trigger-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trigger-log/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xxl-job" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xxl-job/core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-job/core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-job/src/main/resources" charset="UTF-8" />
   </component>
 </project>
