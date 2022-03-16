@@ -14,18 +14,6 @@
         <option value="$PROJECT_DIR$/repeat-submit-intercept/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/Jpa/pom.xml" />
-        <option value="$PROJECT_DIR$/M-S/one/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway1/client/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway1/gateway-client/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway1/gateway-server/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway1/pom.xml" />
-        <option value="$PROJECT_DIR$/gitignore/pom.xml" />
-        <option value="$PROJECT_DIR$/gitignore/test/pom.xml" />
-      </set>
-    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
