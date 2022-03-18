@@ -19,7 +19,7 @@ public class Knife4jController { // http://localhost:8080/doc.html
     @ApiOperation(value = "方法描述")
     @RequestMapping("/Knife4j-test")
     // 该value中的数据代表url传递的参数名称，如https://localhost/test/?name=name
-    // value为中文会报错java.lang.NullPointException
+    // value的值不与方面参数名一致，会报错java.lang.NullPointException
     public String test(@RequestParam(value = "name") String name) {
         return name + " say:" + "hello, Knife4j";
     }

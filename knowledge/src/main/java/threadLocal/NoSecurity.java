@@ -1,10 +1,10 @@
-package threadlocal;
+package threadLocal;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class Security {
+public class NoSecurity {
     public static void main(String[] args) {
         ExecutorService es = Executors.newFixedThreadPool(20);
         for (int i = 0; i < 20; i++) {
@@ -13,20 +13,17 @@ public class Security {
         }
     }
     static class intUtil {
-        public static int num = 0;
+        public static int num = 0; // 关键点在于num是共享变量，下一个线程修改该值，上一个线程的获取该值也会改变
 
-        public static ThreadLocal<Integer> threadLocal = new ThreadLocal<>(); // 使用threadLocal保存线程保存的当前共享变量num
-
-        public static int addTen(int number) {
+        public int addTen(int number) { // num起到保存number的作用
             num = number;
-            threadLocal.set(num);
 
-            try { // 休息1秒
+            try { // 休息1秒，让下一个线程可以提前运行
                 TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            return threadLocal.get() + 10;
+            return num + 10;
         }
     }
 }
