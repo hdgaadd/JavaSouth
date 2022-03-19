@@ -11,13 +11,13 @@
         <module name="repeat-submit-intercept" />
         <module name="Knife4j" />
         <module name="springboot-server" />
-        <module name="springboot-client" />
         <module name="ShardingSphere" />
         <module name="dubbo-interface" />
         <module name="core" />
         <module name="dubbo-producer" />
-        <module name="gateway-server" />
         <module name="dubbo-web" />
+        <module name="gateway-server" />
+        <module name="springboot-client" />
       </profile>
       <profile name="Annotation profile for universe" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -44,6 +44,7 @@
         <module name="part-two" />
         <module name="log4j" />
         <module name="entity" />
+        <module name="RabbitMQ" />
         <module name="slf4j" />
         <module name="returnR" />
         <module name="test-two" />
@@ -90,6 +91,7 @@
       <module name="part-one" target="1.8" />
       <module name="part-two" target="1.8" />
       <module name="practice_log" target="8" />
+      <module name="RabbitMQ" target="1.8" />
       <module name="Redisson" target="1.8" />
       <module name="relax" target="8" />
       <module name="repeat-submit-intercept" target="1.8" />
@@ -123,6 +125,7 @@
       <module name="JWT" options="" />
       <module name="Jpa" options="-parameters" />
       <module name="Knife4j" options="-parameters" />
+      <module name="RabbitMQ" options="-parameters" />
       <module name="Redisson" options="" />
       <module name="RocketMQ" options="-parameters" />
       <module name="ShardingSphere" options="-parameters" />

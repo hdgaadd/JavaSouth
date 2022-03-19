@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/JWT/JWT.iml" filepath="$PROJECT_DIR$/JWT/JWT.iml" />
       <module fileurl="file://$PROJECT_DIR$/Knife4j/Knife4j.iml" filepath="$PROJECT_DIR$/Knife4j/Knife4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/M-S/M-S.iml" filepath="$PROJECT_DIR$/M-S/M-S.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMQ/RabbitMQ.iml" filepath="$PROJECT_DIR$/RabbitMQ/RabbitMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redisson/Redisson.iml" filepath="$PROJECT_DIR$/Redisson/Redisson.iml" />
       <module fileurl="file://$PROJECT_DIR$/RocketMQ/RocketMQ.iml" filepath="$PROJECT_DIR$/RocketMQ/RocketMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShardingSphere/ShardingSphere.iml" filepath="$PROJECT_DIR$/ShardingSphere/ShardingSphere.iml" />
