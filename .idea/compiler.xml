@@ -44,7 +44,6 @@
         <module name="part-two" />
         <module name="log4j" />
         <module name="entity" />
-        <module name="RabbitMQ" />
         <module name="slf4j" />
         <module name="returnR" />
         <module name="test-two" />
@@ -53,6 +52,7 @@
         <module name="interface" />
         <module name="template" />
         <module name="server-one" />
+        <module name="year-month" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -91,7 +91,7 @@
       <module name="part-one" target="1.8" />
       <module name="part-two" target="1.8" />
       <module name="practice_log" target="8" />
-      <module name="RabbitMQ" target="1.8" />
+      <module name="RabbitMQ" target="1.5" />
       <module name="Redisson" target="1.8" />
       <module name="relax" target="8" />
       <module name="repeat-submit-intercept" target="1.8" />
@@ -117,6 +117,7 @@
       <module name="util" target="1.8" />
       <module name="util2" target="8" />
       <module name="xxl-job" target="1.8" />
+      <module name="year-month" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -173,6 +174,7 @@
       <module name="util" options="-parameters" />
       <module name="util2" options="-parameters" />
       <module name="xxl-job" options="-parameters" />
+      <module name="year-month" options="-parameters" />
     </option>
   </component>
 </project>

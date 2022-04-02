@@ -2,16 +2,17 @@ package stream.component;
 
 /**
  * @author hdgaadd
- * Created on 2022/03/22
+ * Created on 2022/04/02
+ * @description 分身
  */
-public class User {
+public class Doppelganger {
     Integer id;
 
-    public User(Integer id) {
+    public Doppelganger(Integer id) {
         this.id = id;
     }
 
-    public User() {
+    public Doppelganger() {
 
     }
 

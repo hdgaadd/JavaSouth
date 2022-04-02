@@ -48,6 +48,7 @@
       <module fileurl="file://$PROJECT_DIR$/universe.iml" filepath="$PROJECT_DIR$/universe.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-job/xxl-job.iml" filepath="$PROJECT_DIR$/xxl-job/xxl-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/year-month/year-month.iml" filepath="$PROJECT_DIR$/year-month/year-month.iml" />
     </modules>
   </component>
 </project>

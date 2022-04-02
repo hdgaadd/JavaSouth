@@ -29,7 +29,7 @@
         <module>M-S</module>
         <module>test</module>
         <module>Knife4j</module>
-        <module>RabbitMQ</module>
+        <module>year-month</module>
     </modules>
 
     <parent>

@@ -1,5 +1,6 @@
 package stream;
 
+import stream.component.Doppelganger;
 import stream.component.User;
 
 import java.util.ArrayList;
@@ -13,10 +14,18 @@ import java.util.stream.Collectors;
  */
 public class ToList {
     public static void main(String[] args) {
-        List<User> users = new ArrayList<User>(){{ add(new User(1)); add(new User(2)); }};
+        List<User> userList = new ArrayList<User>(){{ add(new User(1)); add(new User(2)); }};
 
-        List<Integer> list = users.stream().map(User :: getId).collect(Collectors.toList());
+        // 基本数据类型
+        List<Integer> users = userList.stream().map(User :: getId).collect(Collectors.toList());
+        System.out.println(users);
 
-        System.out.println(list);
+        // 业务对象
+        List<Doppelganger> doppelgangers = userList.stream().map(user -> {
+            Doppelganger doppelganger = new Doppelganger();
+            doppelganger.setId(user.getId());
+            return doppelganger;
+        }).collect(Collectors.toList());
+        System.out.println(doppelgangers);
     }
 }

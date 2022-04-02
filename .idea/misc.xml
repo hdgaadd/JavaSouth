@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/ShardingSphere/pom.xml" />
         <option value="$PROJECT_DIR$/repeat-submit-interpet/pom.xml" />
         <option value="$PROJECT_DIR$/repeat-submit-intercept/pom.xml" />
+        <option value="$PROJECT_DIR$/RabbitMQ/pom.xml" />
       </list>
     </option>
   </component>
