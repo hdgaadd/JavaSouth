@@ -143,6 +143,20 @@ universe
 
 # knowledge
 
+## automicReference
+
+- Automic家族保证多线程环境下数据的原子性，相比synchronized更加轻量级，该类操作的是引用类型
+
+## optional
+
+- JDK8为了解决**NPE**问题，参考Google类库中的Optional类设计所创建的工具类
+
+## stringJoiner
+
+- 创造一个字符序列，可添加前缀、后缀、分隔符
+
+
+
 
 
 # log
@@ -209,6 +223,40 @@ universe
 
      **sloved**：上面的解决思路是正确方向，参考Demo后发现必须在pom.xml的`<build>`添加mybatis的一些关于xml的配置，且application.yml也必须指定mapper路径
 
+   ------
+
+   代码生成器bugs，🙄🤬
+
+3. `java.lang.IllegalStateException: Failed to load ApplicationContext`
+
+   - codeman修改为其他name就可以，那为啥其他不修改也可以
+     - 可能是之前误触了修改全部模块的name为其他name，**补充**：误触了修改name后触发了代码生成器的bugs，com.codeman为一个文件夹
+   - application.yml的`mapper-locations: classpath*:com/code/**/xml/*Mapper.xml`的改为codeman就可以，sb
+     - 可能是之前误触了修改全部模块的name为其他name
+
+4. 把codeman改为code是全局改变的
+
+   - **sloved**：没有看IDEA提升，有可以修改全局的，也有可以只修改本模块的 
+
+5. java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @Spri
+
+   - **sloved**：测试类和启动类的包路径不一致
+
+     - bugs3、4、5的出现都是由于未知道pom.xml的`<build>`添加mybatis的一些关于xml的配置，把所有模块的name从codeman改为了condemn            
+
+       **该解释错误，bugs3、4、5的出现是由于触发代码生成器的bugs**
+
+6. 创建了一个新的test模块，又出现`Invalid bound statement (not found): com.codeman.mapper.UserMapper.test`
+
+   - 可能是复制代码生成器代码后复制沾沾的原因，且autocode_redis、relax不是使用代码生成器代码配置了mybatis的mapper路径后都不会报该类错误，只有使用代码生成器的模块会报错，更证明了是代码生成器的问题
+
+     **sloved：**文件夹com.codeman连为一个文件夹，而不是两个文件夹
+
+     - 在`推荐商品`中测试类还是报错`java.lang.IllegalStateException: Failed to load ApplicationContext`😆，
+
+       **sloved**：但仔细看报错下面的提示`Caused by: java.lang.IllegalArgumentException: Could not find class [org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchProperties]`，故其实并不是代码生成器错误，而是ElasticsearchProperties获取不到而导致测试类异常
+
+       删除有关Elasticsearch的，即不会报错
 
 
 
@@ -224,9 +272,9 @@ universe
 
 
 
-
-
 # repeat-submit-intercept
+
+> 重复提交，指的是本次url方法**未执行完成**，对口该url方法提交重复的数据
 
 **process**
 
@@ -236,19 +284,17 @@ universe
 
     后**解除**该锁，可进行**下次提交**
 
-  - 若获取锁失败，则表示提交**正在进行中**，防止了重复提交
+  - 若获取锁失败，则表示本次提交**正在进行中**，防止了重复提交
 
     **本次**提交后，才可以进行**下一次**提交
 
 **knowledge**
 
-- 重复提交，指的是本次url方法**未执行完成**，对口该url方法提交重复的数据
-
 - getServletPath()获取的是**访问**的url路径
 
 - 若多个浏览器**窗口**执行**相同**url，浏览器会自动等待第一个窗口url请求后，再执行下一个窗口的相同url
 
-  故出现，多个窗口测试本module，不会出现重复提交报警
+  故出现，多个窗口测试本module，**不会出现**重复提交报警
 
 # returnR
 
@@ -373,6 +419,256 @@ public static <T> R<T> ok(T data) { // R的两个位置泛型，确保了返回�
 - 系统启动需要**搭建**xxl-job任务调度中心
 
 
+
+
+
+# 私信
+
+**HOW**
+
+- **数据库查询更新**
+
+  把消息发送给他人后，该消息的status字段默认为未读，而我们每次去查看消息列表会获取所有接受者为自己，未读的消
+
+- **netty**
+
+# 登录
+
+**HOW**
+
+1. 使用Spring Security对所有**url页面**进行拦截，使用Spring Security默认的**cookie-session**验证授权
+
+   我们**需要**在前端创建**前端拦截器**设置登录后每一次的url请求都携带**cookie**
+
+   **problems**
+
+   - cookie和session怎么操作验证，还是不用自己操作
+
+     Spring Security自动帮我们管理cookie-session
+
+     - 因为实例化Spring Security后使用后端的url就默认要输入账号密码
+
+     - 在chrome登录后关闭浏览器，**第二次登录还是不用登录**，说明cookie保存在了brower了
+
+       继续实验，在Edge登录，得输入账号密码
+
+2. 使用Spring Security对所有**url方法**进行拦截，使用JWT的**token**验证授权
+
+   我们**需要**在前端创建**前端拦截器**设置登录后每一次的url请求都携带**token**，在后端创建**Spring Security过滤器**，获取请求头**的token并验证，成功则**调用**Spring Security的success()
+
+   
+
+
+
+**knowledge**
+
+- **谁需要token**
+
+  - 前台的页面不用token都可以访问，token只是为了获取用户信息填充到**页面上沿**，或订单支付携带token给后端获取用户信息
+
+  - 后台所有页面的访问都会**触发**后端方法，而后端的所有方法都需要**获取token**，没有token则**返回401**，前端接收到401返回码则**跳转**到login页面
+
+- **token操作**
+
+  - 在requrest.js添加以下代码，使前台在每次**页面**请求或后端**url请求**，都**添加token**
+
+    ```
+    // 创建拦截器  http request 拦截器
+    service.interceptors.request.use(
+      config => {
+      // debugger
+      // 判断cookie里面是否有名称是guli_token数据
+      if (cookie.get('guli_token')) {
+        //把获取cookie值放到header里面
+        config.headers['token'] = cookie.get('guli_token');
+      }
+        return config
+      },
+      err => {
+      return Promise.reject(err);
+    })
+    ```
+
+  - **获取**请求中的**token**
+
+    - guli
+
+      **后端**接收的参数多了HttpServletRequest 
+
+      ```
+      public ResultEntity generateOrder(@PathVariable String courseId, HttpServletRequest request)
+      ```
+
+    - 其他
+
+      在public class SecurityConfig extends WebSecurityConfigurerAdapter类，设置自定义**Spring Security过滤器**，拦截所有的url获取token
+
+  - 后台**拦截**所有页面的代码
+
+    - guli的是由**vue-admin**提供的🙄
+
+      vue-admin里**自动生成**vue_admin_template_to的token
+
+    - 访问前端的所有页面都会**触发**后端方法，而后端的所有方法**都需要获取token**，没有token则**返回401**，前端接收到401返回码则**跳转**到login页面，即实现了**拦截**所有页面
+
+- **UserDeatils有什么用**
+
+  - 保存用户基本信息与权限信息
+
+- **Spring Security的作用**
+
+  - cookie-session：拦截url、自动发送cookie与验证cookie
+  - JWT：拦截url
+
+- **UserDetails里的List<权限>有什么用**
+
+  把权限封装在token里面
+
+  - 那`@PreAuthorize("hasAuthority('pms:brand:read')")`是否和UserDetails里的List<权限>相关
+
+    - 这个判断权限应该也是得自己实现：获取方法的注解属性，判断token里的权限是满足注解属性
+
+      而UserDetails里的List<权限>作用是封装在token里面
+
+
+
+**步骤**
+
+- 创建拦截url的**拦截器类**，如果token成功就调用Spring Security的**成功方法**
+
+- 修改Swagger的配置类，设置添加添加token按钮后，每次url访问都**携带token**
+
+- 创建Spring Security配置类 ,设置**取消**cookie-session来**验证**，设置根据用户name返回UserDetails类
+
+  - name是怎么传给Spring Security的
+
+    loadUserByUsername(name)是调用Spring Security的方法，故是Spring Security帮我们**返回UserDetails**
+
+    那我们创建Spring Security配置类**实现**Spring Security的**该方法**即可
+
+    ```
+    UserDetails userDetails = userDetailsService.loadUserByUsername(username);
+    
+    
+    if (!passwordEncoder.matches(password, userDetails.getPassword())) {
+    	throw new BadCredentialsException("密码不正确");
+    }
+    UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
+    SecurityContextHolder.getContext().setAuthentication(authentication);
+    
+    ```
+
+
+
+
+
+**注册步骤**
+
+- 查询是否用户名已存在
+- 对用户的密码进行加密后，保存用户
+
+**登录步骤**
+
+- 用户登录传输账号秘密
+- 根据用户传输的账号，查询出把用户实体类、角色集合类封装到Spring Security的UserDetails类
+- 如果密码与UserDetail类的密码不一致，则返回error
+- 登录成功后
+  - 添加登录记录
+  - 把token和token头部，使用HashMap存储后返回
+
+
+
+**problems**
+
+- resultMap写欠domain
+
+  ```
+  resultType="com.codeman.Admin"
+  ```
+
+- `A component required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.`
+
+  - 应该是Spring Security的某些配置类没有添加上
+
+    没添加一个创建PasswordEncoder的配置类 
+
+- `Data truncation: Data too long for column 'password' at row 1`’
+
+  password字段如今设置为500
+
+- 怎么把Spring Security的验证方法设置为我们的方法
+
+  创建拦截url的拦截器类，如果token成功就调用**Spring Security的成功方法**
+
+- 怎么在请求头添加token、怎么创建验证token的类
+
+  修改Swagger的配置类，设置添加添加token按钮后，每次url访问都携带token
+
+
+
+
+
+
+
+# 推荐商品
+
+**HOW**
+
+- 服务器启动在MySQL查询出所有商品，保存在Elasticsearch
+- 用户根据该关键字在Elasticsearch进行搜索，同时把所有数据根据是否促销、销量、库存等先后进行排序，根据这三个排序可以把这三个属性都没优势的商品排在最后
+- 排序好的与该关键词相关的所有数据，即可带给用户更满意的搜索结果
+
+
+
+**knowledge**
+
+- SKUStock Keeping Unit库存单位，SPUStandardKeeping Unit产品标准单位
+
+
+
+**problems**
+
+- 把所有数据从数据库搜索出来后保存在Elasticsearch，还是每次触发url后才从数据库搜索后保存在Elasticsearch
+
+  - 如果按前者，那还不如让Elasticsearch当数据库
+
+    仅仅只是商品表保存在Elasticsearch
+
+  - 每次更新数据，Elasticsearch是不能获取到的，故Elasticsearch应该保存不变的商品
+
+    - 应该是不变，且查询量大的数据保存在Elasticsearch
+
+    - 全部从从数据库查询后保存在Elasticsearch，再在Elasticsearch进行排序搜索，Elasticsearch在大量数据的关键字搜索与排序应该是比数据库更加有优势
+
+      更新数据库同时要更新elasticsearch，更新操作远远小于查询，故同时要更新Elasticsearch造成的开销可以忽略
+
+
+
+**bugs**
+
+- 以为是EsProduct的type = "product"没写，没仔细看报错提示的”S"对应的东西`<S extends T> S save(S entity);`
+
+  传递的是List集合，但S只是一个普通对象
+
+  Inferred type 'S' for type parameter 'S' is not within its bound; should extend 'com.codeman.domain.EsProduct'
+
+- `Error creating bean with name 'esProductController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productRepository': Invocation of init method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.elasticsearch.repository.support.NumberKeyedRepository]: Constructor threw exception; nested exception is org.springframework.data.elasticsearch.ElasticsearchException: Failed to build mapping for product:product`
+
+  `nested Exception is` 嵌套异常是，故异常类为is后
+
+- 把测试类改为com.codem，但报错Could not load class with name: com.codeman.RelaxApplicationTests
+
+  - 是否修改了文件夹，而没有项目内核没修改
+
+    - 怎么修改项目内核
+
+      - 没有所谓的项目文件夹内核，只有directory，rename是持久性的
+
+- Caused by: java.lang.IllegalArgumentException: Could not find class [org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchProperties]
+
+  - 报错原因为pom文件引入的elasticsearch无法实例ElasticsearchProperties，应该是本module的elasticsearch包与springboot其他包冲突
+    - 把模块复制后脱离project_learning模块，还是报错
+      - 打算参考另一个helper的Demo
 
 
 

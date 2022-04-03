@@ -13,7 +13,42 @@
         <option value="$PROJECT_DIR$/repeat-submit-interpet/pom.xml" />
         <option value="$PROJECT_DIR$/repeat-submit-intercept/pom.xml" />
         <option value="$PROJECT_DIR$/RabbitMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/autoCode-Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/async/pom.xml" />
+        <option value="$PROJECT_DIR$/bean-mapping/pom.xml" />
+        <option value="$PROJECT_DIR$/M-S/pom.xml" />
+        <option value="$PROJECT_DIR$/knowledge/pom.xml" />
+        <option value="$PROJECT_DIR$/year-month/pom.xml" />
+        <option value="$PROJECT_DIR$/fuctions/autoCode-Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/fuctions/cache/pom.xml" />
+        <option value="$PROJECT_DIR$/fuctions/custom-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/fuctions/JWT/pom.xml" />
+        <option value="$PROJECT_DIR$/fuctions/log/pom.xml" />
+        <option value="$PROJECT_DIR$/fuctions/order-task/pom.xml" />
+        <option value="$PROJECT_DIR$/fuctions/repeat-submit-intercept/pom.xml" />
+        <option value="$PROJECT_DIR$/fuctions/returnR/pom.xml" />
+        <option value="$PROJECT_DIR$/fuctions/trigger-log/pom.xml" />
+        <option value="$PROJECT_DIR$/middleware/Dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/middleware/Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/middleware/Knife4j/pom.xml" />
+        <option value="$PROJECT_DIR$/middleware/monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/middleware/RabbitMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/middleware/Redisson/pom.xml" />
+        <option value="$PROJECT_DIR$/middleware/RocketMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/middleware/ShardingSphere/pom.xml" />
+        <option value="$PROJECT_DIR$/middleware/xxl-job/pom.xml" />
+        <option value="$PROJECT_DIR$/others/bean-mapping/pom.xml" />
+        <option value="$PROJECT_DIR$/others/M-S/pom.xml" />
+        <option value="$PROJECT_DIR$/others/template/pom.xml" />
+        <option value="$PROJECT_DIR$/others/util/pom.xml" />
+        <option value="$PROJECT_DIR$/others/year-month/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/untitled/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

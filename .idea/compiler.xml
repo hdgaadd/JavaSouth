@@ -7,19 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gateway-client" />
-        <module name="repeat-submit-intercept" />
-        <module name="Knife4j" />
+        <module name="gateway-server" />
         <module name="springboot-server" />
+        <module name="springboot-client" />
+        <module name="dubbo-web" />
         <module name="ShardingSphere" />
         <module name="dubbo-interface" />
-        <module name="core" />
         <module name="dubbo-producer" />
-        <module name="dubbo-web" />
-        <module name="gateway-server" />
-        <module name="springboot-client" />
+        <module name="repeat-submit-intercept" />
+        <module name="knowledge" />
+        <module name="gateway-client" />
+        <module name="core" />
+        <module name="Knife4j" />
+        <module name="template" />
+        <module name="year-month" />
       </profile>
-      <profile name="Annotation profile for universe" enabled="true">
+      <profile name="Annotation profile for bean-mapping" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -28,31 +31,29 @@
           <entry name="D:/server/maven/repository/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
           <entry name="D:/server/maven/repository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
         </processorPath>
-        <module name="arguments" />
-        <module name="one" />
-        <module name="async" />
-        <module name="RocketMQ" />
-        <module name="bean-mapping" />
-        <module name="part-one" />
-        <module name="util" />
-        <module name="call-back" />
-        <module name="cache" />
-        <module name="order-task" />
-        <module name="custom-exception" />
-        <module name="server-two" />
-        <module name="trigger-log" />
-        <module name="part-two" />
-        <module name="log4j" />
-        <module name="entity" />
         <module name="slf4j" />
-        <module name="returnR" />
-        <module name="test-two" />
-        <module name="autoCode-Redis" />
-        <module name="knowledge" />
+        <module name="order-task" />
+        <module name="entity" />
+        <module name="custom-exception" />
         <module name="interface" />
-        <module name="template" />
+        <module name="M-S" />
+        <module name="call-back" />
+        <module name="Redisson" />
+        <module name="autoCode-Redis" />
+        <module name="server-two" />
         <module name="server-one" />
-        <module name="year-month" />
+        <module name="bean-mapping" />
+        <module name="part-two" />
+        <module name="log" />
+        <module name="RocketMQ" />
+        <module name="cache" />
+        <module name="util" />
+        <module name="async" />
+        <module name="arguments" />
+        <module name="log4j" />
+        <module name="returnR" />
+        <module name="trigger-log" />
+        <module name="part-one" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -107,17 +108,19 @@
       <module name="springboot-client" target="1.8" />
       <module name="springboot-server" target="1.8" />
       <module name="SpringSecurity" target="1.8" />
-      <module name="template" target="1.8" />
+      <module name="template" target="8" />
       <module name="test" target="1.8" />
       <module name="test (1)" target="1.8" />
       <module name="test-two" target="1.8" />
       <module name="test2" target="8" />
       <module name="trigger-log" target="1.8" />
       <module name="universe" target="1.8" />
+      <module name="untitled" target="1.8" />
+      <module name="untitled1" target="1.5" />
       <module name="util" target="1.8" />
       <module name="util2" target="8" />
       <module name="xxl-job" target="1.8" />
-      <module name="year-month" target="1.8" />
+      <module name="year-month" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -126,8 +129,9 @@
       <module name="JWT" options="" />
       <module name="Jpa" options="-parameters" />
       <module name="Knife4j" options="-parameters" />
+      <module name="M-S" options="-parameters" />
       <module name="RabbitMQ" options="-parameters" />
-      <module name="Redisson" options="" />
+      <module name="Redisson" options="-parameters" />
       <module name="RocketMQ" options="-parameters" />
       <module name="ShardingSphere" options="-parameters" />
       <module name="SpringSecurity" options="-parameters" />
@@ -146,8 +150,8 @@
       <module name="gateway-client" options="-parameters" />
       <module name="gateway-server" options="-parameters" />
       <module name="interface" options="-parameters" />
-      <module name="knowledge" options="-parameters" />
-      <module name="log" options="" />
+      <module name="knowledge" options="" />
+      <module name="log" options="-parameters" />
       <module name="log4j" options="-parameters" />
       <module name="login-authorization" options="-parameters" />
       <module name="one" options="-parameters" />
@@ -165,16 +169,17 @@
       <module name="spring-boot-admin-server" options="-parameters" />
       <module name="springboot-client" options="-parameters" />
       <module name="springboot-server" options="-parameters" />
-      <module name="template" options="-parameters" />
+      <module name="template" options="" />
       <module name="test" options="" />
       <module name="test (1)" options="-parameters" />
       <module name="test-two" options="-parameters" />
       <module name="test2" options="-parameters" />
       <module name="trigger-log" options="-parameters" />
+      <module name="untitled" options="-parameters" />
       <module name="util" options="-parameters" />
       <module name="util2" options="-parameters" />
       <module name="xxl-job" options="-parameters" />
-      <module name="year-month" options="-parameters" />
+      <module name="year-month" options="" />
     </option>
   </component>
 </project>
