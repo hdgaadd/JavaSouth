@@ -143,15 +143,15 @@ universe
 
 # knowledge
 
-## automicReference
+## com.codeman.automicReference
 
 - Automic家族保证多线程环境下数据的原子性，相比synchronized更加轻量级，该类操作的是引用类型
 
-## optional
+## com.codeman.optional
 
 - JDK8为了解决**NPE**问题，参考Google类库中的Optional类设计所创建的工具类
 
-## stringJoiner
+## com.codeman.stringJoiner
 
 - 创造一个字符序列，可添加前缀、后缀、分隔符
 

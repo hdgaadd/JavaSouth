@@ -4,20 +4,7 @@
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/../../monitor/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../monitor/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../monitor/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
-      <excludeFolder url="file://$MODULE_DIR$/../../monitor/target" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../monitor/src/main/java">
-      <sourceFolder url="file://$MODULE_DIR$/../../monitor/src/main/java" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../monitor/src/main/resources">
-      <sourceFolder url="file://$MODULE_DIR$/../../monitor/src/main/resources" type="java-resource" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../monitor/src/test/java">
-      <sourceFolder url="file://$MODULE_DIR$/../../monitor/src/test/java" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

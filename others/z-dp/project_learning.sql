@@ -96,7 +96,7 @@ CREATE TABLE `login_log` (
   `id` bigint(20) NOT NULL,
   `admin_id` bigint(20) DEFAULT NULL,
   `create_time` datetime DEFAULT NULL,
-  `ip` varchar(200) DEFAULT NULL,
+  `com.codeman.ip` varchar(200) DEFAULT NULL,
   `brower_type` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `FK_Reference_2` (`admin_id`),

@@ -12,7 +12,7 @@ public class XxlJobConfiguration {
     private String adminAddresses;
     @Value("${xxl.job.executor.appname}")
     private String appName;
-    @Value("${xxl.job.executor.ip}")
+    @Value("${xxl.job.executor.com.codeman.ip}")
     private String ip;
     @Value("${xxl.job.executor.port}")
     private int port;

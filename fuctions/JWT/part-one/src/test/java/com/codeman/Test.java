@@ -36,7 +36,7 @@ public class Test {
 
     public static String createToken(Long user_id) throws Exception {
         Date iatDate = new Date();
-        // expire time
+        // expire com.codeman.time
         Calendar nowTime = Calendar.getInstance();
         nowTime.add(calendarField, calendarInterval);
         Date expiresDate = nowTime.getTime();
@@ -51,8 +51,8 @@ public class Test {
         String token = JWT.create().withHeader(map) // header
                 .withClaim("iss", "Service") // payload
                 .withClaim("aud", "APP").withClaim("user_id", null == user_id ? null : user_id.toString())
-                .withIssuedAt(iatDate) // sign time
-                .withExpiresAt(expiresDate) // expire time
+                .withIssuedAt(iatDate) // sign com.codeman.time
+                .withExpiresAt(expiresDate) // expire com.codeman.time
                 .sign(Algorithm.HMAC256(SECRET)); // signature
 
         return token;
