@@ -13,10 +13,20 @@ import java.util.stream.Collectors;
 public class Filter {
     public static void main(String[] args) {
         ArrayList<Integer> need = new ArrayList<>(Arrays.asList(1));
-        List<Integer> ret = new ArrayList<>(Arrays.asList(1, 2, 3));
+        List<Integer> one = new ArrayList<>(Arrays.asList(1, 2, 3));
+        List<Integer> two = new ArrayList<>(Arrays.asList(1, 2, 3));
 
-        ret = ret.stream().filter(item -> need.contains(item)).collect(Collectors.toList());
+        // way-one
+        one = one.stream().filter(item -> need.contains(item)).collect(Collectors.toList());
+        // way-two
+        two = two.stream().filter(item -> {
+            if (need.contains(item)) {
+                return true;
+            }
+            return false;
+        }).collect(Collectors.toList());
 
-        System.out.println(ret);
+        System.out.println(one);
+        System.out.println(two);
     }
 }
