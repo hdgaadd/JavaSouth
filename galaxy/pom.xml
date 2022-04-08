@@ -86,6 +86,12 @@
             <version>2.3</version>
         </dependency>
         <!-- mybatis-plus代码生成器 -->
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.16</version>
+        </dependency>
     </dependencies>
 
     <build>

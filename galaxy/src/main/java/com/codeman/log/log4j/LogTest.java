@@ -1,10 +1,12 @@
+package com.codeman.log.log4j;
+
 import org.apache.log4j.Logger;
 
 /**
  * @author hdgaadd
  * Created on 2022/01/22
  */
-public class LogTest {
+public class LogTest { // 需要配置log4j.properties
     private static final Logger logger = Logger.getLogger(LogTest.class);
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package com.codeman.log.slf4j;
+
 import lombok.extern.slf4j.Slf4j;
 
 /**

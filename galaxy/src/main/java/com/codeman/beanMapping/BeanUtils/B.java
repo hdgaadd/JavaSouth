@@ -8,5 +8,6 @@ import lombok.Data;
  */
 @Data
 public class B {
-    int val;
+    private int val;
+
 }

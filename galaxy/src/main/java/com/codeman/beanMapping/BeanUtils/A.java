@@ -8,5 +8,7 @@ import lombok.Data;
  */
 @Data
 public class A {
-    int val;
+    private int val;
+
+    private int mine;
 }
