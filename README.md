@@ -146,7 +146,7 @@ universe
 
 # knowledge
 
-## com.codeman.automicReference
+## com.codeman.automic
 
 - Automic家族保证多线程环境下数据的原子性，相比synchronized更加轻量级，该类操作的是引用类型
 
