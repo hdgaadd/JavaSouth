@@ -1,8 +1,10 @@
 package com.codeman.stream;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import io.swagger.models.auth.In;
+import lombok.extern.slf4j.Slf4j;
+
+import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /**
@@ -10,12 +12,22 @@ import java.util.stream.Collectors;
  * Created on 2022/03/21
  * @decription 保留需要的
  */
+@Slf4j
 public class Filter {
-    public static void main(String[] args) {
-        ArrayList<Integer> need = new ArrayList<>(Arrays.asList(1));
-        List<Integer> one = new ArrayList<>(Arrays.asList(1, 2, 3));
-        List<Integer> two = new ArrayList<>(Arrays.asList(1, 2, 3));
+    private static ArrayList<Integer> need = new ArrayList<>(Arrays.asList(1));
+    private static List<Integer> one = new ArrayList<>(Arrays.asList(1, 2, 3));
+    private static List<Integer> two = new ArrayList<>(Arrays.asList(1, 2, 3));
+    private static Map<Integer, String> map = new HashMap<Integer, String>() {{
+        put(1, "1");
+        put(2, "2");
+    }};
 
+    public static void main(String[] args) {
+        filterList();
+        filterMap(map);
+    }
+
+    private static void filterList() {
         // way-one
         one = one.stream().filter(item -> need.contains(item)).collect(Collectors.toList());
         // way-two
@@ -25,8 +37,17 @@ public class Filter {
             }
             return false;
         }).collect(Collectors.toList());
+        log.info(String.valueOf(one));
+        log.info(String.valueOf(two));
+    }
 
-        System.out.println(one);
-        System.out.println(two);
+    private static void filterMap(Map<Integer, String> map) {
+        map = map.entrySet().stream().filter(item -> {
+            if (item.getKey() == 2) {
+                return false;
+            }
+            return true;
+        }).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        log.info(String.valueOf(map));
     }
 }
