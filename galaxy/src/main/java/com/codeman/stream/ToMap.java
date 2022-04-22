@@ -1,12 +1,11 @@
 package com.codeman.stream;
 
+import com.codeman.stream.component.People;
 import com.codeman.stream.component.User;
 import lombok.extern.slf4j.Slf4j;
-import org.omg.PortableInterceptor.INACTIVE;
 
 import java.util.*;
 import java.util.function.Function;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 /**
@@ -27,6 +26,11 @@ public class ToMap {
         put(1, "1");
         put(2, "2");
     }};
+    private static final List<People> people = new ArrayList<People>() {{
+        add(new People(111, "people111", "111"));
+        add(new People(111, "people111Copy", "111Copy"));
+        add(new People(222, "people222", "222"));
+    }};
 
     public static void main(String[] args) {
         // 封装类型-业务类型
@@ -37,8 +41,14 @@ public class ToMap {
         handleMapDuplicated();
         // Map-Map
         mapTomap();
+        // 把list值和对应的个数转换为Map
+        listCountToMap();
     }
 
+    private static void listCountToMap() {
+        Map<Integer, Long> collect = people.stream().collect(Collectors.groupingBy(People::getId, Collectors.counting()));
+        log.info("把list值和对应的个数转换为Map" + collect);
+    }
     private static void mapTomap() {
         Map<String, Integer> collect = map.entrySet().stream().collect(Collectors.toMap(Map.Entry::getValue, Map.Entry::getKey));
         log.info("mapTomap：" + collect);
