@@ -38,7 +38,7 @@ public class RelaxApplicationTests {
 		try {
 			Algorithm algorithm = Algorithm.HMAC256("secret");
 			token = JWT.create()
-					.withIssuer("陈俊蔚")
+					.withIssuer("hdgaadd")
 					.sign(algorithm);
 		} catch (JWTCreationException exception){
 			//Invalid Signing configuration / Couldn't convert Claims.

@@ -24,7 +24,7 @@ public class OptionalTest {
      * @return
      */
     public static List<String> isNull(List<String> businessEntities) {
-        List<String> result = Optional.ofNullable(businessEntities).orElse(new ArrayList<String>(){{
+        return Optional.ofNullable(businessEntities).orElse(new ArrayList<String>(){{
             add("h");
             add("d");
             add("g");
@@ -33,7 +33,5 @@ public class OptionalTest {
             add("d");
             add("d");
         }});
-
-        return result;
     }
 }

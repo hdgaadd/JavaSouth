@@ -2,6 +2,19 @@
 
 ```lua
 universe
+├── fuctions -- 功能实现模块
+├── galaxy -- 
+├── M-S -- 可扩展性、可维护性
+     ├── arguments -- 方法参数个数
+     ├── call-back -- 回调函数
+     ├── entity -- 实体类公有财产
+     └── interface -- 接口运用
+├── middleware -- 开源中间件使用
+├── others -- 其他
+
+
+
+
 ├── async -- 异步执行
 ├── autoCode-Redis -- 验证码
 ├── bean-mapping -- bean映射
