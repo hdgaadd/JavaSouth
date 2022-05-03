@@ -3,62 +3,51 @@
 ```lua
 universe
 ├── fuctions -- 功能实现模块
-├── galaxy -- 
+     ├── async -- 异步执行
+     ├── autoCode-Redis -- 验证码
+     ├── cache -- 方法结果缓存
+     ├── custom-exception -- 自定义异常
+     ├── JWT -- 认证授权
+     ├── order-task -- 定时任务
+     ├── repeat-submit-intercept -- 防重复提交解决方案
+     ├── returnR -- 统一结果集
+     └── trigger-log -- 日志触发
+├── galaxy -- 技术银河
+     ├── automic
+     ├── beanMapping -- bean映射
+     ├── callback -- 回调函数
+     ├── download
+     ├── interesting
+     ├── ip
+     ├── log -- 日志
+     ├── oom -- 内存溢出
+     ├── optional
+     ├── stream
+     ├── stringJoiner
+     ├── system
+     ├── threadLocal
+     └── time
 ├── M-S -- 可扩展性、可维护性
      ├── arguments -- 方法参数个数
      ├── call-back -- 回调函数
+     ├── controller
      ├── entity -- 实体类公有财产
-     └── interface -- 接口运用
+     ├── interface -- 接口运用
+     └── resultcode
 ├── middleware -- 开源中间件使用
-├── others -- 其他
-
-
-
-
-├── async -- 异步执行
-├── autoCode-Redis -- 验证码
-├── bean-mapping -- bean映射
-├── cache -- 方法结果缓存
-├── custom-exception -- 自定义异常
-├── Dubbo
-     ├── dubbo-interface -- 远程接口
-     ├── dubbo-producer -- 远程服务
-     └── dubbo-web -- 本地服务
-├── Gateway 
-     ├── gateway-client -- 被网关包裹的服务
-     └── gateway-server -- 网关服务端
-├── JWT -- 认证授权
-     ├── part-one -- 旧版本
-     └── part-two
-
-├── log
-     ├── log4j
-     └── slf4j
-├── M-S -- 可扩展性、可维护性
-     ├── arguments -- 方法参数个数
-     ├── call-back -- 回调函数
-     ├── entity -- 实体类公有财产
-     └── interface -- 接口运用
-├── monitor -- 监视器
-     ├── springboot-client -- 被监视者
-     └── springboot-server -- SpringBoot Admin服务端
-├── order-task -- 定时任务
-├── Redisson -- 分布式锁
-     ├── server-one -- 旧版本
-     └── server-two 
-├── repeat-submit-intercept -- 防重复提交解决方案
-├── returnR -- 统一结果集
-├── RocketMQ
-├── ShardingSphere -- 读写分离，单库分表
-├── template -- 项目模板
-├── trigger-log -- 日志触发
-├── util -- 生成器
-├── xxl-job -- 分布式任务
-     └── core
-└── z-dp
-
-├── knowledge
-
+     ├── Dubbo
+     ├── Gateway -- 网关
+     ├── Knife4j
+     ├── monitor -- 监视器
+     ├── RabbitMQ
+     ├── Redission -- 分布式锁
+     ├── RocketMQ
+     ├── ShardingSphere -- 读写分离，单库分表
+     └── xxl-job -- 分布式任务
+└── others -- 其他
+     ├── template -- 模块仓库
+     ├── util
+     └── z-dp -- SQL
 ```
 
 
