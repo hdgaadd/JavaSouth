@@ -56,7 +56,7 @@ universe
 
 # 📖Introduce
 
-## fuctions
+## 1.fuctions
 
 ### repeat-submit-intercept
 
@@ -114,9 +114,13 @@ universe
 
   定位应该是对象，却测试变量，变量不可能空指针异常
 
-------
 
-## galaxy
+
+
+
+
+
+## 2.galaxy
 
 ### automic
 
@@ -150,9 +154,15 @@ universe
 - 自定义异常类继承RuntimeException，super()传递异常给RuntimeException
 - 或者传递IErrorCode对象给Assert
 
-------
 
-## M-S
+
+
+
+
+
+
+
+## 3.M-S
 
 > scalability可扩展性[ˌskeɪləˈbɪləti]、maintainability可维护性[meɪnˌteɪnəˈbɪləti]
 
@@ -174,9 +184,11 @@ universe
 
 
 
-------
 
-## middleware
+
+
+
+## 4.middleware
 
 ### Dubbo
 
