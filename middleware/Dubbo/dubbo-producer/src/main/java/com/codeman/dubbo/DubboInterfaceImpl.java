@@ -1,6 +1,5 @@
 package com.codeman.dubbo;
 
-import com.codeman.dubbo.DubboInterface;
 import org.apache.dubbo.config.annotation.DubboService;
 
 /**

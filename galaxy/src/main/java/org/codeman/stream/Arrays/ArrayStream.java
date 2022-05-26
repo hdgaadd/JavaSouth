@@ -1,8 +1,12 @@
 package org.codeman.stream.Arrays;
 
+import com.sun.deploy.ui.DialogTemplate;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 /**
  * @author hdgaadd
@@ -22,6 +26,10 @@ public class ArrayStream {
         Arrays.stream(nums).forEach(o -> System.out.println(o));
 
         // 把list转换为int[]
-        int[] listToArr = list.stream().mapToInt(Integer::intValue).toArray();
+        int[] listToArr = list.stream().mapToInt(o -> o).toArray();
+
+        // 把int[]转换为list
+        List<int[]> ints = Arrays.asList(nums);
+
     }
 }
