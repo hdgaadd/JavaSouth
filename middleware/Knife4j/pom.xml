@@ -17,7 +17,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <com.codeman.optional>true</com.codeman.optional>
+<!--            <com.codeman.optional>true</com.codeman.optional>-->
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -26,7 +26,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
-            <com.codeman.optional>true</com.codeman.optional>
+<!--            <com.codeman.optional>true</com.codeman.optional>-->
         </dependency>
 
 

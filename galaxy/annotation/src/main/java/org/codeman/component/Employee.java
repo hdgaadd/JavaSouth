@@ -15,7 +15,7 @@ import javax.validation.constraints.NotBlank;
 @NoArgsConstructor
 @Data
 public class Employee {
-    @NotBlank(message = "请输入name")
+    @NotBlank(message = "please input name")
     private String name;
 
     @Range(message = "range is {min} to {max}", min = 1, max = 100)

@@ -1,8 +1,12 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/project_learning?characterEncoding=utf-8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/universe?characterEncoding=utf-8&serverTimezone=GMT%2B8
     username: root
     password: root
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
 
 # rocketmq 配置项，对应 RocketMQProperties 配置类
 rocketmq:
