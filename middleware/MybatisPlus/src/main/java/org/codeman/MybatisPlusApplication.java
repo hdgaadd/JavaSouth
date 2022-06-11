@@ -7,11 +7,11 @@ import springfox.documentation.oas.annotations.EnableOpenApi;
 
 @SpringBootApplication
 @EnableOpenApi
-@MapperScan({"com.codeman.mapper", "com.codeman.dao"})
-public class TemplateApplication {
+@MapperScan({"org.codeman.mapper", "org.codeman.dao"})
+public class MybatisPlusApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TemplateApplication.class, args);
+		SpringApplication.run(MybatisPlusApplication.class, args);
 	}
 
 }
