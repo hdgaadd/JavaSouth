@@ -23,14 +23,14 @@ public class MybatisPlusServiceImpl extends ServiceImpl<MybatisPlusMapper, Mybat
                 .eq(MybatisPlus::getId, 1)
                 .select(MybatisPlus::getName)
                 .list();
-        log.info(list.toString());
+        log.info("SELECT 特定字段：" + list.toString());
 
         // SELECT *
         List<MybatisPlus> list1 = lambdaQuery()
                 .eq(MybatisPlus::getId, 1)
                 .select()
                 .list();
-        log.info(list1.toString());
+        log.info("SELECT *：" + list1.toString());
 
         // SELECT name FROM mybatis_plus WHERE (id = ? AND name LIKE ?)
         List<MybatisPlus> list2 = lambdaQuery()
@@ -38,13 +38,23 @@ public class MybatisPlusServiceImpl extends ServiceImpl<MybatisPlusMapper, Mybat
                 .like(MybatisPlus::getName, "hdgaadd")
                 .select(MybatisPlus::getName)
                 .list();
-        log.info(list2.toString());
+        log.info("SELECT name FROM mybatis_plus WHERE (id = ? AND name LIKE ?)：" + list2.toString());
 
         // 链式函数查询lambdaQuery不能使用 SUM(字段名)，改用QueryWrapper
         QueryWrapper<MybatisPlus> wrapper = new QueryWrapper<>();
         wrapper.eq("name", "hdgaadd")
                .select("IFNULL(sum(id),0) AS idCount");
         int idCount = Integer.parseInt(getMap(wrapper).get("idCount").toString());
-        log.info(String.valueOf(idCount));
+        log.info("链式函数查询lambdaQuery不能使用 SUM(字段名)，改用QueryWrapper：" + idCount);
+
+        // lambdaUpdate的set
+        boolean updateResult = this.lambdaUpdate()
+                .eq(MybatisPlus::getId, 1)
+                .set(MybatisPlus::getName, "hdgaadd")
+                .update();
+        log.info("lambdaUpdate的set：" + updateResult);
+
+        
     }
+
 }

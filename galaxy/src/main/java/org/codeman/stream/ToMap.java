@@ -40,13 +40,19 @@ public class ToMap {
         // 处理stream流转换为Map，出现的key重复情况
         handleMapDuplicated();
         // Map-Map
-        mapTomap();
+        mapTOMap();
         // 把list值和对应的个数转换为Map
         listCountToMap();
         // 把List元素，转换为String，以","分割
         listToString();
+        // SQL的in
+        sqlIn();
     }
 
+    private static void sqlIn() {
+        String sqlIn = LIST.stream().map(item -> "'" + item.getId() + "'").collect(Collectors.joining(","));
+        log.info("SQL的in：" + "select * from test where id in (" + sqlIn + ")");
+    }
     private static void listToString() {
         String listStr = PEOPLES.stream().map(String::valueOf).collect(Collectors.joining(","));
         log.info("把List元素，转换为String，以\",\"分割，去除了toString的[]：" + listStr);
@@ -56,9 +62,9 @@ public class ToMap {
         Map<Integer, Long> collect = PEOPLES.stream().collect(Collectors.groupingBy(People::getId, Collectors.counting()));
         log.info("把list值和对应的个数转换为Map" + collect);
     }
-    private static void mapTomap() {
+    private static void mapTOMap() {
         Map<String, Integer> collect = MAP.entrySet().stream().collect(Collectors.toMap(Map.Entry::getValue, Map.Entry::getKey));
-        log.info("mapTomap：" + collect);
+        log.info("mapTOMap：" + collect);
     }
 
     private static void handleMapDuplicated() {

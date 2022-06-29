@@ -18,5 +18,7 @@ public class MybatisPlusController {
     public void lambdaQuery() {
         iMybatisPlusService.lambdaQueryTest();
     }
+
 }
+
 

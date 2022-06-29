@@ -9,5 +9,5 @@ mybatis-plus:
     - classpath*:com/codeman/**/xml/*Mapper.xml
     - classpath:mapper/*.xml
     - classpath:dao/*.xml
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
