@@ -1,10 +1,8 @@
 package org.codeman.stream;
 
-import io.swagger.models.auth.In;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.*;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /**
@@ -14,10 +12,13 @@ import java.util.stream.Collectors;
  */
 @Slf4j
 public class Filter {
-    private static ArrayList<Integer> need = new ArrayList<>(Arrays.asList(1));
+    private static List<Integer> need = new ArrayList<>(Arrays.asList(1));
+
     private static List<Integer> one = new ArrayList<>(Arrays.asList(1, 2, 3));
+
     private static List<Integer> two = new ArrayList<>(Arrays.asList(1, 2, 3));
-    private static Map<Integer, String> map = new HashMap<Integer, String>() {{
+
+    private static Map<Integer, String> map = new HashMap<>() {{
         put(1, "1");
         put(2, "2");
     }};

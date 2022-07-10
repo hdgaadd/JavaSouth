@@ -16,7 +16,7 @@ public class MybatisPlusController {
 
     @RequestMapping("/lambdaQuery")
     public void lambdaQuery() {
-        iMybatisPlusService.lambdaQueryTest();
+        iMybatisPlusService.queryTest();
     }
 
 }

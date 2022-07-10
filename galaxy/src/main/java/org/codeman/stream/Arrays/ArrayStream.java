@@ -1,12 +1,8 @@
 package org.codeman.stream.Arrays;
 
-import com.sun.deploy.ui.DialogTemplate;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
-import java.util.stream.Collectors;
 
 /**
  * @author hdgaadd

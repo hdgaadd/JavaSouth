@@ -7,5 +7,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @ClassName: IMybatisPlusService
  **/
 public interface IMybatisPlusService extends IService<MybatisPlus> {
-    void lambdaQueryTest();
+    void queryTest();
 }

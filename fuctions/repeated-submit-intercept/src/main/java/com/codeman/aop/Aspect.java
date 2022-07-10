@@ -3,7 +3,6 @@ package com.codeman.aop;
 import com.codeman.annotation.BanRepeatSubmit;
 import com.codeman.utils.RedisLock;
 import com.codeman.utils.ReturnRequest;
-import com.sun.media.jfxmedia.logging.Logger;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -14,8 +13,6 @@ import org.springframework.util.Assert;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.UUID;
-
-import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
 
 /**
  * @author hdgaadd
@@ -71,7 +68,7 @@ public class Aspect {
                 return proceedingJoinPoint.proceed();
             }  finally {
                 redisLock.releaseLock(key, value);
-                LOGGER.info("锁释放成功");
+                log.info("锁释放成功");
             }
         } else {
             log.error("获取锁失败，提交正在进行中，或已经提交过一次");
