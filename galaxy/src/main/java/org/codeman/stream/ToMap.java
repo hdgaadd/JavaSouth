@@ -43,13 +43,6 @@ public class ToMap {
         mapTOMap();
         // 把list值和对应的个数转换为Map
         listCountToMap();
-        // 把List元素，转换为String，以","分割
-        listToString();
-    }
-
-    private static void listToString() {
-        String listStr = PEOPLES.stream().map(String::valueOf).collect(Collectors.joining(","));
-        log.info("把List元素，转换为String，以\",\"分割，去除了toString的[]：" + listStr);
     }
 
     private static void listCountToMap() {
@@ -63,7 +56,7 @@ public class ToMap {
 
     private static void handleMapDuplicated() {
         Map<Integer, User> map = LIST_ERROR.stream().collect(Collectors.toMap(User::getId, Function.identity(), (V1, V2) -> V1));
-        log.info("处理stream流转换为Map，出现的key重复情况：" + map.toString());
+        log.info("处理stream流转换为Map，出现的key重复情况(默认保存第一个key的值)：" + map.toString());
     }
 
     public static void encapsulation_business() { // [ɪnˌkæpsjuˈleɪʃn]
