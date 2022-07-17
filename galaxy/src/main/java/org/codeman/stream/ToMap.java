@@ -45,14 +45,8 @@ public class ToMap {
         listCountToMap();
         // 把List元素，转换为String，以","分割
         listToString();
-        // SQL的in
-        sqlIn();
     }
 
-    private static void sqlIn() {
-        String sqlIn = LIST.stream().map(item -> "'" + item.getId() + "'").collect(Collectors.joining(","));
-        log.info("SQL的in：" + "select * from test where id in (" + sqlIn + ")");
-    }
     private static void listToString() {
         String listStr = PEOPLES.stream().map(String::valueOf).collect(Collectors.joining(","));
         log.info("把List元素，转换为String，以\",\"分割，去除了toString的[]：" + listStr);
