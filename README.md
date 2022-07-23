@@ -2,7 +2,7 @@
 
 ```lua
 universe
-├── ans
+├── ans -- 暂存箱
      └── annotation -- 校验注解
 ├── fuctions -- 功能实现模块
      ├── async -- 异步执行
@@ -13,6 +13,7 @@ universe
      ├── order-task -- 定时任务
      ├── repeated-submit-intercept -- 防重复提交解决方案
      ├── returnR -- 统一结果集
+     ├── seckill -- 秒杀系统设计
      └── trigger-log -- 日志触发
 ├── galaxy -- 技术银河
      ├── automic
@@ -31,13 +32,6 @@ universe
      ├── system
      ├── threadLocal
      └── time
-├── M-S -- 可扩展性、可维护性
-     ├── arguments -- 方法参数个数
-     ├── call-back -- 回调函数
-     ├── controller
-     ├── entity -- 实体类公有财产
-     ├── interface -- 接口运用
-     └── resultcode
 ├── middleware -- 开源中间件使用
      ├── Dubbo
      ├── Elasticsearch
@@ -51,10 +45,17 @@ universe
      ├── RocketMQ
      ├── ShardingSphere -- 读写分离，单库分表
      └── xxl-job -- 分布式任务
-└── others -- 其他
+├── scalabilty -- 可扩展性、可维护性
+     ├── arguments -- 方法参数个数
+     ├── call-back -- 回调函数
+     ├── controller
+     ├── entity -- 实体类公有财产
+     ├── interface -- 接口运用
+     └── resultcode
+└── z-others -- 其他
      ├── template -- 模块仓库
      ├── util
-     └── Z-dp -- SQL
+     └── z-dp -- SQL
 ```
 
 
