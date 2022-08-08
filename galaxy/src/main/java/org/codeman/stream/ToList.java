@@ -29,7 +29,8 @@ public class ToList {
         business(userList);
         // 确保传入的List不为空，否则List为空，使用stream()会抛出NullPointException
         guaranteeNotNull(userList);
-        guaranteeNull(null); // error
+        // error
+        guaranteeNull(null);
     }
 
     private static void base(List<User> list) {

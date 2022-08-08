@@ -16,30 +16,28 @@ import java.util.concurrent.atomic.AtomicReference;
 public class Detail {
     public static void main(String[] args) {
         // AtomicInteger
-        automicInteger_method_one();
+        atomicInteger_method_one();
         // AtomicInteger
-        automicInteger_method_two();
+        atomicInteger_method_two();
         // AtomicReference
         atomicReference();
     }
 
-    public static void automicInteger_method_one() {
+    public static void atomicInteger_method_one() {
         List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3));
 
         final AtomicInteger count = new AtomicInteger(0);
-        list.stream().forEach(item -> {
-            count.getAndAdd(item);
-        });
+        list.forEach(count::getAndAdd);
 
         int baseCount = count.get(); // 转换为基本数据类型
         log.info(baseCount + "");
     }
 
-    public static void automicInteger_method_two() {
+    public static void atomicInteger_method_two() {
         List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3));
 
         final AtomicInteger count = new AtomicInteger(0);
-        list.stream().forEach(item -> {
+        list.forEach(item -> {
             count.getAndUpdate(c -> c + item);
         });
 

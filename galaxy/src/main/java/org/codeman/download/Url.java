@@ -15,6 +15,5 @@ public class Url {
     public static void main(String[] args) throws MalformedURLException {
         URL URL = new URL(Url.url);
         String file = URL.getFile();
-
     }
 }

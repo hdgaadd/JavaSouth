@@ -31,24 +31,36 @@ public class ToMap {
         add(new People(111, "people111Copy", "111Copy"));
         add(new People(222, "people222", "222"));
     }};
+    private static final List<User> LIST_VAL_NULL = new ArrayList<User>() {{
+        add(new User(0));
+        add(new User());
+    }};
+
 
     public static void main(String[] args) {
         // 封装类型-业务类型
         encapsulation_business();
         // 封装类型-封装类型
         encapsulation_encapsulation();
-        // 处理stream流转换为Map，出现的key重复情况
+        // stream流转换为Map，出现的key重复情况
         handleMapDuplicated();
         // Map-Map
         mapTOMap();
-        // 把list值和对应的个数转换为Map
+        // list值和对应的个数转换为Map
         listCountToMap();
+        // map的value为null
+        nullMap();
     }
 
+    private static void nullMap() {
+        Map<Integer, Integer> nullMap = LIST_VAL_NULL.stream().collect(Collectors.toMap(User::hashCode, o -> Optional.ofNullable(o.getId()).orElse(666666), (k1, k2) -> k2));
+        log.info("map的value为null: " + nullMap);
+    }
     private static void listCountToMap() {
         Map<Integer, Long> collect = PEOPLES.stream().collect(Collectors.groupingBy(People::getId, Collectors.counting()));
         log.info("把list值和对应的个数转换为Map" + collect);
     }
+
     private static void mapTOMap() {
         Map<String, Integer> collect = MAP.entrySet().stream().collect(Collectors.toMap(Map.Entry::getValue, Map.Entry::getKey));
         log.info("mapTOMap：" + collect);
