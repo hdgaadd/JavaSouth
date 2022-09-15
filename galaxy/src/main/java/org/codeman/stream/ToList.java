@@ -43,7 +43,6 @@ public class ToList {
             Doppelganger doppelganger = new Doppelganger();
             doppelganger.setId(user.getId());
             return doppelganger;
-
         }).collect(Collectors.toList());
         log.info("业务对象：" + doppelgangers);
     }

@@ -12,13 +12,13 @@ import java.util.stream.Collectors;
  */
 @Slf4j
 public class Filter {
-    private static List<Integer> need = new ArrayList<>(Arrays.asList(1));
+    private static final List<Integer> need = new ArrayList<>(Collections.singletonList(1));
 
     private static List<Integer> one = new ArrayList<>(Arrays.asList(1, 2, 3));
 
     private static List<Integer> two = new ArrayList<>(Arrays.asList(1, 2, 3));
 
-    private static Map<Integer, String> map = new HashMap<>() {{
+    private static final Map<Integer, String> map = new HashMap<>() {{
         put(1, "1");
         put(2, "2");
     }};
