@@ -18,11 +18,25 @@ public class PrintStructure {
         add(".git");
         add(".idea");
         add("target");
+        add("src");
     }};
+
+    /**
+     * 遍历内容为src下的模块
+     */
+    private static final List<String> ISSRC = new ArrayList<String>(){{
+        add("galaxy");
+        add("design-patterns");
+    }};
+
     private static final String FIRST_DIRECTION_PARENT = "├── ";
+
     private static final String FIRST_DIRECTION_CHILD = "└── ";
+
     private static final String SECOND_DIRECTION_PARENT = "     ├── ";
+
     private static final String SECOND_DIRECTION_CHILD = "     └── ";
+
     /**
      * 遍历层数
      */
@@ -57,8 +71,8 @@ public class PrintStructure {
                 String firstDescription = getDescription(curFile);
                 System.out.println(firstDecoration + curFileName + firstDescription);
 
-                // 处理galaxy文件夹
-                if (curFileName.equals("galaxy")) {
+                // 处理需要遍历内容为src下的模块
+                if (ISSRC.contains(curFileName)) {
                     curFile = new File(file.toString() + "\\" + curFileName + "\\src\\main\\java\\org\\codeman");
                 }
                 // 循环遍历下一层

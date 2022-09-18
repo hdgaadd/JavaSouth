@@ -4,6 +4,17 @@
 universe
 ├── ans -- 暂存箱
      └── annotation -- 校验注解
+├── design-patterns -- 设计模式
+     ├── adapter -- 适配器
+     ├── chain -- 责任链
+     ├── command -- 命令
+     ├── composite -- 组合
+     ├── factory -- 工厂
+     ├── interceptor -- 拦截过滤器
+     ├── iterator -- 迭代器
+     ├── observer -- 观察者
+     ├── singleton -- 单例
+     └── strategy -- 策略
 ├── fuctions -- 功能实现模块
      ├── async -- 异步执行
      ├── autoCode-Redis -- 验证码
@@ -32,6 +43,8 @@ universe
      ├── system
      ├── threadLocal
      └── time
+├── go -- GO
+     └── baby
 ├── middleware -- 开源中间件使用
      ├── Dubbo
      ├── Elasticsearch
@@ -53,7 +66,6 @@ universe
      ├── interface -- 接口运用
      └── resultcode
 └── z-others -- 其他
-     ├── template -- 模块仓库
      ├── util
      └── z-dp -- SQL
 ```
