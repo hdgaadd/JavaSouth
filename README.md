@@ -33,30 +33,30 @@ universe
           ├── callback -- 回调函数
           ├── download
           ├── empty
-          ├── format
+          ├── format -- 格式化
           ├── interesting
           ├── ip
           ├── log -- 日志
           ├── oom -- 内存溢出
-          ├── optional
-          ├── stream
-          ├── stringJoiner
+          ├── optional -- 判空处理
+          ├── stream -- stream流
+          ├── stringJoiner -- 字符串连接
           ├── system
           ├── threadLocal
           └── time
      └── go -- GO
           └── baby
 ├── middleware -- 开源中间件使用
-     ├── Dubbo
-     ├── Elasticsearch
+     ├── Dubbo -- 服务调用
+     ├── Elasticsearch -- es
      ├── Gateway -- 网关
-     ├── Kafka
-     ├── Knife4j
+     ├── Kafka -- Kafka
+     ├── Knife4j -- swagger增强包
      ├── monitor -- 监视器
      ├── MybatisPlus -- use of CRUD
      ├── RabbitMQ
      ├── Redission -- 分布式锁
-     ├── RocketMQ
+     ├── RocketMQ -- RocketMQ
      ├── ShardingSphere -- 读写分离，单库分表
      ├── SpringSecurityOAuth2 -- SpringSecurityOAuth2单点登录
      └── xxl-job -- 分布式任务
@@ -67,11 +67,9 @@ universe
      ├── entity -- 实体类公有财产
      ├── interface -- 接口运用
      └── resultcode
-├── z-ans -- 暂存箱
-     └── annotation -- 校验注解
 └── z-others -- 其他
-     ├── util
-     └── z-dp -- SQL
+     ├── ans -- 暂存箱
+     └── resource
 ```
 
 # 📖Introduce

@@ -8,7 +8,7 @@ import java.util.List;
  * @author hdgaadd
  * Created on 2022/05/02
  *
- * design idea: 递归
+ * design ideas: 递归
  *
  * Description: 循环遍历文件，打印项目结构
  */
