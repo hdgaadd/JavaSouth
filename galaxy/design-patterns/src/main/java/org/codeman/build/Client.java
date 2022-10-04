@@ -1,0 +1,18 @@
+package org.codeman.build;
+
+import org.codeman.build.builder.LinuxBuilder;
+import org.codeman.build.builder.WindowsBuilder;
+import org.codeman.build.component.ServerDirector;
+
+/**
+ * @author hdgaadd
+ * Created on 2022/10/04
+ */
+public class Client {
+    public static void main(String[] args) {
+        ServerDirector director = new ServerDirector();
+
+        System.out.println(director.getServer(new WindowsBuilder()));
+        System.out.println(director.getServer(new LinuxBuilder()));
+    }
+}

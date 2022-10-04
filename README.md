@@ -74,7 +74,7 @@ universe
 
 # 📖Introduce
 
-> 详情在各模块的README
+> 详情在各模块README
 
 
 
