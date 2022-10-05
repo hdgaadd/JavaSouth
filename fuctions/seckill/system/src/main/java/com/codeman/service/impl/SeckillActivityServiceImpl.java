@@ -6,7 +6,7 @@ import com.codeman.domain.SeckillActivity;
 import com.codeman.domain.SeckillOrder;
 import com.codeman.mapper.SeckillActivityMapper;
 import com.codeman.mapper.SeckillOrderMapper;
-import com.codeman.component.RocketMQService;
+import org.codeman.component.RocketMQService;
 import com.codeman.service.SeckillActivityService;
 import org.springframework.stereotype.Service;
 import util.LOG;

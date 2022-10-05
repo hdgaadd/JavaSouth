@@ -1,4 +1,4 @@
-package com.codeman.component;
+package org.codeman.component;
 
 import com.codeman.domain.OrderSetting;
 import com.codeman.domain.OrderTable;

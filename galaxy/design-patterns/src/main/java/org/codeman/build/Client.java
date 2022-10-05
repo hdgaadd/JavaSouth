@@ -12,7 +12,7 @@ public class Client {
     public static void main(String[] args) {
         ServerDirector director = new ServerDirector();
 
-        System.out.println(director.getServer(new WindowsBuilder()));
-        System.out.println(director.getServer(new LinuxBuilder()));
+        System.out.println(director.construct(new WindowsBuilder()));
+        System.out.println(director.construct(new LinuxBuilder()));
     }
 }

@@ -2,7 +2,7 @@ package com.codeman.mq;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.codeman.component.RedisService;
+import org.codeman.component.RedisService;
 import com.codeman.domain.SeckillActivity;
 import com.codeman.domain.SeckillOrder;
 import com.codeman.mapper.SeckillActivityMapper;

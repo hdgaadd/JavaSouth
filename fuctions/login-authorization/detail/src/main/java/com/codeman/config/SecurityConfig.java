@@ -1,6 +1,6 @@
 package com.codeman.config;
 
-import com.codeman.component.JwtAuthenticationTokenFilter;
+import org.codeman.component.JwtAuthenticationTokenFilter;
 import com.codeman.domain.Admin;
 import com.codeman.domain.Permission;
 import com.codeman.service.AdminService;

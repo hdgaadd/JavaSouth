@@ -1,11 +1,11 @@
 package com.codeman.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.codeman.component.RedisService;
+import org.codeman.component.RedisService;
 import com.codeman.domain.SeckillActivity;
 import com.codeman.domain.SeckillOrder;
 import com.codeman.mapper.SeckillActivityMapper;
-import com.codeman.component.RocketMQService;
+import org.codeman.component.RocketMQService;
 import com.codeman.service.SeckillOversellService;
 import com.codeman.util.SnowFlake;
 import org.springframework.stereotype.Service;

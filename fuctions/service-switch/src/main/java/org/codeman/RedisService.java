@@ -71,7 +71,6 @@ public class RedisService {
         } catch (Exception e) {
             log.error("error", e);
         } finally {
-            // 用于判断锁是否存在以及检查是否是当前线程持有的锁来解锁的
             if (lock.isLocked()) {
                 if (lock.isHeldByCurrentThread()) {
                     lock.unlock();

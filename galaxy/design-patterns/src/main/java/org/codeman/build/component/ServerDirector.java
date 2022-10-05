@@ -10,7 +10,7 @@ import org.codeman.build.builder.Builder;
  */
 public class ServerDirector {
 
-    public <T> T getServer(Builder<T> builder) {
+    public <T> T construct(Builder<T> builder) {
         builder.setServer();
         return builder.getServer();
     }

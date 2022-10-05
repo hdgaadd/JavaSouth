@@ -1,4 +1,4 @@
-package com.codeman.component;
+package org.codeman.component;
 
 import com.codeman.domain.SeckillOrder;
 import org.springframework.beans.factory.annotation.Autowired;
