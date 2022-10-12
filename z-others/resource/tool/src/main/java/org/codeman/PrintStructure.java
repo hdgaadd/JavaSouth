@@ -12,6 +12,7 @@ import java.util.List;
  *
  * description: 循环遍历文件，打印项目结构
  */
+@SuppressWarnings("ConstantConditions")
 public class PrintStructure {
     /**
      * 忽略文件夹
@@ -34,6 +35,7 @@ public class PrintStructure {
     private static final List<String> IS_SRC = new ArrayList<String>(){{
         add("earth");
         add("design-patterns");
+        add("concurrency");
     }};
     /**
      * 遍历层数限制
