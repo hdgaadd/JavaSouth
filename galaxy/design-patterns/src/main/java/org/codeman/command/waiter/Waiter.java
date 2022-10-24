@@ -10,7 +10,7 @@ import java.util.Queue;
 
 /**
  * @author hdgaadd
- * Created on 2022/04/25
+ * created on 2022/04/25
  */
 @Slf4j
 public class Waiter {

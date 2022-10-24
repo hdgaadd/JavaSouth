@@ -4,7 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author hdgaadd
- * Created on 2022/05/29
+ * created on 2022/05/29
  */
 @Slf4j
 public class StringFormat {

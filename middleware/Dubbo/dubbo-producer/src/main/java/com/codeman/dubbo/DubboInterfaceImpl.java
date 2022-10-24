@@ -4,7 +4,7 @@ import org.apache.dubbo.config.annotation.DubboService;
 
 /**
  * @author hdgaadd
- * Created on 2022/01/25
+ * created on 2022/01/25
  */
 @DubboService(version = "${dubbo.application.version}", timeout = 5000)
 public class DubboInterfaceImpl implements DubboInterface {

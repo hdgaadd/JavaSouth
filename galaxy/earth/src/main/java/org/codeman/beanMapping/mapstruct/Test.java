@@ -2,7 +2,7 @@ package org.codeman.beanMapping.mapstruct;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/27
+ * created on 2021/12/27
  */
 public class Test {
     public static void main(String[] args) {

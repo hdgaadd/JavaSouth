@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * @author hdgaadd
- * Created on 2022/02/06
+ * created on 2022/02/06
  */
 @Data
 public class Resource {

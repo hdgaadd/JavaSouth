@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     2022/1/20 21:51:45                           */
+/* created on:     2022/1/20 21:51:45                           */
 /*==============================================================*/
 
 
@@ -49,7 +49,7 @@ create table menu
    id                   bigint(20) NOT NULL AUTO_INCREMENT,
    title                varchar(200),
    parent_id            bigint(20),
-   level                bigint(20) comment '²Ëµ¥¼¶Êý',
+   level                bigint(20) comment 'ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½',
    create_time          datetime,
    primary key (id)
 );

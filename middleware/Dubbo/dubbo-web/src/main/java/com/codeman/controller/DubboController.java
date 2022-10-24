@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author hdgaadd
- * Created on 2022/01/25
+ * created on 2022/01/25
  */
 @RestController
 @RequestMapping("/dubbo")

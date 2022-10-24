@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 /**
  * @author hdgaadd
- * Created on 2022/07/17
+ * created on 2022/07/17
  */
 @Slf4j
 public class Str {

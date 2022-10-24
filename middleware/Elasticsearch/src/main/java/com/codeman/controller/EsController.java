@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/06 21:15:56
+ * created on 2021/12/06 21:15:56
  */
 @Api(tags = "查询所有商品")
 @RestController

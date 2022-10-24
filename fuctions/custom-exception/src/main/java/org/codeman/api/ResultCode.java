@@ -2,7 +2,7 @@ package org.codeman.api;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/08/19:45
+ * created on 2021/12/08/19:45
  */
 public enum ResultCode implements IErrorCode{
     SUCCESS(200, "successful"),

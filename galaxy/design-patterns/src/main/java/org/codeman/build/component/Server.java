@@ -5,7 +5,7 @@ import lombok.Data;
 
 /**
  * @author hdgaadd
- * Created on 2022/10/04
+ * created on 2022/10/04
  */
 @Data
 @AllArgsConstructor

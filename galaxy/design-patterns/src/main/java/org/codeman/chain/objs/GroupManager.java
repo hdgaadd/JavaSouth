@@ -6,8 +6,8 @@ import java.util.Objects;
 
 /**
  * @author hdgaadd
- * Created on 2022/04/19
- * @Description 组长
+ * created on 2022/04/19
+ * @description: 组长
  */
 @Slf4j
 public class GroupManager extends Handler {

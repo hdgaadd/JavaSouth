@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 
 /**
  * @author hdgaadd
- * Created on 2022/02/08
+ * created on 2022/02/08
  */
 @Data
 public class BaseEntity implements Serializable {

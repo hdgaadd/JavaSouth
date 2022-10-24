@@ -22,7 +22,7 @@ import java.util.List;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/10 00:00:11
+ * created on 2021/12/10 00:00:11
 */
 @Api(tags = "秒杀")
 @RestController

@@ -9,7 +9,7 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 
 /**
  * @author hdgaadd
- * Created on 2022/01/10
+ * created on 2022/01/10
  */
 @Configuration
 public class TokenConfig {

@@ -9,7 +9,7 @@ import javax.validation.constraints.NotBlank;
 
 /**
  * @author hdgaadd
- * Created on 2022/05/28
+ * created on 2022/05/28
  */
 @AllArgsConstructor
 @NoArgsConstructor

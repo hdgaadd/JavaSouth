@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * @author hdgaadd
- * Created on 2022/01/09
+ * created on 2022/01/09
  * JWT拦截器：实现MVC拦截器的具体拦截功能
  */
 public class JWTInterceptor implements HandlerInterceptor {

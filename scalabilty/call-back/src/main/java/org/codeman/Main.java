@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * @author hdgaadd
- * Created on 2022/01/02
+ * created on 2022/01/02
  */
 public class Main {
     // 通过回调函数，使用一个方法就可：调用n个类的相同方法，且顺便处理每一个属于不同实例的List资源

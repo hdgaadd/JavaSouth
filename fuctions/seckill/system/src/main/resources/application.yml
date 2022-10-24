@@ -14,13 +14,10 @@ spring:
       min-idle: 0
     timeout: 0
 
-
 rocketmq:
   name-server: localhost:9876
   producer:
     group: my-group
-
-
 
 mybatis-plus:
   mapper-locations:

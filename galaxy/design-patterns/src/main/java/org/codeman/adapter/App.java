@@ -2,7 +2,7 @@ package org.codeman.adapter;
 
 /**
  * @author hdgaadd
- * Created on 2022/05/04
+ * created on 2022/05/04
  *
  * 船长Captain只能操作游艇RowingBoat，要使船长Captain可操作渔船FishingBoat，可以创建一个与游艇RowingBoat相同类型的适配器FishingBoatAdapter
  * 该适配器可操作FishingBoat，故船长Captain可操作适配器FishingBoatAdapter来操作渔船FishingBoat

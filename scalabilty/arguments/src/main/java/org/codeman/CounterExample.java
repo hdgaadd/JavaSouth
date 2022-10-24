@@ -2,7 +2,7 @@ package org.codeman;
 
 /**
  * @author hdgaadd
- * Created on 2022/02/23
+ * created on 2022/02/23
  */
 public class CounterExample {
     public static void main(String[] args) {

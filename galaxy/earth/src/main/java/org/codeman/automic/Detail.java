@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * @author hdgaadd
- * Created on 2022/03/18
+ * created on 2022/03/18
  */
 @Slf4j
 public class Detail {

@@ -8,7 +8,7 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/06/21:26
+ * created on 2021/12/06/21:26
  */
 @Data
 @Document(indexName = "esteacher", shards = 1,replicas = 0)

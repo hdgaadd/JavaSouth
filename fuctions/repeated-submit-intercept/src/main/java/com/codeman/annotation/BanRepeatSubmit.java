@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 /**
  * @author hdgaadd
- * Created on 2022/03/07
+ * created on 2022/03/07
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

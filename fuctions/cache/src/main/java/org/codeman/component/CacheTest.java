@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author hdgaadd
- * Created on 2022/02/01
+ * created on 2022/02/01
  */
 @Component
 @EnableCaching

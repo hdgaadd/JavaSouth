@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 /**
  * @author hdgaadd
- * Created on 2022/01/20
+ * created on 2022/01/20
  */
 public class AdminUserDetails implements UserDetails {
     private Admin admin;

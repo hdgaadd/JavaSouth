@@ -2,7 +2,7 @@ package org.codeman.build.builder;
 
 /**
  * @author hdgaadd
- * Created on 2022/10/04
+ * created on 2022/10/04
  */
 public abstract class Builder<T> {
 

@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author hdgaadd
- * Created on 2022/04/07
+ * created on 2022/04/07
  */
 public class ArrayStream {
     private final static int[] nums = {1, 2, 3};

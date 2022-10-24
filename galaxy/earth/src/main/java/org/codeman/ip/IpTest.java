@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 /**
  * @author hdgaadd
- * Created on 2022/04/03
+ * created on 2022/04/03
  * @description 获得本机ip地址
  */
 public class IpTest {

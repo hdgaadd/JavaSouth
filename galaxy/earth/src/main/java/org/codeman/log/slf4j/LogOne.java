@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @author hdgaadd
- * Created on 2022/01/27
+ * created on 2022/01/27
  */
 public class LogOne { // 只需引入lombok即可
     private static final Logger logger = LoggerFactory.getLogger(LogOne.class);

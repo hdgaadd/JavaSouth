@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * @author hdgaadd
- * Created on 2022/01/02
+ * created on 2022/01/02
  */
 public class A {
     public void same(List<String> resource) {

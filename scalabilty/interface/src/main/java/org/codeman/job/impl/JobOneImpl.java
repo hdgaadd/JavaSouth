@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author hdgaadd
- * Created on 2022/02/03
+ * created on 2022/02/03
  */
 @Component
 public class JobOneImpl implements JobInterface {

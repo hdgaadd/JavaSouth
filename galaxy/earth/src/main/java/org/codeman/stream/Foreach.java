@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * @author hdgaadd
- * Created on 2022/03/21
+ * created on 2022/03/21
  */
 public class Foreach {
     public static void main(String[] args) {

@@ -2,7 +2,7 @@ package org.codeman;
 
 /**
  * @author hdgaadd
- * Created on 2022/02/23
+ * created on 2022/02/23
  *
  * 方法对x个参数的处理逻辑一致，以下可避免浪费代码量
  */

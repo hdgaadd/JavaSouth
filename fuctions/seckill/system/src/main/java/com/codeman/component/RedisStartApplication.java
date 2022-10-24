@@ -14,7 +14,7 @@ import static com.codeman.constant.RedisKey.STOCK;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/10/00:43
+ * created on 2021/12/10/00:43
  */
 @Component
 public class RedisStartApplication implements ApplicationRunner {

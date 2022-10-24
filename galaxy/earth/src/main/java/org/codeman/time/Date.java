@@ -2,7 +2,7 @@ package org.codeman.time;
 
 /**
  * @author hdgaadd
- * Created on 2022/03/25
+ * created on 2022/03/25
  */
 public class Date {
     public static void main(String[] args) {

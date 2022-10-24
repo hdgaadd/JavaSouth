@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 /**
  * @author hdgaadd
- * Created on 2022/05/28
+ * created on 2022/05/28
  *
  * 设置将@Valid，所造成的异常进行返回
  */

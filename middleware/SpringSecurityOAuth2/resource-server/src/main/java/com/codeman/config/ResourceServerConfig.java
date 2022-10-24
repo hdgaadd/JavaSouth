@@ -12,7 +12,7 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 
 /**
  * @author hdgaadd
- * Created on 2022/01/11
+ * created on 2022/01/11
  */
 @Configuration
 @EnableResourceServer

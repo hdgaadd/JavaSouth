@@ -16,8 +16,11 @@ universe
      ├── service-switch
      └── trigger-log -- 日志触发
 ├── galaxy -- 技术银河
+     ├── concurrency -- 并发线程
+          └── transfer
      ├── design-patterns -- 设计模式
           ├── adapter -- 适配器
+          ├── build -- 建造者
           ├── chain -- 责任链
           ├── command -- 命令
           ├── composite -- 组合
@@ -64,12 +67,12 @@ universe
      ├── arguments -- 方法参数个数
      ├── call-back -- 回调函数
      ├── controller
-     ├── entity -- 实体类公有财产
      ├── interface -- 接口运用
+     ├── model -- 实体类公有财产
      └── resultcode
 └── z-others -- 其他
      ├── ans -- 暂存箱
-     └── resource
+     └── resource -- resource
 ```
 
 # 📖Introduce

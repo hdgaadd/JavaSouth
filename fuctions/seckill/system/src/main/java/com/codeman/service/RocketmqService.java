@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/14
+ * created on 2021/12/14
  */
 public interface RocketmqService {
     /**

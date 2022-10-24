@@ -7,9 +7,9 @@ import java.util.Objects;
 
 /**
  * @author hdgaadd
- * Created on 2022/07/10
+ * created on 2022/07/10
  *
- * @Description： org.apache.commons.langs
+ * @description: org.apache.commons.langs
  */
 public class Empty {
 

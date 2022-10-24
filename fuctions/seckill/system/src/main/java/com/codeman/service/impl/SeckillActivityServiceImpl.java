@@ -18,7 +18,7 @@ import java.util.Date;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/13
+ * created on 2021/12/13
 */
 @Service
 public class SeckillActivityServiceImpl implements SeckillActivityService {

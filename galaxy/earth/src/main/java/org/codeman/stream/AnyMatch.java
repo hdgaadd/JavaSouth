@@ -9,7 +9,7 @@ import java.util.Objects;
 
 /**
  * @author hdgaadd
- * Created on 2022/07/10
+ * created on 2022/07/10
  */
 @Slf4j
 public class AnyMatch {

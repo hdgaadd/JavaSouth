@@ -11,7 +11,7 @@ import java.util.Map;
 
 /**
  * @author hdgaadd
- * Created on 2022/01/09
+ * created on 2022/01/09
  */
 public class JWTUtil {
     private static final String SIGN = "fsdaklfj@!"; // signature签名

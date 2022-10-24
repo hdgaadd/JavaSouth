@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @author hdgaadd
- * Created on 2022/02/01
+ * created on 2022/02/01
  */
 @Component
 public class AsyncTest {

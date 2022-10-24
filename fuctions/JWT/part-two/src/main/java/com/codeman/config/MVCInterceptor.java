@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * @author hdgaadd
- * Created on 2022/01/09
+ * created on 2022/01/09
  * 创建MVC拦截器，拦截特定url使用JWT进行验证
  */
 @Configuration

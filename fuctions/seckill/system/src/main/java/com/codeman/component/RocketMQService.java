@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/12
+ * created on 2021/12/12
  */
 @Service
 public class RocketMQService {

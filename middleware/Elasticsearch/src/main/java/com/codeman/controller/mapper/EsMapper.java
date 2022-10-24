@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/06 21:15:56
+ * created on 2021/12/06 21:15:56
 */
 @Mapper
 public interface EsMapper {

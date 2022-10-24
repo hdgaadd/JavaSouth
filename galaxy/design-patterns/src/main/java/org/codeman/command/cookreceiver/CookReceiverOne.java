@@ -4,7 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author hdgaadd
- * Created on 2022/04/25
+ * created on 2022/04/25
  */
 @Slf4j
 public class CookReceiverOne extends Cook {

@@ -5,7 +5,7 @@ import org.mapstruct.factory.Mappers;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/27
+ * created on 2021/12/27
  */
 @Mapper
 public interface Convert {

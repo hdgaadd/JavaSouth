@@ -18,7 +18,7 @@ import java.nio.charset.StandardCharsets;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/12
+ * created on 2021/12/12
  */
 @Component
 @RocketMQMessageListener(topic = "payDone", consumerGroup = "payDoneGroup")

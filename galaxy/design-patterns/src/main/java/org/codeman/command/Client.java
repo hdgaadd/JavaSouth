@@ -9,7 +9,7 @@ import org.codeman.command.waiter.Waiter;
 
 /**
  * @author hdgaadd
- * Created on 2022/04/25
+ * created on 2022/04/25
  */
 public class Client {
     public static void main(String[] args) {

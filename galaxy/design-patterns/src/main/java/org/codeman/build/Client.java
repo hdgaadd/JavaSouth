@@ -6,7 +6,7 @@ import org.codeman.build.component.ServerDirector;
 
 /**
  * @author hdgaadd
- * Created on 2022/10/04
+ * created on 2022/10/04
  */
 public class Client {
     public static void main(String[] args) {

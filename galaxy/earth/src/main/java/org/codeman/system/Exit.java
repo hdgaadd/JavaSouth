@@ -2,7 +2,7 @@ package org.codeman.system;
 
 /**
  * @author hdgaadd
- * Created on 2022/03/25
+ * created on 2022/03/25
  */
 public class Exit {
     public static void main(String[] args) {

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author hdgaadd
- * Created on 2022/01/20
+ * created on 2022/01/20
  */
 @Api(tags = "权限测试")
 @RestController

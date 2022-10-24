@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 /**
  * @author hdgaadd
- * Created on 2022/04/22
+ * created on 2022/04/22
  */
 @Slf4j
 public class Sorted {

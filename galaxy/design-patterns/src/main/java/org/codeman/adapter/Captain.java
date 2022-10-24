@@ -5,9 +5,9 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author hdgaadd
- * Created on 2022/05/04
+ * created on 2022/05/04
  *
- * @Description： 船长[ˈkæptɪn]
+ * @description: 船长[ˈkæptɪn]
  */
 @AllArgsConstructor
 @NoArgsConstructor

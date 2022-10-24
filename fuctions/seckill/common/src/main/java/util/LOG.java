@@ -2,7 +2,7 @@ package util;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/13
+ * created on 2021/12/13
  */
 public class LOG {
     public static void log(Object o) {

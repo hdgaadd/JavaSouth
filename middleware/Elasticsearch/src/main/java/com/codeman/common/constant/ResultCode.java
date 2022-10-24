@@ -2,7 +2,7 @@ package com.codeman.common.constant;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/13
+ * created on 2021/12/13
  */
 public enum ResultCode {
     SUCCESS(200, "operate successful"),

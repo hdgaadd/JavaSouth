@@ -4,7 +4,7 @@ import org.codeman.util.CommonResult;
 
 /**
  * @author hdgaadd
- * Created on 2022/05/02
+ * created on 2022/05/02
  */
 public class BaseController {
 

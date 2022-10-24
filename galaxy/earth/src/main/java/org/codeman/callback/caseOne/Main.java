@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 
 /**
  * @author hdgaadd
- * Created on 2022/01/02
+ * created on 2022/01/02
  */
 public class Main {
     public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException {

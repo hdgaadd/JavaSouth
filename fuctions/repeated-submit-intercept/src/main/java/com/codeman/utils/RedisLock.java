@@ -2,7 +2,7 @@ package com.codeman.utils;
 
 /**
  * @author hdgaadd
- * Created on 2022/03/07
+ * created on 2022/03/07
  */
 
 import org.springframework.beans.factory.annotation.Autowired;

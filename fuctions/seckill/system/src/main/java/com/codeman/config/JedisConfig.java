@@ -10,7 +10,7 @@ import redis.clients.jedis.JedisPoolConfig;
 
 /**
  * @author hdgaadd
- * Created on 2021/12/10/00:13
+ * created on 2021/12/10/00:13
  */
 @Configuration
 public class JedisConfig extends CachingConfigurerSupport {
