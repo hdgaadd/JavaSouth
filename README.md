@@ -2,19 +2,6 @@
 
 ```lua
 universe
-├── fuctions -- 功能实现模块
-     ├── async -- 异步执行
-     ├── autoCode-Redis -- 验证码
-     ├── cache -- 方法结果缓存
-     ├── custom-exception -- 自定义异常
-     ├── JWT -- JWT认证授权
-     ├── login-authorization -- SpringSecurity认证授权
-     ├── order-task -- 定时任务
-     ├── repeated-submit-intercept -- 防重复提交解决方案
-     ├── returnR -- 统一结果集
-     ├── seckill -- 秒杀系统设计
-     ├── service-switch
-     └── trigger-log -- 日志触发
 ├── galaxy -- 技术银河
      ├── concurrency -- 并发线程
           └── transfer
@@ -61,15 +48,18 @@ universe
      ├── Redission -- 分布式锁
      ├── RocketMQ -- RocketMQ
      ├── ShardingSphere -- 读写分离，单库分表
+     ├── SpringSecurity -- SpringSecurity认证授权
      ├── SpringSecurityOAuth2 -- SpringSecurityOAuth2单点登录
      └── xxl-job -- 分布式任务
 ├── scalabilty -- 可扩展性、可维护性
      ├── arguments -- 方法参数个数
      ├── call-back -- 回调函数
      ├── controller
+     ├── custom-exception -- 自定义异常
      ├── interface -- 接口运用
      ├── model -- 实体类公有财产
-     └── resultcode
+     ├── resultcode
+     └── returnR -- 统一结果集
 └── z-others -- 其他
      ├── ans -- 暂存箱
      └── resource -- resource
