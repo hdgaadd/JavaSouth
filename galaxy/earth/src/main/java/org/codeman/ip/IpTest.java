@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * @author hdgaadd
  * created on 2022/04/03
- * @description 获得本机ip地址
+ * description: 获得本机ip地址
  */
 public class IpTest {
     public static void main(String[] args) throws UnknownHostException {

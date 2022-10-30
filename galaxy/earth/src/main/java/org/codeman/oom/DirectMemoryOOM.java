@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
 /**
  * @author hdgaadd
  * created on 2022/04/03
- * @description 直接内存溢出
+ * description: 直接内存溢出
  */
 public class DirectMemoryOOM {
     private static final int _1MB = 1024 * 1024;

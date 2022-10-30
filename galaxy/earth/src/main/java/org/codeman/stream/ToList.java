@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 /**
  * @author hdgaadd
  * created on 2022/03/21
- * @description 转换数据
+ * description: 转换数据
  */
 @Slf4j
 public class ToList {

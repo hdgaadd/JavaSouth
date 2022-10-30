@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
  * @author hdgaadd
  * created on 2022/05/04
  *
- * @description: 船长[ˈkæptɪn]
+ * description: 船长[ˈkæptɪn]
  */
 @AllArgsConstructor
 @NoArgsConstructor

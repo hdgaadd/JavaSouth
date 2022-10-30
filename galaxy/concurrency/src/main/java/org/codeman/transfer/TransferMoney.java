@@ -86,6 +86,10 @@ public class TransferMoney implements Runnable {
     }
 
     public static void main(String[] args) throws InterruptedException {
+        System.out.println("a的原始余额: " + A.balance);
+        System.out.println("b的原始余额: " + B.balance);
+        System.out.println();
+
         TransferMoney r1 = new TransferMoney(1);
         TransferMoney r2 = new TransferMoney(2);
         Thread t1 = new Thread(r1);
@@ -95,7 +99,8 @@ public class TransferMoney implements Runnable {
         t1.join();
         t2.join();
 
-        System.out.println("a的余额" + A.balance);
-        System.out.println("b的余额" + B.balance);
+        System.out.println();
+        System.out.println("a的余额: " + A.balance);
+        System.out.println("b的余额: " + B.balance);
     }
 }

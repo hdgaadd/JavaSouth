@@ -3,7 +3,7 @@ package org.codeman.stream.component;
 /**
  * @author hdgaadd
  * created on 2022/04/02
- * @description 分身
+ * description: 分身
  */
 public class Doppelganger {
     Integer id;

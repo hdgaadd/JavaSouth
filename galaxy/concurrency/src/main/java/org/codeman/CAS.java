@@ -29,7 +29,7 @@ public class CAS implements Runnable {
         if (val == expectVal) {
             val = operateVal;
         }
-        log.info("current thread name: {}, the value of val: {}", Thread.currentThread().getName(), val);
+        log.info("current thread name: {} , the value of val: {}", Thread.currentThread().getName(), val);
     }
 
     @Override

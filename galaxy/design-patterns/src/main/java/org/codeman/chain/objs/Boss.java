@@ -7,7 +7,7 @@ import java.util.Objects;
 /**
  * @author hdgaadd
  * created on 2022/04/19
- * @description: 组长
+ * description: 组长
  */
 @Slf4j
 public class Boss extends Handler {

@@ -17,7 +17,7 @@ import java.util.UUID;
 /**
  * @author hdgaadd
  * created on 2022/03/07
- * @description 对添加防止重复提交注解，实现具体逻辑
+ * description: 对添加防止重复提交注解，实现具体逻辑
  */
 @Slf4j
 @org.aspectj.lang.annotation.Aspect
