@@ -70,7 +70,7 @@ public class PrintStructure {
             File curFile = files[i];
             String curFileName = curFile.getName();;
             if (!IGNORE_DIRECTORY.contains(curFileName) && curFile.isDirectory()) {
-                // 1. 获取装饰品├──
+                // 1. 获取装饰品'├──'
                 String firstDecoration = (i == endIndex) ? directionChild : directionParent;
                 // 若加深遍历层数 && 层数为2
                 if (isAgainLoop && fileIndex == 2) {

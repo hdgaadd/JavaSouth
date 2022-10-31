@@ -51,15 +51,6 @@ universe
      ├── SpringSecurity -- SpringSecurity认证授权
      ├── SpringSecurityOAuth2 -- SpringSecurityOAuth2单点登录
      └── xxl-job -- 分布式任务
-├── scalabilty -- 可扩展性、可维护性
-     ├── arguments -- 方法参数个数
-     ├── call-back -- 回调函数
-     ├── controller
-     ├── custom-exception -- 自定义异常
-     ├── interface -- 接口运用
-     ├── model -- 实体类公有财产
-     ├── resultcode
-     └── returnR -- 统一结果集
 └── z-others -- 其他
      ├── ans -- 暂存箱
      └── resource -- resource
