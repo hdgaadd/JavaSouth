@@ -1,4 +1,4 @@
-package org.codeman;
+package org.codeman.normal;
 
 import lombok.extern.slf4j.Slf4j;
 
