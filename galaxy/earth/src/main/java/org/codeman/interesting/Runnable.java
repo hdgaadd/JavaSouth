@@ -8,13 +8,14 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class Runnable {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         new Runnable().main();
     }
 
-    private void main() {
+    private void main() throws InterruptedException {
         Thread threadOne = new Thread(new RunClass());
         threadOne.start();
+        threadOne.join();
 
         Thread threadTwo = new Thread(this::run);
         threadTwo.start();
