@@ -2,22 +2,22 @@
 
 ```lua
 universe
+├── concurrency -- 并发线程
+     ├── basic -- 基础
+     └── transfer -- 转账死锁
+├── design-patterns -- 设计模式
+     ├── adapter -- 适配器
+     ├── build -- 建造者
+     ├── chain -- 责任链
+     ├── command -- 命令
+     ├── composite -- 组合
+     ├── factory -- 工厂
+     ├── interceptor -- 拦截过滤器
+     ├── iterator -- 迭代器
+     ├── observer -- 观察者
+     ├── singleton -- 单例
+     └── strategy -- 策略
 ├── galaxy -- 技术银河
-     ├── concurrency -- 并发线程
-          ├── normal -- normal
-          └── transfer -- 转账死锁
-     ├── design-patterns -- 设计模式
-          ├── adapter -- 适配器
-          ├── build -- 建造者
-          ├── chain -- 责任链
-          ├── command -- 命令
-          ├── composite -- 组合
-          ├── factory -- 工厂
-          ├── interceptor -- 拦截过滤器
-          ├── iterator -- 迭代器
-          ├── observer -- 观察者
-          ├── singleton -- 单例
-          └── strategy -- 策略
      ├── earth -- 技术地球
           ├── automic
           ├── beanMapping -- bean映射

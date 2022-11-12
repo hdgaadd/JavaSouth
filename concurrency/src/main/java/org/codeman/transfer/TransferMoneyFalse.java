@@ -6,10 +6,6 @@ import lombok.ToString;
 /**
  * @author hdgaadd
  * created on 2022/10/13
- *
- * 死锁reason: 线程a占据着线程b需要的资源, 线程b占据着线程a需要的资源
- *
- * 解决之道: 让两者需竞争同一资源, 而不是竞争对方拥有的资源
  */
 @AllArgsConstructor
 public class TransferMoneyFalse implements Runnable {
