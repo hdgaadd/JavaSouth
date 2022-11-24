@@ -2,12 +2,18 @@ package org.codeman.transfer;
 
 import lombok.AllArgsConstructor;
 import lombok.ToString;
+import lombok.extern.slf4j.Slf4j;
+
+import java.lang.management.ManagementFactory;
+import java.lang.management.ThreadInfo;
+import java.lang.management.ThreadMXBean;
 
 /**
  * @author hdgaadd
  * created on 2022/10/13
  */
 @AllArgsConstructor
+@Slf4j
 public class TransferMoneyFalse implements Runnable {
 
     private final int flag;
@@ -66,10 +72,13 @@ public class TransferMoneyFalse implements Runnable {
         Thread t2 = new Thread(r2);
         t1.start();
         t2.start();
-        t1.join();
-        t2.join();
-        
-        System.out.println("a的余额" + A.balance);
-        System.out.println("b的余额" + B.balance);
+
+        // 检查是否死锁
+        ThreadMXBean mxBean = ManagementFactory.getThreadMXBean();
+        long[] ids = mxBean.findDeadlockedThreads();
+        for (long id : ids) {
+            ThreadInfo info = mxBean.getThreadInfo(id);
+            log.warn("find deadlock called " + info.getThreadName());
+        }
     }
 }
