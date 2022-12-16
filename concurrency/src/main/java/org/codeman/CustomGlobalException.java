@@ -8,10 +8,10 @@ import java.util.concurrent.*;
  * @author hdgaadd
  * created on 2022/12/14
  *
- * description: 使用ThreadFactory进行线程的全局异常处理
+ * description: 使用ThreadFactory定义线程的全局异常
  */
 @Slf4j
-public class CustomException {
+public class CustomGlobalException {
     public static void main(String[] args) {
         ThreadFactory factory = r -> {
             Thread thread = new Thread(r);
