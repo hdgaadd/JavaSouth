@@ -76,6 +76,7 @@ public class TransferMoneyFalse implements Runnable {
         // 检查是否死锁
         ThreadMXBean mxBean = ManagementFactory.getThreadMXBean();
         long[] ids = mxBean.findDeadlockedThreads();
+        log.warn(String.format("find the number of deadlock is %d", ids.length));
         for (long id : ids) {
             ThreadInfo info = mxBean.getThreadInfo(id);
             log.warn("find deadlock called " + info.getThreadName());
