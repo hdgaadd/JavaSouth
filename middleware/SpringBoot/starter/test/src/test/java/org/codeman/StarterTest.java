@@ -16,7 +16,7 @@ import javax.annotation.Resource;
  *
  * description:
  *  - starter实现把bean交个IOC容器管理，而非starter的依赖无法实现
- *  - starter可配置当存在某些class、某些特定的bean，才交给IOC管理。该特定的bean可以是dubbo的莫特定bean，代表该项目引入了dubbo依赖
+ *  - starter可配置当存在某些class、某些特定的bean，才交给IOC管理。该特定的bean可以是dubbo的某特定bean，代表该项目引入了dubbo依赖
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest

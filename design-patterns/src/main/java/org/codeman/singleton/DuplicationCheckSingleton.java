@@ -2,6 +2,7 @@ package org.codeman.singleton;
 
 // 双重检查
 public class DuplicationCheckSingleton {
+
     private static DuplicationCheckSingleton twoSingleton;
 
     private DuplicationCheckSingleton() {

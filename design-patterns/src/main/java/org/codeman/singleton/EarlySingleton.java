@@ -2,10 +2,10 @@ package org.codeman.singleton;
 
 // 饿汉式
 public class EarlySingleton {
+
     private static EarlySingleton earlySingleton = new EarlySingleton();
 
-    private EarlySingleton() {
-    }
+    private EarlySingleton() { }
 
     public static EarlySingleton getSingleton() {
         return earlySingleton;
