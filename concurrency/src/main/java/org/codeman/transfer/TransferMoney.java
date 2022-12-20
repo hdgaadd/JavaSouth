@@ -9,7 +9,7 @@ import lombok.ToString;
  *
  * 死锁reason: 线程a占据着线程b需要的资源, 线程b占据着线程a需要的资源
  *
- * 解决之道: 让两者需竞争同一资源, 而不是竞争对方拥有的资源
+ * 解决之道: 破坏循环与等待：不让线程不按顺序地循环等待某一资源，而是对申请资源的顺序进行统一排序
  */
 @AllArgsConstructor
 public class TransferMoney implements Runnable {
@@ -58,6 +58,7 @@ public class TransferMoney implements Runnable {
             }
         }
 
+        // A -> B 或 B -> A，进行synchronized都是按顺序竞争资源A，后竞争资源B
         int fromHash = System.identityHashCode(from);
         int toHash = System.identityHashCode(to);
         if (fromHash < toHash) {

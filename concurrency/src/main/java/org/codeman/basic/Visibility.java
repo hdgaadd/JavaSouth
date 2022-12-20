@@ -24,8 +24,8 @@ public class Visibility {
         a.start();
 
         Thread b = new Thread(() -> {
-            // 让线程a先run
             try {
+                // 让线程a先run
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
