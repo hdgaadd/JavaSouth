@@ -1,11 +1,10 @@
 package org.codeman.registerBean.important;
 
 import lombok.extern.slf4j.Slf4j;
-import org.codeman.registerBean.component.User;
+import org.codeman.component.User;
 import org.codeman.registerBean.factorybean.UserFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Import;
-import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
 
 /**
  * @author hdgaadd
@@ -18,7 +17,7 @@ import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
 public class Client1 {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
-        context.register(UserFactory.class);
+        context.register(Client1.class);
         context.refresh();
 
         User user = context.getBean(User.class);

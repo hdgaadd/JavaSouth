@@ -1,4 +1,4 @@
-package org.codeman.registerBean.component;
+package org.codeman.component;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

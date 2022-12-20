@@ -1,4 +1,4 @@
-package org.codeman;
+package org.codeman.ordered;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.ApplicationArguments;
@@ -12,15 +12,15 @@ import org.springframework.stereotype.Component;
  */
 @Slf4j
 @Component
-public class Ordered1 implements ApplicationRunner, Ordered {
+public class Ordered2 implements ApplicationRunner, Ordered {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-       log.info("this is Ordered1");
+       log.info("this is Ordered2");
     }
 
     @Override
     public int getOrder() {
-        return Ordered.HIGHEST_PRECEDENCE + 1;
+        return Ordered.LOWEST_PRECEDENCE;
     }
 }

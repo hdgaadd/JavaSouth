@@ -1,6 +1,6 @@
 package org.codeman.registerBean.important;
 
-import org.codeman.registerBean.component.User;
+import org.codeman.component.User;
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
@@ -18,7 +18,7 @@ public class UserImportBeanDefinitionRegistrar implements ImportBeanDefinitionRe
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry, BeanNameGenerator importBeanNameGenerator) {
         // set value
         AbstractBeanDefinition beanDefinition = BeanDefinitionBuilder.rootBeanDefinition(User.class)
-                .addPropertyValue("name", "hdgaadd")
+                .addPropertyValue("name", "ImportBeanDefinitionRegistrar-hdgaadd")
                 .getBeanDefinition();
 
         // register
