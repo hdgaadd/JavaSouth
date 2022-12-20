@@ -6,6 +6,7 @@ package org.codeman.stream.component;
  * description: 分身
  */
 public class Doppelganger {
+
     Integer id;
 
     public Doppelganger(Integer id) {

@@ -13,6 +13,7 @@ import java.util.Objects;
  */
 @Slf4j
 public class AnyMatch {
+
     private static final List<Integer> one = new ArrayList<>();
 
     private static final List<Integer> two = new ArrayList<>(Arrays.asList(1, 2, 3));
@@ -21,4 +22,5 @@ public class AnyMatch {
         log.info("判断是否至少有一个元素不为null: " + one.stream().anyMatch(Objects::nonNull));
         log.info("判断是否至少有一个元素不为null: " + two.stream().anyMatch(Objects::nonNull));
     }
+
 }

@@ -12,6 +12,7 @@ import java.util.List;
  */
 @Slf4j
 public class Sum {
+
     private static final List<User> userList = new ArrayList<User>() {{
         add(new User(1));
         add(new User(2));

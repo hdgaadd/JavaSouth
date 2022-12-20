@@ -14,6 +14,7 @@ import java.util.stream.Collectors;
  */
 @Slf4j
 public class ToMap {
+
     private static final List<User> LIST = new ArrayList<User>() {{
         add(new User(1));
         add(new User(2));
@@ -40,30 +41,47 @@ public class ToMap {
     public static void main(String[] args) {
         // 封装类型-业务类型
         encapsulation_business();
+
         // 封装类型-封装类型
         encapsulation_encapsulation();
+
         // stream流转换为Map，出现的key重复情况
         handleMapDuplicated();
+
         // Map-Map
         mapTOMap();
+
         // list值和对应的个数转换为Map
         listCountToMap();
+
+        // stream转换为map的val不能为null
+        /*nullMap();*/
+
         // map的value为null
-        nullMap();
+        handleNullMap();
     }
 
-    private static void nullMap() {
+    private static void handleNullMap() {
         Map<Integer, Integer> nullMap = LIST_VAL_NULL.stream().collect(Collectors.toMap(User::hashCode, o -> Optional.ofNullable(o.getId()).orElse(666666), (k1, k2) -> k2));
         log.info("map的value为null: " + nullMap);
     }
+
+    private static void nullMap() {
+        Map<Integer, Integer> nullMap = LIST_VAL_NULL.stream().collect(Collectors.toMap(User::hashCode, User::getId));
+        log.info("map的value为null: " + nullMap);
+    }
+
     private static void listCountToMap() {
         Map<Integer, Long> collect = PEOPLES.stream().collect(Collectors.groupingBy(People::getId, Collectors.counting()));
         log.info("把list值和对应的个数转换为Map" + collect);
     }
 
     private static void mapTOMap() {
-        Map<String, Integer> collect = MAP.entrySet().stream().collect(Collectors.toMap(Map.Entry::getValue, Map.Entry::getKey));
-        log.info("mapTOMap：" + collect);
+        Map<String, Integer> collect0 = MAP.entrySet().stream().collect(Collectors.toMap(Map.Entry::getValue, Map.Entry::getKey));
+        Map<String, Integer> collect1 = MAP.entrySet().stream().collect(Collectors.toMap(o -> String.valueOf(o.getKey()), Map.Entry::getKey));
+
+        log.info("mapTOMap：" + collect0);
+        log.info("mapTOMap：" + collect1);
     }
 
     private static void handleMapDuplicated() {
@@ -71,7 +89,7 @@ public class ToMap {
         log.info("处理stream流转换为Map，出现的key重复情况(默认保存第一个key的值)：" + map.toString());
     }
 
-    public static void encapsulation_business() { // [ɪnˌkæpsjuˈleɪʃn]
+    private static void encapsulation_business() { // [ɪnˌkæpsjuˈleɪʃn]
         // method1
         Map<Integer, User> map1 = LIST.stream().collect(Collectors.toMap(User::getId, o -> o));
 
@@ -82,7 +100,7 @@ public class ToMap {
         log.info("封装类型-业务类型：" + map2.toString());
     }
 
-    public static void encapsulation_encapsulation() {
+    private static void encapsulation_encapsulation() {
         Map<Integer, Integer> map = LIST.stream().collect(Collectors.toMap(User::getId, User::getId));
         log.info("封装类型-封装类型：" + map.toString());
     }

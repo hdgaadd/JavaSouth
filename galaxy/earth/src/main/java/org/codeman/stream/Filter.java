@@ -8,10 +8,10 @@ import java.util.stream.Collectors;
 /**
  * @author hdgaadd
  * created on 2022/03/21
- * @decription 保留需要的
  */
 @Slf4j
 public class Filter {
+
     private static final List<Integer> need = new ArrayList<>(Collections.singletonList(1));
 
     private static List<Integer> one = new ArrayList<>(Arrays.asList(1, 2, 3));

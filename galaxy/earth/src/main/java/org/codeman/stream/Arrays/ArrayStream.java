@@ -9,6 +9,7 @@ import java.util.List;
  * created on 2022/04/07
  */
 public class ArrayStream {
+
     private final static int[] nums = {1, 2, 3};
 
     private final static List<Integer> list = new ArrayList<Integer>(){{add(1); add(2);add(3);}};

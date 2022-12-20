@@ -1,0 +1,27 @@
+package org.codeman.registerBean.important;
+
+import lombok.extern.slf4j.Slf4j;
+import org.codeman.registerBean.component.User;
+import org.codeman.registerBean.factorybean.UserFactory;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
+
+/**
+ * @author hdgaadd
+ * created on 2022/12/20
+ *
+ * description: 通过implements ImportBeanDefinitionRegistrar，同时设置bean的属性，把bean交给Spring管理
+ */
+@Slf4j
+@Import(value = UserImportBeanDefinitionRegistrar.class)
+public class Client1 {
+    public static void main(String[] args) {
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+        context.register(UserFactory.class);
+        context.refresh();
+
+        User user = context.getBean(User.class);
+        log.info("the obtained bean is : " + user);
+    }
+}
