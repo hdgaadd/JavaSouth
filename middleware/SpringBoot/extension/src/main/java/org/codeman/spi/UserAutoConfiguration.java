@@ -1,4 +1,4 @@
-package org.codeman.autoRegister;
+package org.codeman.spi;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

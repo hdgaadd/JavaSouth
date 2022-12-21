@@ -15,10 +15,10 @@ public class GroupManager extends Handler {
     @Override
     public void doHandler(Employee employee) {
         if (employee.getVacateDays() <= 2) {
-            log.info("审核人可通过的请假天数<=2，" + employee.getEmployeeName() + "审核通过");
+            log.info("审核人可通过的请假天数 <= 2，" + employee.getEmployeeName() + "审核通过");
         } else {
             if (Objects.isNull(getNextHandler())) {
-                log.info("审核人可通过的请假天数<=2，" + employee.getEmployeeName() + "审核失败");
+                log.info("审核人可通过的请假天数 <= 2，" + employee.getEmployeeName() + "审核失败");
             } else {
                 getNextHandler().doHandler(employee);
             }

@@ -14,7 +14,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Client {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
-        context.register(UserFactory.class);
+        context.register(UserFactoryBean.class);
         context.refresh();
 
         User user = context.getBean(User.class);

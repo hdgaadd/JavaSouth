@@ -3,7 +3,7 @@
 ```lua
 universe
 ├── concurrency -- 并发线程
-     ├── basic -- 基础
+     ├── basic
      └── transfer -- 转账死锁
 ├── design-patterns -- 设计模式
      ├── adapter -- 适配器
@@ -25,6 +25,7 @@ universe
           ├── download
           ├── empty
           ├── format -- 格式化
+          ├── function
           ├── interesting -- something interesting
           ├── ip
           ├── log -- 日志
@@ -41,14 +42,16 @@ universe
      ├── Dubbo -- 服务调用
      ├── Elasticsearch -- es
      ├── Gateway -- 网关
-     ├── Kafka -- Kafka
      ├── Knife4j -- swagger增强包
      ├── monitor -- Spring Boot Admin监视器
      ├── MybatisPlus -- MybatisPlus
-     ├── RabbitMQ -- RabbitMQ
+     ├── Netty
      ├── Redission -- Redisson分布式锁
      ├── RocketMQ -- RocketMQ
      ├── ShardingSphere -- 读写分离，单库分表
+     ├── SpringBoot
+          ├── extension -- SpringBoot扩展点
+          └── starter
      ├── SpringSecurity -- SpringSecurity认证授权
      ├── SpringSecurityOAuth2 -- SpringSecurityOAuth2单点登录
      └── xxl-job -- 分布式任务
@@ -56,10 +59,3 @@ universe
      ├── ans -- 暂存箱
      └── resource -- resource
 ```
-
-# 📖Introduce
-
-> 详情在各模块README
-
-
-

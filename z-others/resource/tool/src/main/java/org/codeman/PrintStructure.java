@@ -28,6 +28,7 @@ public class PrintStructure {
      */
     private static final List<String> INCREASE_LOOP = new ArrayList<String>() {{
         add("galaxy");
+        add("SpringBoot");
     }};
     /**
      * 需减少遍历层数的模块

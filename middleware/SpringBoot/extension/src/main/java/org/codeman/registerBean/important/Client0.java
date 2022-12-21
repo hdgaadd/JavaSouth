@@ -2,7 +2,6 @@ package org.codeman.registerBean.important;
 
 import lombok.extern.slf4j.Slf4j;
 import org.codeman.component.User;
-import org.codeman.registerBean.factorybean.UserFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Import;
 

@@ -1,4 +1,4 @@
-package org.codeman.autoRegister;
+package org.codeman.registerBean.factorybean;
 
 import org.codeman.component.User;
 import org.springframework.beans.factory.FactoryBean;
@@ -11,7 +11,7 @@ public class UserFactoryBean implements FactoryBean<User> {
 
     @Override
     public User getObject() throws Exception {
-        return new User().setName("AutoConfiguration-hdgaadd");
+        return new User().setName("UserFactory-hdgaadd");
     }
 
     @Override
