@@ -1,1 +1,2 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=org.codeman.conf.SplitAutoConfigure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.codeman.conf.SplitAutoConfigure

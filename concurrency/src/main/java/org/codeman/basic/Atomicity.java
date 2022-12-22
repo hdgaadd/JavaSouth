@@ -8,11 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author hdgaadd
  * created on 2022/10/30
  *
- * description: volatile可保证线程可见性，但无法保证高并发操作下的原子性，AtomicInteger可以
- *
- * knowledge:
- * - volatile保证当前读取的可见性，读取后，瞬时间值改变，之前读取的值是不会随之改变的
- * - 多线程操作同一共享变量的场景，volatile都不适用
+ * description: volatile可保证线程可见性，但无法保证高并发写操作下的原子性，AtomicInteger可以
  */
 @Slf4j
 public class Atomicity implements Runnable {

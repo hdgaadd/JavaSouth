@@ -8,17 +8,10 @@ import java.util.Random;
  * @author hdgaadd
  * created on 2022/10/12
  *
- * CAS原理
- *
- * compare and swap，无锁解决线程冲突的理论原理，表现形式为乐观锁
- *
+ * decription:
+ * - compare and swap，无锁解决线程冲突的理论原理，表现形式为乐观锁
  * - 在多线程共享同一变量的场景下，写数据时，对于内存中某一个变量，提供了预期值，当该变量和预期值相等时，把新值写入内存值
- *   因为CAS操作的比较和替换是原子操作，则不怕多线程干扰
- *       do{
- *       	V = B;
- *       } while(V == A)
- * - probleams
- *   因为是乐观锁，大量失败后会占用系统的过多资源
+ * - CAS操作的比较和替换是原子操作，不怕多线程干扰
  */
 @Slf4j
 public class CAS implements Runnable {

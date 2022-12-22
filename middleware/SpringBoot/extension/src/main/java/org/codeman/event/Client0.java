@@ -10,7 +10,9 @@ import org.springframework.context.annotation.Bean;
  * @author hdgaadd
  * created on 2022/12/20
  *
- * description: 发布event，SpringBoot的Listener监听
+ * description:
+ *  - 发布event，SpringBoot的Listener监听
+ *  - 注册中心启动完成后会发布某事件，SpringBoot引入的注册中心依赖监听到该事件才会进行注册
  */
 @Slf4j
 @SpringBootApplication

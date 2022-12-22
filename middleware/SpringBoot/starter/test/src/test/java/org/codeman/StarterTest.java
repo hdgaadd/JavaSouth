@@ -14,6 +14,10 @@ import javax.annotation.Resource;
  * @author hdgaadd
  * created on 2022/12/17
  *
+ * refreence: https://blog.csdn.net/johnhum123/article/details/118880781
+ *
+ * 在hdgaadd-spring-boot-starter执行：mvn clean install -Dmaven.test.skip=true
+ *
  * description:
  *  - starter实现把bean交个IOC容器管理，而非starter的依赖无法实现
  *  - starter可配置当存在某些class、某些特定的bean，才交给IOC管理。该特定的bean可以是dubbo的某特定bean，代表该项目引入了dubbo依赖

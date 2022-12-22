@@ -15,7 +15,7 @@ import java.util.concurrent.Executors;
  *  - CountDownLatch可以在线程池场景下，让主线程等待线程池的线程执行完成
  */
 @Slf4j
-public class UserCyclicBarrier {
+public class UseCyclicBarrier {
 
     private static final ExecutorService executor = Executors.newFixedThreadPool(2);
 

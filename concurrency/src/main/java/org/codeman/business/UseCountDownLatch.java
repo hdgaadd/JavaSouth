@@ -14,9 +14,9 @@ import java.util.concurrent.*;
 @Slf4j
 public class UseCountDownLatch {
 
-    private static Vector<String> orderQueue = new Vector<>();
+    private static final Vector<String> orderQueue = new Vector<>();
 
-    private static Vector<String> stockQueue = new Vector<>();
+    private static final Vector<String> stockQueue = new Vector<>();
 
     private static final ExecutorService executor = Executors.newFixedThreadPool(2);
 
