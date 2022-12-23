@@ -5,6 +5,8 @@ import java.util.StringJoiner;
 /**
  * @author hdgaadd
  * created on 2022/03/18
+ *
+ * descirption: 创造一个字符序列，可添加前缀、后缀、分隔符
  */
 public class Detail {
     public static void main(String[] args) {

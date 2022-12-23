@@ -1,5 +1,7 @@
 package org.codeman.strategy;
 
+import org.codeman.template.CustomAdapter;
+
 // 策略模式：使用抽象类属性对某个物体进行分类
 // 由于是抽象类的属性，当需要扩展其他功能的机器人时，也可快速添加该属性的机器人
 class Robot {

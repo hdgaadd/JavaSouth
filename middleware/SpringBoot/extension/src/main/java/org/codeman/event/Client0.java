@@ -14,7 +14,6 @@ import org.springframework.context.annotation.Bean;
  *  - 发布event，SpringBoot的Listener监听
  *  - 注册中心启动完成后会发布某事件，SpringBoot引入的注册中心依赖监听到该事件才会进行注册
  */
-@Slf4j
 @SpringBootApplication
 public class Client0 {
 

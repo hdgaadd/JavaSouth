@@ -1,4 +1,4 @@
-package org.codeman.callback.caseTwo.component;
+package org.codeman.callback.case1.component;
 
 import java.util.List;
 

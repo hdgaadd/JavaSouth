@@ -8,7 +8,7 @@ import java.util.Optional;
  * @author hdgaadd
  * created on 2022/03/11
  *
- * @descirptino 预防传递的业务实体为空的情况
+ * descirptino: 预防传递的业务实体为空的情况
  */
 public class UseOptional {
     public static void main(String[] args) {

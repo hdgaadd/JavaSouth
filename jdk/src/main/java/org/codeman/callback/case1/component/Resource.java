@@ -1,4 +1,4 @@
-package org.codeman.callback.caseTwo.component;
+package org.codeman.callback.case1.component;
 
 import lombok.Data;
 
@@ -20,4 +20,19 @@ public class Resource {
         add("B");
         add("B");
         add("B");}};
+
+    List<String> isC = new ArrayList<String>(){{
+        add("C");
+        add("C");
+        add("C");}};
+
+    List<String> isD = new ArrayList<String>(){{
+        add("D");
+        add("D");
+        add("D");}};
+
+    List<String> isE = new ArrayList<String>(){{
+        add("E");
+        add("E");
+        add("E");}};
 }
