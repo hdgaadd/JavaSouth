@@ -34,7 +34,8 @@ public class Strategy {
     public static void main(String[] args) {
         Robot robot1 = new Robot();
         Robot robot2 = new Robot();
-        robot1.setAbility(new Sweep());//注入属性即可区分不同机器人
+        // 注入属性即可区分不同机器人
+        robot1.setAbility(new Sweep());
         robot2.setAbility(new Cook());
         System.out.println(robot1);
         System.out.println(robot2);

@@ -3,6 +3,7 @@ package org.codeman.interceptor.component;
 /**
  * @author hdgaadd
  * created on 2022/03/28
+ *
  * description: 所拦截对象
  */
 public class Target {

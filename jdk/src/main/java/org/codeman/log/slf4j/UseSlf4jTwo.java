@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
  * created on 2022/01/27
  */
 @Slf4j
-public class LogTwo { // 只需引入lombok即可
+public class UseSlf4jTwo { // 只需引入lombok即可
 
     public static void main(String[] args) {
         log.info("info");

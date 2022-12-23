@@ -5,6 +5,7 @@ package com.codeman.common.util;
  * created on 2021/12/13
  */
 public class LOG {
+
     public static void log(Object o) {
         System.out.println("----------------" + o + "----------------");
     }

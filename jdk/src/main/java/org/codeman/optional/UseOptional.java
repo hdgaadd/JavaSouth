@@ -10,7 +10,7 @@ import java.util.Optional;
  *
  * @descirptino 预防传递的业务实体为空的情况
  */
-public class OptionalTest {
+public class UseOptional {
     public static void main(String[] args) {
         List<String> result = isNull(null);
         System.out.println(result);

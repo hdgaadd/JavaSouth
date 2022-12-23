@@ -20,6 +20,7 @@ public class FilterManager {
 
     /**
      * 所暴露接口
+     *
      * @param filter
      */
     public void setFilters(Filter filter) {
@@ -28,6 +29,7 @@ public class FilterManager {
 
     /**
      * 所暴露接口
+     *
      * @param requestParam
      */
     public void executeFilter(String requestParam) {

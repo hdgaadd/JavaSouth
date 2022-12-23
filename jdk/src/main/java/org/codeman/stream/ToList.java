@@ -32,8 +32,6 @@ public class ToList {
 
         // error
         /*guaranteeNull(null);*/
-
-
     }
 
     private static void base(List<User> list) {

@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * created on 2022/03/18
  */
 @Slf4j
-public class Detail {
+public class UseAtomic {
     public static void main(String[] args) {
         // AtomicInteger
         atomicInteger_method_one();
@@ -23,7 +23,7 @@ public class Detail {
         atomicReference();
     }
 
-    public static void atomicInteger_method_one() {
+    private static void atomicInteger_method_one() {
         List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3));
 
         final AtomicInteger count = new AtomicInteger(0);
@@ -33,7 +33,7 @@ public class Detail {
         log.info(baseCount + "");
     }
 
-    public static void atomicInteger_method_two() {
+    private static void atomicInteger_method_two() {
         List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3));
 
         final AtomicInteger count = new AtomicInteger(0);
@@ -45,16 +45,11 @@ public class Detail {
         log.info(baseCount + "");
     }
 
-    public static void atomicReference() {
+    private static void atomicReference() {
         AtomicReference<Double> ar = new AtomicReference<>(1D);
         ar.updateAndGet(v -> v + 6D);
 
         log.info(ar.toString());
     }
 
-    public static void getAndAdd() {
-        final AtomicInteger count = new AtomicInteger(0);
-        System.out.println(count.getAndAdd(1));
-        System.out.println(count);
-    }
 }

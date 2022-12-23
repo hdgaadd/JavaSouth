@@ -5,9 +5,13 @@ package com.codeman.common.constant;
  * created on 2021/12/13
  */
 public enum ResultCode {
+    
     SUCCESS(200, "operate successful"),
+    
     FAILED(500, "operation failure");
+    
     private final long code;
+    
     private final String message;
 
     ResultCode (long code, String message) {

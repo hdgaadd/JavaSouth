@@ -8,6 +8,9 @@ import org.codeman.chain.objs.GroupManager;
 /**
  * @author hdgaadd
  * created on 2022/04/19
+ *
+ * process
+ * - 责任链模式就像踢皮球，遇到无法处理的困难，抛给上级去处理
  */
 public class Client {
     public static void main(String[] args) {

@@ -13,13 +13,7 @@ import javax.annotation.Resource;
 
 @Controller
 public class TestController {
-    /*@RequestMapping("/boot/boo")
-    public @ResponseBody
-    String bootjosn(){
-        String res="ssdjfdsljf";
-        return res;
-    }*/
-
+    
     @Resource
     private UserService userService;
 

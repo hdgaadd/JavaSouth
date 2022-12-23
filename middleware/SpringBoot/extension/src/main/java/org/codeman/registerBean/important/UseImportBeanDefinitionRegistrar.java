@@ -12,7 +12,7 @@ import org.springframework.core.type.AnnotationMetadata;
  * @author hdgaadd
  * created on 2022/12/20
  */
-public class UserImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar {
+public class UseImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar {
 
     @Override
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry, BeanNameGenerator importBeanNameGenerator) {

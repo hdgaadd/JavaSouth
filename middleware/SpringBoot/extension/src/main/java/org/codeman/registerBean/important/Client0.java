@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Import;
  * description: 通过implements ImportSelector指定bean的位置，把bean交给Spring管理
  */
 @Slf4j
-@Import(value = UserImportSelector.class)
+@Import(value = UseImportSelector.class)
 public class Client0 {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();

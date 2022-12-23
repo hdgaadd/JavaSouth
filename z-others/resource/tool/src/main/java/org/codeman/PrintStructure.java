@@ -39,7 +39,7 @@ public class PrintStructure {
      * 遍历内容为src下的模块
      */
     private static final List<String> IS_SRC = new ArrayList<String>() {{
-        add("earth");
+        add("jdk");
         add("design-patterns");
         add("concurrency");
     }};

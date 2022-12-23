@@ -27,6 +27,5 @@ public class ArrayStream {
 
         // 把int[]转换为list
         List<int[]> ints = Arrays.asList(nums);
-
     }
 }

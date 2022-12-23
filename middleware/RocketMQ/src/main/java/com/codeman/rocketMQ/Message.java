@@ -1,9 +1,13 @@
 package com.codeman.rocketMQ;
 
 public class Message {
+    
     public static final String Topic = "addMoney";
+    
     public int id;
+    
     public String name;
+    
     public int number;
 
     public int getId() {

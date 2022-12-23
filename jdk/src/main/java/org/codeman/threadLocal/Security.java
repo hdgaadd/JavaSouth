@@ -4,6 +4,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author hdgaadd
+ * created on 2021/11/23
+ */
 public class Security {
     public static void main(String[] args) {
         ExecutorService es = Executors.newFixedThreadPool(20);
@@ -12,6 +16,7 @@ public class Security {
             es.execute(() -> System.out.println(number + ":" + new intUtil().addTen(number)));
         }
     }
+
     static class intUtil {
         public static int num = 0;
 
