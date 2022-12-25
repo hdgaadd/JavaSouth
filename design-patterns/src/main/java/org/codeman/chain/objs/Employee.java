@@ -10,10 +10,12 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class Employee { // [ɪmˈplɔɪiː]
+
     private String employeeName;
 
     /**
      * 请假天数
      */
     private Integer vacateDays;
+
 }

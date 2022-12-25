@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public final class Captain {
+
     private RowingBoat rowingBoat;
 
     public void row() {

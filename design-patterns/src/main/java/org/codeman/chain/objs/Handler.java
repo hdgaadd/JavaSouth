@@ -9,7 +9,9 @@ import lombok.Data;
  */
 @Data
 public abstract class Handler {
+
     private Handler nextHandler;
 
     public abstract void doHandler(Employee employee);
+
 }

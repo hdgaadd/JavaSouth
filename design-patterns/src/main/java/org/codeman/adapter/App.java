@@ -13,12 +13,11 @@ package org.codeman.adapter;
  * - lombok的var可以修饰方法中的局部变量，使其不必设置具体类型，lombok会根据运行时推断出类型
  */
 public final class App {
+
     /**
      * 外界不可以通过创建该对象，来使用该对象的非static方法
      */
-    private App() {
-
-    }
+    private App() { }
 
     public static void main(String[] args) {
         // lombok的var可以修饰方法中的局部变量，可不必设置具体类型，lombok会根据运行时的推断出类型

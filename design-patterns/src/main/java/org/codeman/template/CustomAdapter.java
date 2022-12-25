@@ -15,4 +15,9 @@ public class CustomAdapter extends AbstractAdapter {
     protected void initialized() {
         log.info("CustomAdapter is initialized!");
     }
+
+    @Override
+    protected void afterInitialized() {
+        log.info("afterInitialized!");
+    }
 }

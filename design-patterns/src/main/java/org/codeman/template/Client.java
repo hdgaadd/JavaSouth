@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author hdgaadd
  * created on 2022/12/23
  *
- * description: 模板模式，AbstractAdapter定义固定模板，不确定的实现交由子类实现
+ * description: 模板方法模式，AbstractAdapter定义固定模板，不确定的实现交由子类实现
  */
 @Slf4j
 @SpringBootApplication
