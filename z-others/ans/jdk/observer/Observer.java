@@ -51,7 +51,7 @@ public class Observer {
             add(new C());
         }};
         for (Child child : list) {
-            child.setMessage("吃饭了");   // 妈妈有新消息，即可通过遍历List集合，确保在在List集合里注册过的孩子都会接收到通知
+            child.setMessage("吃饭了");  // 妈妈有新消息，即可通过遍历List集合，确保在在List集合里注册过的孩子都会接收到通知
         }
         D d = new D();
         list.add(d); // 孩子D在妈妈通知后再注册，先前的消息接收不到

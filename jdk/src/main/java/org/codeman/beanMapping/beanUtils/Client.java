@@ -1,4 +1,4 @@
-package org.codeman.beanMapping.BeanUtils;
+package org.codeman.beanMapping.beanUtils;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
@@ -8,7 +8,7 @@ import org.springframework.beans.BeanUtils;
  * created on 2021/12/27
  */
 @Slf4j
-public class Test {
+public class Client {
     public static void main(String[] args) {
         A a = new A();
         a.setVal(1);

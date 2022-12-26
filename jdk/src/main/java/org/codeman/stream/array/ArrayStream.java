@@ -1,4 +1,4 @@
-package org.codeman.stream.Arrays;
+package org.codeman.stream.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;

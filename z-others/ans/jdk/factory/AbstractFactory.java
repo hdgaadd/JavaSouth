@@ -3,9 +3,9 @@ package org.codeman.factory;
 import java.util.ArrayList;
 import java.util.List;
 
-//抽象工厂模式
+// 抽象工厂模式
 abstract class Farm {
-    List<Product> productList=new ArrayList<>();//可以生产多种类型的产品：动物、水果
+    List<Product> productList=new ArrayList<>(); // 可以生产多种类型的产品：动物、水果
 }
 
 class GuangZhouFarm extends Farm {
@@ -43,13 +43,13 @@ class watermelon extends Plant {
 
 public class AbstractFactory {
     public static void main(String[] args) {
-        Farm farm1 = new BeiJingFarm();//北京农场
+        Farm farm1 = new BeiJingFarm(); // 北京农场
         farm1.productList.add(new horse());
         farm1.productList.add(new apple());
         farm1.productList.add(new watermelon());
         System.out.println(farm1);
 
-        Farm farm2 = new GuangZhouFarm();//广州农场
+        Farm farm2 = new GuangZhouFarm(); // 广州农场
         farm2.productList.add(new pig());
         farm2.productList.add(new apple());
         System.out.println(farm2);

@@ -1,4 +1,4 @@
-package org.codeman.juc;
+package org.codeman.readwritelock;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -29,9 +29,9 @@ public class UseReadWriteLock {
         }
     }
 
-    static class Cache {
+    private static class Cache {
 
-        private static volatile Map<Integer, String> CACHE_MAP = new HashMap<>();
+        private static final Map<Integer, String> CACHE_MAP = new HashMap<>();
 
         private static final ReentrantReadWriteLock readWriteLock = new ReentrantReadWriteLock();
 

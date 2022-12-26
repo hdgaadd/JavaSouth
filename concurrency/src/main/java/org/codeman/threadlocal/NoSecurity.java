@@ -1,4 +1,4 @@
-package org.codeman.threadLocal;
+package org.codeman.threadlocal;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
  * created on 2021/11/23
  */
 public class NoSecurity {
+
     public static void main(String[] args) {
         ExecutorService es = Executors.newFixedThreadPool(20);
         for (int i = 0; i < 20; i++) {
@@ -17,7 +18,8 @@ public class NoSecurity {
         }
     }
 
-    static class intUtil {
+    private static class intUtil {
+
         public static int num = 0; // 关键点在于num是共享变量，下一个线程修改该值，上一个线程的获取该值也会改变
 
         public int addTen(int number) { // num起到保存number的作用

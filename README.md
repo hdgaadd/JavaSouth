@@ -5,19 +5,16 @@ universe
 ├── concurrency -- 并发线程
      ├── basic
      ├── business
+     ├── juc
      └── transfer -- 转账死锁
 ├── design-patterns -- 设计模式
      ├── adapter -- 适配器
      ├── build -- 建造者
      ├── chain -- 责任链
      ├── command -- 命令
-     ├── composite -- 组合
-     ├── factory -- 工厂
      ├── interceptor -- 拦截过滤器
-     ├── iterator -- 迭代器
-     ├── observer -- 观察者
      ├── singleton -- 单例
-     └── strategy -- 策略
+     └── template
 ├── jdk -- JDK
      ├── automic
      ├── beanMapping -- bean映射
@@ -31,7 +28,7 @@ universe
      ├── log -- 日志
      ├── oom -- 内存溢出
      ├── optional -- 判空处理
-     ├── stream -- stream流
+     ├── stream -- 流stream
      ├── stringJoiner -- 字符串连接
      ├── system
      ├── threadLocal

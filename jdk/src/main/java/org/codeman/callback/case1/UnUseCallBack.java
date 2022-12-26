@@ -8,7 +8,7 @@ import java.util.List;
  * @author hdgaadd
  * created on 2022/02/06
  */
-public class NotUseCallBack {
+public class UnUseCallBack {
 
     public static void main(String[] args){
         Resource resource = new Resource();

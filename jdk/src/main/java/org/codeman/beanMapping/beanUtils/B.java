@@ -1,4 +1,4 @@
-package org.codeman.beanMapping.BeanUtils;
+package org.codeman.beanMapping.beanUtils;
 
 import lombok.Data;
 

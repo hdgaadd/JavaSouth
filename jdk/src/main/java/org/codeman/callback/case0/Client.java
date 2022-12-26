@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
  * @author hdgaadd
  * created on 2022/01/02
  */
-public class Main {
+public class Client {
 
     public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException {
         // 通过回调函数，调用n个方法

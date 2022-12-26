@@ -14,6 +14,7 @@ import java.util.concurrent.atomic.AtomicReference;
  */
 @Slf4j
 public class UseAtomic {
+
     public static void main(String[] args) {
         // AtomicInteger
         atomicInteger_method_one();

@@ -1,4 +1,4 @@
-package org.codeman.juc;
+package org.codeman.readwritelock;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -10,7 +10,7 @@ import java.util.Map;
  * created on 2022/12/25
  */
 @Slf4j
-public class NoUseReadWriteLock {
+public class UnUseReadWriteLock {
 
     private static final Cache cache = new Cache();
 
@@ -26,10 +26,9 @@ public class NoUseReadWriteLock {
         }
     }
 
-    static class Cache {
+    private static class Cache {
 
-        private static volatile Map<Integer, String> CACHE_MAP = new HashMap<>();
-
+        private static final Map<Integer, String> CACHE_MAP = new HashMap<>();
 
         public void put(Integer index, String val) {
             try {

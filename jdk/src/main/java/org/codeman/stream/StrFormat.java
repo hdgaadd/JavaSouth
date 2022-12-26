@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
  * created on 2022/07/17
  */
 @Slf4j
-public class StringStr {
+public class StrFormat {
 
     private static final List<User> LIST = new ArrayList<User>() {{
         add(new User(1));

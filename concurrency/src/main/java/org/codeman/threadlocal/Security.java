@@ -1,4 +1,4 @@
-package org.codeman.threadLocal;
+package org.codeman.threadlocal;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
  * created on 2021/11/23
  */
 public class Security {
+
     public static void main(String[] args) {
         ExecutorService es = Executors.newFixedThreadPool(20);
         for (int i = 0; i < 20; i++) {
@@ -17,7 +18,8 @@ public class Security {
         }
     }
 
-    static class intUtil {
+    private static class intUtil {
+
         public static int num = 0;
 
         public static ThreadLocal<Integer> threadLocal = new ThreadLocal<>(); // 使用threadLocal保存线程保存的当前共享变量num

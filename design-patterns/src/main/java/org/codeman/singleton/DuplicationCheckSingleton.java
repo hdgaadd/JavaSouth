@@ -5,8 +5,7 @@ public class DuplicationCheckSingleton {
 
     private static DuplicationCheckSingleton twoSingleton;
 
-    private DuplicationCheckSingleton() {
-    }
+    private DuplicationCheckSingleton() { }
 
     public static synchronized DuplicationCheckSingleton getSingleton() {//线程安全
         if (twoSingleton == null) {
