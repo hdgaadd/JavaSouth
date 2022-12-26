@@ -6,6 +6,8 @@ universe
      ├── basic
      ├── business
      ├── juc
+     ├── readwritelock
+     ├── threadlocal
      └── transfer -- 转账死锁
 ├── design-patterns -- 设计模式
      ├── adapter -- 适配器
@@ -14,7 +16,7 @@ universe
      ├── command -- 命令
      ├── interceptor -- 拦截过滤器
      ├── singleton -- 单例
-     └── template
+     └── template -- 模板方法
 ├── jdk -- JDK
      ├── automic
      ├── beanMapping -- bean映射
@@ -31,7 +33,6 @@ universe
      ├── stream -- 流stream
      ├── stringJoiner -- 字符串连接
      ├── system
-     ├── threadLocal
      └── time
 ├── middleware -- 开源中间件使用
      ├── Dubbo -- 服务调用

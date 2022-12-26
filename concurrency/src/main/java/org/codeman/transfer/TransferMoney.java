@@ -7,9 +7,9 @@ import lombok.ToString;
  * @author hdgaadd
  * created on 2022/10/13
  *
- * 死锁reason: 线程a占据着线程b需要的资源, 线程b占据着线程a需要的资源
- *
- * 解决之道: 破坏循环与等待：不让线程不按顺序地循环等待某一资源，而是对申请资源的顺序进行统一排序
+ * description:
+ *  - 死锁reason: 线程a占据着线程b需要的资源, 线程b占据着线程a需要的资源
+ *  - 解决之道: 破坏循环与等待，不让线程不按顺序地循环等待某一资源，而是对申请资源的顺序进行统一排序
  */
 @AllArgsConstructor
 public class TransferMoney implements Runnable {
