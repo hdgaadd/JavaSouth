@@ -13,12 +13,12 @@ import java.util.concurrent.ConcurrentHashMap;
  * created on 2022/12/26
  */
 @Component
-public class FileHandleManager implements ApplicationContextAware {
+public class HandleManager implements ApplicationContextAware {
 
-    private final Map<String, FileHandleInterface> HANDLE_BEAN_MAP = new ConcurrentHashMap<>();
+    private final Map<String, HandleInterface> HANDLE_BEAN_MAP = new ConcurrentHashMap<>();
 
-    public String fileHandle(FileHandleTypeEnum handleEnum, String parameter) {
-        FileHandleInterface handleBean = HANDLE_BEAN_MAP.get(handleEnum.toString());
+    public String fileHandle(HandleTypeEnum handleEnum, String parameter) {
+        HandleInterface handleBean = HANDLE_BEAN_MAP.get(handleEnum.toString());
 
         if (handleBean != null) {
             return handleBean.handleFile(parameter);
@@ -28,7 +28,7 @@ public class FileHandleManager implements ApplicationContextAware {
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        Map<String, FileHandleInterface> beanMap = applicationContext.getBeansOfType(FileHandleInterface.class);
+        Map<String, HandleInterface> beanMap = applicationContext.getBeansOfType(HandleInterface.class);
         beanMap.values().forEach(o -> HANDLE_BEAN_MAP.put(o.getType(), o));
     }
 }

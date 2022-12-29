@@ -10,7 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * created on 2022/12/26
  *
  * description:
- *  - Condition的await阻塞当前线程，同时得到唤醒与获取锁资源
+ *  - Condition的await阻塞当前线程，同时释放、等待获取锁资源
  *  - 执行唤醒某线程的signal，必须在该线程也争夺同一lock的情况下
  */
 @Slf4j

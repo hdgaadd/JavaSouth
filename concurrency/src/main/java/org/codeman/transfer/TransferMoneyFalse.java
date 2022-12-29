@@ -57,6 +57,7 @@ public class TransferMoneyFalse implements Runnable {
                 System.out.println("成功转账" + amount + "元");
             }
         }
+        // 双重synchronized适用于在多线程环境下对多个共享资源的修改
         synchronized (from) {
             Thread.sleep(1);
             synchronized (to) {

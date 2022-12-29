@@ -1,4 +1,4 @@
-package org.codeman.chain.objs;
+package org.codeman.chain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

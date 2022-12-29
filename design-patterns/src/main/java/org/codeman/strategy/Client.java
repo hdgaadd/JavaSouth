@@ -18,9 +18,9 @@ public class Client {
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(Client.class, args);
 
-        FileHandleManager bean = context.getBean(FileHandleManager.class);
-        log.info(bean.fileHandle(FileHandleTypeEnum.A_TYPE, "test data"));
-        log.info(bean.fileHandle(FileHandleTypeEnum.B_TYPE, "test data"));
+        HandleManager bean = context.getBean(HandleManager.class);
+        log.info(bean.fileHandle(HandleTypeEnum.A_TYPE, "test data"));
+        log.info(bean.fileHandle(HandleTypeEnum.B_TYPE, "test data"));
     }
 
 }

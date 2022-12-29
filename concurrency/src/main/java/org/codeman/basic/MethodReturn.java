@@ -22,7 +22,7 @@ public class MethodReturn {
         return "----------------main end----------------";
     }
 
-    static class Test2 extends Thread {
+    private static class Test2 extends Thread {
         @SneakyThrows
         @Override
         public void run() {

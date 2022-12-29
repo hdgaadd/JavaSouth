@@ -7,16 +7,16 @@ import org.springframework.stereotype.Component;
  * created on 2022/12/26
  */
 @Component
-public class AHandle implements FileHandleInterface {
+public class AHandle implements HandleInterface {
 
     @Override
     public String getType() {
-        return FileHandleTypeEnum.A_TYPE.toString();
+        return HandleTypeEnum.A_TYPE.toString();
     }
 
     @Override
     public String handleFile(String parameter) {
-        return FileHandleTypeEnum.A_TYPE.toString() + " " + parameter;
+        return HandleTypeEnum.A_TYPE.toString() + " " + parameter;
     }
 
 }

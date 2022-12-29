@@ -4,7 +4,7 @@ package org.codeman.strategy;
  * @author hdgaadd
  * created on 2022/12/26
  */
-public interface FileHandleInterface {
+public interface HandleInterface {
 
     String getType();
 

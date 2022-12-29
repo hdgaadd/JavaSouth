@@ -27,7 +27,7 @@ public abstract class AbstractAdapter implements ApplicationListener<Application
         log.info("template logic execution!");
     }
 
-    // abstract交予子类实现，protected保护该方法不被通过new子类进行调用
+    // abstract交予子类实现、protected保护该方法在非同包调用情况下，不被通过new子类进行调用，同时new父类也是不能调用
     protected abstract void initialized();
 
     // 不使用abstract的模板方法，代表可用可不用
