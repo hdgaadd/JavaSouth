@@ -16,6 +16,7 @@ universe
      ├── command -- 命令
      ├── interceptor -- 拦截过滤器
      ├── singleton -- 单例
+     ├── strategy -- 策略
      └── template -- 模板方法
 ├── jdk -- JDK
      ├── automic

@@ -12,43 +12,41 @@ import java.util.stream.Collectors;
 @Slf4j
 public class Filter {
 
-    private static final List<Integer> need = new ArrayList<>(Collections.singletonList(1));
+    private static final List<Integer> NEED = new ArrayList<>(Collections.singletonList(1));
 
-    private static List<Integer> one = new ArrayList<>(Arrays.asList(1, 2, 3));
+    private static final List<Integer> ONE = new ArrayList<>(Arrays.asList(1, 2, 3));
 
-    private static List<Integer> two = new ArrayList<>(Arrays.asList(1, 2, 3));
+    private static final List<Integer> TWO = new ArrayList<>(Arrays.asList(1, 2, 3));
 
-    private static final Map<Integer, String> map = new HashMap<>() {{
+    private static final Map<Integer, String> MAP = new HashMap<>() {{
         put(1, "1");
         put(2, "2");
     }};
 
     public static void main(String[] args) {
         filterList();
-        filterMap(map);
+        filterMap();
     }
 
     private static void filterList() {
         // way-one
-        one = one.stream().filter(item -> need.contains(item)).collect(Collectors.toList());
+        List<Integer> collect1 = ONE.stream().filter(NEED::contains).collect(Collectors.toList());
         // way-two
-        two = two.stream().filter(item -> {
-            if (need.contains(item)) {
+        List<Integer> collect2 = TWO.stream().filter(item -> {
+            if (NEED.contains(item)) {
                 return true;
             }
             return false;
         }).collect(Collectors.toList());
-        log.info(String.valueOf(one));
-        log.info(String.valueOf(two));
+
+        log.info(String.valueOf(collect1));
+        log.info(String.valueOf(collect2));
     }
 
-    private static void filterMap(Map<Integer, String> map) {
-        map = map.entrySet().stream().filter(item -> {
-            if (item.getKey() == 2) {
-                return false;
-            }
-            return true;
-        }).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    private static void filterMap() {
+        Map<Integer, String> map = MAP.entrySet().stream().filter(o -> o.getKey() != 2)
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+
         log.info(String.valueOf(map));
     }
 }

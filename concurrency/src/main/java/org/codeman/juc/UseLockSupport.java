@@ -9,7 +9,7 @@ import java.util.concurrent.locks.LockSupport;
  * @author hdgaadd
  * created on 2022/12/26
  *
- * description: 指定阻塞、唤醒某线程，相对于ReentrantLock，可以在不用争夺同一锁资源的情况下，唤醒某线程
+ * description: 执行阻塞、唤醒某线程，相对于ReentrantLock，可以在不用争夺同一锁资源的情况下，唤醒某线程
  */
 @Slf4j
 public class UseLockSupport {

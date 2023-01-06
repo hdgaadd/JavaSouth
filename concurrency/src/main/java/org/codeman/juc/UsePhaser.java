@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * @author hdgaadd
  * created on 2022/12/26
  *
- * descirption: 相对于CountDownLatch、CyclicBarrier，Phaser可动态注册需要协调的线程，规定线程的执行屏障
+ * descirption: 相对于CountDownLatch、CyclicBarrier，Phaser可动态注册需要进行屏障的线程
  */
 @Slf4j
 public class UsePhaser {

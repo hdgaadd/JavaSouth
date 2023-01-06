@@ -1,7 +1,11 @@
 package org.codeman.function;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @author hdgaadd
@@ -12,7 +16,11 @@ public class UseFunction {
         // 定义规则：将String转换为ASCII码数组
         Function<String, int[]> function  = s -> s.chars().distinct().sorted().toArray();
 
-        String str = "abab";
-        System.out.println(Arrays.toString(function.apply(str)));
+        // 处理单个字符串
+        System.out.println(Arrays.toString(function.apply("aab")));
+
+        // 处理stream流里的每个字符串
+        List<int[]> list0 = new ArrayList<String>(){{ add("aab"); }}.stream().map(function).collect(Collectors.toList());
+        list0.forEach(o -> System.out.println(Arrays.toString(o)));
     }
 }
