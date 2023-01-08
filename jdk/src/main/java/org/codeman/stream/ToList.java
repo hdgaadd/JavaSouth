@@ -3,7 +3,6 @@ package org.codeman.stream;
 import org.codeman.stream.component.Doppelganger;
 import org.codeman.stream.component.User;
 import lombok.extern.slf4j.Slf4j;
-import org.codeman.stream.component.UserSort;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -15,20 +14,20 @@ import java.util.stream.Collectors;
 @Slf4j
 public class ToList {
 
-    private static final List<User> userList = new ArrayList<User>() {{
+    private static final List<User> USERS = new ArrayList<User>() {{
         add(new User(1));
         add(new User(2));
     }};
 
     public static void main(String[] args) {
         // 基本数据类型
-        base(userList);
+        base(USERS);
 
         // 业务对象
-        business(userList);
+        business(USERS);
 
         // 确保传入的List不为空，否则List为空，使用stream()会抛出NullPointException
-        guaranteeNotNull(userList);
+        guaranteeNotNull(USERS);
 
         // error
         /*guaranteeNull(null);*/

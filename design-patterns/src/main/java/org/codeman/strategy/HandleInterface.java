@@ -8,7 +8,7 @@ public interface HandleInterface {
 
     String getType();
 
-    String handleFile(String parameter);
+    String handle(String parameter);
 
 }
 

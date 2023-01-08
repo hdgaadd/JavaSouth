@@ -3,6 +3,7 @@ package org.codeman.stream.component;
 /**
  * @author hdgaadd
  * created on 2022/04/02
+ *
  * description: 分身
  */
 public class Doppelganger {
@@ -13,9 +14,7 @@ public class Doppelganger {
         this.id = id;
     }
 
-    public Doppelganger() {
-
-    }
+    public Doppelganger() { }
 
     public Integer getId() {
         return id;

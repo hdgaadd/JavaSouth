@@ -9,24 +9,28 @@ import java.util.stream.Collectors;
  */
 public class ArrayStream {
 
-    private final static int[] arr = {1, 2, 3};
+    private final static int[] ARR = {1, 2, 3};
 
-    private final static List<Integer> list = new ArrayList<Integer>(){{add(1); add(2);add(3);}};
+    private final static List<Integer> LIST = new ArrayList<>() {{
+        add(1);
+        add(2);
+        add(3);
+    }};
 
     public static void main(String[] args) {
 
         // 转换为Integer[]
-        Integer[] arr0 = Arrays.stream(arr).boxed().toArray(Integer[]::new);
+        Integer[] arr0 = Arrays.stream(ARR).boxed().toArray(Integer[]::new);
 
         // forEach
-        Arrays.stream(arr).forEach(System.out::println);
+        Arrays.stream(ARR).forEach(System.out::println);
 
         // 将字符串句子自定义排序
         System.out.println(
                 Arrays.stream("is2 sentence4 This1 a3".split(" "))
-                    .sorted(Comparator.comparing(o -> o.charAt(o.length() - 1)))
-                    .map(o -> o.substring(0, o.length() - 1))
-                    .collect(Collectors.joining(" "))
+                        .sorted(Comparator.comparing(o -> o.charAt(o.length() - 1)))
+                        .map(o -> o.substring(0, o.length() - 1))
+                        .collect(Collectors.joining(" "))
         );
     }
 }

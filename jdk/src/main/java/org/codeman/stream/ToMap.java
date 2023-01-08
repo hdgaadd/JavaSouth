@@ -23,7 +23,7 @@ public class ToMap {
         add(new User(1));
         add(new User(1));
     }};
-    private static Map<Integer, String> MAP = new HashMap<Integer, String>() {{
+    private static final Map<Integer, String> MAP = new HashMap<Integer, String>() {{
         put(1, "1");
         put(2, "2");
     }};
@@ -45,14 +45,14 @@ public class ToMap {
         // 封装类型-封装类型
         encapsulation_encapsulation();
 
-        // stream流转换为Map，出现的key重复情况
-        handleMapDuplicated();
-
         // Map-Map
         mapTOMap();
 
         // list值和对应的个数转换为Map
         listCountToMap();
+
+        // stream流转换为Map，出现的key重复情况
+        handleMapDuplicated();
 
         // stream转换为map的val不能为null
         /*nullMap();*/
@@ -62,7 +62,7 @@ public class ToMap {
     }
 
     private static void handleNullMap() {
-        Map<Integer, Integer> nullMap = LIST_VAL_NULL.stream().collect(Collectors.toMap(User::hashCode, o -> Optional.ofNullable(o.getId()).orElse(666666), (k1, k2) -> k2));
+        Map<Integer, Integer> nullMap = LIST_VAL_NULL.stream().collect(Collectors.toMap(User::hashCode, o -> Optional.ofNullable(o.getId()).orElse(666666)));
         log.info("map的value为null: " + nullMap);
     }
 

@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 @Slf4j
 public class Sorted {
 
-    private static final List<People> people = new ArrayList<People>() {{
+    private static final List<People> PEOPLE_LIST = new ArrayList<People>() {{
         add(new People(3, "people3", "333"));
         add(new People(1, "people1", "111"));
         add(new People(2, "people2", "222"));
@@ -44,12 +44,12 @@ public class Sorted {
     }
 
     private static void descSorted() {
-        List<People> des = people.stream().sorted(Comparator.comparing(People::getId)).collect(Collectors.toList());
+        List<People> des = PEOPLE_LIST.stream().sorted(Comparator.comparing(People::getId)).collect(Collectors.toList());
         log.info("对List进行升序排序" + des);
     }
 
     private static void ascSorted() { // reversed颠倒的[rɪ'vɜ:st]
-        List<People> asc = people.stream().sorted(Comparator.comparing(People::getId).reversed()).collect(Collectors.toList());
+        List<People> asc = PEOPLE_LIST.stream().sorted(Comparator.comparing(People::getId).reversed()).collect(Collectors.toList());
         log.info("对List进行降序排序" + asc);
     }
 

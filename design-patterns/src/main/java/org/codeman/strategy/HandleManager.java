@@ -17,13 +17,13 @@ public class HandleManager implements ApplicationContextAware {
 
     private final Map<String, HandleInterface> HANDLE_BEAN_MAP = new ConcurrentHashMap<>();
 
-    public String fileHandle(HandleTypeEnum handleEnum, String parameter) {
+    public String executor(HandleTypeEnum handleEnum, String parameter) {
         HandleInterface handleBean = HANDLE_BEAN_MAP.get(handleEnum.toString());
 
         if (handleBean != null) {
-            return handleBean.handleFile(parameter);
+            return handleBean.handle(parameter);
         }
-        return "does not exit this FileTypeHandleEnum";
+        return "does not exit this handleTypeEnum";
     }
 
     @Override

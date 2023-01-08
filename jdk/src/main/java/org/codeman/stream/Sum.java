@@ -13,7 +13,7 @@ import java.util.List;
 @Slf4j
 public class Sum {
 
-    private static final List<User> userList = new ArrayList<User>() {{
+    private static final List<User> USERS = new ArrayList<User>() {{
         add(new User(1));
         add(new User(2));
     }};
@@ -24,7 +24,7 @@ public class Sum {
     }
 
     private static void sumLong() {
-        long sum = userList.stream().mapToLong(User::getId).sum();
+        long sum = USERS.stream().mapToLong(User::getId).sum();
         log.info("List的和为：" + sum);
     }
 }

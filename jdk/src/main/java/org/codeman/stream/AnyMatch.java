@@ -14,13 +14,13 @@ import java.util.Objects;
 @Slf4j
 public class AnyMatch {
 
-    private static final List<Integer> one = new ArrayList<>();
+    private static final List<Integer> ONE = new ArrayList<>();
 
-    private static final List<Integer> two = new ArrayList<>(Arrays.asList(1, 2, 3));
+    private static final List<Integer> TWO = new ArrayList<>(Arrays.asList(1, 2, 3));
 
     public static void main(String[] args) {
-        log.info("判断是否至少有一个元素不为null: " + one.stream().anyMatch(Objects::nonNull));
-        log.info("判断是否至少有一个元素不为null: " + two.stream().anyMatch(Objects::nonNull));
+        log.info("判断是否至少有一个元素不为null: " + ONE.stream().anyMatch(Objects::nonNull));
+        log.info("判断是否至少有一个元素不为null: " + TWO.stream().anyMatch(Objects::nonNull));
     }
 
 }

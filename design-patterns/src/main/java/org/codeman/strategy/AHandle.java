@@ -15,7 +15,7 @@ public class AHandle implements HandleInterface {
     }
 
     @Override
-    public String handleFile(String parameter) {
+    public String handle(String parameter) {
         return HandleTypeEnum.A_TYPE.toString() + " " + parameter;
     }
 
