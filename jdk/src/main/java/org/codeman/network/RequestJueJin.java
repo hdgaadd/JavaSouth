@@ -17,20 +17,20 @@ import java.util.Set;
  * created on 2023/01/08
  *
  * https://curlconverter.com/java/
- * copy as bash
+ * copy as curl(bash)
  */
-class CurlRequest0 {
+class RequestJueJin {
 
-    private static final String MSG = "设计";
+    private static final String MSG = "debug";
 
-    private static final String KEYWORD = "设计";
+    private static final String KEYWORD = "debug";
 
-    private static final int PAGE_INDEX = 60;
+    private static final int PAGE_SIZE = 20;
 
     private static final Set<String> CONTAINER = new HashSet<>();
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        for (int i = 0; i < PAGE_INDEX; i++) {
+        for (int i = 0; i < PAGE_SIZE; i++) {
             URL url = new URL("https://api.juejin.cn/search_api/v1/search?aid=2608&uuid=7162897933325780510&spider=0");
             HttpURLConnection httpConn = (HttpURLConnection) url.openConnection();
             httpConn.setRequestMethod("POST");
@@ -65,7 +65,7 @@ class CurlRequest0 {
             JSONObject json0 = JSONObject.parseObject(response);
             JSONArray data = json0.getJSONArray("data");
 
-            for (int j = 0; j < 20; j++) {
+            for (int j = 0; j < data.size(); j++) {
                 JSONObject json1 = JSONObject.parseObject(data.get(j).toString());
                 JSONObject json2 = json1.getJSONObject("result_model");
                 JSONObject json3 = JSONObject.parseObject(json2.getString("article_info"));
@@ -87,7 +87,7 @@ class CurlRequest0 {
                 if (!CONTAINER.contains(title))
                     if (title.contains(KEYWORD) || brief_content.contains(KEYWORD))
                         if (category_name.equals("后端"))
-                            System.out.println(String.format("page&index: %s-%s, title: %s , access url: %s", i, j, title, "https://juejin.cn/post/" + article_id));
+                            System.out.println(String.format("page&index: %s-%s, title: %s, access url: [access url](%s)", i, j, title, "https://juejin.cn/post/" + article_id));
                 CONTAINER.add(title);
             }
 
