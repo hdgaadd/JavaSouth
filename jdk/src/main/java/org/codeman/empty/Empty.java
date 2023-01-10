@@ -2,6 +2,7 @@ package org.codeman.empty;
 
 import org.apache.commons.lang3.ObjectUtils;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -13,7 +14,7 @@ import java.util.Objects;
  */
 public class Empty {
 
-    private static final List<Integer> list = List.of();
+    private static final List<Integer> list = new ArrayList<>();
 
     public static void main(String[] args) {
         System.out.println(Objects.isNull(list));

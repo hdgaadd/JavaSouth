@@ -11,10 +11,10 @@ import java.util.Map;
  */
 public class Foreach {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>(){{ add(1); add(2); }};
+        List<Integer> list = new ArrayList<Integer>(){{ add(1); add(2); }};
         list.forEach(System.out::println);
 
-        Map<Integer, String> map = new HashMap<>(){{ put(1, "1"); }};
+        Map<Integer, String> map = new HashMap<Integer, String>(){{ put(1, "1"); }};
         map.forEach((id, name) -> System.out.println(id + name)); // 括号内键值对
     }
 }

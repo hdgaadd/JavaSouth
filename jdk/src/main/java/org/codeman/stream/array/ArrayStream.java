@@ -11,7 +11,7 @@ public class ArrayStream {
 
     private final static int[] ARR = {1, 2, 3};
 
-    private final static List<Integer> LIST = new ArrayList<>() {{
+    private final static List<Integer> LIST = new ArrayList<Integer>() {{
         add(1);
         add(2);
         add(3);

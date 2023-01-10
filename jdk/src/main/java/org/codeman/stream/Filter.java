@@ -18,7 +18,7 @@ public class Filter {
 
     private static final List<Integer> TWO = new ArrayList<>(Arrays.asList(1, 2, 3));
 
-    private static final Map<Integer, String> MAP = new HashMap<>() {{
+    private static final Map<Integer, String> MAP = new HashMap<Integer, String>() {{
         put(1, "1");
         put(2, "2");
     }};

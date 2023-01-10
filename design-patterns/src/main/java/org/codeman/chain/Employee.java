@@ -11,7 +11,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class Employee { // [ɪmˈplɔɪiː]
 
-    private String employeeName;
+    private String name;
 
     /**
      * 请假天数

@@ -1,4 +1,4 @@
-package org.codeman.ip;
+package org.codeman.network;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -10,7 +10,7 @@ import java.util.Arrays;
  *
  * description: 获得本机ip地址
  */
-public class IpTest {
+public class IpMsg {
     public static void main(String[] args) throws UnknownHostException {
         InetAddress localHost = InetAddress.getLocalHost();
         System.out.println(localHost);

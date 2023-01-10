@@ -1,0 +1,36 @@
+// Extra: Using where; Using filesort;
+// type: ALL
+select id from article where category_id = 1 and comments < 1 order by views desc limit 1;
+explain select id from article where category_id = 1 and comments < 1 order by views desc limit 1;
++----+-------------+---------+------+---------------+------+---------+------+------+-----------------------------+
+| id | select_type | table   | type | possible_keys | key  | key_len | ref  | rows | Extra                       |
++----+-------------+---------+------+---------------+------+---------+------+------+-----------------------------+
+|  1 | SIMPLE      | article | ALL  | NULL          | NULL | NULL    | NULL | 1113 | Using where; Using filesort |
++----+-------------+---------+------+---------------+------+---------+------+------+-----------------------------+
+
+
+## comment的范围让索引失效, 重新建索引
+// Extra: Using where; Using index; Using filesort
+// type: range
+create index idx_ca_co_vi on article(category_id,comments,views);
+explain select id from article where category_id = 1 and comments < 1 order by views desc limit 1;
++----+-------------+---------+-------+---------------+--------------+---------+------+------+------------------------------------------+
+| id | select_type | table   | type  | possible_keys | key          | key_len | ref  | rows | Extra                                    |
++----+-------------+---------+-------+---------------+--------------+---------+------+------+------------------------------------------+
+|  1 | SIMPLE      | article | range | idx_ca_co_vi  | idx_ca_co_vi | 9       | NULL |    1 | Using where; Using index; Using filesort |
++----+-------------+---------+-------+---------------+--------------+---------+------+------+------------------------------------------+
+
+
+// Extra: Using where;
+// type: ref
+drop index idx_ca_co_vi on article;
+create index idx_ca_vi on article(category_id,views);
+explain select id from article where category_id = 1 and comments < 1 order by views desc limit 1;
++----+-------------+---------+------+---------------+-----------+---------+-------+------+-------------+
+| id | select_type | table   | type | possible_keys | key       | key_len | ref   | rows | Extra       |
++----+-------------+---------+------+---------------+-----------+---------+-------+------+-------------+
+|  1 | SIMPLE      | article | ref  | idx_ca_vi     | idx_ca_vi | 4       | const |    1 | Using where |
++----+-------------+---------+------+---------------+-----------+---------+-------+------+-------------+
+
+
+drop index idx_ca_vi on article;
