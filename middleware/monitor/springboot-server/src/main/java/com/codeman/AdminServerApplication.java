@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @SpringBootApplication
 @Configuration
 @EnableAdminServer
+// access url: http://localhost:8080
 public class AdminServerApplication {
 
 	public static void main(String[] args) {

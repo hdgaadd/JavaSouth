@@ -21,9 +21,9 @@ import java.util.Set;
  */
 class RequestJueJin {
 
-    private static final String MSG = "debug";
+    private static final String MSG = "Redis使用";
 
-    private static final String KEYWORD = "debug";
+    private static final String KEYWORD = "开发";
 
     private static final int PAGE_SIZE = 20;
 

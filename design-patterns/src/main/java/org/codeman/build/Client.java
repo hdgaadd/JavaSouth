@@ -1,7 +1,9 @@
 package org.codeman.build;
 
+import lombok.var;
 import org.codeman.build.builder.LinuxBuilder;
 import org.codeman.build.builder.WindowsBuilder;
+import org.codeman.build.component.Server;
 import org.codeman.build.component.ServerDirector;
 
 /**
@@ -15,7 +17,9 @@ public class Client {
     public static void main(String[] args) {
         ServerDirector director = new ServerDirector();
 
-        System.out.println(director.construct(new WindowsBuilder()));
-        System.out.println(director.construct(new LinuxBuilder()));
+        var windows = director.construct(new WindowsBuilder());
+        var linux = director.construct(new LinuxBuilder());
+        System.out.println(windows);
+        System.out.println(linux);
     }
 }

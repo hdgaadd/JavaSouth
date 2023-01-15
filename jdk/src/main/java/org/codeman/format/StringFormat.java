@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class StringFormat {
+
     private static final String FORMAT = "hdgaadd_%s";
 
     private static final String testData = "data";

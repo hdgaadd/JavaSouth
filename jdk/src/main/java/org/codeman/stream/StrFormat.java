@@ -19,7 +19,6 @@ public class StrFormat {
         add(new User(1));
         add(new User(2));
     }};
-
     private static final List<People> PEOPLES = new ArrayList<People>() {{
         add(new People(111, "people111", "111"));
         add(new People(111, "people111Copy", "111Copy"));

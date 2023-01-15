@@ -20,7 +20,7 @@ import java.util.Set;
  */
 class RequestCSDN {
 
-    private static final Integer PAGE_SIZE = 20;
+    private static final Integer PAGE_SIZE = 200;
 
     private static final Set<String> CONTAINER = new HashSet<>();
 

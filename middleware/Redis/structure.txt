@@ -1,0 +1,42 @@
+String:
+127.0.0.1:6379> set name hdgaadd
+OK
+127.0.0.1:6379> get name
+"hdgaadd"
+
+Hash:
+127.0.0.1:6379> hmset name hdgaadd codeman
+OK
+127.0.0.1:6379> hgetall name
+1) "hdgaadd"
+2) "codeman"
+
+List:
+127.0.0.1:6379> lpush name hdgaadd
+(integer) 1
+127.0.0.1:6379> lpush name codeman
+(integer) 2
+127.0.0.1:6379> lrange name 0 1
+1) "codeman"
+2) "hdgaadd"
+
+Set:
+127.0.0.1:6379> sadd name hdgaadd
+(integer) 1
+127.0.0.1:6379> sadd name codeman
+(integer) 1
+127.0.0.1:6379> smembers name
+1) "codeman"
+2) "hdgaadd"
+
+Zset:
+127.0.0.1:6379> zadd name 1 hdgaadd
+(integer) 1
+127.0.0.1:6379> zadd name 2 codeman
+(integer) 1
+127.0.0.1:6379> zrange name 0 1 withscores
+1) "hdgaadd"
+2) "1"
+3) "codeman"
+4) "2"
+

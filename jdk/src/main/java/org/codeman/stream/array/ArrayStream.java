@@ -18,7 +18,6 @@ public class ArrayStream {
     }};
 
     public static void main(String[] args) {
-
         // 转换为Integer[]
         Integer[] arr0 = Arrays.stream(ARR).boxed().toArray(Integer[]::new);
 

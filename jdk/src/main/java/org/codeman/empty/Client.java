@@ -12,7 +12,7 @@ import java.util.Objects;
  *
  * description: org.apache.commons.langs
  */
-public class Empty {
+public class Client {
 
     private static final List<Integer> list = new ArrayList<>();
 

@@ -55,38 +55,41 @@ public class ToMap {
         handleMapDuplicated();
 
         // stream转换为map的val不能为null
-        /*nullMap();*/
+        nullMap();
 
-        // map的value为null
+        // 处理map的value为null
         handleNullMap();
     }
 
     private static void handleNullMap() {
         Map<Integer, Integer> nullMap = LIST_VAL_NULL.stream().collect(Collectors.toMap(User::hashCode, o -> Optional.ofNullable(o.getId()).orElse(666666)));
-        log.info("map的value为null: " + nullMap);
+        log.info("{} : {}", Thread.currentThread().getStackTrace()[1].getMethodName(), nullMap);
     }
 
     private static void nullMap() {
-        Map<Integer, Integer> nullMap = LIST_VAL_NULL.stream().collect(Collectors.toMap(User::hashCode, User::getId));
-        log.info("map的value为null: " + nullMap);
+        try {
+            Map<Integer, Integer> nullMap = LIST_VAL_NULL.stream().collect(Collectors.toMap(User::hashCode, User::getId));
+        } catch (Exception e) {
+            log.info("{} : {}", Thread.currentThread().getStackTrace()[1].getMethodName(), e.toString());
+        }
     }
 
     private static void listCountToMap() {
         Map<Integer, Long> collect = PEOPLES.stream().collect(Collectors.groupingBy(People::getId, Collectors.counting()));
-        log.info("把list值和对应的个数转换为Map" + collect);
+        log.info("{} : {}", Thread.currentThread().getStackTrace()[1].getMethodName(), collect);
     }
 
     private static void mapTOMap() {
         Map<String, Integer> collect0 = MAP.entrySet().stream().collect(Collectors.toMap(Map.Entry::getValue, Map.Entry::getKey));
         Map<String, Integer> collect1 = MAP.entrySet().stream().collect(Collectors.toMap(o -> String.valueOf(o.getKey()), Map.Entry::getKey));
 
-        log.info("mapTOMap：" + collect0);
-        log.info("mapTOMap：" + collect1);
+        log.info("{} : {}", Thread.currentThread().getStackTrace()[1].getMethodName(), collect0);
+        log.info("{} : {}", Thread.currentThread().getStackTrace()[1].getMethodName(), collect1);
     }
 
     private static void handleMapDuplicated() {
         Map<Integer, User> map = LIST_ERROR.stream().collect(Collectors.toMap(User::getId, Function.identity(), (V1, V2) -> V1));
-        log.info("处理stream流转换为Map，出现的key重复情况(默认保存第一个key的值)：" + map.toString());
+        log.info("{} : {}", Thread.currentThread().getStackTrace()[1].getMethodName(), map);
     }
 
     private static void encapsulation_business() { // [ɪnˌkæpsjuˈleɪʃn]
@@ -96,13 +99,13 @@ public class ToMap {
         // method2，代替o -> o
         Map<Integer, User> map2 = LIST.stream().collect(Collectors.toMap(User::getId, Function.identity()));
 
-        log.info("封装类型-业务类型：" + map1.toString());
-        log.info("封装类型-业务类型：" + map2.toString());
+        log.info("{} : {}", Thread.currentThread().getStackTrace()[1].getMethodName(), map1);
+        log.info("{} : {}", Thread.currentThread().getStackTrace()[1].getMethodName(), map2);
     }
 
     private static void encapsulation_encapsulation() {
         Map<Integer, Integer> map = LIST.stream().collect(Collectors.toMap(User::getId, User::getId));
-        log.info("封装类型-封装类型：" + map.toString());
+        log.info("{} : {}", Thread.currentThread().getStackTrace()[1].getMethodName(), map);
     }
 }
 

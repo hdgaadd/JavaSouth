@@ -13,7 +13,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Jconsole {
 
     public static void main(String[] args) throws Exception {
-
         ThreadPoolExecutor productThreadPoolExecutor = new ThreadPoolExecutor(1,
                 1,
                 1,

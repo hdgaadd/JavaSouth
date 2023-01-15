@@ -23,11 +23,11 @@ public class UseCountDownLatch {
         while (checkIsExist()) {
             CountDownLatch countDownLatch = new CountDownLatch(2);
             executor.execute(() -> {
-                log.info("1.查询未校对的订单");
+                log.info("1.查询未校对的订单中的商品数量");
                 countDownLatch.countDown();
             });
             executor.execute(() -> {
-                log.info("2.查询未校对的库存");
+                log.info("2.查询未校对的已扣减库存");
                 countDownLatch.countDown();
             });
 

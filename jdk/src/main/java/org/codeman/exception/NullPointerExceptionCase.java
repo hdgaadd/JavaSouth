@@ -8,20 +8,26 @@ import lombok.extern.slf4j.Slf4j;
  * created on 2023/01/07
  */
 @Slf4j
-public class NullPointerCase {
+public class NullPointerExceptionCase {
 
     private static final Integer NULL_VAR = null;
 
     private static final Component NULL_ENTITY = null;
 
+    private static final Component NULL_ENTITY_VAL = new Component();
+
     public static void main(String[] args) {
+        // null进行==
         case0();
 
+        // null进行equals
         // 不会报错情况："".equals(null);
         case1();
 
+        // null进行get属性
         case2();
 
+        // null进行toString
         case3();
     }
 
@@ -51,7 +57,7 @@ public class NullPointerCase {
 
     private static void case3() {
         try {
-            NULL_ENTITY.getName().toString();
+            NULL_ENTITY_VAL.getName().toString();
         } catch (NullPointerException e) {
             log.error("case3: this is an error!");
         }
