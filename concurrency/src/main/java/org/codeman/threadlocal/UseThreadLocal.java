@@ -20,13 +20,10 @@ public class UseThreadLocal {
 
     private static class intUtil {
 
-        public static int num = 0;
-
         public static ThreadLocal<Integer> threadLocal = new ThreadLocal<>(); // 使用threadLocal保存线程保存的当前共享变量num
 
         public static int addTen(int number) {
-            num = number;
-            threadLocal.set(num);
+            threadLocal.set(number);
 
             try { // 休息1秒
                 TimeUnit.SECONDS.sleep(1);

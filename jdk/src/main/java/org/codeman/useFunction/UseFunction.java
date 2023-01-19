@@ -1,11 +1,10 @@
-package org.codeman.function;
+package org.codeman.useFunction;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 /**
@@ -22,6 +21,8 @@ public class UseFunction {
 
         // 处理stream流里的每个字符串
         List<int[]> list0 = new ArrayList<String>(){{ add("aab"); }}.stream().map(function).collect(Collectors.toList());
+        List<int[]> list1 = Stream.of("aab").map(function).collect(Collectors.toList());
         list0.forEach(o -> System.out.println(Arrays.toString(o)));
+        list1.forEach(o -> System.out.println(Arrays.toString(o)));
     }
 }

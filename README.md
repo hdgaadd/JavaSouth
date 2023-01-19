@@ -25,7 +25,7 @@ universe
      ├── download
      ├── empty
      ├── format -- 格式化
-     ├── function
+     ├── useFunction
      ├── interesting -- something interesting
      ├── ip
      ├── log -- 日志

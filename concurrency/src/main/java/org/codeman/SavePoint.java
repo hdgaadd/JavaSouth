@@ -51,7 +51,7 @@ public class SavePoint {
         thread0.start();
         thread1.start();
 
-        // Thread.sleep(1000)后进行GC
+        // Thread.sleep(1000)是native方法，执行完会进行GC，若以上线程没有进入安全点，会导致主线程等待以上线程执行完再执行
         Thread.sleep(1000);
         log.info(String.format("the number is %s", number.get()));
     }

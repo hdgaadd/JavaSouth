@@ -1,4 +1,4 @@
-package org.codeman.interesting;
+package org.codeman;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -7,10 +7,10 @@ import lombok.extern.slf4j.Slf4j;
  * created on 2022/04/16
  */
 @Slf4j
-public class Runnable {
+public class ThreadCreate {
 
     public static void main(String[] args) throws InterruptedException {
-        new Runnable().main();
+        new ThreadCreate().main();
     }
 
     private void main() throws InterruptedException {
@@ -20,6 +20,12 @@ public class Runnable {
 
         Thread threadTwo = new Thread(this::run);
         threadTwo.start();
+        threadOne.join();
+
+        Runnable runnable = () -> {
+            log.info("第三种");
+        };
+        new Thread(runnable).start();
     }
 
     private void run() {

@@ -1,4 +1,4 @@
-package org.codeman.format;
+package org.codeman.string;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -15,10 +15,16 @@ public class StringFormat {
 
     public static void main(String[] args) {
         // 使用指定的格式化，将数据进行格式化
-        stringFormat(testData);
+        stringFormat();
+
+        fuzzyQuery();
     }
 
-    private static void stringFormat(String data) {
+    private static void stringFormat() {
         log.info(String.format(FORMAT, testData));
+    }
+
+    private static void fuzzyQuery() {
+        log.info(String.format("like '%%%s%%'", "name"));
     }
 }
