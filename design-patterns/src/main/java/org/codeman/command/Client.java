@@ -11,7 +11,7 @@ import org.codeman.command.waiter.Waiter;
  * @author hdgaadd
  * created on 2022/04/25
  *
- * process
+ * description
  * - 命令队列存储命令，执行命令则遍历队列所有任务
  * - 可撤销某条命令
  *

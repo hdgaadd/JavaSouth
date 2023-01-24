@@ -7,7 +7,7 @@ public class LazilySingleton {
 
     private LazilySingleton() { }
 
-    public static /*synchronized*/ LazilySingleton getSingleton() {
+    public static /*synchronized*/ LazilySingleton getSingleton() { // 加锁操作使同一时间只能有一个线程获取对象，消耗了性能
         if (lazilySingleton == null) {
             lazilySingleton = new LazilySingleton();
         }

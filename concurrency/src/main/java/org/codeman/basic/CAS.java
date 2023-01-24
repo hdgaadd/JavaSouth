@@ -3,6 +3,7 @@ package org.codeman.basic;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Random;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author hdgaadd
@@ -16,11 +17,11 @@ import java.util.Random;
 @Slf4j
 public class CAS implements Runnable {
 
-    private volatile int val = 0;
+    private static AtomicInteger val = new AtomicInteger(0);
 
-    private synchronized void compareSwap(int expectVal, int operateVal) {
-        if (val == expectVal) {
-            val = operateVal;
+    private void compareSwap(int expectVal, int operateVal) {
+        if (val.compareAndSet(expectVal, operateVal)) {
+            log.info("the thread called {} operated", Thread.currentThread().getName());
         }
         log.info("current thread name: {} , the value of val: {}", Thread.currentThread().getName(), val);
     }

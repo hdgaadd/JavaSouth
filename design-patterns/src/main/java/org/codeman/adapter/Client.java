@@ -6,13 +6,10 @@ import lombok.var;
  * @author hdgaadd
  * created on 2022/05/04
  *
- * process
+ * description
  * - 船长Captain只能操作游艇RowingBoat，要使船长Captain可操作渔船FishingBoat，可以创建一个与游艇RowingBoat相同类型的适配器FishingBoatAdapter
  * - 该适配器可操作FishingBoat，故船长Captain可操作适配器FishingBoatAdapter来操作渔船FishingBoat
  * - 某些物件不能直接操作，但能通过创建一个适配器的方式，使其达到操作的目的
- *
- * knowledge
- * - lombok的var可以修饰方法中的局部变量，使其不必设置具体类型，lombok会根据运行时推断出类型
  */
 public final class Client {
 

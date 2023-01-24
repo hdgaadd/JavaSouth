@@ -1,6 +1,6 @@
 package org.codeman.singleton;
 
-// 双重检查：集合了饿汉式的线程安全、懒汉式的节省内存空间
+// 双重检查：集合了饿汉式的线程安全、懒汉式的节省内存空间，同时相对饿汉式的性能更高
 public class DuplicationCheckSingleton {
 
     // 防止synchronized中的代码指令重排序，可能出现以下1、3步指令执行完，但2指令没有，synchronized就释放锁
