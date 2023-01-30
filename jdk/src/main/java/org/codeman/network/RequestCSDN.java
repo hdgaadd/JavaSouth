@@ -24,7 +24,7 @@ class RequestCSDN {
 
     private static final Set<String> CONTAINER = new HashSet<>();
 
-    private static final String MSG = "后端设计";
+    private static final String MSG = "开发案例";
 
     private static final String KEYWORD = "设计";
 
@@ -53,13 +53,13 @@ class RequestCSDN {
 
                 if (!CONTAINER.contains(title))
                     if (title.contains(KEYWORD) || description.contains(KEYWORD))
-                        if (search_tag.contains(KEYWORD))
-                            if (language.contains(KEYWORD))
+//                        if (search_tag.contains(KEYWORD))
+//                            if (language.contains(KEYWORD))
                                 System.out.println(String.format("page&index: %s-%s, title: %s, access url: [access url](%s)", i - 1, j, title.replaceAll("<em>", "").replaceAll("</em>", ""), url));
                 CONTAINER.add(title);
             }
 
-            Thread.sleep(600);
+//            Thread.sleep(600);
         }
     }
 

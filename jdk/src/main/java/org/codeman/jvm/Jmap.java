@@ -19,8 +19,10 @@ Heap dump file created
 
  */
 public class Jmap {
+
+    private static final List<Data> list = new ArrayList<>();
+
     public static void main(String[] args) {
-        List<Data> list = new ArrayList<>();
         for (int i = 0; i < 200; i++) {
             list.add(new Data());
         }

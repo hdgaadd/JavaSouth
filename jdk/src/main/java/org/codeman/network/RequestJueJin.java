@@ -21,7 +21,7 @@ import java.util.Set;
  */
 class RequestJueJin {
 
-    private static final String MSG = "Redis使用";
+    private static final String MSG = "案例分析";
 
     private static final String KEYWORD = "开发";
 
@@ -85,14 +85,14 @@ class RequestJueJin {
                 }
 
                 if (!CONTAINER.contains(title))
-                    if (title.contains(KEYWORD) || brief_content.contains(KEYWORD))
+//                    if (title.contains(KEYWORD) || brief_content.contains(KEYWORD))
                         if (category_name.equals("后端"))
                             System.out.println(String.format("page&index: %s-%s, title: %s, access url: [access url](%s)", i, j, title, "https://juejin.cn/post/" + article_id));
                 CONTAINER.add(title);
             }
 
-            // limit
-            Thread.sleep(700);
+//            // limit
+//            Thread.sleep(700);
         }
     }
 }
