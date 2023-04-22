@@ -17,6 +17,7 @@ public class StringFormat {
         // 使用指定的格式化，将数据进行格式化
         stringFormat();
 
+        // 模糊查询
         fuzzyQuery();
     }
 

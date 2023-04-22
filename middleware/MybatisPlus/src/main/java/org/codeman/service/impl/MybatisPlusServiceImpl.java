@@ -58,8 +58,7 @@ public class MybatisPlusServiceImpl extends ServiceImpl<MybatisPlusMapper, Mybat
     private void queryWrapperTest() {
         // 链式函数查询lambdaQuery不能使用 SUM(字段名)，改用QueryWrapper
         QueryWrapper<MybatisPlus> sumWrapper = new QueryWrapper<>();
-        sumWrapper.eq("name", "hdgaadd")
-                  .select("IFNULL(sum(id),0) AS idCount");
+        sumWrapper.eq("name", "hdgaadd").select("IFNULL(sum(id),0) AS idCount");
         int idCount = Integer.parseInt(getMap(sumWrapper).get("idCount").toString());
         log.info("链式函数查询lambdaQuery不能使用 SUM(字段名)，改用QueryWrapper：" + idCount);
 
