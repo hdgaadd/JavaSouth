@@ -19,6 +19,11 @@ public class MybatisPlusController {
         iMybatisPlusService.queryTest();
     }
 
+    @RequestMapping("/insertNull")
+    public void insertNull() {
+        iMybatisPlusService.insertNull();
+    }
+
 }
 
 

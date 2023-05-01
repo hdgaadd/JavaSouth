@@ -8,4 +8,7 @@
         <result column="name" property="name" />
     </resultMap>
 
+<!--    <insert id="insertTest">-->
+<!--        -->
+<!--    </insert>-->
 </mapper>

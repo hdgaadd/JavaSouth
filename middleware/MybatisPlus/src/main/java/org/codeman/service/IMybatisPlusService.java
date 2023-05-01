@@ -8,4 +8,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  **/
 public interface IMybatisPlusService extends IService<MybatisPlus> {
     void queryTest();
+
+    void insertNull();
 }

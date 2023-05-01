@@ -19,5 +19,7 @@ public class MybatisPlus implements Serializable {
 
     private String name;
 
+    private Integer age;
+
 
 }

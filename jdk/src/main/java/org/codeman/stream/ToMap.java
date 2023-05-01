@@ -14,7 +14,6 @@ import java.util.stream.Collectors;
  */
 @Slf4j
 public class ToMap {
-
     private static final List<User> LIST = new ArrayList<User>() {{
         add(new User(1));
         add(new User(2));

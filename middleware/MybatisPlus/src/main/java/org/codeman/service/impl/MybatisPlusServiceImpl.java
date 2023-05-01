@@ -9,6 +9,7 @@ import org.codeman.service.IMybatisPlusService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Repository;
 
+import javax.annotation.Resource;
 import java.sql.Connection;
 import java.util.List;
 
@@ -19,9 +20,20 @@ import java.util.List;
 @Repository
 public class MybatisPlusServiceImpl extends ServiceImpl<MybatisPlusMapper, MybatisPlus> implements IMybatisPlusService {
 
+    @Resource
+    private MybatisPlusMapper mapper;
+
     public void queryTest() {
         lambdaQueryTest();
         queryWrapperTest();
+    }
+
+    @Override
+    public void insertNull() {
+        MybatisPlus plus = new MybatisPlus();
+        plus.setId(62);
+        plus.setName("66");
+        mapper.insertTest(plus);
     }
 
     private void lambdaQueryTest() {
