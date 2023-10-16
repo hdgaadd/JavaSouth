@@ -8,7 +8,7 @@ package org.codeman.adapter;
  */
 public class FishingBoatAdapter implements RowingBoat{
 
-    private FishingBoat fishingBoat = new FishingBoat();
+    private final FishingBoat fishingBoat = new FishingBoat();
 
     public final void row() {
         fishingBoat.sail();
