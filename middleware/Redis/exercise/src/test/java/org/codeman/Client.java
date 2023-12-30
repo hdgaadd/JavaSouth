@@ -23,6 +23,11 @@ public class Client {
     private RedisTemplate<String, String> template;
 
     @Test
+    public void testPipeline() {
+
+    }
+
+    @Test
     public void setBigKey() {
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < 1024 * 1024 * 1; i++) {
