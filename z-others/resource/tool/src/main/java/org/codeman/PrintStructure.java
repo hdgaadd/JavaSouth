@@ -22,6 +22,7 @@ public class PrintStructure {
         add(".idea");
         add("target");
         add("src");
+        add("out");
     }};
     /**
      * 需加深遍历层数的模块

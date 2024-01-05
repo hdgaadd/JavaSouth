@@ -48,8 +48,6 @@ Full thread dump Java HotSpot(TM) 64-Bit Server VM (25.311-b11 mixed mode):
         at java.lang.Thread.run(Thread.java:748)
 
  */
-
-
 @AllArgsConstructor
 @Slf4j
 public class Jstack implements Runnable {
