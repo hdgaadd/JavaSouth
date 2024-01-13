@@ -1,3 +1,5 @@
+package org.codeman.reagency;
+
 import java.util.Scanner;
 
 /**
