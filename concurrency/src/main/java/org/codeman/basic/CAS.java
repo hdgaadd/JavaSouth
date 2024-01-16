@@ -23,12 +23,19 @@ public class CAS implements Runnable {
         if (val.compareAndSet(expectVal, operateVal)) {
             log.info("the thread called {} operated", Thread.currentThread().getName());
         }
-        log.info("current thread name: {} , the value of val: {}", Thread.currentThread().getName(), val);
     }
 
     @Override
     public void run() {
-        compareSwap(0, 1);
+        try {
+            // 让某一线程先操作增加值
+            Thread.sleep((new Random().nextInt(2) + 1) * 500);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        int curVal = val.get();
+        log.info("the thread called {} get val is {}", Thread.currentThread().getName(), curVal);
+        compareSwap(curVal, curVal + 1);
     }
 
     public static void main(String[] args) throws InterruptedException {
@@ -36,7 +43,6 @@ public class CAS implements Runnable {
         CAS cas1 = new CAS();
 
         int luckyIndex = new Random().nextInt(2);
-        log.info("luckyIndex is {}", luckyIndex);
         if (luckyIndex > 0) {
             Thread thread0 = new Thread(cas0, "cas0");
             Thread thread1 = new Thread(cas1, "cas1");
@@ -54,5 +60,6 @@ public class CAS implements Runnable {
             thread1.join();
             thread0.join();
         }
+        log.info("current thread name: {} , the value of val: {}", Thread.currentThread().getName(), val);
     }
 }
