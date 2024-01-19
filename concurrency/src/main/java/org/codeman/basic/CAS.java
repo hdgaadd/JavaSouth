@@ -22,17 +22,13 @@ public class CAS implements Runnable {
     private void compareSwap(int expectVal, int operateVal) {
         if (val.compareAndSet(expectVal, operateVal)) {
             log.info("the thread called {} operated", Thread.currentThread().getName());
+        } else {
+            this.run(); // 相当于获取不到锁则重新执行
         }
     }
 
     @Override
     public void run() {
-        try {
-            // 让某一线程先操作增加值
-            Thread.sleep((new Random().nextInt(2) + 1) * 500);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
         int curVal = val.get();
         log.info("the thread called {} get val is {}", Thread.currentThread().getName(), curVal);
         compareSwap(curVal, curVal + 1);
