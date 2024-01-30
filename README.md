@@ -1,6 +1,7 @@
 # 📚structure
 
 ```lua
+"C:\Program Files\Java\jdk-17\bin\java.exe" "-javaagent:C:\Users\win\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\lib\idea_rt.jar=2260:C:\Users\win\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin" -Dfile.encoding=UTF-8 -classpath E:\z-relax\universe\z-others\resource\tool\target\classes org.codeman.PrintStructure
 universe
 ├── concurrency -- 多线程
      ├── basic
@@ -21,24 +22,26 @@ universe
 ├── jdk -- JDK的Api使用
      ├── automic
      ├── beanMapping -- bean映射
+     ├── book
      ├── bytecode
      ├── cache
      ├── callback -- 回调函数
      ├── debug
      ├── empty
      ├── exception
+     ├── function
      ├── interesting
      ├── jvm
      ├── log -- 日志
      ├── mysql
-     ├── network
+     ├── network -- 网络
      ├── oom -- 内存溢出
      ├── optional -- 判空处理
+     ├── reagency
      ├── stream -- stream流
      ├── string
      ├── system
-     ├── time
-     └── useFunction
+     └── time
 ├── middleware -- 开源中间件使用
      ├── Dubbo -- Dubbo
      ├── Elasticsearch
@@ -54,6 +57,22 @@ universe
      ├── SpringBoot -- SpringBoot
           ├── extension -- SpringBoot扩展点
           └── starter -- SpringBoot启动器
+     ├── SpringBootWebSocket -- WebSocket
      ├── SpringSecurity -- 认证授权
-     └── SpringSecurityOAuth2
+     ├── SpringSecurityOAuth2
+     └── WebFlux
+├── deploy -- 业务解决方案
+     ├── concurrency-method -- 分布式锁方法
+     ├── config-switch -- 配置开关
+     ├── data-migration -- 数据迁移方案
+     ├── preheat-limit
+     ├── push-limit -- 消息重推
+     ├── refresh-cache -- 通知集群节点刷新缓存
+     ├── repeated-submit-intercept -- 防重复提交
+     ├── seckill -- 秒杀系统设计
+     ├── timing -- 定时系统设计
+     └── z-resource
+└── z-others -- 其他
+     ├── ans -- 暂存箱
+     └── resource -- resource
 ```

@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  # 1.后端模块服务名
+  application:
+    name: environment
+  # 2.nacos命名空间
+  profiles:
+    active: dev
+#   active: test
+  cloud:
+    nacos:
+      config:
+        server-addr: 106.14.172.7:8848
+        # 3.nacos配置文件的后缀名
+        file-extension: yaml
+        # nacos的命名空间ID
+        namespace: da91ec7d-a88c-416f-887d-1f9d6a7c5ce7
+#       namespace: aceb507d-2fe7-4e43-897c-9cc3c4a5265f
