@@ -1,7 +1,6 @@
 # 📚structure
 
 ```lua
-"C:\Program Files\Java\jdk-17\bin\java.exe" "-javaagent:C:\Users\win\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\lib\idea_rt.jar=2260:C:\Users\win\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin" -Dfile.encoding=UTF-8 -classpath E:\z-relax\universe\z-others\resource\tool\target\classes org.codeman.PrintStructure
 universe
 ├── concurrency -- 多线程
      ├── basic
