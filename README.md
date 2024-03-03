@@ -5,7 +5,7 @@ universe
 ├── concurrency -- 多线程
      ├── basic
      ├── business
-     ├── juc -- juc工具类
+     ├── juc -- juc工具
      ├── readwritelock
      ├── threadlocal
      └── transfer -- 转账死锁
@@ -14,22 +14,22 @@ universe
      ├── build -- 建造者
      ├── chain -- 责任链
      ├── command -- 命令
-     ├── interceptor -- 拦截过滤器
+     ├── interceptor -- 拦截过滤
      ├── singleton -- 单例
      ├── strategy -- 策略
      └── template -- 模板方法
 ├── deploy -- 业务解决方案
-     ├── concurrency-method -- 分布式锁方法
+     ├── concurrency-method -- 分布式锁
      ├── config-switch -- 配置开关
-     ├── data-migration -- 数据迁移方案
+     ├── data-migration -- 数据迁移
      ├── preheat-limit
      ├── push-limit -- 消息重推
-     ├── refresh-cache -- 通知集群节点刷新缓存
+     ├── refresh-cache -- 通知节点刷新缓存
      ├── repeated-submit-intercept -- 防重复提交
-     ├── seckill -- 秒杀系统设计
-     ├── timing -- 定时系统设计
+     ├── seckill -- 秒杀系统
+     ├── timing -- 定时系统
      └── z-resource
-├── middleware -- 开源中间件使用
+├── middleware -- 开源中间件
      ├── Dubbo -- Dubbo
      ├── Elasticsearch
      ├── Gateway -- 网关
