@@ -14,7 +14,7 @@ public class UnUseCallBack {
         Resource resource = new Resource();
 
         List<String> isA = handle(resource.getIsA());
-        new A().same(isA);  // need same()
+        new A().same(isA); // need same()
         List<String> isB = handle(resource.getIsB());
         new B().same(isB); // need same()
         List<String> isC = handle(resource.getIsC());

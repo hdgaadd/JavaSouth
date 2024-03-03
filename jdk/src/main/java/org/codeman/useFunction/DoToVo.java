@@ -1,4 +1,4 @@
-package org.codeman.function;
+package org.codeman.useFunction;
 
 import org.springframework.util.CollectionUtils;
 

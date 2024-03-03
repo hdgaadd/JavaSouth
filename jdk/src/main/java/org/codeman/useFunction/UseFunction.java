@@ -1,4 +1,4 @@
-package org.codeman.function;
+package org.codeman.useFunction;
 
 import java.util.ArrayList;
 import java.util.Arrays;

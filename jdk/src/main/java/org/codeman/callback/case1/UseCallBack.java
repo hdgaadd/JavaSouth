@@ -16,7 +16,7 @@ public class UseCallBack {
 
     // 通过回调函数，使用一个方法就可：调用n个类的相同方法，且顺便处理每一个属于不同实例的List资源
     // 不通过回调函数，需使用两个方法：1.大量重复书写相同方法名same，2.创建另一个方法来单独处理每一个List资源
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Resource resource = new Resource();
 
         callback(new A(), resource.getIsA()); // does not use same()

@@ -12,6 +12,7 @@ import java.util.Map;
  * - LFU：最近最少频率使用（根据最少频率删除元素）（应对突发流量支持不好）
  */
 public class LRU {
+
     public static void main(String[] args) {
         LRUMap map = new LRUMap(3);
         map.put(1, 1);
