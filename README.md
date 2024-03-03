@@ -18,18 +18,7 @@ universe
      ├── singleton -- 单例
      ├── strategy -- 策略
      └── template -- 模板方法
-├── deploy -- 业务解决方案
-     ├── concurrency-method -- 分布式锁
-     ├── config-switch -- 配置开关
-     ├── data-migration -- 数据迁移
-     ├── preheat-limit
-     ├── push-limit -- 消息重推
-     ├── refresh-cache -- 通知节点刷新缓存
-     ├── repeated-submit-intercept -- 防重复提交
-     ├── seckill -- 秒杀系统
-     ├── timing -- 定时系统
-     └── z-resource
-├── middleware -- 开源中间件
+├── middleware -- 中间件
      ├── Dubbo -- Dubbo
      ├── Elasticsearch
      ├── Gateway -- 网关
@@ -48,6 +37,17 @@ universe
      ├── SpringSecurity -- 认证授权
      ├── SpringSecurityOAuth2
      └── WebFlux
+├── deploy -- 业务解决方案
+     ├── concurrency-method -- 分布式锁
+     ├── config-switch -- 配置开关
+     ├── data-migration -- 数据迁移
+     ├── preheat-limit
+     ├── push-limit -- 消息重推
+     ├── refresh-cache -- 通知集群缓存
+     ├── repeated-submit-intercept -- 防重复提交
+     ├── seckill -- 秒杀系统
+     ├── timing -- 定时系统
+     └── z-resource
 ├── jdk -- JDK的Api使用
      ├── automic
      ├── beanMapping -- bean映射
