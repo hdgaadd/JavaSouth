@@ -8,46 +8,38 @@ import java.util.List;
  * @author hdgaadd
  * created on 2022/05/02
  *
- * design: 递归
+ * design ideas: 递归
  *
  * description: 循环遍历文件，打印项目结构
  */
-@SuppressWarnings("ConstantConditions")
 public class PrintStructure {
     /**
      * 忽略文件夹
      */
-    private static final List<String> IGNORE_DIRECTORY = new ArrayList<String>() {{
+    private static final List<String> IGNORE_DIRECTORY = new ArrayList<String>(){{
         add(".git");
         add(".idea");
         add("target");
         add("src");
-        add("out");
     }};
     /**
      * 需加深遍历层数的模块
      */
-    private static final List<String> INCREASE_LOOP = new ArrayList<String>() {{
-        add("galaxy");
-        add("SpringBoot");
-    }};
-    /**
-     * 需减少遍历层数的模块
-     */
-    private static final List<String> REDUCE_LOOP = new ArrayList<String>() {{
+    private static final List<String> AGAIN_LOOP = new ArrayList<String>(){{
     }};
     /**
      * 遍历内容为src下的模块
      */
-    private static final List<String> IS_SRC = new ArrayList<String>() {{
-        add("jdk");
-        add("design-patterns");
-        add("concurrency");
+    private static final List<String> IS_SRC = new ArrayList<String>(){{
+        add("Collection");
+        add("JDKProxy");
+        add("Redis-client");
+        add("Tomcat");
     }};
     /**
      * 遍历层数限制
      */
-    private static final int LAYERS = 2;
+    private static final int LAYERS = 2; // ['leɪəz]
 
     private static final String FIRST_DIRECTION_PARENT = "├── ";
 
@@ -58,32 +50,29 @@ public class PrintStructure {
     private static final String SECOND_DIRECTION_CHILD = "     └── ";
 
     public static void main(String[] args) {
+        // 项目文件对象
         File file = new File(System.getProperty("user.dir"));
         System.out.println(file.getName());
         loopTraverse(file, FIRST_DIRECTION_PARENT, FIRST_DIRECTION_CHILD, 1, false);
     }
 
     /**
-     * 循环遍历每一级别
+     * 循环遍历每一级别[trəˈvɜːs]
      *
-     * @param file 文件对象
-     * @param directionParent 父级装饰品
-     * @param directionChild  子级装饰品
-     * @param fileIndex 文件索引
-     * @param isIncreaseLoop 是否加深遍历层数
+     * @param isAgainLoop 是否加深遍历层数
      */
-    private static void loopTraverse(File file, String directionParent, String directionChild, int fileIndex, boolean isIncreaseLoop) {
+    private static void loopTraverse(File file, String directionParent, String directionChild, int fileIndex, boolean isAgainLoop) {
         File[] files = file.listFiles();
         // 文件夹尾端下标
         int endIndex = getDirectoryLen(file);
         for (int i = 0; i < files.length; i++) {
             File curFile = files[i];
-            String curFileName = curFile.getName();
-            if (fileIndex <= LAYERS && !IGNORE_DIRECTORY.contains(curFileName) && curFile.isDirectory()) {
+            String curFileName = curFile.getName();;
+            if (!IGNORE_DIRECTORY.contains(curFileName) && curFile.isDirectory()) {
                 // 1. 获取装饰品├──
                 String firstDecoration = (i == endIndex) ? directionChild : directionParent;
                 // 若加深遍历层数 && 层数为2
-                if (isIncreaseLoop && fileIndex == 2) {
+                if (isAgainLoop && fileIndex == 2) {
                     firstDecoration = "     " + firstDecoration;
                 }
 
@@ -95,30 +84,27 @@ public class PrintStructure {
                 if (IS_SRC.contains(curFileName)) {
                     curFile = new File(file.toString() + "\\" + curFileName + "\\src\\main\\java\\org\\codeman");
                 }
-
                 // 4. 循环遍历下一层
-                if (INCREASE_LOOP.contains(curFileName)) { // 加深遍历层数
-                    loopTraverse(curFile, SECOND_DIRECTION_PARENT, SECOND_DIRECTION_CHILD, fileIndex, true);
-                } else if (REDUCE_LOOP.contains(curFileName)) { // 减少遍历层数
-                    loopTraverse(curFile, SECOND_DIRECTION_PARENT, SECOND_DIRECTION_CHILD, fileIndex + 2, true);
-                } else { // normal遍历
-                    loopTraverse(curFile, SECOND_DIRECTION_PARENT, SECOND_DIRECTION_CHILD, fileIndex + 1, isIncreaseLoop);
+                if (fileIndex < LAYERS) {
+                    if (AGAIN_LOOP.contains(curFileName)) { // 加深遍历层数，由于LAYERS限制，index必须取消 + 1
+                        loopTraverse(curFile, SECOND_DIRECTION_PARENT, SECOND_DIRECTION_CHILD, fileIndex, true);
+                    } else {
+                        loopTraverse(curFile, SECOND_DIRECTION_PARENT, SECOND_DIRECTION_CHILD, fileIndex + 1, isAgainLoop);
+                    }
                 }
             }
         }
     }
 
     /**
-     * @param file 文件对象
-     * @return 获取模块描述
+     * 获取模块描述
      */
     private static String getDescription(File file) {
         for (File curFile : file.listFiles()) {
             if (curFile.isFile()) {
                 String description = curFile.getName();
                 if (!description.contains(".")) {
-//                    return " -- " + description;
-                    return "";
+                    return " -- " + description;
                 }
             }
         }
@@ -126,8 +112,7 @@ public class PrintStructure {
     }
 
     /**
-     * @param file 文件对象
-     * @return 某级别文件夹尾端下标，方便添加前缀: "└── "
+     * 获取某级别文件夹尾端下标，方便添加前缀："└── "
      */
     private static int getDirectoryLen(File file) {
         int index = -1;

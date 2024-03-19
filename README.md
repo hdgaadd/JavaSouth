@@ -5,73 +5,84 @@ universe
 ├── concurrency -- 多线程
      ├── basic
      ├── business
-     ├── juc -- juc工具
+     ├── collection
+     ├── juc
      ├── readwritelock
      ├── threadlocal
-     └── transfer -- 转账死锁
+     └── transfer
 ├── design-patterns -- 设计模式
-     ├── adapter -- 适配器
-     ├── build -- 建造者
-     ├── chain -- 责任链
-     ├── command -- 命令
-     ├── interceptor -- 拦截过滤
-     ├── singleton -- 单例
-     ├── strategy -- 策略
-     └── template -- 模板方法
+     ├── adapter
+     ├── build
+     ├── chain
+     ├── command
+     ├── interceptor
+     ├── singleton
+     ├── strategy
+     └── template
 ├── middleware -- 中间件
-     ├── Dubbo -- Dubbo
+     ├── Dubbo
      ├── Elasticsearch
-     ├── Gateway -- 网关
-     ├── Knife4j -- swagger增强包
+     ├── Gateway
+     ├── Knife4j
      ├── monitor
-     ├── MybatisPlus -- MybatisPlus
+     ├── MybatisPlus
      ├── Netty
      ├── okhttp
-     ├── Redis -- Redis
-     ├── RocketMQ -- RocketMQ
+     ├── Redis
+     ├── RocketMQ
      ├── ShardingSphere
-     ├── SpringBoot -- SpringBoot
-          ├── extension -- SpringBoot扩展点
-          └── starter -- SpringBoot启动器
-     ├── SpringBootWebSocket -- WebSocket
-     ├── SpringSecurity -- 认证授权
+     ├── SpringBoot
+          ├── extension
+          └── starter
+     ├── SpringBootWebSocket
+     ├── SpringSecurity
      ├── SpringSecurityOAuth2
      └── WebFlux
 ├── deploy -- 业务解决方案
-     ├── concurrency-method -- 分布式锁
-     ├── config-switch -- 配置开关
-     ├── data-migration -- 数据迁移
+     ├── concurrency-method
+     ├── config-switch
+     ├── data-migration
      ├── preheat-limit
-     ├── push-limit -- 消息重推
-     ├── refresh-cache -- 通知集群缓存
-     ├── repeated-submit-intercept -- 防重复提交
-     ├── seckill -- 秒杀系统
-     ├── timing -- 定时系统
+     ├── push-limit
+     ├── refresh-cache
+     ├── repeated-submit-intercept
+     ├── seckill
+     ├── timing
      └── z-resource
+├── handwritten -- 手造开源轮子
+     ├── ClassLoader
+     ├── Collection
+     ├── JDKdynamicProxy
+     ├── load-balancing
+     ├── Netty
+     ├── Redis-client
+     ├── rpc
+     ├── Tomcat
+     └── z-staging box
 ├── jdk -- JDK的Api使用
      ├── automic
-     ├── beanMapping -- bean映射
+     ├── beanMapping
      ├── book
      ├── bytecode
      ├── cache
-     ├── callback -- 回调函数
+     ├── callback
      ├── debug
      ├── empty
      ├── exception
      ├── interesting
      ├── jvm
-     ├── log -- 日志
+     ├── log
      ├── mysql
-     ├── network -- 网络
-     ├── oom -- 内存溢出
-     ├── optional -- 判空处理
+     ├── network
+     ├── oom
+     ├── optional
      ├── reagency
-     ├── stream -- stream流
+     ├── stream
      ├── string
      ├── system
      ├── time
      └── useFunction
 └── z-others -- 其他
-     ├── ans -- 暂存箱
-     └── resource -- resource
+     ├── ans
+     └── resource
 ```
