@@ -1,3 +1,0 @@
-# SPI-自动装配-registerBean
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  org.codeman.spi.UserAutoConfiguration
