@@ -6,36 +6,36 @@
 
 ## ![](https://img.shields.io/badge/-Redis-333333?style=flat&logo=redis)Redis系列
 
-- **【Redis底层数据结构】**那有序集合为什么要同时使用字典和跳跃表
-- **【Redis集群】**知道Redis集群和Redis主从有什么区别吗
-- **【Redis哨兵】**听说你精通Redis？来说说Redis哨兵
-- **【Redis数据同步】**我看你们项目用的Redis主从，数据同步了解吗
-- **【Redis持久化】**我看你简历写了精通Redis？来说说Redis持久化
+- 【Redis底层数据结构】那有序集合为什么要同时使用字典和跳跃表
+- 【Redis集群】知道Redis集群和Redis主从有什么区别吗
+- 【Redis哨兵】听说你精通Redis？来说说Redis哨兵
+- 【Redis数据同步】我看你们项目用的Redis主从，数据同步了解吗
+- 【Redis持久化】我看你简历写了精通Redis？来说说Redis持久化
 
 ## ![](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)MySQL系列
 
-- **【MySQL索引】**一条SQL，我怎么知道它有没使用到索引
-- **【MySQL主从复制】**MySQL主从复制了解吧
-- **【MySQL高级特性】**你先说说知道哪些MySQL的高级特性
+- 【MySQL索引】一条SQL，我怎么知道它有没使用到索引
+- 【MySQL主从复制】MySQL主从复制了解吧
+- 【MySQL高级特性】你先说说知道哪些MySQL的高级特性
 
 ## ![](https://img.shields.io/badge/-ZooKeeper-333333?style=flat&logo=zookeeper)ZooKeeper系列
 
-- **【ZAB协议】**那ZooKeeper为什么还采用ZAB协议
-- **【ZooKeeper应用场景】**知道ZooKeeper有什么应用场景吗
+- 【ZAB协议】那ZooKeeper为什么还采用ZAB协议
+- 【ZooKeeper应用场景】知道ZooKeeper有什么应用场景吗
 
 ## ![](https://img.shields.io/badge/-Kafka-333333?style=flat&logo=Kafka)Kafka系列
 
-- **【Kafka事务】**Kafka事务一般在什么场景下使用呢
-- **【Kafka消息可靠性】**你说说Kafka是怎么保证消息可靠性的
-- **【Kafka生产者消费者】**那Kafka消费者手动提交、自动提交有什么区别
+- 【Kafka事务】[Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka%E7%B3%BB%E5%88%97/Kafka%E4%BA%8B%E5%8A%A1/Kafka%E4%BA%8B%E5%8A%A1.md)
+- 【Kafka消息可靠性】[你说说Kafka是怎么保证消息可靠性的](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka%E7%B3%BB%E5%88%97/Kafka%E6%B6%88%E6%81%AF%E5%8F%AF%E9%9D%A0%E6%80%A7/Kafka%E6%B6%88%E6%81%AF%E5%8F%AF%E9%9D%A0%E6%80%A7.md)
+- 【Kafka生产者消费者】[那Kafka消费者手动提交、自动提交有什么区别](https://github.com/hdgaadd/JavaGetOffer/tree/master/Kafka%E7%B3%BB%E5%88%97/Kafka%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85)
 
 ## ![](https://img.shields.io/badge/-多线程-333333?style=flat&logo=多线程)多线程系列
 
-- **【Java并发编程的底层】**你先说说synchronized的实现原理
+- 【Java并发编程的底层】你先说说synchronized的实现原理
 
 ## ![](https://img.shields.io/badge/-JVM-333333?style=flat&logo=JVM)JVM系列
 
-- **【JVM垃圾回收】**你说说都有哪些垃圾回收器
+- 【JVM垃圾回收】[你说说都有哪些垃圾回收器](https://github.com/hdgaadd/JavaGetOffer/blob/master/JVM%E7%B3%BB%E5%88%97/JVM%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/JVM%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6.md)
 
 ## 未完待续。。。
 
@@ -55,7 +55,7 @@
 
 例如大多数大厂面试官问上一个问题，是为下一个问题作准备，问完一个接着问：还有吗？还有吗？然后呢？其实这么问的主要目的就是考核你对这个体系知识的掌握程度。
 
-举个**【Redis持久化】**的例子：
+举个【Redis持久化】的例子：
 
 > 面试官：知道Redis持久化吗？
 >
