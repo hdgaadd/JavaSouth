@@ -1,4 +1,4 @@
-> **《Java面指Offer》：🌱以贴近现实的【面试官面试】形式涵盖大部分Java程序员需要掌握的后端知识、面试问题。目前正在一步步完善，期待大家的参与。**
+> **《Java面指Offer》：🌱以【面试官面试】形式覆盖Java程序员所需掌握的Java核心知识、面试重点。目前正在一步步完善，期待大家的参与。**
 
 | Ⅰ  | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅵ |
 | :--------: | :----------: | :-----------: | :---------: | :---------: | :---------: | :---------:|
@@ -9,7 +9,7 @@
 ## ![](https://img.shields.io/badge/-Java-333333?style=flat&logo=java)Java系列
 
 - 【IO流】[那字节流和字符流有什么区别](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java%E7%B3%BB%E5%88%97/Java%20IO/JavaIO%E6%B5%81.md)
-- 【NIO模型】[Java NIO为什么速度快](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java%E7%B3%BB%E5%88%97/Java%20NIO/Java%20NIO.md)
+- 【NIO】[Java NIO为什么速度快](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java%E7%B3%BB%E5%88%97/Java%20NIO/Java%20NIO.md)
 
 ## ![](https://img.shields.io/badge/-Redis-333333?style=flat&logo=redis)Redis系列
 
@@ -22,6 +22,7 @@
 ## ![](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)MySQL系列
 
 - 【MySQL索引】[一条SQL，我怎么知道它有没使用到索引](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL%E7%B3%BB%E5%88%97/MySQL%E7%B4%A2%E5%BC%95/MySQL%E7%B4%A2%E5%BC%95.md)
+- 【MySQL事务】[事务的特性你说一说](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL%E7%B3%BB%E5%88%97/MySQL%E4%BA%8B%E5%8A%A1/MySQL%E4%BA%8B%E5%8A%A1.md)
 - 【MySQL主从复制】[MySQL主从复制了解吧](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL%E7%B3%BB%E5%88%97/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6.md)
 - 【MySQL高级特性】[你先说说知道哪些MySQL的高级特性](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL%E7%B3%BB%E5%88%97/MySQL%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/MySQL%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.md)
 
