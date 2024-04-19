@@ -13,11 +13,11 @@
 
 ## ![](https://img.shields.io/badge/-Redis-333333?style=flat&logo=redis)Redis系列
 
+- 【Redis持久化】[我看你简历写了精通Redis？来说说Redis持久化](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis%E7%B3%BB%E5%88%97/Redis%E6%8C%81%E4%B9%85%E5%8C%96/Redis%E6%8C%81%E4%B9%85%E5%8C%96.md)
 - 【Redis底层数据结构】[那有序集合为什么要同时使用字典和跳跃表](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis%E7%B3%BB%E5%88%97/Redis%E5%BA%95%E5%B1%82%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/Redis%E5%BA%95%E5%B1%82%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
 - 【Redis集群】[知道Redis集群和Redis主从有什么区别吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis%E7%B3%BB%E5%88%97/Redis%E9%9B%86%E7%BE%A4/Redis%E9%9B%86%E7%BE%A4.MD)
 - 【Redis哨兵】[听说你精通Redis？来说说Redis哨兵](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis%E7%B3%BB%E5%88%97/Redis%E5%93%A8%E5%85%B5/Redis%E5%93%A8%E5%85%B5.md)
 - 【Redis数据同步】[我看你们项目用的Redis主从，数据同步了解吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis%E7%B3%BB%E5%88%97/Redis%E6%95%B0%E6%8D%AE%E5%90%8C%E6%AD%A5/Redis%E6%95%B0%E6%8D%AE%E5%90%8C%E6%AD%A5.md)
-- 【Redis持久化】[我看你简历写了精通Redis？来说说Redis持久化](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis%E7%B3%BB%E5%88%97/Redis%E6%8C%81%E4%B9%85%E5%8C%96/Redis%E6%8C%81%E4%B9%85%E5%8C%96.md)
 
 ## ![](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)MySQL系列
 
