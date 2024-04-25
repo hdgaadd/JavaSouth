@@ -17,7 +17,7 @@
 - [我看你简历写了精通Redis？来说说Redis持久化](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis%E6%8C%81%E4%B9%85%E5%8C%96/Redis%E6%8C%81%E4%B9%85%E5%8C%96.md)
 - [我看你们项目用的Redis主从，数据同步了解吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis%E6%95%B0%E6%8D%AE%E5%90%8C%E6%AD%A5/Redis%E6%95%B0%E6%8D%AE%E5%90%8C%E6%AD%A5.md)
 - [听说你精通Redis？来说说Redis哨兵](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis%E5%93%A8%E5%85%B5/Redis%E5%93%A8%E5%85%B5.md)
-- [知道Redis集群和Redis主从有什么区别吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis%E9%9B%86%E7%BE%A4/Redis%E9%9B%86%E7%BE%A4.MD)
+- [知道Redis集群和Redis主从有什么区别吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis%E4%B8%93%E6%A0%8F/Redis%E9%9B%86%E7%BE%A4/Redis%E9%9B%86%E7%BE%A4.md)
 - [那有序集合为什么要同时使用字典和跳跃表](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis%E5%BA%95%E5%B1%82%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/Redis%E5%BA%95%E5%B1%82%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
 
 ## MySQL专栏
@@ -30,7 +30,7 @@
 ## Kafka专栏
 
 - [你说说Kafka是怎么保证消息可靠性的](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka%E6%B6%88%E6%81%AF%E5%8F%AF%E9%9D%A0%E6%80%A7/Kafka%E6%B6%88%E6%81%AF%E5%8F%AF%E9%9D%A0%E6%80%A7.md)
-- [那Kafka消费者手动提交、自动提交有什么区别](https://github.com/hdgaadd/JavaGetOffer/tree/master/Kafka专栏/Kafka%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85)
+- [那Kafka消费者手动提交、自动提交有什么区别](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka%E4%B8%93%E6%A0%8F/Kafka%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85/Kafka%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85.md)
 - [Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka%E4%BA%8B%E5%8A%A1/Kafka%E4%BA%8B%E5%8A%A1.md)
 
 ## ZooKeeper专栏
@@ -40,7 +40,7 @@
 
 ## 高并发专栏
 
-- [你先说说synchronized的实现原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/%E5%A4%9A%E7%BA%BF%E7%A8%8B专栏/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E7%9A%84%E5%BA%95%E5%B1%82/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E7%9A%84%E5%BA%95%E5%B1%82.md)
+- [你先说说synchronized的实现原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/%E9%AB%98%E5%B9%B6%E5%8F%91%E4%B8%93%E6%A0%8F/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E7%9A%84%E5%BA%95%E5%B1%82/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E7%9A%84%E5%BA%95%E5%B1%82.md)
 
 ## JVM专栏
 
@@ -52,13 +52,13 @@
 
 # ✉️关于文档的说明
 
-### 介绍
+### 👀介绍
 
 该开源文档把系统后端知识编写为面试官刁钻考核的形式。
 
 文档涉及的主要内容包括：Redis、MySQL、Java、主流框架、计算机网络、操作系统等面试必备知识。相信无论是哪一门后端语言的选手都能在这份文档学到不少知识。
 
-### 我为什么要做这个开源项目
+### 📖我为什么要做这个开源项目
 
 目前网络上分享的各种面经包含的知识点是非常零散分散的，而面试官面试真正想考量你的是体系的知识。
 
@@ -82,7 +82,7 @@
 
 这个开源文档准备把每个模块系统的知识都编写为面试官刁钻考核的形式，希望能帮助到大家学习系统后端知识，顺利通关面试。
 
-### 最后
+### ❤最后
 
 本人会利用业余时间完善这个文档，修正一些错误，添加新的文章。
 
