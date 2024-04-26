@@ -2,8 +2,6 @@
 
 > ***面试官：你说下HashMap的内部结构？***
 
-好的面试官。
-
 HashMap内部存储数据的对象是一个实现Entry接口的**Node数组**，也称为哈希桶`transient Node<K,V>[] table`，后面我们称Node数组为Entry数组。Entry数组初始的大小是**16**。
 
 Node节点的内部属性key、value分别代表键和值，hash代表key的hash值，而next则是指向下一个链表节点的指针。
@@ -47,6 +45,7 @@ static final int hash(Object key) {
 而红黑树放弃了绝对的子树平衡，转而追求的是一种大致平衡，在极端情况下的数据查询效率更优。
 
 ```java
+# 红黑树数据结构
 static final class TreeNode<K,V> extends LinkedHashMap.Entry<K,V> {
     TreeNode<K,V> parent;  // red-black tree links
     TreeNode<K,V> left;
@@ -73,7 +72,7 @@ if ((p = tab[i = (n - 1) & hash]) == null)
 
 二、另外在多线程环境下，还可能会出现**数据不一致**的问题。
 
-在插入数据后，判断是否需要扩容是以下代码。
+在插入数据后，判断是否需要扩容是以下源码。
 
 ```java
 if (++size > threshold)
@@ -90,14 +89,14 @@ if (++size > threshold)
 
 有的，JDK提供了线程安全的ConcurrentHashMap。
 
-ConcurrentHashMap对于底层Entry数组、size容量都添加了可见性的修饰，保证了其他线程能实时监听到该值的**最新修改**。
+（1）ConcurrentHashMap对于底层Entry数组、size容量都添加了可见性的修饰，保证了其他线程能实时感知到该值的**最新修改**。
 
 ```java
 transient volatile Node<K,V>[] table;
 private transient volatile int sizeCtl;
 ```
 
-在添加键值的操作，对**元素级别**进行加锁。若该索引位置不存在元素，则使用乐观锁CAS操作来添加值，而CAS是原子操作，不怕多线程的干扰。
+（2）在添加键值的操作，对**元素级别**进行加锁。若该索引位置不存在元素，则使用乐观锁CAS操作来添加值，而CAS是原子操作，不怕多线程的干扰。
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/9877e062ef394635867630453bb80ce1.png#pic_center)
 
@@ -107,7 +106,7 @@ private transient volatile int sizeCtl;
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/5c5d3cf1e4d54a5486f1c4e703c171d4.png#pic_center)
 
 
-另外在JDK7版本中ConcurrentHashMap的实现和JDK8不同。
+（3）另外在JDK7版本中ConcurrentHashMap的实现和JDK8不同。
 
 JDK7版本的数据结构是大数组Segment + 小数组HashEntry，其中小数组HashEntry的**每个元素**是一条链表，**一个Segment**是一个HashEntry数组。对每个Segment即每个分段，使用ReentrantLock进行加锁操作。
 
