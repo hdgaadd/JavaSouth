@@ -8,9 +8,10 @@
 
 ## Java专栏
 
-- [那字节流和字符流有什么区别？](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/IO流/JavaIO%E6%B5%81.md)
-- [那Java NIO为什么速度快？](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20NIO/Java%20NIO.md)
-- [HashMap为什么线程不安全？](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java%E4%B8%93%E6%A0%8F/HasMap%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86/HasMap%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86.md)
+- [字节流和字符流有什么区别？](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/IO流/IO流.md)
+- [那Java NIO为什么速度快？](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/NIO/NIO.md)
+- [HashMap为什么线程不安全？](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/HashMap底层原理/HashMap底层原理.md)
+- [你先说说synchronized的实现原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/synchronized实现原理.md)
 - [线程池请求队列满了，有新的请求进来怎么办？](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程池/线程池.md)
 
 ## Redis专栏
@@ -38,10 +39,6 @@
 
 - [知道ZooKeeper有什么应用场景吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF/ZooKeeper%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF.md)
 - [那ZooKeeper为什么还采用ZAB协议](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZAB%E5%8D%8F%E8%AE%AE/ZAB%E5%8D%8F%E8%AE%AE.md)
-
-## 高并发专栏
-
-- [你先说说synchronized的实现原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/%E9%AB%98%E5%B9%B6%E5%8F%91%E4%B8%93%E6%A0%8F/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E7%9A%84%E5%BA%95%E5%B1%82/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E7%9A%84%E5%BA%95%E5%B1%82.md)
 
 ## JVM专栏
 

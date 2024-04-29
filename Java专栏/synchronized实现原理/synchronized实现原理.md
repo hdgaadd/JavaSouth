@@ -2,7 +2,7 @@
 
 > ***面试官：知道可重入锁有哪些吗?***
 
-知道的面试官。我了解的主要有ReentrantLock、**sychronized**都是可重入锁。
+知道的面试官。可重入意味着获取锁的粒度是**线程**而不是**调用**，我了解的主要有ReentrantLock、**sychronized**都是可重入锁。
 
 ## 2. synchronized实现原理
 
