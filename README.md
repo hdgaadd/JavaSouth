@@ -17,7 +17,7 @@
 ## Redis专栏
 
 - [我看你简历写了精通Redis？来说说Redis持久化？](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis%E6%8C%81%E4%B9%85%E5%8C%96/Redis%E6%8C%81%E4%B9%85%E5%8C%96.md)
-- [Redis的过期键删除策略是什么？](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据库/Redis数据库与内存回收策略.md)
+- [Redis的过期键删除策略是什么？](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis数据库与内存回收策略.md)
 - [我看你们项目用的Redis主从，数据同步了解吗？](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis%E6%95%B0%E6%8D%AE%E5%90%8C%E6%AD%A5/Redis%E6%95%B0%E6%8D%AE%E5%90%8C%E6%AD%A5.md)
 - [听说你精通Redis？来说说Redis哨兵？](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis%E5%93%A8%E5%85%B5/Redis%E5%93%A8%E5%85%B5.md)
 - [知道Redis集群和Redis主从有什么区别吗？](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis%E4%B8%93%E6%A0%8F/Redis%E9%9B%86%E7%BE%A4/Redis%E9%9B%86%E7%BE%A4.md)
