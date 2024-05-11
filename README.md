@@ -4,8 +4,6 @@
 | :--------: | :----------: | :-----------: | :---------: | :---------: | :---------:|
 | [Java专栏]() | [Redis专栏]() | [MySQL专栏]() |[Kafka专栏]() | [ZooKeeper专栏]() | [JVM专栏]() |
 
-
-
 ## Java专栏
 1. [HashMap底层原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/HashMap底层原理/HashMap底层原理.md)
    - 面试官：你说下HashMap的内部结构？
@@ -24,7 +22,7 @@
    - 面试官：输出流你也讲一讲？
    - 面试官：那字节流和字符流有什么区别？
    - 面试官：你刚刚提到转换流把字节输入流转换成字符输入流，可不可以倒过来？
-4. [NIO](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/NIO/NIO.md)
+3. [NIO](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/NIO/NIO.md)
    - 面试官：了解过NIO吗？
    - 面试官：那NIO为什么速度快？
    - 面试官：还有吗？
@@ -32,14 +30,14 @@
    - 面试官：你具体介绍下Buffer？
    - 面试官：Channel呢？
    - 面试官：知道NIO零拷贝吗？
-5. [synchronized实现原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/synchronized实现原理.md)
+4. [synchronized实现原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/synchronized实现原理.md)
    - 面试官：知道可重入锁有哪些吗?
    - 面试官：你先说说synchronized的实现原理?
    - 面试官：那synchronized有什么缺点？
    - 面试官：为什么上下文切换要保存当前线程状态？
    - 面试官：可以怎么解决synchronized资源消耗吗？
    - 面试官：那轻量级锁没有缺点吗？
-6. [线程池](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程池/线程池.md)
+5. [线程池](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程池/线程池.md)
    - 面试官：你说下线程池的大小要怎么配置？
    - 面试官：那怎么创建线程池？
    - 面试官：你说的这些预配置线程池会有什么问题？
@@ -111,9 +109,21 @@
    - 面试官：剩下还有那两个什么什么，你也讲一讲
    - 面试官：有没听说过全文索引？
 5. [SQL语句优化](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/SQL语句优化/SQL语句优化.md)
+   - 面试官：知道MySQL慢查询吗？
+   - 面试官：在工作中你怎么优化SQL的？
+   - 面试官：遵循第二范式就一定最优？
+   - 面试官：还有呢？
+   - 面试官：在工作中，表索引你怎么设计的？
+   - 面试官：那索引建立越多，查询效率就越高吗？
 
 ## Redis专栏
-1. [Redis五大数据类型](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis五大数据类型/Redis五大数据类型.md)
+1. [Redis主从](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis主从/Redis主从.md)
+   - 面试官：我看你们项目用的Redis主从，数据同步了解吗？
+   - 面试官：按你这么说，数据同步后主服务器某个键删除了，数据又不同步了怎么办？
+   - 面试官：如果主从服务器断线呢？还是用的RDB来同步吗？
+   - 面试官：考你点深入些的，主服务器怎么知道断线期间执行了哪些命令呢？
+   - 面试官：你知道服务器运行ID吗？
+   - 面试官：Redis心跳检测知道吧？
 2. [Redis哨兵](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis哨兵/Redis哨兵.md)
    - 面试官：Redis哨兵知道吧？
    - 面试官：嗯然后呢？
@@ -137,21 +147,14 @@
    - 面试官：知道AOF文件重写吗？
    - 面试官：那照你这么说，只会保存创建命令，那每个键的创建只有一条命令对吧？
    - 面试官：那你说说AOF重写过程中，有新的创建请求进来怎么办？
-5. [Redis数据同步](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据同步/Redis数据同步.md)
-   - 面试官：我看你们项目用的Redis主从，数据同步了解吗？
-   - 面试官：按你这么说，数据同步后主服务器某个键删除了，数据又不同步了怎么办？
-   - 面试官：如果主从服务器断线呢？还是用的RDB来同步吗？
-   - 面试官：考你点深入些的，主服务器怎么知道断线期间执行了哪些命令呢？
-   - 面试官：你知道服务器运行ID吗？
-   - 面试官：Redis心跳检测知道吧？
-7. [Redis数据库与内存回收策略](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis数据库与内存回收策略.md)
+6. [Redis数据库与内存回收策略](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis数据库与内存回收策略.md)
    - 面试官：Redis的数据库知道吧？
    - 面试官：那数据库的键空间呢？
    - 面试官：一个键要怎么设置过期时间？
    - 面试官：那键的过期时间知道用什么存储吗？
    - 面试官：键的过期删除策略是什么？
    - 面试官：Redis还有什么策略可以释放内存？
-8. [Redis集群](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis集群/Redis集群.md)
+7. [Redis集群](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis集群/Redis集群.md)
    - 面试官：Redis多机数据库有什么部署方式？
    - 面试官：那他们有什么区别？
    - 面试官：那Redis集群怎么实现负载均衡的？
@@ -182,10 +185,6 @@
    - 面试官：数据节点版本知道吧？
    - 面试官：ZooKeeper事务ID呢？
    - 面试官：ZooKeeper数据变更通知使用什么对象？
-
-## 主流框架
-1. [Spring AOP](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/Spring AOP/Spring AOP.md)
-2. [Spring IOC](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/Spring IOC/Spring IOC.md)
 
 
 ## 未完待续。。。
