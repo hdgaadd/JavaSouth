@@ -12,9 +12,28 @@
 
 > 你说说Redis五大基本数据类型？
 
+Redis基本数据类型一共有五种。
+
+（2）哈希。
+
+哈希对象的键值本身也是一个键值对结构，类似于`key = {{field, value}, {field, value}}`。
+
+我们可以使用`hset`命令设置哈希键值，而`hget`命令可以获取哈希对象中某个field的值。
+
+```rust
+127.0.0.1:6379> hset msg name JavaGetOffer
+(integer) 1
+127.0.0.1:6379> hset msg avator 思考的陈
+(integer) 1
+127.0.0.1:6379> hget msg name
+"JavaGetOffer"
+127.0.0.1:6379> hget msg avator
+"思考的陈"
+```
 
 
 
+> 那它们的使用场景呢？
 
 ## 1. Redis底层数据结构
 
