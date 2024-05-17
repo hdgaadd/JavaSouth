@@ -47,17 +47,16 @@
 
 ## JVM专栏
 1. [JVM垃圾回收](https://github.com/hdgaadd/JavaGetOffer/blob/master/JVM专栏/JVM垃圾回收/JVM垃圾回收.md)
-   - 面试官：知道垃圾回收为什么不采用引用计数法吗？
-   - 面试官：说到引用，java有什么引用类型？
-   - 面试官：垃圾回收的是新生代、老年代对吧？那永久代还会进行回收吗？
-   - 面试官：垃圾回收器回收的是哪个区域的垃圾？
+   - 面试官：JVM为什么不采用引用计数法？
+   - 面试官：那你讲讲可达性分析算法？
+   - 面试官：垃圾回收器回收的是哪个区域？
+   - 面试官：那永久代不会进行垃圾回收对吧？
    - 面试官：你说说都有哪些垃圾回收器？
-   - 面试官：高吞吐量和停顿时间短有什么好处吗？
-   - 面试官：刚刚你说CMS为什么有较短的停顿呢？
+   - 面试官：你说的CMS为什么有较短的停顿？
    - 面试官：那它有什么缺点？
    - 面试官：你说G1是CMS的升级版，为什么？
-   - 面试官：知道Minor GC和Full GC有什么区别吗？
-   - 面试官：复制算法可以优化吗？
+   - 面试官：垃圾回收算法都有什么？
+   - 面试官：复制算法可以怎么优化吗？
 
 ## Kafka专栏
 1. [Kafka事务](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka事务/Kafka事务.md)
@@ -78,6 +77,9 @@
    - 面试官：消费者分区呢？
    - 面试官：你说说消费者手动提交和自动提交，有什么区别？
    - 面试官：那它们都有什么优、缺点？
+
+## Linux专栏
+1. [文件操作命令](https://github.com/hdgaadd/JavaGetOffer/blob/master/Linux专栏/文件操作命令/文件操作命令.md)
 
 ## MySQL专栏
 1. [MySQL主从复制](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL主从复制/MySQL主从复制.md)
@@ -132,14 +134,7 @@
    - 面试官：领头哨兵怎么选举出来的？
    - 面试官：选举出来之后呢，它有什么作用吗？
    - 面试官：知道怎么选举新的Redis主服务器吗？
-3. [Redis底层数据结构](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis底层数据结构/Redis底层数据结构.md)
-   - 面试官：你说说Redis有什么底层数据结构支持？
-   - 面试官：先讲讲你对字典的理解？
-   - 面试官：那字典和Redis的哈希对象不是没什么区别？
-   - 面试官：跳跃表呢？
-   - 面试官：那有序集合为什么要同时使用字典和跳跃表来实现？
-   - 面试官：Redis为了节约内存采用了什么数据结构知道吗？
-4. [Redis持久化](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis持久化/Redis持久化.md)
+3. [Redis持久化](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis持久化/Redis持久化.md)
    - 面试官：知道Redis持久化吗？
    - 面试官：那你说一说Redis生成RDB文件的命令是什么？
    - 面试官：是你的话，你会在什么场景使用什么命令？
@@ -147,14 +142,21 @@
    - 面试官：知道AOF文件重写吗？
    - 面试官：那照你这么说，只会保存创建命令，那每个键的创建只有一条命令对吧？
    - 面试官：那你说说AOF重写过程中，有新的创建请求进来怎么办？
-6. [Redis数据库与内存回收策略](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis数据库与内存回收策略.md)
+4. [Redis数据库与内存回收策略](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis数据库与内存回收策略.md)
    - 面试官：Redis的数据库知道吧？
    - 面试官：那数据库的键空间呢？
    - 面试官：一个键要怎么设置过期时间？
    - 面试官：那键的过期时间知道用什么存储吗？
    - 面试官：键的过期删除策略是什么？
    - 面试官：Redis还有什么策略可以释放内存？
-7. [Redis集群](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis集群/Redis集群.md)
+5. [Redis数据类型](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据类型/Redis数据类型.md)
+   - 面试官：Redis什么这么快？
+   - 面试官：你说说Redis五大基本数据类型？
+   - 面试官：有利用过有序集合开发过什么功能吗？
+   - 面试官：有序集合用什么数据结构来实现？
+   - 面试官：那有序集合为什么要使用字典和跳跃表？
+   - 面试官：压缩列表呢？
+6. [Redis集群](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis集群/Redis集群.md)
    - 面试官：Redis多机数据库有什么部署方式？
    - 面试官：那他们有什么区别？
    - 面试官：那Redis集群怎么实现负载均衡的？
