@@ -51,7 +51,6 @@ String msg = book + abator; // C
 关于上文的重排序问题，可以使用volatile关键字来解决。volatile一共有以下特性：
 
 1. **可见性**。volatile修饰的变量每次被修改后的值，对于任何线程都是可见的，即任何线程会读取到最后写入的变量值。
-2. **原子性**。volatile变量的读写具有原子性。
 3. **禁止代码重排序**。对于volatile变量操作的相关代码不允许重排序。
 
 ```java
@@ -70,8 +69,6 @@ String msg = book + abator; // C
 
 由于volatile具有禁止代码重排序的特性，所以不会出现上文的**B -> A的指令重排序**。另外volatile具有可见性，falg的修改对线程2来说是可见的，线程会立刻感知到`flag = ture`从而执行对i的赋值。以上问题可以通过volatile解决，和使用synchronized加锁是一样的效果。
 
-另外大家注意一点，volatile的原子性指的是对volatile的读、写操作的原子性，但类似于`volatile++`这种**复合操作**是没有原子性的。
-
 ### 2.2 可见性原理
 
 > ***面试官：那volatile可见性的原理是什么？***
@@ -88,6 +85,6 @@ String msg = book + abator; // C
 
 1. synchronized加锁操作虽然开销比volatile大，但却适合复杂的业务场景。而volatile只适用于**状态独立**的场景，例如上文对flag变量的读写。
 2. volatile编写的代码是比较难以理解的，不清楚整个流程和原理很难维护代码。
-3. 类似于`volatile++`这种**复合操作**，volatile不能确保原子性。
+3. volatile不具有原子性的特质，无法保证高并发写操作下的原子性。
 
 volatile的使用具有一定的局限性。如果大家要了解synchronized加锁相关的核心知识、面试重点，可以翻阅我GitHub开源的[JavaGetOffer项目：https://github.com/hdgaadd/JavaGetOffer](https://github.com/hdgaadd/JavaGetOffer)，里面有往期的synchronized文章。
