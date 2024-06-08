@@ -53,7 +53,6 @@
 # 📚专栏明细
 
 ## Java专栏
-
 1. [HashMap底层原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/HashMap底层原理/HashMap底层原理.md)
    - 面试官：你说下HashMap的内部结构？
    - 面试官：那一个键值是怎么存储到HashMap的？
@@ -85,14 +84,26 @@
    - 面试官：那synchronized有什么缺点？
    - 面试官：为什么上下文切换要保存当前线程状态？
    - 面试官：可以怎么解决synchronized资源消耗吗？
-   - 面试官：那轻量级锁没有缺点吗？
-5. [线程池](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程池/线程池.md)
+   - 面试官：那它们都有什么优缺点？
+5. [volatile与重排序](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/volatile与重排序/volatile与重排序.md)
+   - 面试官：重排序知道吧？
+   - 面试官：那重排序不会有什么问题吗？
+   - 面试官：有什么办法可以解决？
+   - 面试官：那volatile可见性的原理是什么？
+   - 面试官：volatile有什么缺点吗？
+6. [线程池](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程池/线程池.md)
    - 面试官：你说下线程池的大小要怎么配置？
    - 面试官：那怎么创建线程池？
    - 面试官：你说的这些预配置线程池会有什么问题？
    - 面试官：你们项目线程池用的这种创建方式？
    - 面试官：线程池请求队列满了，有新的请求进来怎么办？
    - 面试官：线程池的入参ThreadFactory有什么作用？
+7. [线程通信](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程通信/线程通信.md)
+   - 面试官：Java线程的等待/通知机制知道吧？
+   - 面试官：还有没有其他线程通信方式？
+   - 面试官：你说的Lock对象说下你的理解？
+   - 面试官：ThreadLocal知道吧？
+   - 面试官：那线程生命周期都有什么？
 
 ## JVM专栏
 1. [JVM垃圾回收](https://github.com/hdgaadd/JavaGetOffer/blob/master/JVM专栏/JVM垃圾回收/JVM垃圾回收.md)
@@ -116,9 +127,9 @@
 2. [Kafka消息可靠性](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka消息可靠性/Kafka消息可靠性.md)
    - 面试官：知道Kafka高水位吗？
    - 面试官：你说说Kafka是怎么保证消息可靠性的？
-   - 面试官：还有吗，比如生产者消费者呢？
-   - 面试官：那要是Kafka消费堆积了怎么办？
-   - 面试官：emmmm，你知道Kafka控制器吧？
+   - 面试官：还有呢？
+   - 面试官：那要是Kafka消费堆积了你怎么处理？
+   - 面试官：知道Kafka控制器吧？
 3. [Kafka生产者消费者](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka生产者消费者/Kafka生产者消费者.md)
    - 面试官：你先说说Kafka由什么模块组成吧？
    - 面试官：那我们先讲讲生产者、消费者？
