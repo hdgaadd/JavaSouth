@@ -233,7 +233,7 @@
 
 ## 主流框架
 
-1. [Spring IOC和AOP](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/Spring IOC和AOP/Spring%20%IOC和AOP.md)
+1. [Spring IOC和AOP](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/Spring%20IOC和AOP/Spring%20IOC和AOP.md)
    - 面试官：你说下对Spring IOC的理解？
    - 面试官：AOP呢？
    - 面试官：那AOP的原理是什么？
