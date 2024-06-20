@@ -9,7 +9,7 @@
 
 不要和我说你看书都用书签，或者靠手感就能翻出来昨天看到的地方。
 
-我们对比下不采用索引和采用索引的不同。
+我们对比下不采用索引和采用索引的差异。
 
 目前我本机数据库的article表有10w条数据，表结构如下。
 
@@ -26,36 +26,34 @@ CREATE TABLE `article`  (
 ) ENGINE = InnoDB AUTO_INCREMENT = 1001 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
 ```
 
-没建立索引前，使用explain关键字分析SQL。type显示ALL，也就是该SQL执行时对MySQL进行的是全表扫描。
+没建立索引前，使用explain关键字分析查询SQL。type显示`ALL`，也就是该SQL执行时对MySQL进行的是全表扫描。
 
 ```sql
-select id from article where category_id = 1 and comments < 1 order by views desc limit 1;
-
-explain select id from article where category_id = 1 and comments < 1 order by views desc limit 1;
+explain select id from article where category_id = 1 order by views desc;
 ```
 
-```
+```sql
 +----+-------------+---------+------+---------------+------+---------+------+------+-----------------------------+
 | id | select_type | table   | type | possible_keys | key  | key_len | ref  | rows | Extra                       |
 +----+-------------+---------+------+---------------+------+---------+------+------+-----------------------------+
-|  1 | SIMPLE      | article | ALL  | NULL          | NULL | NULL    | NULL | 1113 | Using where; Using filesort |
+|  1 | SIMPLE      | article | ALL  | NULL          | NULL | NULL    | NULL | 102279 | Using where; Using filesort |
 +----+-------------+---------+------+---------------+------+---------+------+------+-----------------------------+
 ```
 
 建立索引后。
 
 ```sql
-create index idx_ca_co_vi on article(category_id,comments,views);
+create index idx_ca_vi on article(category_id,views);
 ```
 
-type显示，同时Using where; Using index; Using filesort（）。
+type显示为`ref`，同时Extra列显示`Using where; Using index`，`Using index`代表该SQL执行时使用了索引，而`Using index`代表了在MySQL服务端再进行了一次`views`字段的排序。
 
 ```sql
-+----+-------------+---------+-------+---------------+--------------+---------+------+------+------------------------------------------+
-| id | select_type | table   | type  | possible_keys | key          | key_len | ref  | rows | Extra                                    |
-+----+-------------+---------+-------+---------------+--------------+---------+------+------+------------------------------------------+
-|  1 | SIMPLE      | article | range | idx_ca_co_vi  | idx_ca_co_vi | 9       | NULL |    1 | Using where; Using index; Using filesort |
-+----+-------------+---------+-------+---------------+--------------+---------+------+------+------------------------------------------+
++----+-------------+---------+------+---------------+-----------+---------+-------+------+-------------+
+| id | select_type | table   | type | possible_keys | key       | key_len | ref   | rows | Extra       |
++----+-------------+---------+------+---------------+-----------+---------+-------+------+-------------+
+|  1 | SIMPLE      | article | ref  | idx_ca_vi     | idx_ca_vi | 4       | const |    51139 | Using where; Using index |
++----+-------------+---------+------+---------------+-----------+---------+-------+------+-------------+
 ```
 
 ### 1.1 B-Tree索引
@@ -76,7 +74,8 @@ type显示，同时Using where; Using index; Using filesort（）。
 
 （3）另外大家很容易漏掉一个重要的知识点。如果是二级索引建立的B-Tree，每个叶子节点的值保存的是**对应行数据的主键**。那一级索引叶子节点保存什么呢？一级索引也就是主键索引，下文我会告诉大家。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/4cc6c9c3150c4365bf5ad7405e554585.png#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/82773908af634f1b9a8f75dcd2eef330.png#pic_center)
+
 
 ### 1.2 B-Tree值的存储
 
@@ -100,7 +99,7 @@ B-Tree每一层的搜索可能就代表了一次磁盘I/O操作，B-Tree的层�
 
 MEMORY数据库引擎底层采用的就是哈希索引。
 
-## 2. 聚簇索引
+### 1.4 聚簇索引
 
 > ***面试官：聚簇索引和二级索引有什么关联？***
 
@@ -114,7 +113,9 @@ MEMORY数据库引擎底层采用的就是哈希索引。
 
 这就把两者相关联起来了，**通过二级索引查找行**，需要先在二级索引**建立**的B-Tree上找到主键的值，接着再从聚簇索引建立的B-Tree找到行数据。
 
-## 3. 索引效率
+## 2. 索引效率
+
+### 2.1 Explain关键字
 
 > ***面试官：那我一条SQL，我怎么知道它有没使用到索引？***
 
@@ -151,7 +152,7 @@ MEMORY数据库引擎底层采用的就是哈希索引。
 
 如果简历你写了`精通MySQL`，那问的可就没这么简单。我可以问你在工作中紧急处理了哪些数据库重大事故，优化了哪些业务慢SQL、是怎么优化的、为什么这么做。
 
-### 3.1 索引失效
+### 2.2 索引失效
 
 > ***面试官：有没索引失效的情况呢？***
 
