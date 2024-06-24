@@ -6,7 +6,7 @@
 
 ### ✨介绍
 
-**《JavaGetOffer》**涵盖了你拿下Java Offer所需掌握的Java核心知识、面试重点。作为一份**Java学习、面试指南**，致力帮助大家理清学习路线。
+**《JavaGetOffer》涵盖了你拿下Java Offer所需掌握的Java核心知识、面试重点。作为一份Java学习、面试指南，致力帮助大家理清学习路线**。
 
 该开源文档涉及的主要内容包括Java系列、Redis系列、MySQL系列、多线程系列、Kafka系列、JVM系列、ZooKeeper系列等等面试必备知识，会持续更新完善。相信能帮助到大家学习Java核心知识，顺利通关面试、拿到理想Offer。
 
