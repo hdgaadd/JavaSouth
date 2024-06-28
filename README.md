@@ -1,4 +1,4 @@
-# ✉️关于文档的说明
+# 🧭Java进阶指南针
 
 ### ✨介绍
 
@@ -22,12 +22,12 @@
 
 ## Java专栏
 1. [HashMap底层原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/HashMap底层原理/HashMap底层原理.md)
-2. [IO流](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/IO流/IO流.md)
-3. [NIO](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/NIO/NIO.md)
-4. [synchronized实现原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/synchronized实现原理.md)
-5. [volatile与重排序](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/volatile与重排序/volatile与重排序.md)
-6. [线程池](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程池/线程池.md)
-7. [线程通信](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程通信/线程通信.md)
+2. [Java IO流](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java IO流/Java IO流.md)
+3. [Java NIO](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java NIO/Java NIO.md)
+5. [synchronized实现原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/synchronized实现原理.md)
+6. [volatile与重排序](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/volatile与重排序/volatile与重排序.md)
+7. [线程池](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程池/线程池.md)
+8. [线程通信](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程通信/线程通信.md)
 
 ## Redis专栏
 1. [Redis主从](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis主从/Redis主从.md)
@@ -45,19 +45,18 @@
 5. [SQL语句优化](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/SQL语句优化/SQL语句优化.md)
 
 ## 主流框架
-1. [MyBatis](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/MyBatis/MyBatis.md)
-2. [Spring IOC和AOP](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/Spring IOC和AOP/Spring IOC和AOP.md)
+2. [MyBatis技术要点](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/MyBatis技术要点/MyBatis技术要点.md)
+3. [SpringIOC和SpringAOP](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/SpringIOC和SpringAOP/SpringIOC和SpringAOP.md)
 
 ## Kafka专栏
 1. [Kafka事务](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka事务/Kafka事务.md)
 2. [Kafka消息可靠性](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka消息可靠性/Kafka消息可靠性.md)
 3. [Kafka生产者消费者](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka生产者消费者/Kafka生产者消费者.md)
 
-
-## ZooKeeper专栏
-1. [ZAB协议](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZAB协议/ZAB协议.md)
-2. [ZooKeeper应用场景](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper应用场景/ZooKeeper应用场景.md)
-3. [ZooKeeper系统模型](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper系统模型/ZooKeeper系统模型.md)
-
 ## JVM专栏
 1. [JVM垃圾回收](https://github.com/hdgaadd/JavaGetOffer/blob/master/JVM专栏/JVM垃圾回收/JVM垃圾回收.md)
+
+## ZooKeeper专栏
+1. [ZooKeeper应用场景](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper应用场景/ZooKeeper应用场景.md)
+2. [ZooKeeper的ZAB协议](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/ZooKeeper的ZAB协议.md)
+3. [ZooKeeper系统模型](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper系统模型/ZooKeeper系统模型.md)
