@@ -22,8 +22,8 @@
 
 ## Java专栏
 1. [HashMap底层原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/HashMap底层原理/HashMap底层原理.md)
-2. [Java IO流](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java IO流/Java IO流.md)
-3. [Java NIO](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java NIO/Java NIO.md)
+2. [Java IO流](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20IO流/Java%20IO流.md)
+3. [Java NIO](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20NIO/Java%20NIO.md)
 5. [synchronized实现原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/synchronized实现原理.md)
 6. [volatile与重排序](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/volatile与重排序/volatile与重排序.md)
 7. [线程池](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程池/线程池.md)
@@ -45,8 +45,8 @@
 5. [SQL语句优化](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/SQL语句优化/SQL语句优化.md)
 
 ## 主流框架
-2. [MyBatis技术要点](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/MyBatis技术要点/MyBatis技术要点.md)
-3. [SpringIOC和SpringAOP](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/SpringIOC和SpringAOP/SpringIOC和SpringAOP.md)
+1. [MyBatis技术要点](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/MyBatis技术要点/MyBatis技术要点.md)
+2. [Spring IOC和Spring AOP](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/Spring%20IOC和Spring%20AOP/Spring%20IOC和Spring%20AOP.md)
 
 ## Kafka专栏
 1. [Kafka事务](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka事务/Kafka事务.md)
