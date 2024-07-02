@@ -167,4 +167,3 @@ new BufferedReader(new FileReader(new File(SOURCE_PATH)))
 hhh，JDK没有提供这样的方法。
 
 是这样的，虽然字节流比字符流的**使用范围更广些**，但字符流比字节流**操作方便**，所以字符流是一个很方便的流了，没有必要把一个方便的流转换成一个不方便的流。
-
