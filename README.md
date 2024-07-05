@@ -170,7 +170,17 @@
    - 面试官：垃圾回收算法都有什么？
    - 面试官：复制算法可以怎么优化吗？
 
+## WebSocket专栏
+1. [WebSocket技术](https://github.com/hdgaadd/JavaGetOffer/blob/master/WebSocket专栏/WebSocket技术/WebSocket技术.md)
+   - 面试官：有了解过WebSocket吗？
+   - 面试官：为什么WebSocket可以减少资源消耗？
+   - 面试官：有没动手实践过WebSocket？
+   - 面试官：那客户端怎么发送消息给服务器？
+
+
+
 ## Kafka专栏
+
 1. [Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka事务/Kafka事务一般在什么场景下使用呢.md)
    - 面试官：生产者重试机制导致Kafka重复消息，知道怎么处理吗？
    - 面试官：Kafka事务，应该知道吧？
