@@ -30,6 +30,8 @@
   - [volatile有什么缺点吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/volatile与重排序/volatile有什么缺点吗？.md)
   - [线程池请求队列满了，有新的请求进来怎么办](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程池/线程池请求队列满了，有新的请求进来怎么办？.md)
   - [ThreadLocal知道吧](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程通信/ThreadLocal知道吧？.md)
+- **Java网络**
+  - [WebSocket技术](https://github.com/hdgaadd/JavaGetOffer/blob/master/WebSocket专栏/WebSocket技术/WebSocket技术.md)
 
 ## 💾MySQL
 
@@ -42,33 +44,43 @@
   - [MySQL主从复制了解吧](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL主从复制/MySQL主从复制了解吧？.md)
   - [你先说说知道哪些MySQL的高级特性](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL高级特性/你先说说知道哪些MySQL的高级特性.md)
 
-## Redis专栏
-1. [精通Redis主从数据同步懂吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis主从/精通Redis？主从数据同步懂吗.md)
-2. [听说你精通Redis来说说Redis哨兵](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis哨兵/听说你精通Redis？来说说Redis哨兵.md)
-3. [你说精通Redis来讲讲Redis持久化](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis持久化/你说精通Redis？来讲讲Redis持久化.md)
-4. [Redis过期键删除策略是什么](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis过期键删除策略是什么？.md)
-5. [你说说Redis五大基本数据类型](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据类型/你说说Redis五大基本数据类型？.md)
-6. [知道Redis集群和Redis主从有什么区别吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis集群/知道Redis集群和Redis主从有什么区别吗.md)
+## 🎈Redis
 
-## 主流框架
-1. [Mybatis缓存有什么问题吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/MyBatis技术要点/Mybatis缓存有什么问题吗？.md)
-2. [知道怎么解决Spring循环依赖吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/Spring%20IOC和Spring%20AOP/知道怎么解决Spring循环依赖吗？.md)
+- **Redis基础**
+  - [你说说Redis五大基本数据类型](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据类型/你说说Redis五大基本数据类型？.md)
+  - [Redis过期键删除策略是什么](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis过期键删除策略是什么？.md)
+- **Redis多机**
+  - [你说精通Redis来讲讲Redis持久化](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis持久化/你说精通Redis？来讲讲Redis持久化.md)
+  - [精通Redis主从数据同步懂吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis主从/精通Redis？主从数据同步懂吗.md)
+  - [知道Redis集群和Redis主从有什么区别吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis集群/知道Redis集群和Redis主从有什么区别吗.md)
+  - [听说你精通Redis来说说Redis哨兵](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis哨兵/听说你精通Redis？来说说Redis哨兵.md)
 
-## JVM专栏
+## ✏️主流框架
+
+- **Spring框架**
+  - [知道怎么解决Spring循环依赖吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/Spring%20IOC和Spring%20AOP/知道怎么解决Spring循环依赖吗？.md)
+- **Mybatis框架**
+  - [Mybatis缓存有什么问题吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/MyBatis技术要点/Mybatis缓存有什么问题吗？.md)
+
+## 🕶Kafka
+
+- **Kafka基础**
+  - [Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka事务/Kafka事务一般在什么场景下使用呢.md)
+- **Kafa核心**
+  - [你说说Kafka是怎么保证消息可靠性的](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka消息可靠性/你说说Kafka是怎么保证消息可靠性的？.md)
+  - [你说说消费者手动提交和自动提交有什么区别](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka组成模块/你说说消费者手动提交和自动提交有什么区别？.md)
+
+## ⛳ZooKeeper
+
+- **ZooKeeper基础**
+  - [知道ZooKeeper有什么应用场景吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper应用场景/知道ZooKeeper有什么应用场景吗.md)
+- **ZooKeeper进阶**
+  - [ZooKeeper为什么还采用ZAB协议](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/ZooKeeper为什么还采用ZAB协议.md)
+  - [那ZooKeeper事务ID呢](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper系统模型/那ZooKeeper事务ID呢？.md)
+
+## 💻JVM
+
 1. [你说说都有哪些垃圾回收器](https://github.com/hdgaadd/JavaGetOffer/blob/master/JVM专栏/JVM垃圾回收/你说说都有哪些垃圾回收器.md)
-
-## Kafka专栏
-1. [Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka事务/Kafka事务一般在什么场景下使用呢.md)
-2. [你说说Kafka是怎么保证消息可靠性的](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka消息可靠性/你说说Kafka是怎么保证消息可靠性的？.md)
-4. [你说说消费者手动提交和自动提交有什么区别](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka组成模块/你说说消费者手动提交和自动提交有什么区别？.md)
-
-## ZooKeeper专栏
-1. [知道ZooKeeper有什么应用场景吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper应用场景/知道ZooKeeper有什么应用场景吗.md)
-2. [ZooKeeper为什么还采用ZAB协议](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/ZooKeeper为什么还采用ZAB协议.md)
-3. [那ZooKeeper事务ID呢](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper系统模型/那ZooKeeper事务ID呢？.md)
-
-## WebSocket专栏
-1. [WebSocket技术](https://github.com/hdgaadd/JavaGetOffer/blob/master/WebSocket专栏/WebSocket技术/WebSocket技术.md)
 
 ## 📂 数据结构与算法
 
