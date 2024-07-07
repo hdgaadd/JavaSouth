@@ -1,8 +1,6 @@
 # 🧭Java进阶指南
 
-> **作为一份Java学习、面试指南，致力帮助大家理清Java进阶的学习路线。该指南涵盖了你成为更好的Java选手、拿下Java Offer所需掌握的核心知识、面试重点。大家的 ⭐️ Star ⭐️支持，是南哥创作的最大动力。**
-
-# 📚指南明细
+> 作为一份Java学习、面试指南，致力帮助大家理清Java进阶的学习路线。该指南涵盖了你成为更好的Java选手、拿下Java Offer所需掌握的核心知识、面试重点。大家的 ⭐️ Star ⭐️支持，是南哥创作的最大动力。
 
 ## ☕ Java
 
@@ -94,6 +92,6 @@
 
 大家的 ⭐️ Star ⭐️支持，是南哥创作的最大动力。
 
-**Never forget， there must be an echo。欢迎关注南哥的公众号：Java进阶指南针。我是南哥，JavaGetOffer作者。南就南在Get到你的有趣评论➕点赞➕关注**
+**Never forget， there must be an echo。欢迎关注南哥的公众号：Java进阶指南针。我是南哥，JavaGetOffer作者。南就南在Get到你的有趣评论➕点赞➕关注。**
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/15c2e337b56e4cecba23a1f26c4eb47d.jpeg#pic_center)
