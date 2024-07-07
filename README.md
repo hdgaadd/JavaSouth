@@ -9,22 +9,22 @@
 - **Java基础**
   - [HashMap为什么线程不安全](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/HashMap底层原理/HashMap为什么线程不安全？.md)
 - **Java IO**
-  - [Java字节流和字符流有什么区别](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20IO流/Java字节流和字符流有什么区别？.md)
   - [那Java NIO为什么速度快](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20NIO/那Java%20NIO为什么速度快？.md)
+  - [Java字节流和字符流有什么区别](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20IO流/Java字节流和字符流有什么区别？.md)
 - **Java多线程**
-  - [你先说说synchronized的实现原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/你先说说synchronized的实现原理.md)
-  - [volatile有什么缺点吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/volatile与重排序/volatile有什么缺点吗？.md)
   - [线程池请求队列满了，有新的请求进来怎么办](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程池/线程池请求队列满了，有新的请求进来怎么办？.md)
   - [ThreadLocal知道吧](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程通信/ThreadLocal知道吧？.md)
+  - [volatile有什么缺点吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/volatile与重排序/volatile有什么缺点吗？.md)
+  - [你先说说synchronized的实现原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/你先说说synchronized的实现原理.md)
 - **Java网络**
   - [WebSocket技术](https://github.com/hdgaadd/JavaGetOffer/blob/master/WebSocket专栏/WebSocket技术/WebSocket技术.md)
 
 ## 💾MySQL
 
 - **MySQL基础**
+  - [一条SQL，我怎么知道它有没使用到索引](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL索引/一条SQL，我怎么知道它有没使用到索引？.md)
   - [事务的特性你说一说](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL事务/事务的特性你说一说？.md)
 - **MySQL优化**
-  - [一条SQL，我怎么知道它有没使用到索引](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL索引/一条SQL，我怎么知道它有没使用到索引？.md)
   - [知道MySQL慢查询吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/SQL语句优化/知道MySQL慢查询吗？.md)
 - **MySQL高级**
   - [MySQL主从复制了解吧](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL主从复制/MySQL主从复制了解吧？.md)
@@ -48,25 +48,25 @@
 - **Mybatis框架**
   - [Mybatis缓存有什么问题吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/MyBatis技术要点/Mybatis缓存有什么问题吗？.md)
 
+## 💻JVM
+
+- [你说说都有哪些垃圾回收器](https://github.com/hdgaadd/JavaGetOffer/blob/master/JVM专栏/JVM垃圾回收/你说说都有哪些垃圾回收器.md)
+
 ## 🕶Kafka
 
 - **Kafka基础**
+  - [你说说消费者手动提交和自动提交有什么区别](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka组成模块/你说说消费者手动提交和自动提交有什么区别？.md)
   - [Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka事务/Kafka事务一般在什么场景下使用呢.md)
 - **Kafa核心**
   - [你说说Kafka是怎么保证消息可靠性的](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka消息可靠性/你说说Kafka是怎么保证消息可靠性的？.md)
-  - [你说说消费者手动提交和自动提交有什么区别](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka组成模块/你说说消费者手动提交和自动提交有什么区别？.md)
 
 ## ⛳ZooKeeper
 
 - **ZooKeeper基础**
+  - [那ZooKeeper事务ID呢](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper系统模型/那ZooKeeper事务ID呢？.md)
   - [知道ZooKeeper有什么应用场景吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper应用场景/知道ZooKeeper有什么应用场景吗.md)
 - **ZooKeeper进阶**
   - [ZooKeeper为什么还采用ZAB协议](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/ZooKeeper为什么还采用ZAB协议.md)
-  - [那ZooKeeper事务ID呢](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper系统模型/那ZooKeeper事务ID呢？.md)
-
-## 💻JVM
-
-1. [你说说都有哪些垃圾回收器](https://github.com/hdgaadd/JavaGetOffer/blob/master/JVM专栏/JVM垃圾回收/你说说都有哪些垃圾回收器.md)
 
 ## 📂 数据结构与算法
 
