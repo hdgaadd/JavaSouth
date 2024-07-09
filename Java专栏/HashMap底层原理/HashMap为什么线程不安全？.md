@@ -1,6 +1,6 @@
-## 1. HashMap内部结构
+## 1. HashMap概念
 
-> ***面试官：你说下HashMap的内部结构？***
+### 1.1 HashMap内部结构
 
 HashMap内部存储数据的对象是一个实现Entry接口的**Node数组**，也称为哈希桶`transient Node<K,V>[] table`，后面我们称Node数组为Entry数组。Entry数组初始的大小是**16**。
 
@@ -15,9 +15,7 @@ static class Node<K,V> implements Map.Entry<K,V> {
 }
 ```
 
-### 1.1 键值的添加流程
-
-> ***面试官：那一个键值是怎么存储到HashMap的？***
+### 1.2 键值的添加流程
 
 首先会调用hash方法**计算key的hash值**，通过key的hashCode值与key的hashCode高16位进行异或运算，使hash值更加随机与均匀。
 
@@ -34,9 +32,7 @@ static final int hash(Object key) {
 
 如果到达阈值了则会对Entry数组进行扩容，扩容成为原来**两倍容量**的Entry数组。
 
-### 1.2 红黑树
-
-> ***面试官：HashMap链表还会转换成什么？***
+### 1.3 红黑树
 
 当链表长度 >= 8时，会把链表转换为**红黑树**。
 
@@ -58,8 +54,6 @@ static final class TreeNode<K,V> extends LinkedHashMap.Entry<K,V> {
 ## 2. 线程安全的Map
 
 ### 2.1 线程不安全的HashMap
-
-> ***面试官：HashMap为什么线程不安全？***
 
 一、在多线程环境下，可能会出现**数据覆盖**的问题。
 
@@ -84,8 +78,6 @@ if (++size > threshold)
 但实际上期望的size应该是2，此时就出现了数据不一致的问题，Entry数组的容量会出现错误。
 
 ### 2.2 线程安全的ConcurrentHashMap
-
-> ***面试官：有线程安全的Map吗？***
 
 有的，JDK提供了线程安全的ConcurrentHashMap。
 
@@ -113,8 +105,6 @@ JDK7版本的数据结构是大数组Segment + 小数组HashEntry，其中小数
 可以看到JDK8版本相比JDK版本的实现**锁粒度**更小，且JDK8版本的链表还可以升级为查询效率高的红黑树，所以JDK7版本的ConcurrentHashMap目前被JDK8版本的代替了。
 
 ### 2.3 HashTable和ConcurrentHashMap区别
-
-> ***面试官：HashTable和ConcurrentHashMap有什么区别吗？***
 
 HashTable也是线程安全的Map，不过它不仅对修改操作添加加锁操作，获取操作也进行了加锁。
 

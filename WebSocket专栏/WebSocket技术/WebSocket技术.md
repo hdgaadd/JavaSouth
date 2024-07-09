@@ -1,12 +1,6 @@
-2008年6月诞生了一个影响计算机世界的通信协议，原先需要二十台计算机资源才能支撑的业务场景，现在只需要一台，这得帮"抠门"老板们省下多少钱，它就是大名鼎鼎的WebSocket协议。很快在下一年也就是2009年的12月，Google浏览器就宣布成为第一个支持WebSocket标准的浏览器。
-
-WebSocket的推动者和设计者就是下面的Michael Carter，他设计的WebSocket协议技术现在每天在全地球有**超过20亿**的设备在使用。
-
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/5a611aed56d84e5292781fdc2b05e9a6.png#pic_center)
+## 1. WebSocket概念
 
 ### 1.1 为什么会出现WebSocket
-
-> ***面试官：有了解过WebSocket吗？***
 
 一般的Http请求我们只有主动去请求接口，才能获取到服务器的数据。例如前后端分离的开发场景，自嘲为切图仔的前端大佬找你要一个`配置信息`的接口，我们后端开发三下两下开发出一个`RESTful`架构风格的API接口，只有当前端主动请求，后端接口才会响应。
 
@@ -17,8 +11,6 @@ WebSocket的推动者和设计者就是下面的Michael Carter，他设计的Web
 HTTP通信协议就是半双工，而数据实时传输需要的是全双工通信机制，WebSocket采用的便是全双工通信。举个微信聊天的例子，企业微信炸锅了，有**成百条消息轰炸**你手机，要实现这个场景，大家要怎么设计？用iframe、Ajax异步交互技术配合以客户端**长轮询**不断请求服务器数据也可以实现，但造成的问题是服务器资源的**无端消耗**，运维大佬直接找到你工位来。显然服务端主动推送数据的WebSocket技术更适合聊天业务场景。
 
 ### 1.2 WebSocket优点
-
-> ***面试官：为什么WebSocket可以减少资源消耗？***
 
 大家先看看传统的Ajax长轮询和WebSocket性能上掰手腕谁厉害。在websocket.org网站提供的`Use Case C`的测试里，客户端轮询频率为10w/s，使用Poling长轮询每秒需要消耗高达665Mbps，而我们的新宠儿WebSocet仅仅只需要花费1.526Mbps，435倍的差距！！
 
@@ -69,8 +61,6 @@ curl "ws://localhost:8080/channel/echo" ^
 
 ### 2.1 集成WebSocket服务器
 
-> ***面试官：有没动手实践过WebSocket？***
-
 大家要在SpringBoot使用WebSocket的话，可以集成`spring-boot-starter-websocket`，引入南哥下面给的pom依赖。
 
 ```xml
@@ -109,8 +99,6 @@ curl "ws://localhost:8080/channel/echo" ^
 ```
 
 ### 2.2 客户端发送消息
-
-> ***面试官：那客户端怎么发送消息给服务器？***
 
 客户端发送消息要怎么操作？这点还和Http请求很不一样。后端开发出接口后，我们在Swagger填充参数，点击`Try it out`，Http请求就发过去了。
 

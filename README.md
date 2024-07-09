@@ -68,7 +68,7 @@
 
 ## 📂 数据结构与算法
 
-1. [真实校招、社招算法题](https://github.com/hdgaadd/JavaGetOffer/blob/master/面试必备/真实校招、社招算法题.md)
+1. [真实校招社招算法题](https://github.com/hdgaadd/JavaGetOffer/blob/master/面试必备/真实校招社招算法题.md)
 
 
 
