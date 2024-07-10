@@ -42,6 +42,7 @@
 ## ✏️主流框架
 
 - **Spring框架**
+  - [SpringMVC技术要点](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/SpringMVC技术要点/SpringMVC技术要点.md)
   - [知道怎么解决Spring循环依赖吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/Spring%20IOC和Spring%20AOP/知道怎么解决Spring循环依赖吗？.md)
 - **Mybatis框架**
   - [Mybatis缓存有什么问题吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/MyBatis技术要点/Mybatis缓存有什么问题吗？.md)
@@ -92,6 +93,6 @@
 
 大家的 ⭐️ Star ⭐️支持，是南哥创作的最大动力。
 
-**Never forget， there must be an echo。欢迎关注南哥的公众号：Java进阶指南针。我是南哥，JavaGetOffer作者。南就南在Get到你的⭐️Star⭐️和Follow。**
+**Never forget， there must be an echo。欢迎关注南哥的公众号：Java进阶指南针。我是南哥，JavaProGuide作者。南就南在Get到你的⭐️Star⭐️和Follow。**
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/15c2e337b56e4cecba23a1f26c4eb47d.jpeg#pic_center)
