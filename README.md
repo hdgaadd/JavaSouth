@@ -89,7 +89,13 @@
 
 ### 最后
 
-本人会利用业余时间持续完善这个文档，修正一些错误。
+本人会利用业余时间持续更新完善这个文档，修正一些错误。
+
+**Java进阶之路道阻且长，我们一起抱团努力✊！度过这冰冷的互联网寒冬。**
+
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/a48d5d974bc04da6b357c4370a080dd0.png#pic_center)
+
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/3f153481cbfb4de28b9653a4b823157c.png#pic_center)
 
 大家的 ⭐️ Star ⭐️支持，是南哥创作的最大动力。
 
