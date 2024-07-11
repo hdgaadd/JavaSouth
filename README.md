@@ -16,6 +16,9 @@
   - [你先说说synchronized的实现原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/你先说说synchronized的实现原理.md)
 - **Java网络**
   - [WebSocket技术](https://github.com/hdgaadd/JavaGetOffer/blob/master/WebSocket专栏/WebSocket技术/WebSocket技术.md)
+- **Java学习链接**
+  - [[Java之父James Gosling的领英，ps：老头子在今年7月宣布退休了]](https://www.linkedin.com/posts/jamesgosling_ive-finally-retired-after-a-crazy-number-activity-7213740307538956289-26YU)
+
 
 ## 💾MySQL
 
@@ -41,11 +44,28 @@
 
 ## ✏️主流框架
 
-- **Spring框架**
+#### Spring框架
+
+- **Spring基础**
   - [SpringMVC技术要点](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/SpringMVC技术要点/SpringMVC技术要点.md)
   - [知道怎么解决Spring循环依赖吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/Spring%20IOC和Spring%20AOP/知道怎么解决Spring循环依赖吗？.md)
-- **Mybatis框架**
+- **源码**
+  - [Spring Framework源码](https://github.com/spring-projects/spring-framework)
+  - [Spring Boot源码](https://github.com/spring-projects/spring-boot)
+- **官方文档**
+  - [Spring Framework文档](https://spring.io/projects/spring-framework#learn)
+  - [Spring Boot文档](https://spring.io/projects/spring-boot#learn)
+- **Spring学习链接**
+  - [Spring Initializr快速搭建Spring项目](https://start.spring.io/)
+
+#### Mybatis框架
+
+- **MyBatis基础**
   - [Mybatis缓存有什么问题吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/MyBatis技术要点/Mybatis缓存有什么问题吗？.md)
+- **源码**
+  - [Mybatis 3源码](https://github.com/mybatis/mybatis-3)
+- **官方文档**
+  - [MyBatis 3文档](https://mybatis.org/mybatis-3/)
 
 ## 💻JVM
 
@@ -69,7 +89,7 @@
 
 ## 📂 数据结构与算法
 
-1. [真实校招社招算法题](https://github.com/hdgaadd/JavaGetOffer/blob/master/面试必备/真实校招社招算法题.md)
+- [真实校招社招算法题](https://github.com/hdgaadd/JavaGetOffer/blob/master/面试必备/真实校招社招算法题.md)
 
 
 
