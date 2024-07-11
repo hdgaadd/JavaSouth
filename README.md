@@ -17,7 +17,8 @@
 - **Java网络**
   - [WebSocket技术](https://github.com/hdgaadd/JavaGetOffer/blob/master/WebSocket专栏/WebSocket技术/WebSocket技术.md)
 - **Java学习链接**
-  - [[Java之父James Gosling的领英，ps：老头子在今年7月宣布退休了]](https://www.linkedin.com/posts/jamesgosling_ive-finally-retired-after-a-crazy-number-activity-7213740307538956289-26YU)
+  - [Java之父James Gosling领英地址，ps：老头子在今年7月宣布退休了](https://www.linkedin.com/posts/jamesgosling_ive-finally-retired-after-a-crazy-number-activity-7213740307538956289-26YU)、[Java之父James Gosling博客地址](https://nighthacks.com/jag/blog/400/index.html)
+  - [用 Java 实现的设计模式项目，在GitHub上拥有88k⭐️Star⭐️](https://github.com/iluwatar/java-design-patterns)
 
 
 ## 💾MySQL
@@ -30,6 +31,9 @@
 - **MySQL高级**
   - [MySQL主从复制了解吧](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL主从复制/MySQL主从复制了解吧？.md)
   - [你先说说知道哪些MySQL的高级特性](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL高级特性/你先说说知道哪些MySQL的高级特性.md)
+- **MySQL学习链接**
+  - [MySQL官方文档，十分详细](https://dev.mysql.com/doc/)
+
 
 ## 🎈Redis
 
@@ -41,6 +45,9 @@
   - [精通Redis主从数据同步懂吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis主从/精通Redis？主从数据同步懂吗.md)
   - [知道Redis集群和Redis主从有什么区别吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis集群/知道Redis集群和Redis主从有什么区别吗.md)
   - [听说你精通Redis来说说Redis哨兵](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis哨兵/听说你精通Redis？来说说Redis哨兵.md)
+- **Redis学习链接**
+  - [Redis官网](https://redis.io/)
+
 
 ## ✏️主流框架
 
@@ -91,7 +98,10 @@
 
 - [真实校招社招算法题](https://github.com/hdgaadd/JavaGetOffer/blob/master/面试必备/真实校招社招算法题.md)
 
+## GitHub学习
 
+- [Linux创始人Linus Torvalds](https://github.com/torvalds)
+- [孵化一众顶级开源产品的Apache社区](https://github.com/apache)
 
 # ✨该开源文档的说明
 
