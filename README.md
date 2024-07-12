@@ -60,12 +60,13 @@
 - ### Spring基础
   - [SpringMVC技术要点](https://github.com/hdgaadd/JavaProGuide/blob/master/主流框架/SpringMVC技术要点/SpringMVC技术要点.md)
   - [知道怎么解决Spring循环依赖吗](https://github.com/hdgaadd/JavaProGuide/blob/master/主流框架/Spring%20IOC和Spring%20AOP/知道怎么解决Spring循环依赖吗？.md)
-- ### 源码
+  
+- ### 源码与文档
   - [Spring Framework源码](https://github.com/spring-projects/spring-framework)
   - [Spring Boot源码](https://github.com/spring-projects/spring-boot)
-- ### 官方文档
   - [Spring Framework文档](https://spring.io/projects/spring-framework#learn)
   - [Spring Boot文档](https://spring.io/projects/spring-boot#learn)
+  
 - ### Spring学习链接
   - [Spring Initializr快速搭建Spring项目](https://start.spring.io/)
 
@@ -73,9 +74,9 @@
 
 - ### MyBatis基础
   - [Mybatis缓存有什么问题吗](https://github.com/hdgaadd/JavaProGuide/blob/master/主流框架/MyBatis技术要点/Mybatis缓存有什么问题吗？.md)
-- ### 源码
+  
+- ### 源码与文档
   - [Mybatis 3源码](https://github.com/mybatis/mybatis-3)
-- ### 官方文档
   - [MyBatis 3文档](https://mybatis.org/mybatis-3/)
 
 ## 💻JVM
@@ -112,16 +113,15 @@
 
 
 
-## 🧥🎩技术成长交流
+## 👨‍👨‍👦技术成长交流
 
-**每周会进行至少一次简历解析🕵️、面试题分享🛒、技术讨论💬，欢迎大家持续关注，积极讨论和分享。**
+**每周会进行至少一次【面试题分享】🔊、【技术讨论】💬，欢迎大家持续关注、积极讨论和分享。**
 
 **好的技术是交流出来的、经得起研究讨论的。在讨论中我们对技术的理解也将更加深刻，你会发现不一样的世界！**
 
 - ### 第一周
 
   - [MyBatis一、二级缓存究竟是不是鸡肋？（第一周技术讨论，有国外程序员从业务角度的分析和看法）](https://github.com/hdgaadd/JavaProGuide/blob/master/技术成长/第一周/第一周.md)
-  - 简历解析（第一周简历解析）
   - 面试题解析（第一周面试题解析）
 
 
