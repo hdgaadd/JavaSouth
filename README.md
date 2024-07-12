@@ -7,17 +7,17 @@
 ## ☕ Java
 
 - ### Java基础
-  - [HashMap为什么线程不安全](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/HashMap底层原理/HashMap为什么线程不安全？.md)
+  - [HashMap为什么线程不安全](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/HashMap底层原理/HashMap为什么线程不安全？.md)
 - ### Java IO流
-  - [那Java NIO为什么速度快](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20NIO/那Java%20NIO为什么速度快？.md)
-  - [Java字节流和字符流有什么区别](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20IO流/Java字节流和字符流有什么区别？.md)
+  - [那Java NIO为什么速度快](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/Java%20NIO/那Java%20NIO为什么速度快？.md)
+  - [Java字节流和字符流有什么区别](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/Java%20IO流/Java字节流和字符流有什么区别？.md)
 - ### Java多线程
-  - [线程池请求队列满了，有新的请求进来怎么办](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程池/线程池请求队列满了，有新的请求进来怎么办？.md)
-  - [ThreadLocal知道吧](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程通信/ThreadLocal知道吧？.md)
-  - [volatile有什么缺点吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/volatile与重排序/volatile有什么缺点吗？.md)
-  - [你先说说synchronized的实现原理](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/你先说说synchronized的实现原理.md)
+  - [线程池请求队列满了，有新的请求进来怎么办](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/线程池/线程池请求队列满了，有新的请求进来怎么办？.md)
+  - [ThreadLocal知道吧](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/线程通信/ThreadLocal知道吧？.md)
+  - [volatile有什么缺点吗](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/volatile与重排序/volatile有什么缺点吗？.md)
+  - [你先说说synchronized的实现原理](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/synchronized实现原理/你先说说synchronized的实现原理.md)
 - ### Java网络
-  - [全双工通信-WebSocket技术](https://github.com/hdgaadd/JavaGetOffer/blob/master/WebSocket专栏/WebSocket技术/全双工通信-WebSocket技术.md)
+  - [全双工通信-WebSocket技术](https://github.com/hdgaadd/JavaProGuide/blob/master/WebSocket专栏/WebSocket技术/全双工通信-WebSocket技术.md)
 - ### 设计模式
   - [用 Java 实现的设计模式项目，在GitHub上拥有88k⭐️Star⭐️](https://github.com/iluwatar/java-design-patterns)
 
@@ -28,13 +28,13 @@
 ## 💾MySQL
 
 - ### MySQL基础
-  - [一条SQL，我怎么知道它有没使用到索引](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL索引/一条SQL，我怎么知道它有没使用到索引？.md)
-  - [事务的特性你说一说](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL事务/事务的特性你说一说？.md)
+  - [一条SQL，我怎么知道它有没使用到索引](https://github.com/hdgaadd/JavaProGuide/blob/master/MySQL专栏/MySQL索引/一条SQL，我怎么知道它有没使用到索引？.md)
+  - [事务的特性你说一说](https://github.com/hdgaadd/JavaProGuide/blob/master/MySQL专栏/MySQL事务/事务的特性你说一说？.md)
 - ### MySQL优化
-  - [知道MySQL慢查询吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/SQL语句优化/知道MySQL慢查询吗？.md)
+  - [知道MySQL慢查询吗](https://github.com/hdgaadd/JavaProGuide/blob/master/MySQL专栏/SQL语句优化/知道MySQL慢查询吗？.md)
 - ### MySQL高级
-  - [MySQL主从复制了解吧](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL主从复制/MySQL主从复制了解吧？.md)
-  - [你先说说知道哪些MySQL的高级特性](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL高级特性/你先说说知道哪些MySQL的高级特性.md)
+  - [MySQL主从复制了解吧](https://github.com/hdgaadd/JavaProGuide/blob/master/MySQL专栏/MySQL主从复制/MySQL主从复制了解吧？.md)
+  - [你先说说知道哪些MySQL的高级特性](https://github.com/hdgaadd/JavaProGuide/blob/master/MySQL专栏/MySQL高级特性/你先说说知道哪些MySQL的高级特性.md)
 - ### MySQL学习链接
   - [MySQL官方文档，十分详细](https://dev.mysql.com/doc/)
 
@@ -42,13 +42,13 @@
 ## 🎈Redis
 
 - ### Redis基础
-  - [你说说Redis五大基本数据类型](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据类型/你说说Redis五大基本数据类型？.md)
-  - [Redis过期键删除策略是什么](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis过期键删除策略是什么？.md)
+  - [你说说Redis五大基本数据类型](https://github.com/hdgaadd/JavaProGuide/blob/master/Redis专栏/Redis数据类型/你说说Redis五大基本数据类型？.md)
+  - [Redis过期键删除策略是什么](https://github.com/hdgaadd/JavaProGuide/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis过期键删除策略是什么？.md)
 - ### Redis多机
-  - [你说精通Redis来讲讲Redis持久化](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis持久化/你说精通Redis？来讲讲Redis持久化.md)
-  - [精通Redis主从数据同步懂吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis主从/精通Redis？主从数据同步懂吗.md)
-  - [知道Redis集群和Redis主从有什么区别吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis集群/知道Redis集群和Redis主从有什么区别吗.md)
-  - [听说你精通Redis来说说Redis哨兵](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis哨兵/听说你精通Redis？来说说Redis哨兵.md)
+  - [你说精通Redis来讲讲Redis持久化](https://github.com/hdgaadd/JavaProGuide/blob/master/Redis专栏/Redis持久化/你说精通Redis？来讲讲Redis持久化.md)
+  - [精通Redis主从数据同步懂吗](https://github.com/hdgaadd/JavaProGuide/blob/master/Redis专栏/Redis主从/精通Redis？主从数据同步懂吗.md)
+  - [知道Redis集群和Redis主从有什么区别吗](https://github.com/hdgaadd/JavaProGuide/blob/master/Redis专栏/Redis集群/知道Redis集群和Redis主从有什么区别吗.md)
+  - [听说你精通Redis来说说Redis哨兵](https://github.com/hdgaadd/JavaProGuide/blob/master/Redis专栏/Redis哨兵/听说你精通Redis？来说说Redis哨兵.md)
 - ### Redis学习链接
   - [Redis官网](https://redis.io/)
 
@@ -58,8 +58,8 @@
 #### Spring框架
 
 - ### Spring基础
-  - [SpringMVC技术要点](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/SpringMVC技术要点/SpringMVC技术要点.md)
-  - [知道怎么解决Spring循环依赖吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/Spring%20IOC和Spring%20AOP/知道怎么解决Spring循环依赖吗？.md)
+  - [SpringMVC技术要点](https://github.com/hdgaadd/JavaProGuide/blob/master/主流框架/SpringMVC技术要点/SpringMVC技术要点.md)
+  - [知道怎么解决Spring循环依赖吗](https://github.com/hdgaadd/JavaProGuide/blob/master/主流框架/Spring%20IOC和Spring%20AOP/知道怎么解决Spring循环依赖吗？.md)
 - ### 源码
   - [Spring Framework源码](https://github.com/spring-projects/spring-framework)
   - [Spring Boot源码](https://github.com/spring-projects/spring-boot)
@@ -72,7 +72,7 @@
 #### Mybatis框架
 
 - ### MyBatis基础
-  - [Mybatis缓存有什么问题吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/MyBatis技术要点/Mybatis缓存有什么问题吗？.md)
+  - [Mybatis缓存有什么问题吗](https://github.com/hdgaadd/JavaProGuide/blob/master/主流框架/MyBatis技术要点/Mybatis缓存有什么问题吗？.md)
 - ### 源码
   - [Mybatis 3源码](https://github.com/mybatis/mybatis-3)
 - ### 官方文档
@@ -80,34 +80,51 @@
 
 ## 💻JVM
 
-- [掌握垃圾回收器与四种垃圾回收算法](https://github.com/hdgaadd/JavaGetOffer/blob/master/JVM专栏/JVM垃圾回收/掌握垃圾回收器与四种垃圾回收算法.md)
+- [掌握垃圾回收器与四种垃圾回收算法](https://github.com/hdgaadd/JavaProGuide/blob/master/JVM专栏/JVM垃圾回收/掌握垃圾回收器与四种垃圾回收算法.md)
 
 ## 🕶Kafka
 
 - ### Kafka基础
-  - [你说说消费者手动提交和自动提交有什么区别](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka组成模块/你说说消费者手动提交和自动提交有什么区别？.md)
-  - [Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka事务/Kafka事务一般在什么场景下使用呢.md)
+  - [你说说消费者手动提交和自动提交有什么区别](https://github.com/hdgaadd/JavaProGuide/blob/master/Kafka专栏/Kafka组成模块/你说说消费者手动提交和自动提交有什么区别？.md)
+  - [Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaProGuide/blob/master/Kafka专栏/Kafka事务/Kafka事务一般在什么场景下使用呢.md)
 
 - ### Kafa核心
-  - [你说说Kafka是怎么保证消息可靠性的](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka消息可靠性/你说说Kafka是怎么保证消息可靠性的？.md)
+  - [你说说Kafka是怎么保证消息可靠性的](https://github.com/hdgaadd/JavaProGuide/blob/master/Kafka专栏/Kafka消息可靠性/你说说Kafka是怎么保证消息可靠性的？.md)
 
 ## ⛳ZooKeeper
 
 - ### ZooKeeper基础
-  - [那ZooKeeper事务ID呢](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper系统模型/那ZooKeeper事务ID呢？.md)
-  - [知道ZooKeeper有什么应用场景吗](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper应用场景/知道ZooKeeper有什么应用场景吗.md)
+  - [那ZooKeeper事务ID呢](https://github.com/hdgaadd/JavaProGuide/blob/master/ZooKeeper专栏/ZooKeeper系统模型/那ZooKeeper事务ID呢？.md)
+  - [知道ZooKeeper有什么应用场景吗](https://github.com/hdgaadd/JavaProGuide/blob/master/ZooKeeper专栏/ZooKeeper应用场景/知道ZooKeeper有什么应用场景吗.md)
 - ### ZooKeeper进阶
-  - [ZooKeeper为什么还采用ZAB协议](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/ZooKeeper为什么还采用ZAB协议.md)
+  - [ZooKeeper为什么还采用ZAB协议](https://github.com/hdgaadd/JavaProGuide/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/ZooKeeper为什么还采用ZAB协议.md)
 
 ## 📂 数据结构与算法
 
-- [收集真实校招社招算法题](https://github.com/hdgaadd/JavaGetOffer/blob/master/面试必备/真实校招社招算法题.md)
+- [收集真实校招社招算法题](https://github.com/hdgaadd/JavaProGuide/blob/master/面试必备/真实校招社招算法题.md)
 
 ## 🎨其他
 
-- [个人阅读书籍推荐（目前一共41本）](https://github.com/hdgaadd/JavaGetOffer/blob/master/其他/个人阅读书籍清单（目前一共41本）.md)
-- [Linux创始人Linus Torvalds](https://github.com/torvalds)
-- [孵化一众顶级开源产品的Apache社区](https://github.com/apache)
+- [个人阅读书籍推荐（目前一共41本）](https://github.com/hdgaadd/JavaProGuide/blob/master/其他/个人阅读书籍清单（目前一共41本）.md)
+- [Linux创始人Linus Torvalds](https://github.com/torvalds)、[孵化一众顶级开源产品的Apache社区](https://github.com/apache)
+
+
+
+
+
+## 🧥🎩技术成长交流
+
+**每周会进行至少一次简历解析🕵️、面试题分享🛒、技术讨论💬，欢迎大家持续关注，积极讨论和分享。**
+
+**好的技术是交流出来的、经得起研究讨论的。在讨论中我们对技术的理解也将更加深刻，你会发现不一样的世界！**
+
+- ### 第一周
+
+  - [MyBatis一、二级缓存究竟是不是鸡肋？（第一周技术讨论，有国外程序员从业务角度的分析和看法）](https://github.com/hdgaadd/JavaProGuide/技术成长/第一周/第一周.md)
+  - 简历解析（第一周简历解析）
+  - 面试题解析（第一周面试题解析）
+
+
 
 # ✨该开源文档的说明
 
