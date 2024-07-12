@@ -120,7 +120,7 @@
 
 - ### 第一周
 
-  - [MyBatis一、二级缓存究竟是不是鸡肋？（第一周技术讨论，有国外程序员从业务角度的分析和看法）](https://github.com/hdgaadd/JavaProGuide/技术成长/第一周/第一周.md)
+  - [MyBatis一、二级缓存究竟是不是鸡肋？（第一周技术讨论，有国外程序员从业务角度的分析和看法）](https://github.com/hdgaadd/JavaProGuide/blob/master/技术成长/第一周/第一周.md)
   - 简历解析（第一周简历解析）
   - 面试题解析（第一周面试题解析）
 
