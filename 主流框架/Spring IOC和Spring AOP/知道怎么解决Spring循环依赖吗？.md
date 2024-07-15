@@ -78,13 +78,13 @@ public class SubmitAspect {
 
 Spring AOP扫描到@Pointcut定义的切点时，就会自动为该Bean创建一个代理。而Spring Boot目前底层的代理模式有两种：JDK动态代理、CGLIB动态代理。
 
-如果被代理的对象实现了接口，则Spring会使用JDK动态代理；如果被代理对象没有实现接口，则Spring会使用CGLIB动态代理。原因是JDK动态代理要求被代理对象必须实现至少一个接口。
+如果被代理的对象实现了接口，则Spring会默认使用JDK动态代理；如果被代理对象没有实现接口，则Spring会改为使用CGLIB动态代理。原因是JDK动态代理要求被代理对象必须实现至少一个接口。
 
 JDK动态代理通过生成代理对象的**字节码文件**，使要拦截的方法跳转到invoke()方法，而在invoke()里就是在**切面**里定义的各种拦截逻辑。
 
 而CGLIB是通过生成代理类的**子类实现**，同时**修改字节码**文件让子类方法覆盖代理类的方法，从而实现对拦截方法的代理。
 
-另外Spring AOP还集成了AspectJ，一种编译织入的方式来代理对象。
+另外Spring AOP还集成了AspectJ，相比与以上的动态织入方式，AspectJ采用**编译织入**的方式来代理对象。
 
 ### 1.4 JDK和CGCLIB动态代理
 

@@ -10,7 +10,7 @@
   - [HashMap为什么线程不安全](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/HashMap底层原理/HashMap为什么线程不安全？.md)
 - ### Java IO流
   - [那Java NIO为什么速度快](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/Java%20NIO/那Java%20NIO为什么速度快？.md)
-  - [Java字节流和字符流有什么区别](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/Java%20IO流/Java字节流和字符流有什么区别？.md)
+  - [可能是最漂亮的Java I/O流详解](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/Java%20IO流/可能是最漂亮的Java%20I/O流详解.md)
 - ### Java多线程
   - [线程池请求队列满了，有新的请求进来怎么办](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/线程池/线程池请求队列满了，有新的请求进来怎么办？.md)
   - [ThreadLocal知道吧](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/线程通信/ThreadLocal知道吧？.md)
@@ -117,7 +117,7 @@
 
 ### ⭐⭐⭐3年之约⭐⭐⭐
 
-**这是一个 3 年之约，3 年里的每 1 天早上六点半我们都会学习 1 个技术点 1 道面试题。程序员是一个需要终身学习的职业，让我们持续保持对技术的关注度。**
+**这是一个 3 年之约，3 年里的每 1 天早上 6 点半我们都会学习 1 个技术点 1 道面试题。程序员是一个需要终身学习的职业，让我们持续保持对技术的关注度。**
 
 **在下方我的公众号会坚持在每天早上六点半准时推送。**
 
