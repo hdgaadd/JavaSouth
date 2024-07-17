@@ -8,21 +8,22 @@
 
 - ### Java基础
   - [HashMap为什么线程不安全](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/HashMap底层原理/HashMap为什么线程不安全？.md)
+  
 - ### Java IO流
   - [那Java NIO为什么速度快](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/Java%20NIO/那Java%20NIO为什么速度快？.md)
   - [可能是最漂亮的Java I/O流详解](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/Java%20IO流/可能是最漂亮的Java%20I/O流详解.md)
+  
 - ### Java多线程
   - [线程池请求队列满了，有新的请求进来怎么办](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/线程池/线程池请求队列满了，有新的请求进来怎么办？.md)
   - [ThreadLocal知道吧](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/线程通信/ThreadLocal知道吧？.md)
   - [volatile有什么缺点吗](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/volatile与重排序/volatile有什么缺点吗？.md)
   - [你先说说synchronized的实现原理](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/synchronized实现原理/你先说说synchronized的实现原理.md)
+  
 - ### Java网络
   - [全双工通信-WebSocket技术](https://github.com/hdgaadd/JavaProGuide/blob/master/WebSocket专栏/WebSocket技术/全双工通信-WebSocket技术.md)
+  
 - ### 设计模式
   - [用 Java 实现的设计模式项目，在GitHub上拥有88k⭐️Star⭐️](https://github.com/iluwatar/java-design-patterns)
-
-- ### Java学习链接
-  - [Java之父James Gosling领英地址，ps：老头子在今年7月宣布退休了](https://www.linkedin.com/posts/jamesgosling_ive-finally-retired-after-a-crazy-number-activity-7213740307538956289-26YU)、[Java之父James Gosling博客地址](https://nighthacks.com/jag/blog/400/index.html)
 
 
 ## 💾MySQL
@@ -113,23 +114,23 @@
 
 
 
-## 👨‍👨‍👦‍👦技术成长社区
+## 👨‍👨‍👦‍👦技术成长
 
 ### ⭐⭐⭐3年之约⭐⭐⭐
 
-**这是一个 3 年之约，3 年里的每 1 天早上 6 点半我们都会学习 1 个技术点 1 道面试题。程序员是一个需要终身学习的职业，让我们持续保持对技术的关注度。**
+这是一个 3 年之约，3 年里的每 1 天早上 6 点半我们都会学习 1 个技术点 1 道面试题。程序员是一个需要终身学习的职业，让我们持续保持对技术的关注度。
 
-**在下方我的公众号会坚持在每天早上六点半准时推送。**
+**在下方南哥的公众号会坚持在每天早上六点半准时推送。**
 
 - ### 第一周
 
-  - [3年之约第一周（Java在开发中常见的异常是什么？、那JDK和CGLIB动态代理哪个更快？）](https://github.com/hdgaadd/JavaProGuide/blob/master/技术成长/第一周/3年之约.md)
+  - [3年之约第一周（Java在开发中常见的异常是什么？、那JDK和CGLIB动态代理哪个更快？你说说Redis五大基本数据类型？知道有哪些索引失效的情况？）](https://github.com/hdgaadd/JavaProGuide/blob/master/技术成长/第一周/3年之约.md)
 
 ### ⭐⭐⭐技术讨论⭐⭐⭐
 
-**每周会进行至少一次【技术讨论】💬，欢迎大家持续关注、积极讨论和分享。**
+每周会进行至少一次技术讨论💬，欢迎大家持续关注、积极讨论和分享。
 
-**好的技术是交流出来的、经得起研究讨论的。在讨论中我们对技术的理解也将更加深刻，你会发现不一样的世界！**
+好的技术是交流出来的、经得起研究讨论的。在讨论中我们对技术的理解也将更加深刻，你会发现不一样的世界！
 
 - ### 第一周
 
@@ -153,8 +154,8 @@
 
 本人会利用业余时间持续更新完善这个文档，修正一些错误。
 
-**Java学习、进阶之路道阻且长，我们一起抱团努力✊！度过这冰冷的互联网寒冬。**
+Java学习、进阶之路道阻且长，我们一起抱团努力✊！度过这冰冷的互联网寒冬。
 
-Never forget， there must be an echo。欢迎关注南哥的公众号：Java进阶指南针。我是南哥，JavaProGuide作者。南就南在Get到你的⭐️Star⭐️和Follow。
+**Never forget， there must be an echo。欢迎关注南哥的公众号：Java进阶指南针。公众号里有南哥珍藏整理的大量优秀pdf书籍，回复"书籍"领取吧。**
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/15c2e337b56e4cecba23a1f26c4eb47d.jpeg#pic_center)
