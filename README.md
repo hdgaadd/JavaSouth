@@ -14,9 +14,9 @@
   - [掌握NIO是什么？零拷贝的概念](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20NIO/NIO是什么？零拷贝的概念.md)
   
 - ### 并发
-  - [并发编程面试必备：synchronized原理、锁升级](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/并发编程面试必备：synchronized原理、锁升级.md)
-  - [并发编程面试必备：指令重排序、volatile可见性原理及局限性](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/volatile与重排序/并发编程面试必备：指令重排序、volatile可见性原理及局限性.md)
   - [并发编程面试必备：如何创建线程池、线程池拒绝策略](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程池/并发编程面试必备：如何创建线程池、线程池拒绝策略.md)
+  - [并发编程面试必备：指令重排序、volatile可见性原理及局限性](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/volatile与重排序/并发编程面试必备：指令重排序、volatile可见性原理及局限性.md)
+  - [并发编程面试必备：synchronized原理、锁升级](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/并发编程面试必备：synchronized原理、锁升级.md)
   - [并发编程面试必备：ThreadLocal作用、线程生命周期](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程通信/并发编程面试必备：ThreadLocal作用、线程生命周期.md)
   
 - ### Java网络
@@ -29,9 +29,9 @@
 ## 💾MySQL
 
 - ### 面试必问
-  - [MySQL面试必问：MySQL事务四大特性、事务隔离级别](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL事务/MySQL面试必问：MySQL事务四大特性、事务隔离级别.md)
   - [MySQL面试必问：索引的类型、Explain分析SQL、索引失效](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL索引/MySQL面试必问：索引的类型、Explain分析SQL、索引失效.md)
   - [MySQL面试必问：SQL如何优化、索引如何设计](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/SQL语句优化/MySQL面试必问：SQL如何优化、索引如何设计.md)
+  - [MySQL面试必问：MySQL事务四大特性、事务隔离级别](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL事务/MySQL面试必问：MySQL事务四大特性、事务隔离级别.md)
 
 - ### 进阶知识点
   - [MySQL高阶知识：主从复制步骤、三种二进制日志格式等](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL主从复制/MySQL高阶知识：主从复制步骤、三种二进制日志格式等.md)
@@ -44,7 +44,7 @@
 ## 🎈Redis
 
 - ### 重要知识点
-  - [Redis面试必问：Redis为什么快Redis五大基本数据类型](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据类型/Redis面试必问：Redis为什么快？Redis五大基本数据类型.md)
+  - [Redis面试必问：Redis为什么快？Redis五大基本数据类型](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据类型/Redis面试必问：Redis为什么快？Redis五大基本数据类型.md)
   - [Redis面试必备：Redis两种内存回收策略，Redis键空间、过期字典等](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis面试必备：Redis两种内存回收策略，Redis键空间、过期字典等.md)
   - [掌握Redis持久化：RDB文件、AOF文件、AOF重写](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis持久化/掌握Redis持久化：RDB文件、AOF文件、AOF重写.md)
   - [Redis重要知识点：哨兵是什么哨兵如何选择Redis主服务器](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis哨兵/Redis重要知识点：哨兵是什么？哨兵如何选择Redis主服务器.md)
@@ -98,9 +98,9 @@
 ## ⛳ZooKeeper
 
 - ### 重要知识点
+  - [ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper系统模型/ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID.md)
   - [掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper应用场景/掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁.md)
   - [掌握ZooKeeper的二阶段提交及其优缺点](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/掌握ZooKeeper的二阶段提交及其优缺点.md)
-  - [ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper系统模型/ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID.md)
 
 
 ## 📂 数据结构与算法
