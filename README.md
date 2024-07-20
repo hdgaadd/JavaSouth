@@ -11,7 +11,7 @@
   
 - ### IO流
   - [可能是最漂亮的Java IO流详解](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20IO流/可能是最漂亮的Java%20IO流详解.md)
-  - [NIO是什么？零拷贝的概念](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20NIO/NIO是什么？零拷贝的概念.md)
+  - [掌握NIO是什么？零拷贝的概念](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20NIO/NIO是什么？零拷贝的概念.md)
   
 - ### 并发
   - [并发编程面试必备：synchronized原理、锁升级](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/并发编程面试必备：synchronized原理、锁升级.md)
@@ -28,12 +28,12 @@
 
 ## 💾MySQL
 
-- ### 重要知识点
+- ### 面试必问
   - [MySQL面试必问：MySQL事务四大特性、事务隔离级别](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL事务/MySQL面试必问：MySQL事务四大特性、事务隔离级别.md)
   - [MySQL面试必问：索引的类型、Explain分析SQL、索引失效](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL索引/MySQL面试必问：索引的类型、Explain分析SQL、索引失效.md)
   - [MySQL面试必问：SQL如何优化、索引如何设计](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/SQL语句优化/MySQL面试必问：SQL如何优化、索引如何设计.md)
 
-- ### 进阶
+- ### 进阶知识点
   - [MySQL高阶知识：主从复制步骤、三种二进制日志格式等](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL主从复制/MySQL高阶知识：主从复制步骤、三种二进制日志格式等.md)
   - [掌握MySQL高级特性：分区表、视图、全文索引](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL高级特性/掌握MySQL高级特性：分区表、视图、全文索引.md)
 
@@ -43,7 +43,7 @@
 
 ## 🎈Redis
 
-- ### 重要
+- ### 重要知识点
   - [Redis面试必问：Redis为什么快Redis五大基本数据类型](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据类型/Redis面试必问：Redis为什么快？Redis五大基本数据类型.md)
   - [Redis面试必备：Redis两种内存回收策略，Redis键空间、过期字典等](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis面试必备：Redis两种内存回收策略，Redis键空间、过期字典等.md)
   - [掌握Redis持久化：RDB文件、AOF文件、AOF重写](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis持久化/掌握Redis持久化：RDB文件、AOF文件、AOF重写.md)
