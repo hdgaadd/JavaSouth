@@ -6,18 +6,18 @@
 
 ## ☕ Java
 
-- ### Java基础
-  - [HashMap为什么线程不安全](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/HashMap底层原理/HashMap为什么线程不安全？.md)
+- ### 基础
+  - [掌握HashMap底层原理、HashMap为什么线程不安全](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/HashMap底层原理/掌握HashMap底层原理、HashMap为什么线程不安全.md)
   
-- ### Java IO流
-  - [那Java NIO为什么速度快](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/Java%20NIO/那Java%20NIO为什么速度快？.md)
-  - [可能是最漂亮的Java I/O流详解](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/Java%20IO流/可能是最漂亮的Java%20I/O流详解.md)
+- ### IO流
+  - [可能是最漂亮的Java IO流详解](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20IO流/可能是最漂亮的Java%20IO流详解.md)
+  - [NIO是什么？零拷贝的概念](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/Java%20NIO/NIO是什么？零拷贝的概念.md)
   
-- ### Java多线程
-  - [线程池请求队列满了，有新的请求进来怎么办](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/线程池/线程池请求队列满了，有新的请求进来怎么办？.md)
-  - [ThreadLocal知道吧](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/线程通信/ThreadLocal知道吧？.md)
-  - [volatile有什么缺点吗](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/volatile与重排序/volatile有什么缺点吗？.md)
-  - [你先说说synchronized的实现原理](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/synchronized实现原理/你先说说synchronized的实现原理.md)
+- ### 并发
+  - [并发编程面试必备：synchronized原理、锁升级](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/synchronized实现原理/并发编程面试必备：synchronized原理、锁升级.md)
+  - [并发编程面试必备：指令重排序、volatile可见性原理及局限性](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/volatile与重排序/并发编程面试必备：指令重排序、volatile可见性原理及局限性.md)
+  - [并发编程面试必备：如何创建线程池、线程池拒绝策略](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程池/并发编程面试必备：如何创建线程池、线程池拒绝策略.md)
+  - [并发编程面试必备：ThreadLocal作用、线程生命周期](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程通信/并发编程面试必备：ThreadLocal作用、线程生命周期.md)
   
 - ### Java网络
   - [全双工通信-WebSocket技术](https://github.com/hdgaadd/JavaProGuide/blob/master/WebSocket专栏/WebSocket技术/全双工通信-WebSocket技术.md)
