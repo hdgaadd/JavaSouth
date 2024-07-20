@@ -62,17 +62,15 @@
 
 #### Spring框架
 
-- ### 基础
+- ### 面试必备
   - [Spring面试必备：Spring IOC和AOP的理解、如何解决Spring循环依赖](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/Spring%20IOC和Spring%20AOP/Spring面试必备：Spring%20IOC和AOP的理解、如何解决Spring循环依赖.md)
   - [熟悉Spring MVC工作流程，掌握Spring MVC常见注解](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/SpringMVC技术要点/熟悉Spring%20MVC工作流程，掌握Spring%20MVC常见注解.md)
   
 - ### 源码与文档
-  - [Spring Framework源码](https://github.com/spring-projects/spring-framework)
-  - [Spring Boot源码](https://github.com/spring-projects/spring-boot)
-  - [Spring Framework文档](https://spring.io/projects/spring-framework#learn)
-  - [Spring Boot文档](https://spring.io/projects/spring-boot#learn)
+  - [Spring Framework源码](https://github.com/spring-projects/spring-framework)、[Spring Boot源码](https://github.com/spring-projects/spring-boot)
+  - [Spring Framework文档](https://spring.io/projects/spring-framework#learn)、[Spring Boot文档](https://spring.io/projects/spring-boot#learn)
   
-- ### 学习链接
+- ### 相关链接
   - [Spring Initializr快速搭建Spring项目](https://start.spring.io/)
 
 #### Mybatis框架
