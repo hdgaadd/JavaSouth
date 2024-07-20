@@ -20,7 +20,7 @@
   - [并发编程面试必备：ThreadLocal作用、线程生命周期](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/线程通信/并发编程面试必备：ThreadLocal作用、线程生命周期.md)
   
 - ### Java网络
-  - [全双工通信-WebSocket技术](https://github.com/hdgaadd/JavaProGuide/blob/master/WebSocket专栏/WebSocket技术/全双工通信-WebSocket技术.md)
+  - [了解掌握WebSocket相比传统长轮询的优点](https://github.com/hdgaadd/JavaGetOffer/blob/master/WebSocket专栏/WebSocket技术/了解掌握WebSocket相比传统长轮询的优点.md)
   
 - ### 设计模式
   - [用 Java 实现的设计模式项目，在GitHub上拥有88k⭐️Star⭐️](https://github.com/iluwatar/java-design-patterns)
@@ -28,29 +28,33 @@
 
 ## 💾MySQL
 
-- ### MySQL基础
-  - [一条SQL，我怎么知道它有没使用到索引](https://github.com/hdgaadd/JavaProGuide/blob/master/MySQL专栏/MySQL索引/一条SQL，我怎么知道它有没使用到索引？.md)
-  - [事务的特性你说一说](https://github.com/hdgaadd/JavaProGuide/blob/master/MySQL专栏/MySQL事务/事务的特性你说一说？.md)
-- ### MySQL优化
-  - [知道MySQL慢查询吗](https://github.com/hdgaadd/JavaProGuide/blob/master/MySQL专栏/SQL语句优化/知道MySQL慢查询吗？.md)
-- ### MySQL高级
-  - [MySQL主从复制了解吧](https://github.com/hdgaadd/JavaProGuide/blob/master/MySQL专栏/MySQL主从复制/MySQL主从复制了解吧？.md)
-  - [你先说说知道哪些MySQL的高级特性](https://github.com/hdgaadd/JavaProGuide/blob/master/MySQL专栏/MySQL高级特性/你先说说知道哪些MySQL的高级特性.md)
-- ### MySQL学习链接
+- ### 重要知识点
+  - [MySQL面试必问：MySQL事务四大特性、事务隔离级别](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL事务/MySQL面试必问：MySQL事务四大特性、事务隔离级别.md)
+  - [MySQL面试必问：索引的类型、Explain分析SQL、索引失效](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL索引/MySQL面试必问：索引的类型、Explain分析SQL、索引失效.md)
+  - [MySQL面试必问：SQL如何优化、索引如何设计](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/SQL语句优化/MySQL面试必问：SQL如何优化、索引如何设计.md)
+
+- ### 进阶
+  - [MySQL高阶知识：主从复制步骤、三种二进制日志格式等](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL主从复制/MySQL高阶知识：主从复制步骤、三种二进制日志格式等.md)
+  - [掌握MySQL高级特性：分区表、视图、全文索引](https://github.com/hdgaadd/JavaGetOffer/blob/master/MySQL专栏/MySQL高级特性/掌握MySQL高级特性：分区表、视图、全文索引.md)
+
+- ### 学习链接
   - [MySQL官方文档，十分详细](https://dev.mysql.com/doc/)
 
 
 ## 🎈Redis
 
-- ### Redis基础
-  - [你说说Redis五大基本数据类型](https://github.com/hdgaadd/JavaProGuide/blob/master/Redis专栏/Redis数据类型/你说说Redis五大基本数据类型？.md)
-  - [Redis过期键删除策略是什么](https://github.com/hdgaadd/JavaProGuide/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis过期键删除策略是什么？.md)
+- ### 重要
+  - [Redis面试必问：Redis为什么快Redis五大基本数据类型](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据类型/Redis面试必问：Redis为什么快？Redis五大基本数据类型.md)
+  - [Redis面试必备：Redis两种内存回收策略，Redis键空间、过期字典等](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis面试必备：Redis两种内存回收策略，Redis键空间、过期字典等.md)
+  - [掌握Redis持久化：RDB文件、AOF文件、AOF重写](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis持久化/掌握Redis持久化：RDB文件、AOF文件、AOF重写.md)
+  - [Redis重要知识点：哨兵是什么哨兵如何选择Redis主服务器](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis哨兵/Redis重要知识点：哨兵是什么？哨兵如何选择Redis主服务器.md)
+  
 - ### Redis多机
-  - [你说精通Redis来讲讲Redis持久化](https://github.com/hdgaadd/JavaProGuide/blob/master/Redis专栏/Redis持久化/你说精通Redis？来讲讲Redis持久化.md)
-  - [精通Redis主从数据同步懂吗](https://github.com/hdgaadd/JavaProGuide/blob/master/Redis专栏/Redis主从/精通Redis？主从数据同步懂吗.md)
-  - [知道Redis集群和Redis主从有什么区别吗](https://github.com/hdgaadd/JavaProGuide/blob/master/Redis专栏/Redis集群/知道Redis集群和Redis主从有什么区别吗.md)
-  - [听说你精通Redis来说说Redis哨兵](https://github.com/hdgaadd/JavaProGuide/blob/master/Redis专栏/Redis哨兵/听说你精通Redis？来说说Redis哨兵.md)
-- ### Redis学习链接
+  
+  - [Redis主从数据同步过程：命令传播、部分重同步、复制偏移量等](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis主从/Redis主从数据同步过程：命令传播、部分重同步、复制偏移量等.md)
+  - [了解Redis集群概念，集群如何选举主节点](https://github.com/hdgaadd/JavaGetOffer/blob/master/Redis专栏/Redis集群/了解Redis集群概念，集群如何选举主节点.md)
+  
+- ### 学习链接
   - [Redis官网](https://redis.io/)
 
 
@@ -58,9 +62,9 @@
 
 #### Spring框架
 
-- ### Spring基础
-  - [SpringMVC技术要点](https://github.com/hdgaadd/JavaProGuide/blob/master/主流框架/SpringMVC技术要点/SpringMVC技术要点.md)
-  - [知道怎么解决Spring循环依赖吗](https://github.com/hdgaadd/JavaProGuide/blob/master/主流框架/Spring%20IOC和Spring%20AOP/知道怎么解决Spring循环依赖吗？.md)
+- ### 基础
+  - [Spring面试必备：Spring IOC和AOP的理解、如何解决Spring循环依赖](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/Spring%20IOC和Spring%20AOP/Spring面试必备：Spring%20IOC和AOP的理解、如何解决Spring循环依赖.md)
+  - [熟悉Spring MVC工作流程，掌握Spring MVC常见注解](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/SpringMVC技术要点/熟悉Spring%20MVC工作流程，掌握Spring%20MVC常见注解.md)
   
 - ### 源码与文档
   - [Spring Framework源码](https://github.com/spring-projects/spring-framework)
@@ -68,13 +72,13 @@
   - [Spring Framework文档](https://spring.io/projects/spring-framework#learn)
   - [Spring Boot文档](https://spring.io/projects/spring-boot#learn)
   
-- ### Spring学习链接
+- ### 学习链接
   - [Spring Initializr快速搭建Spring项目](https://start.spring.io/)
 
 #### Mybatis框架
 
-- ### MyBatis基础
-  - [Mybatis缓存有什么问题吗](https://github.com/hdgaadd/JavaProGuide/blob/master/主流框架/MyBatis技术要点/Mybatis缓存有什么问题吗？.md)
+- ### 基础
+  - [MyBatis面试必问： Mybatis一、二级缓存及其优缺点](https://github.com/hdgaadd/JavaGetOffer/blob/master/主流框架/MyBatis技术要点/MyBatis面试必问：%20Mybatis一、二级缓存及其优缺点.md)
   
 - ### 源码与文档
   - [Mybatis 3源码](https://github.com/mybatis/mybatis-3)
@@ -86,24 +90,22 @@
 
 ## 🕶Kafka
 
-- ### Kafka基础
-  - [你说说消费者手动提交和自动提交有什么区别](https://github.com/hdgaadd/JavaProGuide/blob/master/Kafka专栏/Kafka组成模块/你说说消费者手动提交和自动提交有什么区别？.md)
-  - [Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaProGuide/blob/master/Kafka专栏/Kafka事务/Kafka事务一般在什么场景下使用呢.md)
-
-- ### Kafa核心
-  - [你说说Kafka是怎么保证消息可靠性的](https://github.com/hdgaadd/JavaProGuide/blob/master/Kafka专栏/Kafka消息可靠性/你说说Kafka是怎么保证消息可靠性的？.md)
+- ### 重要知识点
+  - [掌握Kafka高水位，Kafka如何保证消息可靠性](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka消息可靠性/掌握Kafka高水位，Kafka如何保证消息可靠性.md)
+  - [熟悉Kafka组成模块、Kafka消息提交的方式及优缺点](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka组成模块/熟悉Kafka组成模块、Kafka消息提交的方式及优缺点.md)
+  - [Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaGetOffer/blob/master/Kafka专栏/Kafka事务/Kafka事务一般在什么场景下使用呢.md)
 
 ## ⛳ZooKeeper
 
-- ### ZooKeeper基础
-  - [那ZooKeeper事务ID呢](https://github.com/hdgaadd/JavaProGuide/blob/master/ZooKeeper专栏/ZooKeeper系统模型/那ZooKeeper事务ID呢？.md)
-  - [知道ZooKeeper有什么应用场景吗](https://github.com/hdgaadd/JavaProGuide/blob/master/ZooKeeper专栏/ZooKeeper应用场景/知道ZooKeeper有什么应用场景吗.md)
-- ### ZooKeeper进阶
-  - [ZooKeeper为什么还采用ZAB协议](https://github.com/hdgaadd/JavaProGuide/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/ZooKeeper为什么还采用ZAB协议.md)
+- ### 重要知识点
+  - [掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper应用场景/掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁.md)
+  - [掌握ZooKeeper的二阶段提交及其优缺点](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/掌握ZooKeeper的二阶段提交及其优缺点.md)
+  - [ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID](https://github.com/hdgaadd/JavaGetOffer/blob/master/ZooKeeper专栏/ZooKeeper系统模型/ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID.md)
+
 
 ## 📂 数据结构与算法
 
-- [收集真实校招社招算法题](https://github.com/hdgaadd/JavaProGuide/blob/master/面试必备/真实校招社招算法题.md)
+- [收集真实的面试算法题，尽量都做完了解企业喜欢考哪类算法题](https://github.com/hdgaadd/JavaProGuide/blob/master/面试必备/收集真实的面试算法题，尽量都做完了解企业喜欢考哪类算法题.md)
 
 ## 🎨其他
 
@@ -124,7 +126,7 @@
 
 - ### 第一周
 
-  - [3年之约第一周（Java在开发中常见的异常是什么？、那JDK和CGLIB动态代理哪个更快？你说说Redis五大基本数据类型？知道有哪些索引失效的情况？）](https://github.com/hdgaadd/JavaProGuide/blob/master/技术成长/第一周/3年之约.md)
+  - [3年之约第一周（Java在开发中常见的异常是什么？、那JDK和CGLIB动态代理哪个更快？你说说Redis五大基本数据类型？知道有哪些索引失效的情况？Mybatis的缓存有哪几种？Redis主从数据同步过程你说一说？你说说Kafka由什么模块组成？）](https://github.com/hdgaadd/JavaProGuide/blob/master/技术成长/第一周/3年之约.md)
 
 ### ⭐⭐⭐技术讨论⭐⭐⭐
 
