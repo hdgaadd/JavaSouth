@@ -109,7 +109,7 @@
 
 ## 📂 数据结构与算法
 
-- [收集真实的面试算法题，尽量都做完了解企业喜欢考哪类算法题](https://github.com/hdgaadd/JavaProGuide/blob/master/面试必备/收集真实的面试算法题，尽量都做完了解企业喜欢考哪类算法题.md)
+- [收集真实的面试算法题，大家尽量都做完，多多了解企业喜欢考哪类算法题](https://github.com/hdgaadd/JavaProGuide/blob/master/面试必备/收集真实的面试算法题，尽量都做完了解企业喜欢考哪类算法题.md)
 
 ## 🎨其他
 
