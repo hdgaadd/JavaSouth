@@ -10,9 +10,9 @@
 
 - [大/中/小型互联网企业面试真实面经，大家要多多参考实际面试究竟都面试什么内容，做好充足准备（阿里巴巴、腾讯、字节、百度、科大讯飞、拼多多、得物、商汤）](https://github.com/hdgaadd/JavaGetOffer/blob/master/面试必备/面试真题，大家可以参考实际面试都面试什么内容.md)
 
-## ⭐普通二本进大厂真实故事故事⭐
+## ⭐普通二本进大厂真实故事⭐
 
-- [二本毕业的我，靠努力终于进入了大厂。南哥希望这样的故事让更多人知道，给大家一个参考方向，不要在互联网里埋没了](https://blog.csdn.net/hdgaadd/article/details/140753261)
+- [二本毕业的我，靠努力终于进入了大厂。南哥希望这样的故事让更多人知道，给大家一个参考方向，不要在互联网里埋没了](https://juejin.cn/post/7395934404261019660)
 
 ## ⭐程序员可以去哪接单⭐
 
@@ -29,6 +29,7 @@
 ## ☕ Java
 
 - ### 基础
+  - [面试官没想到一个ArrayList，我都能跟他扯半小时](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/五大集合之List/面试官没想到一个ArrayList，我都能跟他扯半小时.md)
   - [掌握HashMap底层原理、HashMap为什么线程不安全](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/HashMap底层原理/掌握HashMap底层原理、HashMap为什么线程不安全.md)
   
 - ### IO流
