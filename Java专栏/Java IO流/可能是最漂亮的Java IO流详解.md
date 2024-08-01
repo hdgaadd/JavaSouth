@@ -1,5 +1,7 @@
 ## 1. Java I/O的理解
 
+> ***面试官：你说下对Java IO的理解？***
+
 Java I/O有两个参与对象，一个是**I/O源端**，一个是想要和`I/O`源端通信的各种**接收端**，比如程序控制IDEA控制台输出、读取文件A写入文件B等，我们程序要保证的就是IO流的顺利**读取**和顺利写入。JDK把对Java IO的支持都放在了`package java.io`包下，南哥数了数，一个有86个类和接口。
 
 我们看下`package java.io`包最常用的Reader和Writer接口，他们的作者都是Mark Reinhold。这位老哥是谁？[他](https://mreinhold.org/)是Oracle Java平台组的首席架构师，也是字符流读取器和写入器的首席工程师。这么有来头，看来Java I/O的程序设计不简单，我们可以从中学到不少好用的东西。
@@ -16,6 +18,8 @@ public abstract class Writer implements Appendable, Closeable, Flushable { }
 ## 2. 输入流
 
 ### 2.1 字节输入流抽象基类
+
+> ***面试官：那要怎么读取字节流？***
 
 我们先讲输入流，后面再讲下输出流。输入流又分为字节流和字符流，顾名思义，字节流按字节来读取，操作的数据单元是8位的字节；而字符流按字符来读取，操作的数据单元是16位的字符。
 
@@ -43,6 +47,8 @@ public int read(byte b[], int off, int len) throws IOException
 
 ### 2.2 字节输入流读取
 
+> ***面试官：你说的这些不是实例，我要的是能真正读取的？***
+
 上文的是抽象的接口，本身并不具备实际的功能。真正能够读取文件的是`InputStream`抽象基类的子类实现，例如**文件流FileInputStream**，有了他，我们读取音频、视频、gif等等都不是问题。
 
 ```java
@@ -66,6 +72,8 @@ BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputSt
 
 ### 2.3 提高读取效率
 
+> ***面试官：为什么加一层缓存流就能提高读取效率？***
+
 为什么加一层缓存流就能提高读取效率？因为直接使用 `FileInputStream` 读取文件的话，每次调用 `read()` 都是从**磁盘读取一个字节**，而每次读取都是一次系统调用。**系统调用是操作系统层面的调用**，涉及到用户空间和内核空间之间的上下文切换，这些切换的成本是很昂贵的。
 
 而如果使用缓存流，一次性从文件里读取多个字节到缓存中，减少系统调用同时也减少了磁盘读取，读取的效率明显提高了。
@@ -73,6 +81,8 @@ BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputSt
 除了Java I/O采用缓存流来提高读取效率，大多应用程序也采用缓存来提升程序性能，例如我们后端在业务开发会使用Redis缓存来减少数据库压力。关于`为什么使用缓存来提高应用程序效率`，大家也可以看看国外[Quora](https://www.quora.com/Why-is-caching-used-to-increase-read-performance/answer/Gaive-Gandhi)的回答，解释得很详细。
 
 ### 2.4 字符输入流
+
+> ***面试官：那字符流读取呢？***
 
 字符输入流的抽象基类是`Reader`，同样是提供了3个方法来支持字符流读取。
 
@@ -135,6 +145,8 @@ public class Client {
 
 ### 3.1 输出流
 
+> ***面试官：输出流你也讲一讲？***
+
 字节输出流的抽象基类是`OutputStream`，字符输出流的抽象基类是`Writer`。他们分别提供了以下方法。
 
 字节输出流`OutputStream`：
@@ -192,6 +204,8 @@ public void write(String str, int off, int len) throws IOException
 ```
 
 ## 4. 字节流和字符流区别
+
+> ***面试官：那字节流和字符流有什么区别？***
 
 字节流和字符流的区别主要是三个方面。
 
