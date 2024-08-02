@@ -131,7 +131,7 @@
 
 1. [2024年，程序员可以接单的网站是什么](https://github.com/hdgaadd/JavaProGuide/blob/master/其他/程序员接单.md)
 2. [通过业余时间录制课程，一年赚了30w+](https://www.163.com/dy/article/I4UFODU805562Q9E.html)
-3. [如何开发小众App，赚得人生第一桶金（海外版）](https://www.163.com/dy/article/I4UFODU805562Q9E.html)
+3. [如何开发小众App，赚得人生第一桶金（海外版）]()
 
 ## 👨‍👨‍👦‍👦技术成长
 
