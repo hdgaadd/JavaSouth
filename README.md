@@ -133,6 +133,10 @@
 2. [通过业余时间录制课程，一年赚了30w+](https://www.163.com/dy/article/I4UFODU805562Q9E.html)
 3. [如何开发小众App，赚得人生第一桶金（海外版）]()
 
+## 程序员简历
+
+- [程序员怎么写出一篇高质量的简历](https://github.com/Snailclimb/JavaGuide/blob/2099ea63abf44b9d090e22686aac6d45865f8d1b/面试必备/手把手教你用Markdown写一份高质量的简历.md)
+
 ## 👨‍👨‍👦‍👦技术成长
 
 每周会进行至少一次技术讨论💬，欢迎大家持续关注、积极讨论和分享。
