@@ -76,8 +76,6 @@
 - ### 源码与文档
   - [Spring Framework源码](https://github.com/spring-projects/spring-framework)、[Spring Boot源码](https://github.com/spring-projects/spring-boot)
   - [Spring Framework文档](https://spring.io/projects/spring-framework#learn)、[Spring Boot文档](https://spring.io/projects/spring-boot#learn)
-  
-- ### 相关链接
   - [Spring Initializr快速搭建Spring项目](https://start.spring.io/)
 
 #### Mybatis框架
@@ -131,7 +129,9 @@
 
 ## 🤑程序员接单 | 副业
 
-- [程序员可以去哪接单](https://github.com/hdgaadd/JavaProGuide/blob/master/其他/程序员接单.md)
+1. [2024年，程序员可以接单的网站是什么](https://github.com/hdgaadd/JavaProGuide/blob/master/其他/程序员接单.md)
+2. [通过业余时间录制课程，一年赚了30w+](https://www.163.com/dy/article/I4UFODU805562Q9E.html)
+3. [如何开发小众App，赚得人生第一桶金（海外版）](https://www.163.com/dy/article/I4UFODU805562Q9E.html)
 
 ## 👨‍👨‍👦‍👦技术成长
 
@@ -150,7 +150,7 @@
 
 ## 😻简历辅导 | 面试模拟
 
-- [简历辅导、面试模拟](https://github.com/hdgaadd/JavaProGuide/blob/master/其他/简历辅导、面试模拟.md)
+- [南哥一对一给南友们简历辅导、面试模拟](https://github.com/hdgaadd/JavaProGuide/blob/master/其他/简历辅导、面试模拟.md)
 
 # ✨该开源文档的说明
 
