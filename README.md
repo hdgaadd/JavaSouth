@@ -4,30 +4,11 @@
 >
 > 目前正在一步步完善中，期待大家的参与，发现有什么错误提个PR吧❤
 
-
+# 一、Java技术
 
 ## ⭐互联网公司真实面经
 
 - [大/中/小型互联网企业面试真实面经，大家要多多参考实际面试究竟都面试什么内容，做好充足准备（阿里巴巴、腾讯、字节、百度、科大讯飞、拼多多、得物、商汤）](https://github.com/hdgaadd/JavaProGuide/blob/master/面试必备/面试真题，大家可以参考实际面试都面试什么内容.md)
-
-## ⭐普通学历进大厂的真实故事
-
-南哥希望这样的故事让更多人知道，给大家一个参考方向，不要在互联网里埋没了。
-
-- [二本毕业的我，靠努力终于进入了大厂](https://juejin.cn/post/7395934404261019660)
-- [非科班二本进大厂的心路历程和总结（腾讯、头条、阿里、京东）](https://juejin.cn/post/6844904111150727181)
-
-## ⭐程序员接单 | 副业
-
-- [程序员可以去哪接单](https://github.com/hdgaadd/JavaProGuide/blob/master/其他/程序员接单.md)
-
-## ⭐简历辅导 | 面试模拟
-
-- [简历辅导、面试模拟](https://github.com/hdgaadd/JavaProGuide/blob/master/其他/简历辅导、面试模拟.md)
-
-
-
-
 
 ## ☕ Java
 
@@ -105,8 +86,7 @@
   - [MyBatis面试必问： Mybatis一、二级缓存及其优缺点](https://github.com/hdgaadd/JavaProGuide/blob/master/主流框架/MyBatis技术要点/MyBatis面试必问：%20Mybatis一、二级缓存及其优缺点.md)
   
 - ### 源码与文档
-  - [Mybatis 3源码](https://github.com/mybatis/mybatis-3)
-  - [MyBatis 3文档](https://mybatis.org/mybatis-3/)
+  - [Mybatis 3源码](https://github.com/mybatis/mybatis-3)、[MyBatis 3文档](https://mybatis.org/mybatis-3/)
 
 ## 💻JVM
 
@@ -138,11 +118,22 @@
 
 
 
+# 二、程序员进阶
 
+## 🐳普通学历进大厂的真实故事
+
+这是南哥找到的关于普通二本如何进大厂的真实故事，南哥希望这样的故事让更多人知道，不要在互联网里埋没了。
+
+了解故事，知道这条路究竟走不走得通。有了这样一个故事，就像黑夜里茫茫大海的灯塔，给我们一点光芒，大家就有了方向。
+
+1. [二本毕业的我，靠努力终于进入了大厂](https://juejin.cn/post/7395934404261019660)
+2. [非科班二本进大厂的心路历程和总结（腾讯、头条、阿里、京东）](https://juejin.cn/post/6844904111150727181)
+
+## 🤑程序员接单 | 副业
+
+- [程序员可以去哪接单](https://github.com/hdgaadd/JavaProGuide/blob/master/其他/程序员接单.md)
 
 ## 👨‍👨‍👦‍👦技术成长
-
-### 技术讨论
 
 每周会进行至少一次技术讨论💬，欢迎大家持续关注、积极讨论和分享。
 
@@ -151,6 +142,15 @@
 - ### 第一周
 
   - [MyBatis一、二级缓存究竟是不是鸡肋？（第一周技术讨论，有国外程序员从业务角度的分析和看法）](https://github.com/hdgaadd/JavaProGuide/blob/master/技术成长/第一周/技术讨论.md)
+  
+- ### 第二周
+
+  - [待更新]()
+
+
+## 😻简历辅导 | 面试模拟
+
+- [简历辅导、面试模拟](https://github.com/hdgaadd/JavaProGuide/blob/master/其他/简历辅导、面试模拟.md)
 
 # ✨该开源文档的说明
 
