@@ -6,10 +6,6 @@
 
 # 一、Java技术
 
-## ⭐互联网公司真实面经
-
-- [大/中/小型互联网企业面试真实面经，大家要多多参考实际面试究竟都面试什么内容，做好充足准备（阿里巴巴、腾讯、字节、百度、科大讯飞、拼多多、得物、商汤）](https://github.com/hdgaadd/JavaProGuide/blob/master/面试必备/面试真题，大家可以参考实际面试都面试什么内容.md)
-
 ## ☕ Java
 
 - ### 基础
@@ -111,12 +107,16 @@
 
 ## 🎨其他
 
-- [个人阅读书籍推荐（目前一共41本）](https://github.com/hdgaadd/JavaProGuide/blob/master/其他/个人阅读书籍清单（目前一共41本）.md)
+- [南哥推荐的书籍，也是我读过的（目前一共41本经典书籍，精通Java编程、程序员内核修养、熟悉主流框架、算法、MySQL、Redis、Linux、中间件原理、学会用产品思维去思考需求、架构师阅读清单）](https://github.com/hdgaadd/JavaProGuide/blob/master/其他/个人阅读书籍清单（目前一共41本）.md)
 - [Linux创始人Linus Torvalds](https://github.com/torvalds)、[孵化一众顶级开源产品的Apache社区](https://github.com/apache)
 
 
 
 # 二、程序员进阶
+
+## ⭐互联网公司真实面经
+
+- [大/中/小型互联网企业面试真实面经，大家要多多参考实际面试究竟都面试什么内容，做好充足准备（阿里巴巴、腾讯、字节、百度、科大讯飞、拼多多、得物、商汤）](https://github.com/hdgaadd/JavaProGuide/blob/master/面试必备/面试真题，大家可以参考实际面试都面试什么内容.md)
 
 ## 🐳普通学历进大厂的真实故事
 
@@ -130,12 +130,12 @@
 ## 🤑程序员接单 | 副业
 
 1. [2024年，程序员可以接单的网站是什么](https://github.com/hdgaadd/JavaProGuide/blob/master/其他/程序员接单.md)
-2. [通过业余时间录制课程，一年赚了30w+](https://www.163.com/dy/article/I4UFODU805562Q9E.html)
-3. [如何开发小众App，赚得人生第一桶金（海外版）]()
+2. [通过业余时间录制课程，一年就赚了30w+](https://www.163.com/dy/article/I4UFODU805562Q9E.html)
+3. [程序员如何开发小众App，赚得人生第一桶金（海外版）]()
 
 ## 程序员简历
 
-- [程序员怎么写出一篇高质量的简历](https://github.com/Snailclimb/JavaGuide/blob/2099ea63abf44b9d090e22686aac6d45865f8d1b/面试必备/手把手教你用Markdown写一份高质量的简历.md)
+- [程序员要怎么写出一篇高质量的简历](https://github.com/Snailclimb/JavaGuide/blob/2099ea63abf44b9d090e22686aac6d45865f8d1b/面试必备/手把手教你用Markdown写一份高质量的简历.md)
 
 ## 👨‍👨‍👦‍👦技术成长
 
@@ -176,6 +176,12 @@
 
 Java学习、进阶之路道阻且长，我们一起抱团努力✊！度过这冰冷的互联网寒冬。
 
-**Never forget， there must be an echo。欢迎关注南哥的公众号：Java进阶指南针。公众号里有南哥珍藏整理的大量优秀pdf书籍，回复"书籍"领取吧。**
+**Never forget， there must be an echo。欢迎关注南哥的公众号：Java进阶指南针**
+
+**公众号里，南哥给南友们争取到有以下福利：**
+
+**（1）公众号里有南哥珍藏整理的大量优秀pdf书籍，南友们回复"书籍"领取吧。**
+**（2）加入南哥私密的Java学习进阶圈子，向南哥咨询简历、面试、大厂技术、程序员副业等等相关问题。**
+**（3）公众号持续发表文章，文章关于南友们如何进更好的公司、进大厂需要的技术与技能。**
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/15c2e337b56e4cecba23a1f26c4eb47d.jpeg#pic_center)
