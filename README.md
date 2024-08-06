@@ -9,20 +9,21 @@
 ## ☕ Java
 
 - ### 基础
-  - [面试官没想到一个ArrayList，我都能跟他扯半小时](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/五大集合之List/面试官没想到一个ArrayList，我都能跟他扯半小时.md)
+  - [掌握List集合最常见的ArrayList、Vector、LinkedList，ArrayList是考的最多的](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/五大集合之List/面试官没想到一个ArrayList，我都能跟他扯半小时.md)
+  - [掌握接口和抽象类的区别，笔试题经常出现：静态分派、访问修饰符](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/接口和多态/接口和多态.md)
   - [掌握HashMap底层原理、HashMap为什么线程不安全](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/HashMap底层原理/掌握HashMap底层原理、HashMap为什么线程不安全.md)
   
 - ### IO流
   - [可能是最漂亮的Java IO流详解](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/Java%20IO流/可能是最漂亮的Java%20IO流详解.md)
   - [掌握NIO是什么？零拷贝的概念](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/Java%20NIO/掌握NIO是什么？零拷贝的概念.md)
   
-- ### 并发
+- ### 多线程
   - [并发编程面试必备：如何创建线程池、线程池拒绝策略](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/线程池/并发编程面试必备：如何创建线程池、线程池拒绝策略.md)
   - [并发编程面试必备：指令重排序、volatile可见性原理及局限性](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/volatile与重排序/并发编程面试必备：指令重排序、volatile可见性原理及局限性.md)
   - [并发编程面试必备：synchronized原理、锁升级](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/synchronized实现原理/并发编程面试必备：synchronized原理、锁升级.md)
   - [并发编程面试必备：ThreadLocal作用、线程生命周期](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/线程通信/并发编程面试必备：ThreadLocal作用、线程生命周期.md)
   
-- ### Java网络
+- ### 网络编程
   - [了解掌握WebSocket相比传统长轮询的优点](https://github.com/hdgaadd/JavaProGuide/blob/master/WebSocket专栏/WebSocket技术/了解掌握WebSocket相比传统长轮询的优点.md)
   
 - ### 设计模式
