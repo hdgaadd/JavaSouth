@@ -2,8 +2,6 @@
 
 ### 1.1 HashSet
 
-> ***面试官：你说说对HashSet的理解？***
-
 Set集合区别于其他三大集合的重要特性就是元素具有唯一性，南友们记不住这个特性的话，有个易记的方法。Set集合为什么要叫Set呢？因为Set集合的命名取自于我们小学数学里的集合论（Set Theory），数学集合一个很重要的概念就是每个元素的值都互不相同。
 
 Set集合常见的有实例有：HashSet、LinkedHashSet、TreeSet，南哥先缕一缕HashSet。
@@ -63,8 +61,6 @@ HashSet的contains方法同样是调用HashMap判断Key是否存在的方法：`
 
 ### 1.2 LinkedHashSet
 
-> ***面试官：LinkedHashSet呢？***
-
 接着轮到LinkedHashSet，同为Set集合之一，它和上文的HashSet有什么区别？南哥卖个关子。
 
 源码对`LinkedHashSet`的解释。
@@ -116,8 +112,6 @@ false
 
 
 ### 1.3 TreeSet
-
-> ***TreeSet和它们比有什么特性？***
 
 轮到你了，TreeSet。我们南友们很好奇为什么他叫TreeSet？
 
@@ -188,8 +182,6 @@ TreeSet除了拥有以下的add()、contains()、remove()方法。
 ```
 
 ### 1.4 TreeSet自定义排序
-
-> ***面试官：那TreeSet要怎么定制排序？***
 
 TreeSet的自定义排序我们要利用`Comparator`接口，通过向TreeSet传入自定义排序规则的`Comparator`来实现。
 
