@@ -10,7 +10,7 @@ GitHub个人主页的⭐️Star栏有收藏夹的功能，点击⭐️Star收藏
 
 # 💰价值百万的思维导图
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/b206f983bd464f4ca78a825d00a4dde5.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/27de65d2933b4a4eb7e55e5adcf5c68b.png#pic_center)
 
 # ① Java技术体系
 
