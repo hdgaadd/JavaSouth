@@ -15,10 +15,11 @@ GitHub个人主页的⭐️Star栏有收藏夹的功能，点击⭐️Star收藏
 ## ☕ Java
 
 - ### 基础
-  - [掌握List集合最常见的ArrayList、Vector、LinkedList，ArrayList是考的最多的](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/四大集合之List/面试官没想到一个ArrayList，我都能跟他扯半小时.md)
+  - [熟悉List集合最常见的ArrayList、Vector、LinkedList，ArrayList是考的最多的](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/四大集合之List/面试官没想到一个ArrayList，我都能跟他扯半小时.md)
+  - [掌握Set集合使用及原理：HashSet、LinkedHashSet、TreeSet](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/四大集合之Set/四大集合之Set.md)
+  - [掌握HashMap底层原理、HashMap为什么线程不安全](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/四大集合之HashMap/掌握HashMap底层原理、HashMap为什么线程不安全.md)
   - [掌握接口和抽象类的区别，笔试题经常出现：静态分派、访问修饰符](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/接口和多态/接口和多态.md)
   - [三元运算符、自动类型提升、byte溢出、i++自增问题，笔试题出现频率高](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/数据类型和程序运算/数据类型和程序运算.md)
-  - [掌握HashMap底层原理、HashMap为什么线程不安全](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/四大集合之HashMap/掌握HashMap底层原理、HashMap为什么线程不安全.md)
   
 - ### IO流
   - [可能是最漂亮的Java IO流详解](https://github.com/hdgaadd/JavaProGuide/blob/master/Java专栏/Java%20IO流/可能是最漂亮的Java%20IO流详解.md)
