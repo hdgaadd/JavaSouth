@@ -87,13 +87,7 @@ GitHub个人主页的⭐️Star栏有收藏夹的功能，点击⭐️Star收藏
 
 - ### 基础
   - [MyBatis面试必问： Mybatis一、二级缓存及其优缺点](https://github.com/hdgaadd/JavaProGuide/blob/master/主流框架/MyBatis技术要点/MyBatis面试必问：%20Mybatis一、二级缓存及其优缺点.md)
-  
-- ### 源码与文档
   - [Mybatis 3源码](https://github.com/mybatis/mybatis-3)、[MyBatis 3文档](https://mybatis.org/mybatis-3/)
-
-## 💻JVM
-
-- [掌握垃圾回收器与四种垃圾回收算法](https://github.com/hdgaadd/JavaProGuide/blob/master/JVM专栏/JVM垃圾回收/掌握垃圾回收器与四种垃圾回收算法.md)
 
 ## 🕶Kafka
 
@@ -108,6 +102,10 @@ GitHub个人主页的⭐️Star栏有收藏夹的功能，点击⭐️Star收藏
   - [ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID](https://github.com/hdgaadd/JavaProGuide/blob/master/ZooKeeper专栏/ZooKeeper系统模型/ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID.md)
   - [掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁](https://github.com/hdgaadd/JavaProGuide/blob/master/ZooKeeper专栏/ZooKeeper应用场景/掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁.md)
   - [掌握ZooKeeper的二阶段提交及其优缺点](https://github.com/hdgaadd/JavaProGuide/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/掌握ZooKeeper的二阶段提交及其优缺点.md)
+
+## 💻JVM
+
+- [掌握垃圾回收器与四种垃圾回收算法](https://github.com/hdgaadd/JavaProGuide/blob/master/JVM专栏/JVM垃圾回收/掌握垃圾回收器与四种垃圾回收算法.md)
 
 
 ## 📂 数据结构与算法
