@@ -11,19 +11,19 @@ GitHub个人主页的⭐️Star栏有收藏夹的功能，点击⭐️Star收藏
 
 # 进大厂要学的Java技术
 
-👉[进大厂要学的Java技术](https://github.com/hdgaadd/JavaSouth/blob/master/其他/进大厂要学的Java技术.md)
+👉👉👉[进大厂要学的Java技术](https://github.com/hdgaadd/JavaSouth/blob/master/其他/进大厂要学的Java技术.md)
 
 # 真实的面试题
 
-🤙[互联网公司真实面经](https://github.com/hdgaadd/JavaSouth/blob/master/其他/真实的面试题.md)
+🤙🤙🤙[互联网公司真实面经](https://github.com/hdgaadd/JavaSouth/blob/master/其他/真实的面试题.md)
 
 # 进大厂的故事
 
-👍[普通学历进大厂的真实故事](https://github.com/hdgaadd/JavaSouth/blob/master/其他/进大厂的故事.md)
+👍👍👍[普通学历进大厂的真实故事](https://github.com/hdgaadd/JavaSouth/blob/master/其他/进大厂的故事.md)
 
 # 程序员副业 | 赚钱
 
-👌[程序员副业 | 赚钱](https://github.com/hdgaadd/JavaSouth/blob/master/其他/程序员接单副业.md)
+👌👌👌[程序员副业 | 赚钱](https://github.com/hdgaadd/JavaSouth/blob/master/其他/程序员接单副业.md)
 
 
 # ✨该开源文档的说明
