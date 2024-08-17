@@ -104,14 +104,9 @@
 
 - [收集真实的面试算法题，大家尽量都做完，多多了解企业喜欢考哪类算法题](https://github.com/hdgaadd/JavaSouth/blob/master/面试必备/收集真实的面试算法题，尽量都做完了解企业喜欢考哪类算法题.md)
 
-## 🎨其他
-
-- [南哥推荐的书籍，也是我读过的（目前一共41本经典书籍，精通Java编程、程序员内核修养、熟悉主流框架、算法、MySQL、Redis、Linux、中间件原理、学会用产品思维去思考需求、架构师阅读清单）](https://github.com/hdgaadd/JavaSouth/blob/master/其他/个人阅读书籍清单（目前一共41本）.md)
-- [Linux创始人Linus Torvalds](https://github.com/torvalds)、[孵化一众顶级开源产品的Apache社区](https://github.com/apache)
 
 
-
-## 程序员简历
+## 📖程序员简历
 
 - [程序员要怎么写出一篇高质量的简历](https://github.com/Snailclimb/JavaGuide/blob/2099ea63abf44b9d090e22686aac6d45865f8d1b/面试必备/手把手教你用Markdown写一份高质量的简历.md)
 
@@ -119,3 +114,12 @@
 ## 😻简历辅导 | 面试模拟
 
 - [南哥一对一给南友们简历辅导、面试模拟](https://github.com/hdgaadd/JavaSouth/blob/master/其他/简历辅导、面试模拟.md)
+
+
+
+## 🎨其他
+
+- [南哥推荐的书籍，也是我读过的（目前一共41本经典书籍，精通Java编程、程序员内核修养、熟悉主流框架、算法、MySQL、Redis、Linux、中间件原理、学会用产品思维去思考需求、架构师阅读清单）](https://github.com/hdgaadd/JavaSouth/blob/master/其他/个人阅读书籍清单（目前一共41本）.md)
+- [Linux创始人Linus Torvalds](https://github.com/torvalds)、[孵化一众顶级开源产品的Apache社区](https://github.com/apache)
+
+# 持续更新中，点击Star支持南哥⭐
