@@ -1,7 +1,3 @@
-# 💰价值百万的思维导图
-
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/27de65d2933b4a4eb7e55e5adcf5c68b.png#pic_center)
-
 # Java技术体系
 
 ## ☕ Java
