@@ -12,7 +12,7 @@ GitHub个人主页的⭐️Star栏有收藏夹的功能，点击⭐️Star收藏
 
 # 💰价值百万的思维导图
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/27de65d2933b4a4eb7e55e5adcf5c68b.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d5cfd3a590874bb3bca8b33243fa4e1e.png#pic_center)
 
 
 # 进大厂要学的Java技术
