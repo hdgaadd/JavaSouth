@@ -35,7 +35,7 @@ GitHub个人主页的⭐️Star栏有收藏夹的功能，点击⭐️Star收藏
 
 # 26届实习交流群
 
-![](./其他/26届实习交流群.jpg)
+![](https://i-blog.csdnimg.cn/direct/d2baa915338a47f8aa4fa47f7121fc48.jpeg)
 
 
 # ✨该开源文档的说明
