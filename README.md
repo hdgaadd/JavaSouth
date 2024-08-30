@@ -32,6 +32,12 @@ GitHub个人主页的⭐️Star栏有收藏夹的功能，点击⭐️Star收藏
 👌👌👌[程序员副业 | 赚钱](https://github.com/hdgaadd/JavaSouth/blob/master/其他/程序员接单副业.md)
 
 
+
+# 26届实习交流群
+
+![](./其他/26届实习交流群.jpg)
+
+
 # ✨该开源文档的说明
 
 ### 介绍
