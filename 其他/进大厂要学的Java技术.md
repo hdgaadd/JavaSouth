@@ -6,6 +6,7 @@
   - [熟悉List集合最常见的ArrayList、Vector、LinkedList，ArrayList是考的最多的](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/四大集合之List/面试官没想到一个ArrayList，我都能跟他扯半小时.md)
   - [掌握Set集合使用及原理：HashSet、LinkedHashSet、TreeSet](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/四大集合之Set/四大集合之Set.md)
   - [掌握HashMap底层原理、HashMap为什么线程不安全](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/四大集合之HashMap/掌握HashMap底层原理、HashMap为什么线程不安全.md)
+  - [掌握Queue集合常用类：LinkedList、ArrayDeque、PriorityQueue](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/四大集合之Queue/四大集合之Queue.md)
   - [掌握接口和抽象类的区别，笔试题经常出现：静态分派、访问修饰符](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/接口和多态/接口和多态.md)
   - [三元运算符、自动类型提升、byte溢出、i++自增问题，笔试题出现频率高](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/数据类型和程序运算/数据类型和程序运算.md)
   
@@ -60,22 +61,21 @@
 
 ## ✏️主流框架
 
-#### Spring框架
-
 - ### 面试必备
   - [Spring面试必备：Spring IOC和AOP的理解、如何解决Spring循环依赖](https://github.com/hdgaadd/JavaSouth/blob/master/主流框架/Spring%20IOC和Spring%20AOP/Spring面试必备：Spring%20IOC和AOP的理解、如何解决Spring循环依赖.md)
   - [熟悉Spring MVC工作流程，掌握Spring MVC常见注解](https://github.com/hdgaadd/JavaSouth/blob/master/主流框架/SpringMVC技术要点/熟悉Spring%20MVC工作流程，掌握Spring%20MVC常见注解.md)
+  - [MyBatis面试必问： Mybatis一、二级缓存及其优缺点](https://github.com/hdgaadd/JavaSouth/blob/master/主流框架/MyBatis技术要点/MyBatis面试必问：%20Mybatis一、二级缓存及其优缺点.md)
   
 - ### 源码与文档
   - [Spring Framework源码](https://github.com/spring-projects/spring-framework)、[Spring Boot源码](https://github.com/spring-projects/spring-boot)
   - [Spring Framework文档](https://spring.io/projects/spring-framework#learn)、[Spring Boot文档](https://spring.io/projects/spring-boot#learn)
   - [Spring Initializr快速搭建Spring项目](https://start.spring.io/)
-
-#### Mybatis框架
-
-- ### 基础
-  - [MyBatis面试必问： Mybatis一、二级缓存及其优缺点](https://github.com/hdgaadd/JavaSouth/blob/master/主流框架/MyBatis技术要点/MyBatis面试必问：%20Mybatis一、二级缓存及其优缺点.md)
   - [Mybatis 3源码](https://github.com/mybatis/mybatis-3)、[MyBatis 3文档](https://mybatis.org/mybatis-3/)
+
+## 💻JVM
+
+- [掌握垃圾回收器与四种垃圾回收算法](https://github.com/hdgaadd/JavaSouth/blob/master/JVM专栏/JVM垃圾回收/掌握垃圾回收器与四种垃圾回收算法.md)
+- [掌握JVM内存区域：堆内存、本地方法栈、虚拟机栈、方法区、程序计数器](https://github.com/hdgaadd/JavaGetOffer/blob/master/JVM专栏/JVM内存区域/JVM内存区域.md)
 
 ## 🕶Kafka
 
@@ -90,10 +90,6 @@
   - [ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper系统模型/ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID.md)
   - [掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper应用场景/掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁.md)
   - [掌握ZooKeeper的二阶段提交及其优缺点](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/掌握ZooKeeper的二阶段提交及其优缺点.md)
-
-## 💻JVM
-
-- [掌握垃圾回收器与四种垃圾回收算法](https://github.com/hdgaadd/JavaSouth/blob/master/JVM专栏/JVM垃圾回收/掌握垃圾回收器与四种垃圾回收算法.md)
 
 
 ## 📂 数据结构与算法
