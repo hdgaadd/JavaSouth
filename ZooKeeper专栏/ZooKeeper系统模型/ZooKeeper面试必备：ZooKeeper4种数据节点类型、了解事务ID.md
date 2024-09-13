@@ -1,5 +1,8 @@
 ## 1. ZooKeeper数据模型
+
 ### 1.1 ZooKeeper数据节点
+
+> ***面试官：你说说ZooKeeper数据模型？***
 
 ZooKeeper的数据模型是一颗树结构，每一个树节点是一个数据节点，我们称它为**ZNode**。
 
@@ -18,7 +21,7 @@ ZooKeeper的数据模型是一颗树结构，每一个树节点是一个数据�
 
 这是ZooKeeper数据模型概念图，是不是非常类似呢？
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/8638d0e764324b1dab306e5a87ab2bd4.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/7591f8db21af233683f7d8730e2f7314.png#pic_center)
 
 
 另外ZooKepper这种`斜杠/`作为路径分隔符正好和**Windows相反**，Windows使用的是`反斜杠\`。
@@ -30,6 +33,8 @@ C:\Java\jdk1.8.0_311
 
 ### 1.2 数据节点类型
 
+> ***面试官：那ZooKeeper数据节点有几种类型？***
+
 ZooKeeper一共有四种节点类型，但从整体来看主要是持久节点类型、临时节点类型这两种，另外两种类型只是在以上两种节点类型基础上增加了顺序的特性。大家这样理解会更方便记忆~
 
 1. **持久节点**：这种数据节点一旦背创建后，就会一直存在于ZooKeeper服务器上，除非对该数据节点执行删除操作。
@@ -40,6 +45,8 @@ ZooKeeper一共有四种节点类型，但从整体来看主要是持久节点�
 另外大家记住一点，**临时节点只能作为叶子节点**，是不能在临时节点下面创建任何子节点的。原因大概是临时节点子节点没有存在的意义，创建子节点的场景大多是基于持久节点的场景，这种设计也可以防止对临时节点的误用。
 
 ### 1.3 数据节点的版本
+
+> ***面试官：数据节点版本知道吧？***
 
 ZooKeeper数据节点的版本概念和CAS操作的版本概念是一样的，同样是在多线程环境下，通过乐观锁这种无锁操作来保证线程安全性。
 
@@ -83,9 +90,7 @@ public class CAS implements Runnable {
         log.info("current thread name: {} , the value of val: {}", Thread.currentThread().getName(), val);
     }
 }
-```
 
-```shell
 控制台打印：
 [ INFO ]the thread called cas0 get val is 0
 [ INFO ]the thread called cas1 get val is 0
@@ -97,7 +102,9 @@ public class CAS implements Runnable {
 
 ### 1.4 事务ID
 
-我们熟悉的数据库事务一般是包含**对数据库状态的读写操作**，数据库事务具有ACID特性：原子性、一致性、持久性、隔离性。数据库事务这块大家有不懂的可以看我的往期文章。
+> ***面试官：ZooKeeper事务ID呢？***
+
+我们熟悉的数据库事务一般是包含**对数据库状态的读写操作**，数据库事务具有ACID特性：原子性、一致性、持久性、隔离性。数据库事务这块大家有不懂的可以看我往期文章《MySQL事务的性情很“原子“，要么执行要么不执行》。
 
 但ZooKeeper的事务和数据库事务大相径庭。ZooKeeper事务一般是包括对**数据节点**的创建、删除、更新，也包括客户端会话创建、失效情况对**临时节点**的影响。
 
@@ -105,10 +112,12 @@ public class CAS implements Runnable {
 
 ## 2. Watcher机制
 
+> ***面试官：ZooKeeper数据变更通知使用什么对象？***
+
 ZooKeeper拥有分布式通知的功能，这个功能是基于**Watcher机制**来实现的。一个Watcher对象就像一个订阅者，当订阅的主题状态发生变化，就会通知Watcher订阅者作出一定动作。
 
 Watcher机制的工作流程，首先是客户端向ZooKeeper服务器注册Watcher通知，接着会将Watcher对象存储在客户端本身的**WatchManager**中。当ZooKeeper服务器触发Watcher事件后会向客户端发起通知，客户端就从本身的WatchManager取出对应的Watcher对象来执行**回调操作**。
 
 Watcher机制的大致流程大家可以参考下图：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/59561ea4ca5b496a96604a276320ff6a.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/d2590da4e38b8232c70e67068b5811ee.png#pic_center)
