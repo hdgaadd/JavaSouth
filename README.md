@@ -1,14 +1,14 @@
-# Java学习/进阶/面试指南（JavaSouth）
+# Java学习/进阶/面试指南
 
-> South译为南部，这是一份南友们学习进阶Java的《Java学习/进阶/面试指南》。
+> South译为南部，这是一份南友们学习进阶Java的《Java学习/进阶/面试指南》
 >
 > 该指南涵盖了在大厂工作的Javaer都不会不懂的核心知识、面试重点。相信一定对你学习Java、成为更好的Java选手有所帮助，愿南友们在Java成长路上不迷茫。
 
-GitHub个人主页的⭐️Star栏有收藏夹的功能，点击⭐️Star收藏起来方便找得到~
+GitHub个人主页的⭐️Star栏有**收藏夹**的功能，点击⭐️Star收藏起来方便找得到~
 
 南哥正在一步步完善中，一个人力量难免有限，大家发现有什么错误提个PR吧❤
 
-# 💰JavaSouth思维导图
+# 💰JavaSouth学习路线
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d5cfd3a590874bb3bca8b33243fa4e1e.png#pic_center)
 
@@ -112,17 +112,6 @@ GitHub个人主页的⭐️Star栏有收藏夹的功能，点击⭐️Star收藏
 
 
 
-## 📖程序员简历
-
-- [程序员要怎么写出一篇高质量的简历](https://github.com/Snailclimb/JavaGuide/blob/2099ea63abf44b9d090e22686aac6d45865f8d1b/面试必备/手把手教你用Markdown写一份高质量的简历.md)
-
-
-## 😻简历辅导 | 面试模拟
-
-- [南哥一对一给南友们简历辅导、面试模拟](https://github.com/hdgaadd/JavaSouth/blob/master/其他/简历辅导、面试模拟.md)
-
-
-
 ## 🎨其他
 
 - [南哥推荐的书籍，也是我读过的（目前一共41本经典书籍，精通Java编程、程序员内核修养、熟悉主流框架、算法、MySQL、Redis、Linux、中间件原理、学会用产品思维去思考需求、架构师阅读清单）](https://github.com/hdgaadd/JavaSouth/blob/master/其他/个人阅读书籍清单（目前一共41本）.md)
@@ -134,34 +123,30 @@ GitHub个人主页的⭐️Star栏有收藏夹的功能，点击⭐️Star收藏
 
 ## ⭐互联网公司真实面经
 
-- [大/中/小型互联网企业面试真实面经，大家要多多参考实际面试究竟都面试什么内容，做好充足准备（阿里巴巴、腾讯、字节、百度、科大讯飞、拼多多、得物、商汤）](https://github.com/hdgaadd/JavaSouth/blob/master/面试必备/面试真题，大家可以参考实际面试都面试什么内容.md)
+[大/中/小型互联网企业面试真实面经，大家要多多参考实际面试究竟都面试什么内容，做好充足准备（阿里巴巴、腾讯、字节、百度、科大讯飞、拼多多、得物、商汤）](https://github.com/hdgaadd/JavaSouth/blob/master/面试必备/面试真题，大家可以参考实际面试都面试什么内容.md)
 
-## 🐳普通学历进大厂的真实故事
-
-这是南哥找到的关于程序员靠自身努力进入理想公司（大厂）的真实故事，南哥希望这样的故事让更多人知道，不要在互联网里埋没了。
-
-了解故事，知道这条路究竟走不走得通。有了这样一个故事，就像黑夜里茫茫大海的灯塔，给我们一点光芒，大家就有了方向。
+## 👨‍👦普通学历进大厂的真实故事
 
 1. [二本毕业的我，靠努力终于进入了大厂](https://juejin.cn/post/7395934404261019660)
 2. [无实习无论文无竞赛，靠努力拿到了农行西研的Offer](https://www.nowcoder.com/discuss/577295381487165440)
 3. [非科班二本进大厂的心路历程和总结（腾讯、头条、阿里、京东）](https://juejin.cn/post/6844904111150727181)
 
-## 🤑程序员接单 | 副业
+## 🛒程序员简历
 
-> 下方关注南哥的公众号领取吧：Java进阶指南针
-
-## 程序员简历
-
-- [程序员要怎么写出一篇高质量的简历](https://github.com/Snailclimb/JavaGuide/blob/2099ea63abf44b9d090e22686aac6d45865f8d1b/面试必备/手把手教你用Markdown写一份高质量的简历.md)
+[程序员要怎么写出一篇高质量的简历](https://github.com/Snailclimb/JavaGuide/blob/2099ea63abf44b9d090e22686aac6d45865f8d1b/面试必备/手把手教你用Markdown写一份高质量的简历.md)
 
 
 ## 😻简历辅导 | 面试模拟
 
-- [南哥一对一给南友们简历辅导、面试模拟](https://github.com/hdgaadd/JavaSouth/blob/master/其他/简历辅导、面试模拟.md)
+[南哥一对一给南友们简历辅导、面试模拟](https://github.com/hdgaadd/JavaSouth/blob/master/其他/简历辅导、面试模拟.md)
 
+## 🤑程序员接单 | 副业
 
+> 关注下方南哥的公众号领取吧
 
 # 26届实习交流群
+
+> 群二维码失效的话，可以在下方公众号获取~
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/e9276305b395494bba9c9f8385fc69f6.jpeg#pic_center)
 
@@ -169,7 +154,7 @@ GitHub个人主页的⭐️Star栏有收藏夹的功能，点击⭐️Star收藏
 
 ### 介绍
 
-该开源文档涉及的主要内容包括Java、Redis、MySQL、多线程、Kafka、JVM、ZooKeeper等等Java程序员学习与进阶路上所需掌握的核心知识、面试重点，是Java学习与进阶的一条学习路线。
+该开源文档涉及的主要内容包括Java、Redis、MySQL、多线程、Kafka、JVM、ZooKeeper等等Java程序员学习与进阶路上所需掌握的核心知识、面试重点，是Java学习与进阶的一条**学习路线**。
 
 我会持续更新完善。相信能帮助到大家在Java成长路上不迷茫，同时顺利通关面试、拿到理想Offer。
 
