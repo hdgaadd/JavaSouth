@@ -36,6 +36,7 @@ GitHub个人主页的⭐️Star栏有**收藏夹**的功能，点击⭐️Star�
   
 - ### 网络编程
   - [了解掌握WebSocket相比传统长轮询的优点](https://github.com/hdgaadd/JavaSouth/blob/master/WebSocket专栏/WebSocket技术/了解掌握WebSocket相比传统长轮询的优点.md)
+  - [Nginx必备知识点：反向代理、正向代理、负载均衡](https://github.com/hdgaadd/JavaSouth/blob/master/Nginx%E4%B8%93%E6%A0%8F/Nginx.md)
   
 - ### 设计模式
   - [用 Java 实现的设计模式项目，在GitHub上拥有88k⭐️Star⭐️](https://github.com/iluwatar/java-design-patterns)
@@ -51,8 +52,6 @@ GitHub个人主页的⭐️Star栏有**收藏夹**的功能，点击⭐️Star�
 - ### 进阶知识点
   - [MySQL高阶知识：主从复制步骤、三种二进制日志格式等](https://github.com/hdgaadd/JavaSouth/blob/master/MySQL专栏/MySQL主从复制/MySQL高阶知识：主从复制步骤、三种二进制日志格式等.md)
   - [掌握MySQL高级特性：分区表、视图、全文索引](https://github.com/hdgaadd/JavaSouth/blob/master/MySQL专栏/MySQL高级特性/掌握MySQL高级特性：分区表、视图、全文索引.md)
-
-- ### 学习链接
   - [MySQL官方文档，十分详细](https://dev.mysql.com/doc/)
 
 
@@ -63,14 +62,12 @@ GitHub个人主页的⭐️Star栏有**收藏夹**的功能，点击⭐️Star�
   - [Redis面试必备：Redis两种内存回收策略，Redis键空间、过期字典等](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis面试必备：Redis两种内存回收策略，Redis键空间、过期字典等.md)
   - [掌握Redis持久化：RDB文件、AOF文件、AOF重写](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis持久化/掌握Redis持久化：RDB文件、AOF文件、AOF重写.md)
   - [Redis重要知识点：哨兵是什么哨兵如何选择Redis主服务器](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis哨兵/Redis重要知识点：哨兵是什么？哨兵如何选择Redis主服务器.md)
+  - [Redis官网](https://redis.io/)、[Redis创始人GitHub](https://github.com/antirez)
   
 - ### Redis多机
   
   - [掌握Redis集群概念、集群分片、重新分片，集群如何选举主节点](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis集群/了解Redis集群概念，集群如何选举主节点.md)
   - [Redis主从数据同步过程：命令传播、部分重同步、复制偏移量等](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis主从/Redis主从数据同步过程：命令传播、部分重同步、复制偏移量等.md)
-  
-- ### 学习链接
-  - [Redis官网](https://redis.io/)、[Redis创始人GitHub](https://github.com/antirez)
 
 
 ## ✏️主流框架
@@ -93,24 +90,20 @@ GitHub个人主页的⭐️Star栏有**收藏夹**的功能，点击⭐️Star�
 
 ## 🕶Kafka
 
-- ### 重要知识点
-  - [Kafka高水位面试经常问，Kafka如何保证消息可靠性](https://github.com/hdgaadd/JavaSouth/blob/master/Kafka专栏/Kafka消息可靠性/掌握Kafka高水位，Kafka如何保证消息可靠性.md)
-  - [熟悉Kafka组成模块、Kafka消息提交的方式及优缺点](https://github.com/hdgaadd/JavaSouth/blob/master/Kafka专栏/Kafka组成模块/熟悉Kafka组成模块、Kafka消息提交的方式及优缺点.md)
-  - [Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaSouth/blob/master/Kafka专栏/Kafka事务/Kafka事务一般在什么场景下使用呢.md)
+- [Kafka高水位面试经常问，Kafka如何保证消息可靠性](https://github.com/hdgaadd/JavaSouth/blob/master/Kafka专栏/Kafka消息可靠性/掌握Kafka高水位，Kafka如何保证消息可靠性.md)
+- [熟悉Kafka组成模块、Kafka消息提交的方式及优缺点](https://github.com/hdgaadd/JavaSouth/blob/master/Kafka专栏/Kafka组成模块/熟悉Kafka组成模块、Kafka消息提交的方式及优缺点.md)
+- [Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaSouth/blob/master/Kafka专栏/Kafka事务/Kafka事务一般在什么场景下使用呢.md)
 
 ## ⛳ZooKeeper
 
-- ### 重要知识点
-  - [ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper系统模型/ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID.md)
-  - [掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper应用场景/掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁.md)
-  - [掌握ZooKeeper的二阶段提交及其优缺点](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/掌握ZooKeeper的二阶段提交及其优缺点.md)
+- [ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper系统模型/ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID.md)
+- [掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper应用场景/掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁.md)
+- [掌握ZooKeeper的二阶段提交及其优缺点](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/掌握ZooKeeper的二阶段提交及其优缺点.md)
 
 
 ## 📂 数据结构与算法
 
 - [收集真实的面试算法题，大家尽量都做完，多多了解企业喜欢考哪类算法题](https://github.com/hdgaadd/JavaSouth/blob/master/面试必备/收集真实的面试算法题，尽量都做完了解企业喜欢考哪类算法题.md)
-
-
 
 ## 🎨其他
 
@@ -119,34 +112,45 @@ GitHub个人主页的⭐️Star栏有**收藏夹**的功能，点击⭐️Star�
 
 
 
-# ② Java进阶之路
+# ② 项目亮点
 
-## ⭐互联网公司真实面经
+1. ### 直播弹幕设计
 
-[大/中/小型互联网企业面试真实面经，大家要多多参考实际面试究竟都面试什么内容，做好充足准备（阿里巴巴、腾讯、字节、百度、科大讯飞、拼多多、得物、商汤）](https://github.com/hdgaadd/JavaSouth/blob/master/面试必备/面试真题，大家可以参考实际面试都面试什么内容.md)
+   [设计了简单高效的弹幕系统！老板直接加薪](https://juejin.cn/post/7415911487608324136)
 
-## 👨‍👦普通学历进大厂的真实故事
+2. ### 直播礼物系统设计
 
-1. [二本毕业的我，靠努力终于进入了大厂](https://juejin.cn/post/7395934404261019660)
-2. [无实习无论文无竞赛，靠努力拿到了农行西研的Offer](https://www.nowcoder.com/discuss/577295381487165440)
-3. [非科班二本进大厂的心路历程和总结（腾讯、头条、阿里、京东）](https://juejin.cn/post/6844904111150727181)
+   [🔥产品：直播送礼延迟这么大，你就不能快点吗](https://juejin.cn/post/7415912231840546851)
 
-## 🛒程序员简历
+# ③ 其他
 
-[程序员要怎么写出一篇高质量的简历](https://github.com/Snailclimb/JavaGuide/blob/2099ea63abf44b9d090e22686aac6d45865f8d1b/面试必备/手把手教你用Markdown写一份高质量的简历.md)
+- ### ⭐互联网公司真实面经
 
+  [大/中/小型互联网企业面试真实面经，大家要多多参考实际面试究竟都面试什么内容，做好充足准备（阿里巴巴、腾讯、字节、百度、科大讯飞、拼多多、得物、商汤）](https://github.com/hdgaadd/JavaSouth/blob/master/面试必备/面试真题，大家可以参考实际面试都面试什么内容.md)
 
-## 😻简历辅导 | 面试模拟
+- ### 👨‍👦普通学历进大厂的真实故事
 
-[南哥一对一给南友们简历辅导、面试模拟](https://github.com/hdgaadd/JavaSouth/blob/master/其他/简历辅导、面试模拟.md)
+  1. [二本毕业的我，靠努力终于进入了大厂](https://juejin.cn/post/7395934404261019660)
+  2. [无实习无论文无竞赛，靠努力拿到了农行西研的Offer](https://www.nowcoder.com/discuss/577295381487165440)
+  3. [非科班二本进大厂的心路历程和总结（腾讯、头条、阿里、京东）](https://juejin.cn/post/6844904111150727181)
 
-## 🤑程序员接单 | 副业
+- ### 🛒程序员简历
 
-> 关注下方南哥的公众号领取吧
+  [程序员要怎么写出一篇高质量的简历](https://github.com/Snailclimb/JavaGuide/blob/2099ea63abf44b9d090e22686aac6d45865f8d1b/面试必备/手把手教你用Markdown写一份高质量的简历.md)
 
-# 26届实习交流群
+- ### 😻简历辅导 | 面试模拟
 
-> 在下方公众号哈~
+  [南哥一对一给南友们简历辅导、面试模拟](https://github.com/hdgaadd/JavaSouth/blob/master/其他/简历辅导、面试模拟.md)
+
+- 🤑程序员接单 | 副业
+
+  > 关注下方南哥的公众号领取吧
+
+- ### 26届实习交流群
+
+  > 群二维码失效的话，可以在下方公众号获取~
+
+  ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/e9276305b395494bba9c9f8385fc69f6.jpeg#pic_center)
 
 # ✨该开源文档的说明
 
@@ -172,10 +176,10 @@ Java学习、进阶之路道阻且长，我们一起抱团努力✊！度过这�
 
 **公众号里，南哥给南友们争取到有以下福利：**
 
-**（1）公众号里有南哥珍藏整理的大量优秀pdf书籍，南友们回复"书籍"领取吧。**
+**（1）公众号里有南哥珍藏整理的大量优秀pdf书籍，南友们回复"书籍"领取吧**
 
-**（2）加入南哥私密的Java学习进阶圈子，向南哥咨询简历、面试、大厂技术、程序员副业等等相关问题。**
+**（2）加入南哥私密的Java学习进阶圈子，向南哥咨询简历、面试、大厂技术、程序员副业等等相关问题**
 
-**（3）公众号持续发表文章，文章关于南友们如何进更好的公司、进大厂需要的技术与技能。**
+**（3）公众号持续发表文章，文章关于南友们如何进更好的公司、进大厂需要的技术与技能**
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/15c2e337b56e4cecba23a1f26c4eb47d.jpeg#pic_center)
