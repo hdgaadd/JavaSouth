@@ -14,7 +14,7 @@ GitHub个人主页的⭐️Star栏有**收藏夹**的功能，点击⭐️Star�
 
 # ① 项目亮点
 
-1. ### 直播pk
+1. ### 直播 pk
 
    [项目没亮点？那就来学下pk功能设计吧](https://juejin.cn/post/7419598962347786281)
 
@@ -29,8 +29,113 @@ GitHub个人主页的⭐️Star栏有**收藏夹**的功能，点击⭐️Star�
 4. ### 评论功能
 
    [这个评论系统设计碉堡了](https://juejin.cn/post/7418084847615737868)
+   
+5. ### 电商功能
 
-# ② 互联网公司真实面经
+   [捣鼓一个电商功能设计](https://juejin.cn/post/7425940291692167222)
+
+
+
+
+# ②  Java技术体系
+
+## ☕ Java
+
+- ### 基础
+  - [ArrayList是考的最多的，熟悉List集合的常见类：ArrayList、Vector、LinkedList](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/四大集合之List/面试官没想到一个ArrayList，我都能跟他扯半小时.md)
+  - [掌握Set集合使用及原理：HashSet、LinkedHashSet、TreeSet](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/四大集合之Set/四大集合之Set.md)
+  - [掌握HashMap底层原理、HashMap为什么线程不安全](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/四大集合之HashMap/掌握HashMap底层原理、HashMap为什么线程不安全.md)
+  - [掌握Queue集合常用类：LinkedList、ArrayDeque、PriorityQueue](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/四大集合之Queue/四大集合之Queue.md)
+  - [笔试题经常出现，掌握接口和抽象类的区别：静态分派、访问修饰符](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/接口和多态/接口和多态.md)
+  - [笔试题出现频率高，三元运算符、自动类型提升、byte溢出、i++自增问题](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/数据类型和程序运算/数据类型和程序运算.md)
+  
+- ### IO流
+  - [可能是最漂亮的Java IO流详解](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/Java%20IO流/可能是最漂亮的Java%20IO流详解.md)
+  - [掌握NIO是什么？零拷贝的概念](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/Java%20NIO/掌握NIO是什么？零拷贝的概念.md)
+  
+- ### 多线程
+  - [并发编程面试必备：如何创建线程池、线程池拒绝策略](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/线程池/并发编程面试必备：如何创建线程池、线程池拒绝策略.md)
+  - [并发编程面试必备：指令重排序、volatile可见性原理及局限性](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/volatile与重排序/并发编程面试必备：指令重排序、volatile可见性原理及局限性.md)
+  - [并发编程面试必备：synchronized原理、锁升级](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/synchronized实现原理/并发编程面试必备：synchronized原理、锁升级.md)
+  - [并发编程面试必备：ThreadLocal作用、线程生命周期](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/线程通信/并发编程面试必备：ThreadLocal作用、线程生命周期.md)
+  
+- ### 网络编程
+  - [了解掌握WebSocket相比传统长轮询的优点](https://github.com/hdgaadd/JavaSouth/blob/master/WebSocket专栏/WebSocket技术/了解掌握WebSocket相比传统长轮询的优点.md)
+  - [Nginx必备知识点：反向代理、正向代理、负载均衡](https://github.com/hdgaadd/JavaSouth/blob/master/Nginx%E4%B8%93%E6%A0%8F/Nginx.md)
+  
+- ### 设计模式
+  - [用 Java 实现的设计模式项目，在GitHub上拥有88k⭐️Star⭐️](https://github.com/iluwatar/java-design-patterns)
+
+
+## 💾MySQL
+
+- ### 面试必问
+  - [MySQL面试必问：索引的类型、Explain分析SQL、索引失效](https://github.com/hdgaadd/JavaSouth/blob/master/MySQL专栏/MySQL索引/MySQL面试必问：索引的类型、Explain分析SQL、索引失效.md)
+  - [MySQL面试必问：SQL如何优化、索引如何设计](https://github.com/hdgaadd/JavaSouth/blob/master/MySQL专栏/SQL语句优化/MySQL面试必问：SQL如何优化、索引如何设计.md)
+  - [MySQL面试必问：MySQL事务四大特性、事务隔离级别](https://github.com/hdgaadd/JavaSouth/blob/master/MySQL专栏/MySQL事务/MySQL面试必问：MySQL事务四大特性、事务隔离级别.md)
+
+- ### 进阶知识点
+  - [MySQL高阶知识：主从复制步骤、三种二进制日志格式等](https://github.com/hdgaadd/JavaSouth/blob/master/MySQL专栏/MySQL主从复制/MySQL高阶知识：主从复制步骤、三种二进制日志格式等.md)
+  - [掌握MySQL高级特性：分区表、视图、全文索引](https://github.com/hdgaadd/JavaSouth/blob/master/MySQL专栏/MySQL高级特性/掌握MySQL高级特性：分区表、视图、全文索引.md)
+  - [MySQL官方文档，十分详细](https://dev.mysql.com/doc/)
+
+
+## 🎈Redis
+
+- ### 重要知识点
+  - [Redis面试必问：Redis为什么快？Redis五大基本数据类型](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis数据类型/Redis面试必问：Redis为什么快？Redis五大基本数据类型.md)
+  - [Redis面试必备：Redis两种内存回收策略，Redis键空间、过期字典等](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis面试必备：Redis两种内存回收策略，Redis键空间、过期字典等.md)
+  - [掌握Redis持久化：RDB文件、AOF文件、AOF重写](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis持久化/掌握Redis持久化：RDB文件、AOF文件、AOF重写.md)
+  - [Redis重要知识点：哨兵是什么哨兵如何选择Redis主服务器](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis哨兵/Redis重要知识点：哨兵是什么？哨兵如何选择Redis主服务器.md)
+  - [Redis官网](https://redis.io/)、[Redis创始人GitHub](https://github.com/antirez)
+  
+- ### Redis多机
+  
+  - [掌握Redis集群概念、集群分片、重新分片，集群如何选举主节点](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis集群/了解Redis集群概念，集群如何选举主节点.md)
+  - [Redis主从数据同步过程：命令传播、部分重同步、复制偏移量等](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis主从/Redis主从数据同步过程：命令传播、部分重同步、复制偏移量等.md)
+
+
+## ✏️主流框架
+
+- ### 面试必备
+  - [Spring面试必备：Spring IOC和AOP的理解、如何解决Spring循环依赖](https://github.com/hdgaadd/JavaSouth/blob/master/主流框架/Spring%20IOC和Spring%20AOP/Spring面试必备：Spring%20IOC和AOP的理解、如何解决Spring循环依赖.md)
+  - [熟悉Spring MVC工作流程，掌握Spring MVC常见注解](https://github.com/hdgaadd/JavaSouth/blob/master/主流框架/SpringMVC技术要点/熟悉Spring%20MVC工作流程，掌握Spring%20MVC常见注解.md)
+  - [MyBatis面试必问： Mybatis一、二级缓存及其优缺点](https://github.com/hdgaadd/JavaSouth/blob/master/主流框架/MyBatis技术要点/MyBatis面试必问：%20Mybatis一、二级缓存及其优缺点.md)
+  
+- ### 源码与文档
+  - [Spring Framework源码](https://github.com/spring-projects/spring-framework)、[Spring Boot源码](https://github.com/spring-projects/spring-boot)
+  - [Spring Framework文档](https://spring.io/projects/spring-framework#learn)、[Spring Boot文档](https://spring.io/projects/spring-boot#learn)
+  - [Spring Initializr快速搭建Spring项目](https://start.spring.io/)
+  - [Mybatis 3源码](https://github.com/mybatis/mybatis-3)、[MyBatis 3文档](https://mybatis.org/mybatis-3/)
+
+## 💻JVM
+
+- [你需要了解掌握的 7 种垃圾回收器与 4 种垃圾回收算法](https://github.com/hdgaadd/JavaSouth/blob/master/JVM专栏/JVM垃圾回收/掌握垃圾回收器与四种垃圾回收算法.md)
+- [掌握JVM内存区域：堆内存、本地方法栈、虚拟机栈、方法区、程序计数器](https://github.com/hdgaadd/JavaGetOffer/blob/master/JVM专栏/JVM内存区域/JVM内存区域.md)
+
+## 🕶Kafka
+
+- [Kafka高水位面试经常问，Kafka如何保证消息可靠性](https://github.com/hdgaadd/JavaSouth/blob/master/Kafka专栏/Kafka消息可靠性/掌握Kafka高水位，Kafka如何保证消息可靠性.md)
+- [熟悉Kafka组成模块、Kafka消息提交的方式及优缺点](https://github.com/hdgaadd/JavaSouth/blob/master/Kafka专栏/Kafka组成模块/熟悉Kafka组成模块、Kafka消息提交的方式及优缺点.md)
+- [Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaSouth/blob/master/Kafka专栏/Kafka事务/Kafka事务一般在什么场景下使用呢.md)
+
+## ⛳ZooKeeper
+
+- [ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper系统模型/ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID.md)
+- [掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper应用场景/掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁.md)
+- [掌握ZooKeeper的二阶段提交及其优缺点](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/掌握ZooKeeper的二阶段提交及其优缺点.md)
+
+
+## 📂 数据结构与算法
+
+- [收集真实的面试算法题，大家尽量都做完，多多了解企业喜欢考哪类算法题](https://github.com/hdgaadd/JavaSouth/blob/master/面试必备/收集真实的面试算法题，尽量都做完了解企业喜欢考哪类算法题.md)
+
+## 🎨书籍
+
+- [南哥推荐的书籍，也是我读过的（目前一共41本经典书籍，精通Java编程、程序员内核修养、熟悉主流框架、算法、MySQL、Redis、Linux、中间件原理、学会用产品思维去思考需求、架构师阅读清单）](https://github.com/hdgaadd/JavaSouth/blob/master/其他/个人阅读书籍清单（目前一共41本）.md)
+
+
+# ③ 互联网公司真实面经
 
 1. [好好好，总结了：2024腾讯音乐面经汇总（超全）](https://www.nowcoder.com/discuss/607258148675518464)
 2. [字节抖音电商 后端开发 一面面经](https://www.nowcoder.com/discuss/642293651615285248)
@@ -232,196 +337,6 @@ GitHub个人主页的⭐️Star栏有**收藏夹**的功能，点击⭐️Star�
 198. [灵犀互娱一面](https://www.nowcoder.com/feed/main/detail/cf3ea7ffce0c409a92176dc8e17952df)
 199. [淘天二面](https://www.nowcoder.com/discuss/607661483417153536)
 200. [26日常实习｜字节国际化后端一面（过）](https://www.nowcoder.com/feed/main/detail/ac4bf63c06294648a105ba30a3df196d)
-201. [诺瓦星云提前批嵌入式一面](https://www.nowcoder.com/feed/main/detail/ec7361f1c4b74f0a95af3fcf263a8022)
-202. [诺瓦星云面经](https://www.nowcoder.com/discuss/656644151399743488)
-203. [腾讯PCG二三面面经分享](https://www.nowcoder.com/feed/main/detail/9eaa151d3cac421eb396e8c5b75c5b21)
-204. [汇川嵌入式一面](https://www.nowcoder.com/feed/main/detail/e089491f8dc6441986a8772727432d94)
-205. [腾讯PCG-一二面凉](https://www.nowcoder.com/feed/main/detail/3627edcd6a4f4b3598c193bab9a8329f)
-206. [字节前端25秋招一面二面分享](https://www.nowcoder.com/discuss/653918628487647232)
-207. [海康嵌入式面经](https://www.nowcoder.com/feed/main/detail/a76752b97ad241c181737c8a0be2f14a)
-208. [美团一面凉](https://www.nowcoder.com/feed/main/detail/175aacd44a1c4cf79e9985e659902b2d)
-209. [滴滴 提前批 C++开发 一面 25秋招](https://www.nowcoder.com/discuss/647443372222820352)
-210. [逆天美团一面2h（秋招，java开发）](https://www.nowcoder.com/feed/main/detail/608049c75a314424bbdaef6a70c9d1bb)
-211. [3.25 美团测开一面 凉 58min](https://www.nowcoder.com/feed/main/detail/cafa59a68c05438f9349c37674857994)
-212. [美团二面现已oc](https://www.nowcoder.com/feed/main/detail/f8fac08452564811a7daad3fd912f51c)
-213. [抖音直播后端秋招一面](https://www.nowcoder.com/feed/main/detail/47b08b2bf5ab47019d58eb22a83d192f)
-214. [美团 数据开发 一面 45min](https://www.nowcoder.com/feed/main/detail/19cf0fe14e1b4ea8b5dcf9118dcccd81)
-215. [网易互娱二面](https://www.nowcoder.com/feed/main/detail/1235927ed22047b49bc9516f57f7274a)
-216. [淘天  电话面 一面](https://www.nowcoder.com/feed/main/detail/739250741ea94a85a2431146cb793f9a)
-217. [25暑期-蚂蚁Java二面，练习时长两个半小时，天昏地暗](https://www.nowcoder.com/discuss/610762014062923776)
-218. [TP-Link-提前批面试题汇总](https://www.nowcoder.com/discuss/639859490950561792)
-219. [字节 国际电商 二面](https://www.nowcoder.com/discuss/657625919225372672)
-220. [影石嵌入式提前批一面](https://www.nowcoder.com/feed/main/detail/7a656420ed43465daf68d05a762c1808)
-221. [美团前端一面](https://www.nowcoder.com/feed/main/detail/80c9edeec73d494d94205d314fe9d45f)
-222. [2024虾皮测开一面+二面+hr面面经](https://www.nowcoder.com/discuss/650422943411920896)
-223. [华为od c++技术一面](https://www.nowcoder.com/feed/main/detail/90a617778e2048079bfa217ceae2bcec)
-224. [minimax一面后端凉经](https://www.nowcoder.com/feed/main/detail/936ccf20e3d54fcfb71d026bf4d84d4f)
-225. [字节一二面](https://www.nowcoder.com/feed/main/detail/d7e9aadb739d4be59b28d26b20bcec11)
-226. [美团优选面经，许愿oc](https://www.nowcoder.com/feed/main/detail/74989325bc55485a868748e9545ef862)
-227. [腾讯录用评估挂，附面经](https://www.nowcoder.com/feed/main/detail/71ca8b1d27fc4fe5942754ed9dd6ef2c)
-228. [规控常见面试问题合集](https://www.nowcoder.com/discuss/647189108699189248)
-229. [华为面试题汇总5.22](https://www.nowcoder.com/discuss/622757857024290816)
-230. [京东数据分析岗实习面经](https://www.nowcoder.com/discuss/603357425516695552)
-231. [京东一面](https://www.nowcoder.com/discuss/608608651443441664)
-232. [华为暑期实习主管面-25min](https://www.nowcoder.com/feed/main/detail/0073a77348c8420b9516e87a3b1bea3f)
-233. [虾皮二面后端（积好运，发面经）](https://www.nowcoder.com/feed/main/detail/40cbcd7dd4a14aacb0ae0548ac8a267d)
-234. [腾讯wxg企业微信一面凉经（60min）](https://www.nowcoder.com/feed/main/detail/724e5ba19af44b88a5a8f94bdb9e0768)
-235. [北京亚信科技Java实习电话面试（4月15日）](https://www.nowcoder.com/discuss/609426608989937664)
-236. [小米测试开发暑期实习面经(已oc)](https://www.nowcoder.com/feed/main/detail/e05c6cf63d764342b8c0cb22fbd200c7)
-237. [兄弟们你们面试时候项目经历怎么讲的啊？](https://www.nowcoder.com/discuss/607893729231269888)
-238. [最新字节一面面经及答案【大厂面经系列】](https://www.nowcoder.com/discuss/629771517345263616)
-239. [2024U3D游戏客户端，社招面经(二)](https://www.nowcoder.com/discuss/601851420463128576)
-240. [美团到家暑期java一面面经（应该凉了）](https://www.nowcoder.com/feed/main/detail/f2ccaea3bfd34c0eb328131ed7717819)
-241. [华为ict的java实习开发面经](https://www.nowcoder.com/feed/main/detail/d5c761d57fa649a78765dabf600aaa7d)
-242. [4.2 字节前端暑期实习二面大概率凉经](https://www.nowcoder.com/discuss/604988838460526592)
-243. [Momenta Golang后端面经 已OC](https://www.nowcoder.com/discuss/619314998875103232)
-244. [shopee二面](https://www.nowcoder.com/feed/main/detail/036c8e489d494d638f2c8d9b01dd9bd5)
-245. [百度后端提前批一面 凉经](https://www.nowcoder.com/discuss/646450291629469696)
-246. [腾讯云智一面-2024/03/25](https://www.nowcoder.com/discuss/601898657226469376)
-247. [淘天测开一二面面经 已凉](https://www.nowcoder.com/discuss/602904084940668928)
-248. [虾皮后端一面凉 25届暑期](https://www.nowcoder.com/feed/main/detail/592879c0b9c74116b335d9efdfe71480)
-249. [腾讯实习面经 一面二面三面 已OC](https://www.nowcoder.com/discuss/625027812881084416)
-250. [外卖员面试经验](https://www.nowcoder.com/feed/main/detail/392add9570b44bacaa8a5c3e78a88a2e)
-251. [美团一面+腾讯后台二面面经](https://www.nowcoder.com/discuss/602919518117064704)
-252. [字节生活服务 后端二面7.1](https://www.nowcoder.com/discuss/637291987187548160)
-253. [美团财务平台 Java一面 4.26](https://www.nowcoder.com/discuss/613398132277174272)
-254. [华为OD面经(机考390)](https://www.nowcoder.com/discuss/634540973967560704)
-255. [网易雷火 游戏服务端 一面面经](https://www.nowcoder.com/discuss/623129671823007744)
-256. [腾讯秋招前端一面70min](https://www.nowcoder.com/feed/main/detail/619088e7d7b2476cb61cab5270c5e1e7)
-257. [美团到店一面 凉经](https://www.nowcoder.com/feed/main/detail/b2034a468f1b4de9af4eaac6e13e7d2e)
-258. [小米-澎湃OS-c++软开，24.3.14面经](https://www.nowcoder.com/discuss/610414092750237696)
-259. [腾讯云智后台一面凉经](https://www.nowcoder.com/feed/main/detail/61b1c7702fbd4377b54e839cc3bac977)
-260. [元戎启行 嵌入式软件 1、2、3面凉经](https://www.nowcoder.com/feed/main/detail/767b320a8f3e40bca4a1fd1a31d90e66)
-261. [蚂蚁二面](https://www.nowcoder.com/discuss/609870557038788608)
-262. [【前端】美团三面面经](https://www.nowcoder.com/feed/main/detail/40b7aefeb3594e90ba0936d5171e353e)
-263. [小米 大模型算法实习 二面面经](https://www.nowcoder.com/feed/main/detail/6e4fa662d94d4023b8ca88bd30e4e4a7)
-264. [美团实习面经  已OC](https://www.nowcoder.com/discuss/618110462936252416)
-265. [深信服Java二面+HR面](https://www.nowcoder.com/discuss/663542561990094848)
-266. [金融科技一面](https://www.nowcoder.com/feed/main/detail/5c7e75b5e11a48999a35e0677853168c)
-267. [计算机视觉算法岗面经（二）](https://www.nowcoder.com/discuss/612589892761141248)
-268. [华为算法提前批 一二三面经（已入池）](https://www.nowcoder.com/discuss/662255004329263104)
-269. [「前端」美团一面面经（已过）](https://www.nowcoder.com/discuss/656147669496168448)
-270. [字节跳动-面试经历复盘](https://www.nowcoder.com/discuss/609123201620119552)
-271. [腾讯云智 一面（挂）攒个人品](https://www.nowcoder.com/discuss/601033593447571456)
-272. [用友测试面经(已凉)](https://www.nowcoder.com/feed/main/detail/483cf791550a4987917129a0162cf533)
-273. [4/9 华为OD Java开发 一面](https://www.nowcoder.com/discuss/607317956367749120)
-274. [美团 25暑期实习面试凉经](https://www.nowcoder.com/feed/main/detail/f169ff93cb03490ba8979f7bccca2470)
-275. [腾讯/虾皮面经：java选手勇闯C++厂](https://www.nowcoder.com/discuss/615105224738373632)
-276. [字节前端一面 —— 面经](https://www.nowcoder.com/feed/main/detail/b887598f09504ebcbb035f122eedab45)
-277. [面试真题 | 地平线嵌入式开发[20240804]](https://www.nowcoder.com/discuss/649565238378909696)
-278. [京东滴滴百度小红书社招面经](https://www.nowcoder.com/discuss/640904924640890880)
-279. [小红书测开暑期实习一面（4.18 已挂）](https://www.nowcoder.com/feed/main/detail/15273864acce4cf2a718f35286d65f42)
-280. [网易互娱一面](https://www.nowcoder.com/discuss/630473683311603712)
-281. [华为 西安线下 一面+二面+主管面](https://www.nowcoder.com/feed/main/detail/fbf36290840b4e85b6d31926afad47eb)
-282. [京东软件测试岗面经](https://www.nowcoder.com/discuss/601877363126743040)
-283. [抖音电商二面面经](https://www.nowcoder.com/discuss/604320536012804096)
-284. [携程-Java暑期-二面](https://www.nowcoder.com/discuss/618161010477662208)
-285. [腾讯IEG光子 游戏客户端开发一面面经](https://www.nowcoder.com/feed/main/detail/728762472047419a994b6ac50f0cfd2c)
-286. [小米提前批二面   手机射频工程师](https://www.nowcoder.com/feed/main/detail/079689c55c214a1288e680fd6ffc22dd)
-287. [滴滴提前批后端二面](https://www.nowcoder.com/feed/main/detail/f4dc38888b74408aa50a7d1cdce0c95e)
-288. [好未来面经](https://www.nowcoder.com/feed/main/detail/ed319eda0b554f5584d9aab04fb49806)
-289. [3.29 金山一面 C++开发工程师](https://www.nowcoder.com/feed/main/detail/b3c58065ed6c4c36bd66b64ffad47932)
-290. [腾讯PCG HR面面经分享](https://www.nowcoder.com/feed/main/detail/7bfdf544491d4b7c904dd34ff0b2ec35)
-291. [腾讯运维面经 oc了，可以开摆了](https://www.nowcoder.com/feed/main/detail/a3e49f06e6b34c8abd60edd2cd0f2f1d)
-292. [腾讯面经 八轮面，四部门  全挂](https://www.nowcoder.com/discuss/607532488201601024)
-
-
-# ③  Java技术体系
-
-## ☕ Java
-
-- ### 基础
-  - [ArrayList是考的最多的，熟悉List集合的常见类：ArrayList、Vector、LinkedList](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/四大集合之List/面试官没想到一个ArrayList，我都能跟他扯半小时.md)
-  - [掌握Set集合使用及原理：HashSet、LinkedHashSet、TreeSet](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/四大集合之Set/四大集合之Set.md)
-  - [掌握HashMap底层原理、HashMap为什么线程不安全](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/四大集合之HashMap/掌握HashMap底层原理、HashMap为什么线程不安全.md)
-  - [掌握Queue集合常用类：LinkedList、ArrayDeque、PriorityQueue](https://github.com/hdgaadd/JavaGetOffer/blob/master/Java专栏/四大集合之Queue/四大集合之Queue.md)
-  - [笔试题经常出现，掌握接口和抽象类的区别：静态分派、访问修饰符](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/接口和多态/接口和多态.md)
-  - [笔试题出现频率高，三元运算符、自动类型提升、byte溢出、i++自增问题](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/数据类型和程序运算/数据类型和程序运算.md)
-  
-- ### IO流
-  - [可能是最漂亮的Java IO流详解](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/Java%20IO流/可能是最漂亮的Java%20IO流详解.md)
-  - [掌握NIO是什么？零拷贝的概念](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/Java%20NIO/掌握NIO是什么？零拷贝的概念.md)
-  
-- ### 多线程
-  - [并发编程面试必备：如何创建线程池、线程池拒绝策略](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/线程池/并发编程面试必备：如何创建线程池、线程池拒绝策略.md)
-  - [并发编程面试必备：指令重排序、volatile可见性原理及局限性](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/volatile与重排序/并发编程面试必备：指令重排序、volatile可见性原理及局限性.md)
-  - [并发编程面试必备：synchronized原理、锁升级](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/synchronized实现原理/并发编程面试必备：synchronized原理、锁升级.md)
-  - [并发编程面试必备：ThreadLocal作用、线程生命周期](https://github.com/hdgaadd/JavaSouth/blob/master/Java专栏/线程通信/并发编程面试必备：ThreadLocal作用、线程生命周期.md)
-  
-- ### 网络编程
-  - [了解掌握WebSocket相比传统长轮询的优点](https://github.com/hdgaadd/JavaSouth/blob/master/WebSocket专栏/WebSocket技术/了解掌握WebSocket相比传统长轮询的优点.md)
-  - [Nginx必备知识点：反向代理、正向代理、负载均衡](https://github.com/hdgaadd/JavaSouth/blob/master/Nginx%E4%B8%93%E6%A0%8F/Nginx.md)
-  
-- ### 设计模式
-  - [用 Java 实现的设计模式项目，在GitHub上拥有88k⭐️Star⭐️](https://github.com/iluwatar/java-design-patterns)
-
-
-## 💾MySQL
-
-- ### 面试必问
-  - [MySQL面试必问：索引的类型、Explain分析SQL、索引失效](https://github.com/hdgaadd/JavaSouth/blob/master/MySQL专栏/MySQL索引/MySQL面试必问：索引的类型、Explain分析SQL、索引失效.md)
-  - [MySQL面试必问：SQL如何优化、索引如何设计](https://github.com/hdgaadd/JavaSouth/blob/master/MySQL专栏/SQL语句优化/MySQL面试必问：SQL如何优化、索引如何设计.md)
-  - [MySQL面试必问：MySQL事务四大特性、事务隔离级别](https://github.com/hdgaadd/JavaSouth/blob/master/MySQL专栏/MySQL事务/MySQL面试必问：MySQL事务四大特性、事务隔离级别.md)
-
-- ### 进阶知识点
-  - [MySQL高阶知识：主从复制步骤、三种二进制日志格式等](https://github.com/hdgaadd/JavaSouth/blob/master/MySQL专栏/MySQL主从复制/MySQL高阶知识：主从复制步骤、三种二进制日志格式等.md)
-  - [掌握MySQL高级特性：分区表、视图、全文索引](https://github.com/hdgaadd/JavaSouth/blob/master/MySQL专栏/MySQL高级特性/掌握MySQL高级特性：分区表、视图、全文索引.md)
-  - [MySQL官方文档，十分详细](https://dev.mysql.com/doc/)
-
-
-## 🎈Redis
-
-- ### 重要知识点
-  - [Redis面试必问：Redis为什么快？Redis五大基本数据类型](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis数据类型/Redis面试必问：Redis为什么快？Redis五大基本数据类型.md)
-  - [Redis面试必备：Redis两种内存回收策略，Redis键空间、过期字典等](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis数据库与内存回收策略/Redis面试必备：Redis两种内存回收策略，Redis键空间、过期字典等.md)
-  - [掌握Redis持久化：RDB文件、AOF文件、AOF重写](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis持久化/掌握Redis持久化：RDB文件、AOF文件、AOF重写.md)
-  - [Redis重要知识点：哨兵是什么哨兵如何选择Redis主服务器](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis哨兵/Redis重要知识点：哨兵是什么？哨兵如何选择Redis主服务器.md)
-  - [Redis官网](https://redis.io/)、[Redis创始人GitHub](https://github.com/antirez)
-  
-- ### Redis多机
-  
-  - [掌握Redis集群概念、集群分片、重新分片，集群如何选举主节点](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis集群/了解Redis集群概念，集群如何选举主节点.md)
-  - [Redis主从数据同步过程：命令传播、部分重同步、复制偏移量等](https://github.com/hdgaadd/JavaSouth/blob/master/Redis专栏/Redis主从/Redis主从数据同步过程：命令传播、部分重同步、复制偏移量等.md)
-
-
-## ✏️主流框架
-
-- ### 面试必备
-  - [Spring面试必备：Spring IOC和AOP的理解、如何解决Spring循环依赖](https://github.com/hdgaadd/JavaSouth/blob/master/主流框架/Spring%20IOC和Spring%20AOP/Spring面试必备：Spring%20IOC和AOP的理解、如何解决Spring循环依赖.md)
-  - [熟悉Spring MVC工作流程，掌握Spring MVC常见注解](https://github.com/hdgaadd/JavaSouth/blob/master/主流框架/SpringMVC技术要点/熟悉Spring%20MVC工作流程，掌握Spring%20MVC常见注解.md)
-  - [MyBatis面试必问： Mybatis一、二级缓存及其优缺点](https://github.com/hdgaadd/JavaSouth/blob/master/主流框架/MyBatis技术要点/MyBatis面试必问：%20Mybatis一、二级缓存及其优缺点.md)
-  
-- ### 源码与文档
-  - [Spring Framework源码](https://github.com/spring-projects/spring-framework)、[Spring Boot源码](https://github.com/spring-projects/spring-boot)
-  - [Spring Framework文档](https://spring.io/projects/spring-framework#learn)、[Spring Boot文档](https://spring.io/projects/spring-boot#learn)
-  - [Spring Initializr快速搭建Spring项目](https://start.spring.io/)
-  - [Mybatis 3源码](https://github.com/mybatis/mybatis-3)、[MyBatis 3文档](https://mybatis.org/mybatis-3/)
-
-## 💻JVM
-
-- [你需要了解掌握的 7 种垃圾回收器与 4 种垃圾回收算法](https://github.com/hdgaadd/JavaSouth/blob/master/JVM专栏/JVM垃圾回收/掌握垃圾回收器与四种垃圾回收算法.md)
-- [掌握JVM内存区域：堆内存、本地方法栈、虚拟机栈、方法区、程序计数器](https://github.com/hdgaadd/JavaGetOffer/blob/master/JVM专栏/JVM内存区域/JVM内存区域.md)
-
-## 🕶Kafka
-
-- [Kafka高水位面试经常问，Kafka如何保证消息可靠性](https://github.com/hdgaadd/JavaSouth/blob/master/Kafka专栏/Kafka消息可靠性/掌握Kafka高水位，Kafka如何保证消息可靠性.md)
-- [熟悉Kafka组成模块、Kafka消息提交的方式及优缺点](https://github.com/hdgaadd/JavaSouth/blob/master/Kafka专栏/Kafka组成模块/熟悉Kafka组成模块、Kafka消息提交的方式及优缺点.md)
-- [Kafka事务一般在什么场景下使用呢](https://github.com/hdgaadd/JavaSouth/blob/master/Kafka专栏/Kafka事务/Kafka事务一般在什么场景下使用呢.md)
-
-## ⛳ZooKeeper
-
-- [ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper系统模型/ZooKeeper面试必备：ZooKeeper4种数据节点类型、了解事务ID.md)
-- [掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper应用场景/掌握ZooKeeper的业务使用场景，ZooKeeper如何实现分布式锁.md)
-- [掌握ZooKeeper的二阶段提交及其优缺点](https://github.com/hdgaadd/JavaSouth/blob/master/ZooKeeper专栏/ZooKeeper的ZAB协议/掌握ZooKeeper的二阶段提交及其优缺点.md)
-
-
-## 📂 数据结构与算法
-
-- [收集真实的面试算法题，大家尽量都做完，多多了解企业喜欢考哪类算法题](https://github.com/hdgaadd/JavaSouth/blob/master/面试必备/收集真实的面试算法题，尽量都做完了解企业喜欢考哪类算法题.md)
-
-## 🎨书籍
-
-- [南哥推荐的书籍，也是我读过的（目前一共41本经典书籍，精通Java编程、程序员内核修养、熟悉主流框架、算法、MySQL、Redis、Linux、中间件原理、学会用产品思维去思考需求、架构师阅读清单）](https://github.com/hdgaadd/JavaSouth/blob/master/其他/个人阅读书籍清单（目前一共41本）.md)
 
 
 
