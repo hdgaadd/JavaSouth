@@ -44,7 +44,7 @@ Buffer里有3个**关键变量**。
 2. position：用来指出下一个可以读出/写入`Buffer`的索引位置，也就是记录指针的作用。
 3. limit：用来表示在`Buffer`里第一个不能被读出/写入的索引位置。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/e0b0d54d3cfb4c7fbc39819fae1bfe30.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/206dbd62fd7d4b4592da7eba1477c1e4.png#pic_center)
 
 
 另外`Buffer`还提供了`get`、`put`方法来供我们操作数据，而使用`get/put`后，position的指针位置也会随之移动。
@@ -96,9 +96,9 @@ public class TestFileChannel {
 
 在`NIO`零拷贝出现之前，一个I/O操作会将同一份数据进行**多次拷贝**。可以看下图，一次I/O操作对数据进行了四次复制，同时来伴随两次内核态和用户态的上下文切换，众所周知上下文切换是很耗费性能的操作。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/275097f4798a43ed89b88678857ebd59.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/b8cfa31e08854d5683514d4e4c9fbd20.png#pic_center)
 
 
 而零拷贝技术改善了上述的问题。可以对比下图，零拷贝技术**减少**了对一份数据的拷贝次数，不再需要将数据在**内核态和用户态**之间进行拷贝，也意味不再进行上下文切换，让数据传输变得更加高效。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/fed9e965d29c48caa4206e88aea11fa0.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/845e712aeed14342b9c6b901023e1ff7.png#pic_center)
