@@ -21,7 +21,7 @@ ZooKeeper的数据模型是一颗树结构，每一个树节点是一个数据�
 
 这是ZooKeeper数据模型概念图，是不是非常类似呢？
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/7591f8db21af233683f7d8730e2f7314.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/db44d3c7fdae43389ecf0388bb36d5ae.png#pic_center)
 
 
 另外ZooKepper这种`斜杠/`作为路径分隔符正好和**Windows相反**，Windows使用的是`反斜杠\`。
@@ -120,4 +120,4 @@ Watcher机制的工作流程，首先是客户端向ZooKeeper服务器注册Watc
 
 Watcher机制的大致流程大家可以参考下图：
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/d2590da4e38b8232c70e67068b5811ee.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/c40605ce22374bf0b19963b5cbe3d3d1.png#pic_center)

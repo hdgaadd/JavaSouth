@@ -34,7 +34,7 @@ ZAB协议的消息广播类似于**二阶段提交过程**。顾名思义事务�
 
 总结下来，也就是分为二个阶段，第一阶段是询问事务Proposal的写入尝试能否成功，第二阶段就是在Leader服务器、Follower服务器进行事务提交。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/292fbd907e7b409fa0bfbd8539e34eb5.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/f14fefb4cd6a4314b47b3dd492bea93c.png#pic_center)
 
 ### 1.3 消息广播的缺点
 
