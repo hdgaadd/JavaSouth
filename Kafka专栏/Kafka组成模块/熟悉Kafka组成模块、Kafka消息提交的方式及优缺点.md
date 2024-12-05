@@ -73,7 +73,7 @@ public class Producer implements ApplicationRunner {
 
 大家还需要注意一点，如果一个主题下消费者的数量超过分区的数量，超过数量的消费者是会被**闲置**的，一般N个分区最多搭配N个消费者。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/44ad717052744c3abcd1d3eae4650a27.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d5253c915efc4a50aa13696321c77edc.png#pic_center)
 
 ### 1.3 异步回调
 
