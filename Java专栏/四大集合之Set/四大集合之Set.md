@@ -71,7 +71,7 @@ HashSet的contains方法同样是调用HashMap判断Key是否存在的方法：`
 
 > Hash table and linked list implementation of the Set interface, with predictable iteration order. This implementation differs from HashSet in that it maintains a doubly-linked list running through all of its entries. This linked list defines the iteration ordering, which is the order in which elements were inserted into the set (insertion-order). 
 
-源码的大概意思就是：Set接口的哈希表和链表实现，具有可预测的迭代顺序。此实现与HashSet的不同之处在于，它维护一个贯穿其所有条目的**双向链表**。此链表定义迭代顺序，即**元素插入集合的顺序 (**插入顺序)。
+源码的大概意思就是：Set接口的哈希表和链表实现，具有可预测的迭代顺序。此实现与HashSet的不同之处在于，它维护一个贯穿其所有条目的**双向链表**。此链表定义迭代顺序，即**元素插入集合的顺序 **(插入顺序)。
 
 底层数据结构是一条**双向链表**，每个元素通过指针进行相连，也就有了按插入顺序排序的功能。
 
