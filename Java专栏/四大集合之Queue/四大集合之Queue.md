@@ -46,7 +46,7 @@ Queue集合底层接口提供的方法很简单，一共有 6 个。
 
 Queue集合常用的实现类如下，我会一一讲来。包括双端队列的两个实现类：LinkedList、ArrayDeque，优先级队列：PriorityQueue，线程安全相关的Queue实现类：LinkedBlockingQueue、ArrayBlockingQueue、ConcurrentLinkedQueue。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/dacab50f96c34c67b94b394164882591.png#pic_center)
+![](https://i-blog.csdnimg.cn/direct/dacab50f96c34c67b94b394164882591.png)
 
 
 ### 1.2 双端队列

@@ -6,7 +6,7 @@
 
 作为四大集合之一的List，在业务开发中我们比较常见的是以下 3 种：ArrayList、Vector、LinkedList，业务开发我们接触最多就是容器类库了，容器类库可以说是面向对象语言最重要的类库。大家看看在工作里你比较熟悉的是哪个？
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/e58fd12731e74a0ea08249642dcdae83.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/e58fd12731e74a0ea08249642dcdae83.png)
 
 
 这篇文章南哥打算专注于List集合，后面四大集合之Map、Queue、Set后续再来填坑，比心心♥。

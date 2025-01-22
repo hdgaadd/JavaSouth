@@ -134,9 +134,9 @@ volatile的出现，大家是不是有些意外呢？虽然volatile适用的多�
 
 > ***面试官：你说的Lock对象说下你的理解？***
 
-在线程同步上，JDK的Lock接口提供了多个实现子类，如下所示。下面我按面试官**面试频率高**的ReentrantLock来讲解。
+在线程同步上，JDK的Lock接口提供了多个实现子类，如下所示。下面我按面试官**面试频率高**的`ReentrantLock`来讲解。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/ee4a152a01fb2e135010c76999881edd.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/ee4a152a01fb2e135010c76999881edd.png)
 
 
 ReentrantLock相比synchronized来说使用锁更加灵活，可以自由进行加锁、释放锁。ReentrantLock类提供了lock()、unlock()来实现以上操作。具体实操代码可以看上一个面试官问题关于Condition的示例代码。
