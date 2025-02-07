@@ -100,12 +100,12 @@ private transient volatile int sizeCtl;
 
 （2）在添加键值的操作，对**元素级别**进行加锁。若该索引位置不存在元素，则使用乐观锁CAS操作来添加值，而CAS是原子操作，不怕多线程的干扰。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/d628abadbd05b72922c24f36f26026ab.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/d628abadbd05b72922c24f36f26026ab.png)
 
 
 若该索引位置存在元素，则使用**synchronized**对该索引位置的**头节点**进行加锁操作，保证**整条链表**同一时刻只有一个线程在进行操作。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/850b5e88feabd1b1de40fbf7874a3147.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/850b5e88feabd1b1de40fbf7874a3147.png)
 
 
 （3）另外在JDK7版本中ConcurrentHashMap的实现和JDK8不同。

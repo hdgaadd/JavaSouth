@@ -19,7 +19,7 @@ MySQL5.7以上版本可以通过SET命令来开启慢查询日志。
      SHOW VARIABLES LIKE '%slow_query_log_file%';
 ```
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/a44fc1d0c2d7d6077689563284f8ccf1.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/a44fc1d0c2d7d6077689563284f8ccf1.png)
 
 
 打开DESKTOP-ALU4BOC-slow.log文件，找到慢查询SQL为：`select sleep(11)`。
@@ -54,13 +54,13 @@ MySQL表设计要尽可能满足数据库三大范式，帮助大家回顾下：
 
 我们在业务开发中遇到**反第二范式**的情况是最多的，例如以下订单明细表的设计，每一个订单明细都包含了**重复**的商品名称、商品单位、商品价格，这三个字段属于字段冗余存储。如果表的数据量级很大，那造成的冗余存储量是可想而知的，而且最要命的问题是如果要修改某一个商品名称，那所有的订单明细数据**都要修改**。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/248af310b00226526ad386b104b61d29.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/248af310b00226526ad386b104b61d29.png)
 
 我们可以遵循第三范式，把冗余的字段抽出一个新的商品表，当要查询订单明细时只需要把两表通过商品id进行连接即可。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/12daddf87ec5da36859fea06d658314b.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/12daddf87ec5da36859fea06d658314b.png)
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/6b8d792d3395ebe87e4886ec1a927ad5.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/6b8d792d3395ebe87e4886ec1a927ad5.png)
 
 > ***面试官：遵循第二范式就一定最优？***
 
