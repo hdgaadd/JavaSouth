@@ -45,7 +45,7 @@ explain select id from article where category_id = 1 order by views desc;
 create index idx_ca_vi on article(category_id,views);
 ```
 
-type显示为`ref`，同时Extra列显示`Using where; Using index`，`Using index`代表该SQL执行时使用了索引，而`Using index`代表了在MySQL服务端再进行了一次`views`字段的排序。
+type显示为`ref`，同时Extra列显示`Using where; Using index`，`Using index`代表该SQL执行时使用了索引，而`Using where`代表了在MySQL服务端再进行了一次`views`字段的排序。
 
 ```sql
 +----+-------------+---------+------+---------------+-----------+---------+-------+------+-------------+
@@ -73,7 +73,7 @@ type显示为`ref`，同时Extra列显示`Using where; Using index`，`Using ind
 
 （3）另外大家很容易漏掉一个重要的知识点。如果是二级索引建立的B-Tree，每个叶子节点的值保存的是**对应行数据的主键**。那一级索引叶子节点保存什么呢？一级索引也就是主键索引，下文我会告诉大家。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/639f2a7ec6a043acb535119001e74a1e.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/639f2a7ec6a043acb535119001e74a1e.png)
 
 ### 1.2 B-Tree值的存储
 
