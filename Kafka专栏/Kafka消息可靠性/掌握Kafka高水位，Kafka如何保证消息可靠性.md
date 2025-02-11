@@ -12,7 +12,7 @@
 
 就如下图，**最大偏移量**的限制就像海面上的水位。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/c72ee82cb79e466ebaa36518b780b4e5.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/c72ee82cb79e466ebaa36518b780b4e5.png)
 
 
 ## 2. Kafka消息可靠性
